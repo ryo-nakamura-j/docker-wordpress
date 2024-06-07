@@ -1,0 +1,3 @@
+[submodule "src/wp-content/themes/JTBTheme"]
+	path = src/wp-content/themes/JTBTheme
+	url = https://github.com/dasdasd443/JTBTheme
