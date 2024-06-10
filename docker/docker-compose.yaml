@@ -1,0 +1,135 @@
+version: "3.8"
+
+# TODO: Include MailHog
+
+services:
+  # Database
+  db:
+    platform: linux/x86_64
+    container_name: db
+    # image: arm64v8/mysql:5.7
+    image: mysql:5.7
+    volumes:
+      - ./mysql:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    command: --default-authentication-plugin=mysql_native_password
+    env_file:
+      - ./.env
+    networks:
+      - wpsite
+
+  # phpmyadmin
+  phpmyadmin:
+    container_name: phpmyadmin
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8085:80"
+    environment:
+      PMA_HOST: ${DB_HOST}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    env_file:
+      - ./.env
+    networks:
+      - wpsite
+
+  # Wordpress
+  wordpress:
+    container_name: wordpress
+    depends_on:
+      - db
+    # image: wordpress:latest
+    # image: ghcr.io/myparcelnl/wordpress:4.7.28-php7.4
+    image: wordpress:4.7.2-php7.1-apache
+    ports:
+      - "8000:80"
+    restart: always
+    volumes:
+      - ./../src/:/var/www/html
+      # TODO Bind only "wp-content" folder and "wp-config.php" file
+    environment:
+      WORDPRESS_DB_HOST: ${DB_HOST}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'FS_METHOD', 'direct' );
+        define('FORCE_SSL_ADMIN', true);
+        define('FORCE_SSL_LOGIN', true);
+        if (isset($$_SERVER['HTTP_HOST']) ) {
+            define('WP_SITEURL', 'https://' . $$_SERVER['HTTP_HOST']);
+            define('WP_HOME', 'https://' . $$_SERVER['HTTP_HOST']);
+        }
+    env_file:
+      - ./.env
+    networks:
+      - wpsite
+    healthcheck:
+      test: curl --fail http://localhost/wp-admin || exit 1
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 5s
+
+  # Wordpress CLI
+  wp:
+    container_name: wp
+    build:
+      context: ./php
+      dockerfile: php.dockerfile
+    entrypoint: ["wp", "--allow-root"]
+    volumes:
+      - ./../src/:/var/www/html:delegated
+    environment:
+      WORDPRESS_DB_HOST: ${DB_HOST}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'FS_METHOD', 'direct' );
+        define('FORCE_SSL_ADMIN', true);
+        define('FORCE_SSL_LOGIN', true);
+        if (isset($$_SERVER['HTTP_HOST']) ) {
+            define('WP_SITEURL', 'https://' . $$_SERVER['HTTP_HOST']);
+            define('WP_HOME', 'https://' . $$_SERVER['HTTP_HOST']);
+        }
+    env_file:
+      - ./.env
+    networks:
+      - wpsite
+    depends_on:
+      - wordpress
+      - db
+
+  # Nginx
+  nginx:
+    container_name: nginx
+    image: nginx:stable-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/templates:/etc/nginx/templates:rw,cached
+      - ./nginx/certs:/etc/nginx/certs/self-signed
+      - ./../src/:/var/www/html
+    depends_on:
+      - wordpress
+      # - wp
+    restart: always
+    environment:
+      - DOMAIN_NAME=${LOCAL_DOMAIN}
+      - PORT=${NGINX_PORT}
+    env_file:
+      - ./.env
+    networks:
+      - wpsite
+
+networks:
+  wpsite:
