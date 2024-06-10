@@ -1,0 +1,40 @@
+/docker/nginx/certs/*.pem
+/docker/mysql/*
+
+# Ignore configuration files that may contain sensitive information
+wp-config.php
+wp-config-sample.php
+
+# Ignore large system and log files
+wp-content/debug.log
+wp-content/advanced-cache.php
+wp-content/upgrade/*
+wp-content/uploads/
+wp-content/backups/
+wp-content/cache/
+wp-content/blogs.dir/
+sitemap.xml
+sitemap.xml.gz
+
+# Ignore specific security directories
+wp-content/uploads/wpallimport/logs/
+wp-content/uploads/wpallimport/temp/
+
+# Ignore node modules and build files
+node_modules/
+/build/
+
+# Ignore common file types that should not be in the repository
+*.log
+*.sql
+*.tar.gz
+*.zip
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore other common directories not part of a typical repository
+.git/
+svn/
+hg/
