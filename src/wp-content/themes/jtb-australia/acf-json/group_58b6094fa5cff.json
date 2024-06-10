@@ -1,0 +1,339 @@
+{
+    "key": "group_58b6094fa5cff",
+    "title": "Tourplan Theme - Checkout Group (Don't Edit The Field Groups)",
+    "fields": [
+        {
+            "key": "field_58b4b88653e8f",
+            "label": "Template Source",
+            "name": "template_source",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "accom-quicksearch-template.php": "accom-quicksearch-template.php",
+                "accom-search-template.php": "accom-search-template.php",
+                "checkout-template.php": "checkout-template.php",
+                "day-tours-product-template.php": "day-tours-product-template.php",
+                "day-tours-quicksearch-template.php": "day-tours-quicksearch-template.php",
+                "day-tours-search-template.php": "day-tours-search-template.php",
+                "ghibli-template.php": "ghibli-template.php",
+                "itinerary-template.php": "itinerary-template.php",
+                "rail-pass-template.php": "rail-pass-template.php",
+                "railpass-template.php": "railpass-template.php",
+                "ryokan-hotel-product.php": "ryokan-hotel-product.php",
+                "ticket-product.php": "ticket-product.php",
+                "ticket-search.php": "ticket-search.php",
+                "ticket-template.php": "ticket-template.php",
+                "tour-product-price-panel.php": "tour-product-price-panel.php",
+                "tour-product.php": "tour-product.php",
+                "tour-result.php": "tour-result.php",
+                "tour-search-settings.php": "tour-search-settings.php",
+                "tour-search.php": "tour-search.php"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_58b4b89353e90",
+            "label": "Customer Fields",
+            "name": "customer_fields",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_58b4b8a453e91",
+                    "label": "Customer Field",
+                    "name": "customer_field",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "title": "Title",
+                        "firstname": "First Name",
+                        "middlename": "Middle Name",
+                        "lastname": "Last Name",
+                        "email": "Email",
+                        "email_confirm": "Email Confirm",
+                        "phone": "Phone",
+                        "address1": "Address 1",
+                        "address2": "Address 2",
+                        "address3": "Address 3",
+                        "address4": "Address 4",
+                        "address5": "Address 5",
+                        "postCode": "Post Code",
+                        "country": "Country",
+                        "branch": "Tourplan Branch",
+                        "address6": "Address 6",
+                        "address7": "Address 7",
+                        "text": "Text"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_58b4b8b153e92",
+                    "label": "Required",
+                    "name": "required",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_58b4b9a250067",
+                    "label": "Read Only",
+                    "name": "read_only",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_58b4b8b953e93",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_58b4b9a950068",
+                    "label": "Default Value",
+                    "name": "default_value",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_58b4dd236f73f",
+            "label": "Delivery Fields",
+            "name": "delivery_fields",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_58b4dd3e6f740",
+                    "label": "Delivery Field",
+                    "name": "delivery_field",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "deliveryAddress1": "Address 1",
+                        "deliveryAddress2": "Address 2",
+                        "deliveryAddress3": "Address 3",
+                        "deliveryAddress4": "Address 4",
+                        "deliveryAddress5": "Address 5",
+                        "deliveryPostCode": "Post Code",
+                        "deliveryCountry": "Country",
+                        "deliveryAddress6": "Address 6",
+                        "deliveryAddress7": "Address 7",
+                        "text": "Text"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_58b4dd686f741",
+                    "label": "Required",
+                    "name": "required",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_58b4dd706f742",
+                    "label": "Read Only",
+                    "name": "read_only",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_58b4dd776f743",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_58b4dd7c6f744",
+                    "label": "Default Value",
+                    "name": "default_value",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1527735352
+}

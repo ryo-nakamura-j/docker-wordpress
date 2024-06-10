@@ -1,0 +1,209 @@
+{
+    "key": "group_649a3fe033d6f",
+    "title": "Banner Tours 2023",
+    "fields": [
+        {
+            "key": "field_649a3fe03f5d3",
+            "label": "Slideshow",
+            "name": "slides",
+            "type": "repeater",
+            "instructions": "Please enter images for the slideshow below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Slide",
+            "sub_fields": [
+                {
+                    "key": "field_649a3fe0418ff",
+                    "label": "Slide",
+                    "name": "slide",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 950,
+                    "height": 262,
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "no",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                },
+                {
+                    "key": "field_649a3fe041942",
+                    "label": "Slide Mobile",
+                    "name": "slide_mobile",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 300,
+                    "height": 240,
+                    "preview_size": "full",
+                    "force_crop": "no",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                },
+                {
+                    "key": "field_649a3fe041984",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_649a3fe03f650",
+            "label": "Slideshow caption",
+            "name": "slideshow_caption",
+            "type": "wysiwyg",
+            "instructions": "Title \/ descript",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_649a3fe03f69a",
+            "label": "Slideshow caption2",
+            "name": "slideshow_caption2",
+            "type": "wysiwyg",
+            "instructions": "caption 2  - duration etc. dot list",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_649a401b83fd2",
+            "label": "Slideshow caption3",
+            "name": "slideshow_caption3",
+            "type": "wysiwyg",
+            "instructions": "caption 3 - Highlights, long descript",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_649a40d9235bd",
+            "label": "Slideshow caption4",
+            "name": "slideshow_caption4",
+            "type": "wysiwyg",
+            "instructions": "caption 4 - What is included",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_649a4236ba649",
+            "label": "Slideshow caption5",
+            "name": "slideshow_caption5",
+            "type": "wysiwyg",
+            "instructions": "caption 5",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-tour-23.php"
+            }
+        ]
+    ],
+    "menu_order": -9,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1687831916
+}

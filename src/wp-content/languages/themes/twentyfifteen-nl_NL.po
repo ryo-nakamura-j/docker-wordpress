@@ -1,0 +1,527 @@
+# Translation of Themes - Twenty Fifteen in Dutch
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-05 11:11:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "Het standaardthema uit 2015 is schoon, op een blog gericht en ontworpen voor een heldere indruk. TwentyFifteen heeft een eenvoudige en rechttoe-rechtaan typografie, zodat het leesbaar is op een grote verscheidenheid aan schermbreedtes en geschikt is voor vele talen. Het is ontworpen met de gedachte dat mobiel voorop staat, wat betekent dat de inhoud centraal staat, ongeacht of de bezoekers op de site komen m.b.v. een smartphone, tablet, laptop of desktop."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+#, gp-priority: high
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
+
+#: functions.php:327
+msgid "Light Blue Gradient"
+msgstr "Licht blauwe gradiënt"
+
+#: functions.php:322
+msgid "Bright Blue Gradient"
+msgstr "Felblauwe gradiënt"
+
+#: functions.php:317
+msgid "Blue Gray Gradient"
+msgstr "Blauw grijze gradiënt"
+
+#: functions.php:312
+msgid "Purple Gradient"
+msgstr "Paarse gradiënt"
+
+#: functions.php:307
+msgid "Dark Purple Gradient"
+msgstr "Donkerpaarse gradiënt"
+
+#: functions.php:302
+msgid "Light Pink Gradient"
+msgstr "Lichtroze gradiënt"
+
+#: functions.php:297
+msgid "Medium Pink Gradient"
+msgstr "Medium roze gradiënt"
+
+#: functions.php:292
+msgid "Dark Brown Gradient"
+msgstr "Donkerbruine gradiënt"
+
+#: functions.php:287
+msgid "Yellow Gradient"
+msgstr "Gele gradiënt"
+
+#: functions.php:282
+msgid "White Gradient"
+msgstr "Witte gradiënt"
+
+#: functions.php:277
+msgid "Light Gray Gradient"
+msgstr "Lichte grijze gradiënt"
+
+#: functions.php:272
+msgid "Dark Gray Gradient"
+msgstr "Donker grijze gradiënt"
+
+#: inc/block-patterns.php:65
+msgid "Snacks"
+msgstr "Snacks"
+
+#: inc/block-patterns.php:65
+msgid "Swimsuit"
+msgstr "Badpak"
+
+#: inc/block-patterns.php:65
+msgid "Water Bottle"
+msgstr "Waterfles"
+
+#: inc/block-patterns.php:65
+msgid "Camera"
+msgstr "Camera"
+
+#: inc/block-patterns.php:65
+msgid "Towels"
+msgstr "Handdoeken"
+
+#: inc/block-patterns.php:65
+msgid "As I watched, the planet seemed to grow larger and smaller and to advance and recede, but that was simply that my eye was tired. Forty millions of miles it was from us — more than forty millions of miles of void. Few people realize the immensity of vacancy in which the dust of the material universe swims."
+msgstr "Terwijl ik toekeek leek de planeet groter en kleiner te worden en op te rukken en terug te trekken, maar dat was gewoon dat mijn oog vermoeid was. Veertig miljoen kilometer was het van ons verwijderd - meer dan veertig miljoen kilometer leegte. Weinigen beseffen de onmetelijkheid van de leegte waarin het stof van het materiële universum zwemt."
+
+#: inc/block-patterns.php:65
+msgid "You don’t need a lot, trust us!"
+msgstr "Je hebt niet veel nodig, vertrouw ons maar!"
+
+#: inc/block-patterns.php:65
+msgid "What to pack for the beach"
+msgstr "Wat in te pakken voor het strand"
+
+#: inc/block-patterns.php:63
+msgid "Columns with a List"
+msgstr "Kolommen met een lijst"
+
+#: inc/block-patterns.php:55
+msgid "A boatload of people putting back came leaping out as I rushed past. The stones under my feet were muddy and slippery, and the river was so low."
+msgstr "Een bootlading terugzettende mensen kwam tevoorschijn gesprongen toen ik voorbij snelde. De stenen onder mijn voeten waren modderig en glibberig, en de rivier was zo laag."
+
+#: inc/block-patterns.php:55
+msgid "Travels"
+msgstr "Reizen"
+
+#: inc/block-patterns.php:55
+msgid "I faced about again, and rushed towards the approaching Martian, rushed right down the gravelly beach and headlong into the water. Others did the same."
+msgstr "Ik keek weer om, en snelde op de naderende marsman af, recht het kiezelstrand af en halsoverkop het water in. Anderen deden hetzelfde."
+
+#: inc/block-patterns.php:55
+msgid "Adventure"
+msgstr "Avontuur"
+
+#: inc/block-patterns.php:53
+msgid "Two Columns with Images"
+msgstr "Twee kolommen met afbeeldingen"
+
+#: inc/block-patterns.php:45
+msgid "City, State, 00000"
+msgstr "Stad, Staat, 00000"
+
+#: inc/block-patterns.php:45
+msgid "123 Main Street"
+msgstr "123 Hoofdstraat"
+
+#: inc/block-patterns.php:45
+msgid "Address"
+msgstr "Adres"
+
+#: inc/block-patterns.php:45
+msgid "(123) 555-5555"
+msgstr "(123) 555-5555"
+
+#: inc/block-patterns.php:45
+msgid "Phone"
+msgstr "Telefoon"
+
+#: inc/block-patterns.php:45
+msgid "Follow us"
+msgstr "Volg ons"
+
+#: inc/block-patterns.php:45
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:45
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/block-patterns.php:43
+msgid "Contact area"
+msgstr "Contactgebied"
+
+#: inc/block-patterns.php:35
+msgid "Our default 2015 theme is clean, blog-focused, and designed for clarity. Twenty Fifteen’s simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages."
+msgstr "Ons standaard 2015 thema is schoon, blog-gericht, en ontworpen voor duidelijkheid. Twenty Fifteen's eenvoudige, ongecompliceerde typografie is leesbaar op een grote verscheidenheid aan schermformaten, en geschikt voor meerdere talen."
+
+#: inc/block-patterns.php:35
+msgid "A pier at sunset"
+msgstr "Een pier bij zonsondergang"
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with seagulls."
+msgstr "Een pier met zeemeeuwen."
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with a seagull."
+msgstr "Een pier met een zeemeeuw."
+
+#: inc/block-patterns.php:33
+msgid "Gallery and Description"
+msgstr "Galerij en beschrijving"
+
+#: functions.php:260
+msgid "Light Blue"
+msgstr "Licht blauw"
+
+#: functions.php:255
+msgid "Bright Blue"
+msgstr "Helder blauw"
+
+#: functions.php:250
+msgid "Blue Gray"
+msgstr "Blauw grijs"
+
+#: functions.php:240
+msgid "Dark Purple"
+msgstr "Donker paars"
+
+#: functions.php:235
+msgid "Light Pink"
+msgstr "Licht roze"
+
+#: functions.php:230
+msgid "Medium Pink"
+msgstr "Mediumroze"
+
+#: functions.php:225
+msgid "Dark Brown"
+msgstr "Donker bruin"
+
+#: functions.php:215
+msgid "White"
+msgstr "Wit"
+
+#: functions.php:210
+msgid "Light Gray"
+msgstr "Lichtgrijs"
+
+#: functions.php:205
+msgid "Dark Gray"
+msgstr "Donker grijs"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Een gedachte over &ldquo;%s&rdquo;"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:146
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Geeft een reactie<span class=\"screen-reader-text\"> op %s</span>"
+
+#. translators: Hidden accessibility text.
+#: single.php:41
+msgid "Previous post:"
+msgstr "Vorig bericht:"
+
+#: single.php:39
+msgid "Previous"
+msgstr "Vorig"
+
+#. translators: Hidden accessibility text.
+#: single.php:37
+msgid "Next post:"
+msgstr "Volgend bericht:"
+
+#: single.php:35
+msgid "Next"
+msgstr "Volgende"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:136
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Volledige grootte"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:123
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:113
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorieën"
+
+#: inc/template-tags.php:108 inc/template-tags.php:118
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:102
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Auteur"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:91
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Geplaatst op"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:66
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
+
+#: inc/template-tags.php:56
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: inc/template-tags.php:36
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: inc/template-tags.php:31
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:26
+msgid "Comment navigation"
+msgstr "Reactie navigatie"
+
+#: inc/customizer.php:239
+msgid "Blue"
+msgstr "Blauw"
+
+#: functions.php:245 inc/customizer.php:228
+msgid "Purple"
+msgstr "Paars"
+
+#: inc/customizer.php:217
+msgid "Pink"
+msgstr "Roze"
+
+#: functions.php:220 inc/customizer.php:206
+msgid "Yellow"
+msgstr "Geel"
+
+#: inc/customizer.php:195
+msgid "Dark"
+msgstr "Donker"
+
+#: inc/customizer.php:184
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/customizer.php:103
+msgid "Header and Sidebar Background Color"
+msgstr "Achtergrondkleur header en zijbalk"
+
+#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Toegepast op de header op kleine schermen en op de zijbalk op brede schermen."
+
+#: inc/customizer.php:78
+msgid "Header and Sidebar Text Color"
+msgstr "Tekstkleur header en zijbalk"
+
+#: inc/customizer.php:55
+msgid "Base Color Scheme"
+msgstr "Standaard kleurenschema"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen vereist minimaal WordPress versie 4.1, maar je gebruikt versie %s. Upgrade WordPress en probeer het nog eens."
+
+#: image.php:89
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Gepubliceerd in</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Volgende afbeelding"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Vorige afbeelding"
+
+#: header.php:52
+msgid "Menu and widgets"
+msgstr "Menu en widgets"
+
+#. translators: Hidden accessibility text.
+#: header.php:27
+msgid "Skip to content"
+msgstr "Ga naar de inhoud"
+
+#. translators: Hidden accessibility text.
+#: functions.php:474
+msgid "collapse child menu"
+msgstr "submenu invouwen"
+
+#. translators: Hidden accessibility text.
+#: functions.php:472
+msgid "expand child menu"
+msgstr "submenu uitvouwen"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:395
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:387
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:379
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:352
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Voeg hier widgets toe om in je zijbalk te verschijnen."
+
+#: functions.php:350
+msgid "Widget Area"
+msgstr "Widget gebied"
+
+#: functions.php:95
+msgid "Social Links Menu"
+msgstr "Sociale links menu"
+
+#: functions.php:94
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#. translators: %s: WordPress
+#: footer.php:33
+msgid "Proudly powered by %s"
+msgstr "Mogelijk gemaakt door %s"
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden waar je naar zoekt. Misschien kun je er naar zoeken."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Er kwam niets overeen met je zoektermen. Probeer het nog eens met wat andere keywords."
+
+#. translators: %s: Post editor URL.
+#: content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%s\">Ga hier aan de slag</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: content-link.php:61 content-page.php:38 content-search.php:28
+#: content-search.php:33 content.php:62 image.php:75
+msgid "Edit"
+msgstr "Bewerken"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: content-link.php:32 content.php:34 inc/template-tags.php:266
+msgid "Continue reading %s"
+msgstr "Verder lezen %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s een gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
+
+#. translators: %s: Author display name.
+#: author-bio.php:36
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "Gepubliceerd door"
+
+#. translators: Hidden accessibility text.
+#: archive.php:54 content-link.php:44 content-page.php:31 content.php:46
+#: image.php:66 index.php:51 search.php:49
+msgid "Page"
+msgstr "Pagina"
+
+#: archive.php:52 index.php:49 search.php:47
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: archive.php:51 index.php:48 search.php:46
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Het lijkt erop dat er niets kon worden gevonden op deze locatie; probeer het eens met de zoekfunctie?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Die pagina kan niet worden gevonden."
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "the WordPress team"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#. Author URI of the theme
+#: footer.php:30
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

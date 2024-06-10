@@ -1,0 +1,676 @@
+# Translation of Plugins - Google XML Sitemaps - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Google XML Sitemaps - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-06 10:05:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Google XML Sitemaps - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arnebrachhold.de/"
+msgstr "http://www.arnebrachhold.de/"
+
+#. Author of the plugin/theme
+msgid "Arne Brachhold"
+msgstr "Arne Brachhold"
+
+#. Description of the plugin/theme
+msgid "This plugin will generate a special XML sitemap which will help search engines like Google, Yahoo, Bing and Ask.com to better index your blog."
+msgstr "此插件将生成一个特殊的 XML 格式的站点地图，将有助于 Google，Yahoo，Bing 和 Ask.com 等搜索引擎更好地索引你的网站。"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.arnebrachhold.de/redir/sitemap-home/"
+msgstr "http://www.arnebrachhold.de/redir/sitemap-home/"
+
+#. Plugin Name of the plugin/theme
+msgid "Google XML Sitemaps"
+msgstr "谷歌 XML 站点地图"
+
+#: sitemap.php:95
+msgid "Unfortunately this release of Google XML Sitemaps requires at least PHP %4$s. You are using PHP %2$s, which is out-dated and insecure. Please ask your web host to update your PHP installation or go to <a href=\"%1$s\">active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href=\"%3$s\">plugin website</a>."
+msgstr "很遗憾此版本的 Google XML Sitemaps 需要运行在 PHP %4$s。你当前使用的是 PHP %2$s，是一个旧的不安全的版本。请升级或在 <a href=\"%1$s\">已启用的插件</a> 中停用 Google XML Sitemaps 插件，即可隐藏此信息。你也可以到 <a href=\"%3$s\">插件主页</a>下载旧版本的插件。"
+
+#: sitemap.php:95
+msgid "Your PHP version is too old for XML Sitemaps."
+msgstr "您的PHP版本对于XML Sitemaps来说太旧了。"
+
+#: sitemap.php:85
+msgid "Unfortunately this release of Google XML Sitemaps requires at least WordPress %4$s. You are using Wordpress %2$s, which is out-dated and insecure. Please upgrade or go to <a href=\"%1$s\">active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href=\"%3$s\">plugin website</a>."
+msgstr "很遗憾此版本的 Google XML Sitemaps 需要运行在 WordPress %4$s。你当前使用的是 WordPress %2$s，是一个旧的不安全的版本。请升级或在 <a href=\"%1$s\">已启用的插件</a> 中停用 Google XML Sitemaps 插件，即可隐藏此信息。你也可以到 <a href=\"%3$s\">插件主页</a>下载旧版本的插件。"
+
+#: sitemap.php:85
+msgid "Your WordPress version is too old for XML Sitemaps."
+msgstr "您的WordPress版本对于XML Sitemaps来说太旧了。"
+
+#: sitemap-ui.php:1269
+msgid "Reset options"
+msgstr "重置选项"
+
+#: sitemap-ui.php:1268
+msgid "Update options"
+msgstr "更新选项"
+
+#: sitemap-ui.php:1243
+msgid "Archives"
+msgstr "存档"
+
+#: sitemap-ui.php:1225
+msgid "Minimum post priority (Even if auto calculation is enabled)"
+msgstr "最低文章优先级(Minimum post priority)（即使启用了自动计算）"
+
+#: sitemap-ui.php:1219
+msgid "Posts (If auto calculation is disabled)"
+msgstr "文章(Posts)（如果自动计算已禁用）"
+
+#: sitemap-ui.php:1208
+msgid "Priorities"
+msgstr "优先级"
+
+#: sitemap-ui.php:1200 sitemap-ui.php:1257
+msgid "Author pages"
+msgstr "作者页面"
+
+#: sitemap-ui.php:1193 sitemap-ui.php:1250
+msgid "Tag pages"
+msgstr "标签页面(Tag pages)"
+
+#: sitemap-ui.php:1186
+msgid "Older archives (Changes only if you edit an old post)"
+msgstr "较旧的存档（仅在您编辑旧文章时更改）"
+
+#: sitemap-ui.php:1180
+msgid "The current archive of this month (Should be the same like your homepage)"
+msgstr "本月的当前存档（应该与您的主页相同）"
+
+#: sitemap-ui.php:1174 sitemap-ui.php:1237
+msgid "Categories"
+msgstr "分类"
+
+#: sitemap-ui.php:1168 sitemap-ui.php:1231
+msgid "Static pages"
+msgstr "静态页面(Static pages)"
+
+#: sitemap-ui.php:1162
+msgid "Posts"
+msgstr "文章(Posts)"
+
+#: sitemap-ui.php:1156 sitemap-ui.php:1213
+msgid "Homepage"
+msgstr "主页/首页(Homepage)"
+
+#: sitemap-ui.php:1150
+msgid "Please note that the value of this tag is considered a hint and not a command. Even though search engine crawlers consider this information when making decisions, they may crawl pages marked \"hourly\" less frequently than that, and they may crawl pages marked \"yearly\" more frequently than that. It is also likely that crawlers will periodically crawl pages marked \"never\" so that they can handle unexpected changes to those pages."
+msgstr "请注意，此标记的值被视为提示，而不是命令。即使搜索引擎抓取工具在做出决策时考虑这些信息，他们也可能会抓取标记为“每小时”的网页次数较少的网页，并且他们可能会更频繁地抓取标记为“每年”的网页。抓取工具也可能会定期抓取标记为“从不”的网页，以便他们可以处理这些网页的意外更改。"
+
+#: sitemap-ui.php:1146
+msgid "Change frequencies"
+msgstr "更改频率"
+
+#: sitemap-ui.php:1140
+msgid "Child posts won't be excluded automatically!"
+msgstr "子文章不会被自动排除。"
+
+#: sitemap-ui.php:1138
+msgid "List of IDs, separated by comma"
+msgstr "ID列表,以(英文/半角)逗号分隔"
+
+#: sitemap-ui.php:1138
+msgid "Exclude the following posts or pages:"
+msgstr "不包括下面的文章或页面："
+
+#: sitemap-ui.php:1136
+msgid "Exclude posts"
+msgstr "排除文章"
+
+#: sitemap-ui.php:1128
+msgid "Excluded categories"
+msgstr "排除的分类"
+
+#: sitemap-ui.php:1126
+msgid "Excluded items"
+msgstr "排除的项目"
+
+#: sitemap-ui.php:1119
+msgid "This is highly recommended and helps the search engines to know when your content has changed. This option affects <i>all</i> sitemap entries."
+msgstr "强烈建议这样做，并帮助搜索引擎了解您的内容何时发生变化。 此选项会影响<i>所有</i>站点地图条目。"
+
+#: sitemap-ui.php:1117
+msgid "Include the last modification time."
+msgstr "包括最后修改时间。"
+
+#: sitemap-ui.php:1112
+msgid "Further options"
+msgstr "更多选项"
+
+#: sitemap-ui.php:1100
+msgid "Include custom post type %s"
+msgstr "包括自定义文章类型 %s"
+
+#: sitemap-ui.php:1089
+msgid "Custom post types"
+msgstr "自定义文章类型"
+
+#: sitemap-ui.php:1071
+msgid "Include taxonomy pages for %s"
+msgstr "包含%s的分类法页面(taxonomy pages)"
+
+#: sitemap-ui.php:1060
+msgid "Custom taxonomies"
+msgstr "自定义分类法"
+
+#: sitemap-ui.php:1046
+msgid "Include tag pages"
+msgstr "包括标签页面(tag pages)"
+
+#: sitemap-ui.php:1039
+msgid "Include author pages"
+msgstr "包括作者页面"
+
+#: sitemap-ui.php:1033
+msgid "Include archives"
+msgstr "包括存档"
+
+#: sitemap-ui.php:1027
+msgid "Include categories"
+msgstr "包括分类"
+
+#: sitemap-ui.php:1021
+msgid "Include static pages"
+msgstr "包括静态页面"
+
+#: sitemap-ui.php:1015
+msgid "Include posts"
+msgstr "包括文章"
+
+#: sitemap-ui.php:1009
+msgid "Include homepage"
+msgstr "包括主页"
+
+#: sitemap-ui.php:1004
+msgid "WordPress standard content"
+msgstr "WordPress 标准内容"
+
+#: sitemap-ui.php:1003
+msgid "Sitemap Content"
+msgstr "站点地图内容"
+
+#: sitemap-ui.php:992
+msgid "All posts will have the same priority which is defined in &quot;Priorities&quot;"
+msgstr "所有文章将具有相同的优先级，其在&quot;优先级&quot;中定义。"
+
+#: sitemap-ui.php:992
+msgid "Do not use automatic priority calculation"
+msgstr "不使用自动优先级计算"
+
+#: sitemap-ui.php:990
+msgid "Please select how the priority of each post should be calculated:"
+msgstr "请选择如何计算每个文章的优先级："
+
+#: sitemap-ui.php:988
+msgid "Post Priority"
+msgstr "文章优先(Post Priority)"
+
+#: sitemap-ui.php:982
+msgid "Add new page"
+msgstr "添加新页面"
+
+#: sitemap-ui.php:977
+msgid "No pages defined."
+msgstr "未定义页面。(No pages defined.)"
+
+#: sitemap-ui.php:972
+msgid "#"
+msgstr "#"
+
+#: sitemap-ui.php:970
+msgid "Change Frequency"
+msgstr "更改频率"
+
+#: sitemap-ui.php:936
+msgid "Enter the date of the last change as YYYY-MM-DD (2005-12-31 for example) (optional)."
+msgstr "输入最近更改的日期为YYYY-MM-DD（例如2005-12-31）（可选）。"
+
+#: sitemap-ui.php:935 sitemap-ui.php:971
+msgid "Last Changed"
+msgstr "最近更改(Last Changed)"
+
+#: sitemap-ui.php:933
+msgid "Choose the priority of the page relative to the other pages. For example, your homepage might have a higher priority than your imprint."
+msgstr "选择页面相对于其他页面的优先级。 例如，您的主页可能比您的版权标记具有更高的优先级。"
+
+#: sitemap-ui.php:932 sitemap-ui.php:969
+msgid "Priority"
+msgstr "优先级"
+
+#: sitemap-ui.php:930
+msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
+msgstr "输入这个页面的地址，比如：http://www.foo.com/index.html 或 www.foo.com/home "
+
+#: sitemap-ui.php:929 sitemap-ui.php:968
+msgid "URL to the page"
+msgstr "页面的URL (URL to the page)"
+
+#: sitemap-ui.php:927
+msgid "If your blog is in a subdirectory and you want to add pages which are NOT in the blog directory or beneath, you MUST place your sitemap file in the root directory (Look at the &quot;Location of your sitemap file&quot; section on this page)!"
+msgstr "如果您的博客位于子目录中并且您想要添加 不在 博客目录中或下方的页面，则必须将站点地图文件放在根目录中（查看本页面上的&quot; 站点地图文件的位置&quot; 部分）！"
+
+#: sitemap-ui.php:926 sitemap-ui.php:1140 sitemap-ui.php:1149
+msgid "Note"
+msgstr "注意"
+
+#: sitemap-ui.php:924
+msgid "Here you can specify files or URLs which should be included in the sitemap, but do not belong to your Blog/WordPress.<br />For example, if your domain is www.foo.com and your blog is located on www.foo.com/blog you might want to include your homepage at www.foo.com"
+msgstr "您可以在此处指定应包含在站点地图中的文件或网址，但不属于您的Blog / WordPress。<br />例如，如果您的域名是www.foo.com  您的博客位于www.foo.com/blog  您可能希望在www.foo.com上添加您的主页"
+
+#: sitemap-ui.php:921
+msgid "Additional pages"
+msgstr "附加页面"
+
+#: sitemap-ui.php:912
+msgid "Allow anonymous statistics (no personal information)"
+msgstr "允许匿名统计（不搜集个人信息）"
+
+#: sitemap-ui.php:906
+msgid "(The required PHP XSL Module is not installed)"
+msgstr "(此功能需要的 PHP XSL 模块未安装)"
+
+#: sitemap-ui.php:906
+msgid "Include sitemap in HTML format"
+msgstr "生成包括 HTML 格式的站点地图"
+
+#: sitemap-ui.php:901
+msgid "Use this if your blog is in a sub-directory, but you want the sitemap be located in the root. Requires .htaccess modification."
+msgstr "此功能用于当您的博客是一个子目录，但您希望站点地图位于根目录。需要修改 .htaccess 文件。"
+
+#: sitemap-ui.php:900
+msgid "Override the base URL of the sitemap:"
+msgstr "覆盖站点地图的基本链接地址："
+
+#: sitemap-ui.php:897
+msgid "Use default"
+msgstr "默认情况下使用(Use default)"
+
+#: sitemap-ui.php:897
+msgid "Full or relative URL to your .xsl file"
+msgstr ".xsl文件的完整或相对URL"
+
+#: sitemap-ui.php:896
+msgid "Include a XSLT stylesheet:"
+msgstr "包含一个XSLT样式表："
+
+#: sitemap-ui.php:892
+msgid "Disable this option if you get garbled content or encoding errors in your sitemap."
+msgstr "如果您的站点地图有乱码或编码错误，请禁用此选项。"
+
+#: sitemap-ui.php:890
+msgid "Try to automatically compress the sitemap if the requesting client supports it."
+msgstr "如果请求的客户端支持，尝试自动压缩站点地图。"
+
+#: sitemap-ui.php:885
+msgid "in seconds, e.g. \"60\" or \"0\" for unlimited"
+msgstr "在几秒钟内，例如 “60”或“0”表示无限制"
+
+#: sitemap-ui.php:885
+msgid "Try to increase the execution time limit to:"
+msgstr "尝试提高执行时间限制至："
+
+#: sitemap-ui.php:882
+msgid "e.g. \"4M\", \"16M\""
+msgstr "例如 “4M”，“16M”"
+
+#: sitemap-ui.php:882
+msgid "Try to increase the memory limit to:"
+msgstr "尝试提高内存限制至："
+
+#: sitemap-ui.php:879
+msgid "Advanced options:"
+msgstr "高级选项："
+
+#: sitemap-ui.php:875
+msgid "The virtual robots.txt generated by WordPress is used. A real robots.txt file must NOT exist in the blog directory!"
+msgstr "使用WordPress生成的虚拟robots.txt。 博客目录中不得存在真正的robots.txt文件！"
+
+#: sitemap-ui.php:871
+msgid "Add sitemap URL to the virtual robots.txt file."
+msgstr "将站点地图URL添加到虚拟robots.txt文件。"
+
+#: sitemap-ui.php:866
+msgid "No registration required, but you can join the <a href=\"%s\">Bing Webmaster Tools</a> to check crawling statistics."
+msgstr "无需注册，但您可以加入<a href=\"%s\">Bing网站管理员工具</a>来检查抓取统计信息。"
+
+#: sitemap-ui.php:865
+msgid "Notify Bing (formerly MSN Live Search) about updates of your Blog"
+msgstr "通知Bing（以前称为MSN Live Search）有关您博客的更新"
+
+#: sitemap-ui.php:861
+msgid "No registration required, but you can join the <a href=\"%s\">Google Webmaster Tools</a> to check crawling statistics."
+msgstr "无需注册，但您可以加<a href=\"%s\">Google网站管理员工具</a>来检查抓取统计信息。"
+
+#: sitemap-ui.php:860
+msgid "Notify Google about updates of your Blog"
+msgstr "通知Google有关您的博客的更新"
+
+#: sitemap-ui.php:856 sitemap-ui.php:879 sitemap-ui.php:901 sitemap-ui.php:913
+msgid "Learn more"
+msgstr "了解更多"
+
+#: sitemap-ui.php:856
+msgid "Update notification:"
+msgstr "更新通知："
+
+#: sitemap-ui.php:854
+msgid "Basic Options"
+msgstr "基本选项"
+
+#: sitemap-ui.php:838
+msgid "Since you are using Nginx as your web-server, please configure the following rewrite rules in case you get 404 Not Found errors for your sitemap:"
+msgstr "由于您使用 Nginx 作为 Web 服务器，请配置以下重写规则，以免出现 404 未找到错误："
+
+#: sitemap-ui.php:837
+msgid "Webserver Configuration"
+msgstr "Web 服务器配置"
+
+#: sitemap-ui.php:829
+msgid "If you like the plugin, please <a target=\"_blank\" href=\"%s\">rate it 5 stars</a> or <a href=\"%s\">donate</a> via PayPal! I'm supporting this plugin since over 9 years! Thanks a lot! :)"
+msgstr "如果您喜欢这个插件，请 <a target=\"_blank\" href=\"%s\">给它 5 颗星</a> 或者通过 PayPal <a href=\"%s\">赞助</a> 支持我继续维护这个超过九年的插件！非常感谢！ :)"
+
+#: sitemap-ui.php:825
+msgid "If you encounter any problems with your sitemap you can use the <a href=\"%d\">debug function</a> to get more information."
+msgstr "如果您碰到关于您的站点地图的任何问题，您可以使用 <a href=\"%d\">调试功能</a> 来获得更多信息。"
+
+#: sitemap-ui.php:813
+msgid "There was a problem while notifying %name%. <a href=\"%s\" target=\"_blank\">View result</a>"
+msgstr "提交到 %name% 时出现了一个问题， <a href=\"%s\" target=\"_blank\">查看结果</a>。"
+
+#: sitemap-ui.php:810
+msgid "It took %time% seconds to notify %name%, maybe you want to disable this feature to reduce the building time."
+msgstr "提交到 %name% 用时 %time% 秒，您可能想禁用此功能，以减少创建时间。"
+
+#: sitemap-ui.php:807
+msgid "%s was <b>successfully notified</b> about changes."
+msgstr "关于更改的 %s 已 <b>成功提交</b>。"
+
+#: sitemap-ui.php:798
+msgid "Search engines haven't been notified yet. Write a post to let them know about your sitemap."
+msgstr "搜索引擎还没有获得你的站点地图通知。赶紧写篇文章，让它们知道你的站点地图。"
+
+#: sitemap-ui.php:795
+msgid "The URL to your sitemap index file is: <a href=\"%s\">%s</a>."
+msgstr "您的 sitemap 地址是： <a href=\"%s\">%s</a>。"
+
+#: sitemap-ui.php:792
+msgid "There is still a sitemap.xml or sitemap.xml.gz file in your blog directory. Please delete them as no static files are used anymore or <a href=\"%s\">try to delete them automatically</a>."
+msgstr "您的站点目录中有一个 sitemap.xml 或 sitemap.xml.gz 文件。如果没有文件用到它们，请删除。或者 <a href=\"%s\">尝试自动删除</a>。"
+
+#: sitemap-ui.php:781
+msgid "Enable"
+msgstr "启用"
+
+#: sitemap-ui.php:781
+msgid "Support Topics have been disabled. Enable them to see useful information regarding this plugin. No Ads or Spam!"
+msgstr "支持主题已被禁用。启用设置以便查看关于这个插件的有用信息。没有广告或垃圾邮件！"
+
+#: sitemap-ui.php:778
+msgid "No support topics available or an error occurred while fetching them."
+msgstr "没有支持主题或者提取时发生错误。"
+
+#: sitemap-ui.php:760
+msgid "Disable"
+msgstr "停用"
+
+#: sitemap-ui.php:756
+msgid "Recent Support Topics / News"
+msgstr "最新支持主题 / 新闻"
+
+#: sitemap-ui.php:749
+msgid "Result of the last ping, started on %date%."
+msgstr "最后的 ping 结果，始于 %date%。"
+
+#: sitemap-ui.php:745
+msgid "Search engines haven't been notified yet"
+msgstr "搜索引擎还没有得到通知"
+
+#: sitemap-ui.php:725
+msgid "Thanks for your support!"
+msgstr "感谢您的支持！"
+
+#: sitemap-ui.php:722
+msgid "Hide this list"
+msgstr "隐藏此列表"
+
+#: sitemap-ui.php:720
+msgid "List of the donors"
+msgstr "捐助者名单"
+
+#: sitemap-ui.php:717
+msgid "Recent Donations:"
+msgstr "最近的捐款："
+
+#: sitemap-ui.php:714
+msgid "My Sitemaps FAQ"
+msgstr "我的站点地图常见问题解答"
+
+#: sitemap-ui.php:713
+msgid "Official Sitemaps FAQ"
+msgstr "官方站点地图常见问题解答"
+
+#: sitemap-ui.php:712
+msgid "Sitemaps Protocol"
+msgstr "站点地图协议"
+
+#: sitemap-ui.php:710
+msgid "Webmaster Center Blog"
+msgstr "网站站长中心博客"
+
+#: sitemap-ui.php:707
+msgid "Search Blog"
+msgstr "搜索博客"
+
+#: sitemap-ui.php:705
+msgid "Webmaster Blog"
+msgstr "网站站长博客"
+
+#: sitemap-ui.php:704 sitemap-ui.php:709
+msgid "Webmaster Tools"
+msgstr "网站站长工具"
+
+#: sitemap-ui.php:703
+msgid "Sitemap Resources:"
+msgstr "站点地图资源："
+
+#: sitemap-ui.php:700
+msgid "translator_url"
+msgstr "https://translate.wordpress.org/locale/zh-cn/default/wp-plugins/google-sitemap-generator/"
+
+#: sitemap-ui.php:700
+msgid "translator_name"
+msgstr "中文翻译贡献者们"
+
+#: sitemap-ui.php:699
+msgid "My Amazon Wish List"
+msgstr "我的亚马逊愿望清单"
+
+#: sitemap-ui.php:698
+msgid "Donate with PayPal"
+msgstr "通过PayPal捐赠"
+
+#: sitemap-ui.php:696
+msgid "Report a Bug"
+msgstr "报告错误"
+
+#: sitemap-ui.php:695
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#: sitemap-ui.php:694
+msgid "Notify List"
+msgstr "通知清单"
+
+#: sitemap-ui.php:693
+msgid "Help / FAQ"
+msgstr "帮助 / 常见问题"
+
+#: sitemap-ui.php:692
+msgid "Suggest a Feature"
+msgstr "建议功能（Suggest a Feature）"
+
+#: sitemap-ui.php:691
+msgid "Plugin Homepage"
+msgstr "插件主页"
+
+#: sitemap-ui.php:690
+msgid "About this Plugin:"
+msgstr "关于这个插件："
+
+#: sitemap-ui.php:675
+msgid "Your blog is currently blocking search engines! Visit the <a href=\"%s\">Reading Settings</a> to change this."
+msgstr "您的站点屏蔽了搜索引擎！请访问 <a href=\"%s\">阅读设置</a> 更改设置。"
+
+#: sitemap-ui.php:526
+msgid "Don't show this anymore"
+msgstr "不要再显示这个了"
+
+#: sitemap-ui.php:526
+msgid "Thanks for using this plugin! You've installed this plugin some time ago. If it works and your are satisfied, why not <a href=\"%s\">rate it</a> and <a href=\"%s\">recommend it</a> to others? :-)"
+msgstr "感谢您使用此插件！ 你刚才安装了这个插件。 如果它有效并且您满意，为什么不<a href=\"%s\">给它评分</a>并<a href=\"%s\">向其他人推荐</a>？:-)"
+
+#: sitemap-ui.php:519
+msgid "No thanks, please don't bug me anymore!"
+msgstr "不，谢谢，请不要再烦我了！"
+
+#: sitemap-ui.php:519
+msgid "Sure, but I already did!"
+msgstr "当然，但我已经做到了！"
+
+#: sitemap-ui.php:519
+msgid "Thanks for using this plugin! You've installed this plugin over a month ago. If it works and you are satisfied with the results, isn't it worth at least a few dollar? <a href=\"%s\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"%s\">Sure, no problem!</a>"
+msgstr "感谢您使用此插件！ 你已经在一个月前安装了这个插件。 如果它有效并且您对结果感到满意，是否值得至少几美元？ <a href=\"%s\">捐款</a>帮助我继续支持和开发此<i>免费</i>软件！ <a href=\"%s\">当然，没问题！</a>"
+
+#: sitemap-ui.php:513
+msgid "Hide this notice"
+msgstr "隐藏此通知"
+
+#: sitemap-ui.php:513
+msgid "Thank you very much for your donation. You help me to continue support and development of this plugin and other free software!"
+msgstr "非常感谢您的捐款。您帮助了我继续支持和开发这个插件和其他免费软件！"
+
+#: sitemap-ui.php:470
+msgid "Ping was executed, please see below for the result."
+msgstr "Ping 已执行，请参阅下面的结果。"
+
+#: sitemap-ui.php:453
+msgid "All done!"
+msgstr "全部完成！"
+
+#: sitemap-ui.php:431
+msgid "The plugin is notifying the selected search engines about your main sitemap and all sub-sitemaps. This might take a minute or two."
+msgstr "该插件将把您的主站点地图和所有子站点地图提交至选定的搜索引擎。这可能需要一两分钟。"
+
+#: sitemap-ui.php:430
+msgid "Notify Search Engines about all sitemaps"
+msgstr "所有站点地图提交搜索引擎"
+
+#: sitemap-ui.php:393
+msgid "The old files were successfully deleted."
+msgstr "旧文件删除成功。"
+
+#: sitemap-ui.php:391
+msgid "The old files could NOT be deleted. Please use an FTP program and delete them by yourself."
+msgstr "旧文件无法删除，请通过FTP手动删除。"
+
+#: sitemap-ui.php:381
+msgid "The default configuration was restored."
+msgstr "默认配置已恢复。"
+
+#: sitemap-ui.php:373
+msgid "Error while saving pages"
+msgstr "保存页面时出错"
+
+#: sitemap-ui.php:372
+msgid "Pages saved"
+msgstr "页面已保存"
+
+#: sitemap-ui.php:369
+msgid "Error while saving options"
+msgstr "保存选项时出错"
+
+#: sitemap-ui.php:368
+msgid "Configuration updated"
+msgstr "配置已更新"
+
+#: sitemap-ui.php:181 sitemap-ui.php:671
+msgid "XML Sitemap Generator for WordPress"
+msgstr "用于WordPress的XML站点地图生成器"
+
+#: sitemap-loader.php:236
+msgid "Donate"
+msgstr "捐赠"
+
+#: sitemap-loader.php:235
+msgid "Support"
+msgstr "支持"
+
+#: sitemap-loader.php:234
+msgid "FAQ"
+msgstr "常见问题"
+
+#: sitemap-loader.php:233
+msgid "Settings"
+msgstr "设置"
+
+#: sitemap-loader.php:206
+msgid "XML-Sitemap"
+msgstr "XML版站点地图"
+
+#: sitemap-loader.php:206
+msgid "XML-Sitemap Generator"
+msgstr "XML-站点地图 生成器"
+
+#: sitemap-core.php:784
+msgid "Never"
+msgstr "从不（Never）"
+
+#: sitemap-core.php:783
+msgid "Yearly"
+msgstr "每年"
+
+#: sitemap-core.php:782
+msgid "Monthly"
+msgstr "每月"
+
+#: sitemap-core.php:781
+msgid "Weekly"
+msgstr "每周"
+
+#: sitemap-core.php:780
+msgid "Daily"
+msgstr "每日"
+
+#: sitemap-core.php:779
+msgid "Hourly"
+msgstr "每小时"
+
+#: sitemap-core.php:778
+msgid "Always"
+msgstr "总是"
+
+#: sitemap-core.php:618
+msgid "Uses the average comment count to calculate the priority"
+msgstr "使用平均评论计数来计算优先级"
+
+#: sitemap-core.php:608
+msgid "Comment Average"
+msgstr "评论平均值"
+
+#: sitemap-core.php:557
+msgid "Uses the number of comments of the post to calculate the priority"
+msgstr "使用文章的评论数来计算优先级"
+
+#: sitemap-core.php:547
+msgid "Comment Count"
+msgstr "评论计数"

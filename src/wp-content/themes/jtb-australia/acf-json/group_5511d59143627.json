@@ -1,0 +1,549 @@
+{
+    "key": "group_5511d59143627",
+    "title": "Tourplan Theme - Home page (Don't Edit The Field Groups)",
+    "fields": [
+        {
+            "key": "field_5513267dcafcf",
+            "label": "Special",
+            "name": "four_grid_boxes",
+            "type": "repeater",
+            "instructions": "Please enter the titles, links and images for the \"Special\" boxes into the fields below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 1,
+            "max": 8,
+            "layout": "table",
+            "button_label": "Add Box",
+            "sub_fields": [
+                {
+                    "key": "field_5513267dcafd0",
+                    "label": "Special Title",
+                    "name": "box_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5513267dcafd1",
+                    "label": "Special Link",
+                    "name": "box_link",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "allow_archives": 1
+                },
+                {
+                    "key": "field_5513267dcafd2",
+                    "label": "Special Image",
+                    "name": "box_image",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 575,
+                    "height": 360,
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                }
+            ],
+            "collapsed": ""
+        },
+        {
+            "key": "field_5511d5ff733cf",
+            "label": "Japan Information",
+            "name": "three_grid_boxes",
+            "type": "repeater",
+            "instructions": "Please enter the titles, links, images and copy for the \"Japan Information\" boxes into the fields below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 3,
+            "max": 3,
+            "layout": "row",
+            "button_label": "Add Box",
+            "sub_fields": [
+                {
+                    "key": "field_5511d64e5ebd0",
+                    "label": "Box Title",
+                    "name": "box_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5512250742007",
+                    "label": "Box Link",
+                    "name": "box_link",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "allow_archives": 1
+                },
+                {
+                    "key": "field_5511d6685ebd1",
+                    "label": "Box Image",
+                    "name": "box_image",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 575,
+                    "height": 320,
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                },
+                {
+                    "key": "field_5511d6845ebd2",
+                    "label": "Box Copy",
+                    "name": "box_copy",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "basic",
+                    "media_upload": 1,
+                    "delay": 0
+                }
+            ],
+            "collapsed": ""
+        },
+        {
+            "key": "field_551332e84a953",
+            "label": "Featured Destinations - Row 1",
+            "name": "multi_grid_boxes_row_1",
+            "type": "repeater",
+            "instructions": "Please enter the titles, links, and copy for the \"Featured Destinations\" boxes into the fields below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 3,
+            "max": 3,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_551332e94a954",
+                    "label": "Box Title",
+                    "name": "box_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_551332e94a955",
+                    "label": "Box Link",
+                    "name": "box_link",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "allow_archives": 1
+                },
+                {
+                    "key": "field_551332e94a956",
+                    "label": "Box Image",
+                    "name": "box_image",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 315,
+                    "height": 200,
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                }
+            ],
+            "collapsed": ""
+        },
+        {
+            "key": "field_5513351e2b1a9",
+            "label": "Featured Destinations - Row 2",
+            "name": "multi_grid_boxes_row_2",
+            "type": "repeater",
+            "instructions": "Please enter the titles, links, and copy for the \"Featured Destinations\" boxes into the fields below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 4,
+            "max": 4,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_5513351f2b1aa",
+                    "label": "Box Title",
+                    "name": "box_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5513351f2b1ab",
+                    "label": "Box Link",
+                    "name": "box_link",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "allow_archives": 1
+                },
+                {
+                    "key": "field_5513351f2b1ac",
+                    "label": "Box Image",
+                    "name": "box_image",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 315,
+                    "height": 200,
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                }
+            ],
+            "collapsed": ""
+        },
+        {
+            "key": "field_551335369a77d",
+            "label": "Featured Destinations - Row 3",
+            "name": "multi_grid_boxes_row_3",
+            "type": "repeater",
+            "instructions": "Please enter the titles, links, and copy for the \"Featured Destinations\" boxes into the fields below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 6,
+            "max": 6,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_551335379a77e",
+                    "label": "Box Title",
+                    "name": "box_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_551335379a77f",
+                    "label": "Box Link",
+                    "name": "box_link",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "allow_archives": 1
+                },
+                {
+                    "key": "field_551335379a780",
+                    "label": "Box Image",
+                    "name": "box_image",
+                    "type": "image_crop",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "custom",
+                    "width": 315,
+                    "height": 200,
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                }
+            ],
+            "collapsed": ""
+        },
+        {
+            "key": "field_5577ab55538a6",
+            "label": "Advertising Banner",
+            "name": "advertising_banner",
+            "type": "repeater",
+            "instructions": "Please enter the titles, links, and copy for the \"Featured Destinations\" boxes into the fields below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 4,
+            "max": 4,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_5577ab55538a9",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5577ab55538a8",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ],
+            "collapsed": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "home-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1527735286
+}

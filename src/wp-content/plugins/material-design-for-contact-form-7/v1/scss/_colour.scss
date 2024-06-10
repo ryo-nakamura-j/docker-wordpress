@@ -1,0 +1,21 @@
+// Hint colour
+label,
+.cf7md-label--static,
+.cf7md-help-text {
+    color: $text-hint-on-light;
+    .mdc-theme--dark & {
+        color: $text-hint-on-dark;
+    }
+}
+
+// Primary colour
+input,
+textarea,
+select,
+.wpcf7-list-item label,
+.cf7md-accept-label {
+    color: $text-primary-on-light;
+    .mdc-theme--dark & {
+        color: $text-primary-on-dark;
+    }
+}

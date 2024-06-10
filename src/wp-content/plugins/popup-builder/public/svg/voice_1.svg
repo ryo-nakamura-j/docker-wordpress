@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.981" height="59.981" viewBox="0 0 59.981 59.981">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="59.981" height="59.981" fill="none"/>
+    </clipPath>
+    <filter id="Union_27" x="2" y="1" width="56.266" height="58" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#2873eb" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="voice_1" data-name="voice – 1" clip-path="url(#clip-path)">
+    <g id="Group_275" data-name="Group 275" transform="translate(-1190 -1526)">
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="29.99" cy="29.99" r="29.99" transform="translate(1190 1526)" fill="#b5caec"/>
+    </g>
+    <g id="Untitled-1" transform="translate(12.225 16.451)">
+      <g transform="matrix(1, 0, 0, 1, -12.22, -16.45)" filter="url(#Union_27)">
+        <path id="Union_27-2" data-name="Union 27" d="M18.282,27.643,9.29,19.394V8.939L18.352.374a1.3,1.3,0,0,1,2.205.951V26.64A1.36,1.36,0,0,1,19.186,28,1.321,1.321,0,0,1,18.282,27.643ZM21.808,8.571a5.535,5.535,0,0,1,0,10.858ZM3.351,19.394A3.348,3.348,0,0,1,0,16.042V12.287A3.347,3.347,0,0,1,3.351,8.939H7.88V19.394Z" transform="translate(17 16)" fill="#2873eb"/>
+      </g>
+    </g>
+  </g>
+</svg>

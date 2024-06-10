@@ -1,0 +1,5 @@
+/* style-metasolutions.css */
+
+.thumbnail > img, .thumbnail a > img {
+    padding: 0px 9px 9px;
+}

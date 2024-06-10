@@ -1,0 +1,109 @@
+{
+    "key": "group_58880bace5106",
+    "title": "Tourplan Theme - Tourplan Checkout Config (Don't Edit The Field Groups)",
+    "fields": [
+        {
+            "key": "field_5886baadabe41",
+            "label": "Template Source",
+            "name": "template_source",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "accom-quicksearch-template.php": "accom-quicksearch-template.php",
+                "accom-search-template.php": "accom-search-template.php",
+                "checkout-template.php": "checkout-template.php",
+                "day-tours-product-template.php": "day-tours-product-template.php",
+                "day-tours-quicksearch-template.php": "day-tours-quicksearch-template.php",
+                "day-tours-search-template.php": "day-tours-search-template.php",
+                "ghibli-template.php": "ghibli-template.php",
+                "itinerary-template.php": "itinerary-template.php",
+                "rail-pass-template.php": "rail-pass-template.php",
+                "railpass-template.php": "railpass-template.php",
+                "ryokan-hotel-product.php": "ryokan-hotel-product.php",
+                "ticket-product.php": "ticket-product.php",
+                "ticket-search.php": "ticket-search.php",
+                "ticket-template.php": "ticket-template.php",
+                "tour-product-price-panel.php": "tour-product-price-panel.php",
+                "tour-product.php": "tour-product.php",
+                "tour-result.php": "tour-result.php",
+                "tour-search-settings.php": "tour-search-settings.php",
+                "tour-search.php": "tour-search.php"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5886bae4abe42",
+            "label": "Read Only Country",
+            "name": "read_only_country",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5886bb69abe43",
+            "label": "Read Only City",
+            "name": "read_only_city",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "modified": 1527734917
+}

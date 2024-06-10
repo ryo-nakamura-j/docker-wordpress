@@ -1,0 +1,684 @@
+
+
+/*home banner buttons */
+html .mainImg .slider .slick-arrow.slick-prev {
+  left: 2.5%;
+}
+html .mainImg .slider .slick-arrow.slick-next {
+	right: 2.5%;
+}
+html .mainImg .slider .slick-arrow {
+  top: 73%;
+}
+
+
+/*sector tickets*/
+.page-id-35813 #yenlist,.page-id-35813 #yenlist li {background: #fff3c5; display: inline-block; }
+.page-id-35813 #cf7md-form h2{color: #ea9e3d;  font-size: 28px;}
+
+.page-id-35813 .personbox .personbox {
+  padding: 0.1% 3%;
+}
+
+
+/*sector agent form clone */
+
+.personbox .personbox div.col-xs-12 {max-width: 20%;
+  position: relative;
+  float: left;}
+
+
+
+
+/*contact page */
+.page-id-4595   .teal-message{padding-left: 1em;  padding-right: 1em;  display: inline-block; font-weight:bolder;}
+	.page-id-4595 #content .entry table{border-color: #fff;}
+/*email sig page */
+.page-id-35688 td {
+  padding-left: 0 !important;font-weight:bolder;
+}
+
+/* remove suica from east west page - dunno why it was showing only there */
+.page-id-3480 #counterlabeljr8 {display:none;}
+  
+/*agent jr form */
+.page-id-35517 .red-message, .page-id-22779 .red-message
+{font-size: 26px;}
+.page-id-35517 .teal-message , .page-id-22779 .teal-message
+{font-size: 21px;}
+
+/*jr nat page 2024*/
+.jrpass-bookingflow strong{width:100%;display:inline-block;clear:both;}
+.page-id-35533 #tp-railpass-section-3   .md-top-margin ,
+.page-id-35533 #tp-railpass-section-3  .rail-group{
+display:none; /*split jr booking / T/c sections so wizywig wide full page width descript (usually theres a map there ) */
+}
+.page-id-35533 #tp-railpass-section-3  .terms_and_conditions_section{position: relative;
+top: -2em;}
+.page-id-35533 #tp-railpass-section-3 .bodybutton {position: relative;
+top: -8px;}
+
+/*jr nat page bullet table prices yen bottom page */
+
+ ul#yenlist li{list-style: none;
+  position: relative;
+  float: left;
+  border-left: 5px solid #ccc;
+padding-left: 0.75em;margin-top: 1em;
+  margin-left: 1em; min-height: 210px;}
+body.page-id-35533 ul#yenlist{position: relative;
+  margin-bottom: 1em;
+  display: inline-block;}
+
+
+.page-id-3343  .green-message,.page-id-35533  .green-message {margin-bottom: 0  !important ;
+margin-top: 2em !important ;}
+
+
+/*home-warning menu new look width 100%*/
+
+html body.page-id-3343 .yellow-message em,html body.page-id-35533 .yellow-message em
+{width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: inline-block;}
+
+html .mobileonly2x {width:100%  !important ; padding: 0  !important ; }
+html .mobileonly2x .yellow-message, body.page-id-3343 .mobileonly2x .yellow-message,
+html .mobileonly2x .red-message, body.page-id-3343 .mobileonly2x .red-message,
+html .mobileonly2x .teal-message, body.page-id-3343 .mobileonly2x .teal-message,
+html .mobileonly2x .green-message, body.page-id-3343 .mobileonly2x .green-message
+{margin: 0  !important  ; 
+font-size: 16px  !important  ;border-radius: 0 !important  ;font-weight: inherit !important  ;
+text-transform: inherit !important  ;
+ padding: 1em 2em !important ; text-align:center  !important ; background-position: 15px 12px !important;
+background-size: 33px  !important ; }
+html .mobileonly2x .yellow-message, body.page-id-3343 .mobileonly2x .yellow-message{border: solid 4px #f5e89f  !important ; background-color: #FFFFC2  !important ;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_error_outline_black_24px-orange.svg') !important ;}
+html .mobileonly2x .red-message, body.page-id-3343 .mobileonly2x .red-message{border: solid 4px #d08d8d  !important ; background-color: #F8D9DB  !important ;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_report_problem_black_24px-red.svg') !important ;}
+ html .mobileonly2x .teal-message, body.page-id-3343 .mobileonly2x .teal-message{border: solid 4px #8db7d0  !important ; background-color: #d9f2f8  !important ;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_star_border_black_24px.svg')  !important ;}
+ html .mobileonly2x .green-message, body.page-id-3343 .mobileonly2x .green-message{border: solid 4px #b4c7ae  !important ; background-color: #E9F6E5  !important ;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_assistant_black_24px-green.svg')  !important ;}
+
+
+
+/*JR messages - agent and retail new lines etc. 
+35517*/
+.page-id-22779 .teal-message em , 
+.page-id-35517 .teal-message em , 
+.page-id-3343 .teal-message em,.page-id-35533 .teal-message em
+{width:100%;clear : both; display:block;}
+ .page-id-22779 .teal-message strong , 
+  .page-id-35517 .teal-message strong , 
+.page-id-3343 .teal-message strong,.page-id-35533 .teal-message strong
+{color:#1927ff; font-size:120%;}
+
+
+/* 2023 tour template */
+body.page-template-page-tour-23 .image3list{margin:0 !important ;}
+body.page-template-page-tour-23 #top-banner23 
+.footer__inner01    .width50 {padding-bottom: 2em !important ;}
+	body.page-template-page-tour-23 #top-banner23 
+.footer__inner01  h2 {padding-bottom: 0.5em;font-size: 24px;}
+.MuiGrid-root,.MuiGrid-root ul{width:100%;clear:both;display: inline-block;}
+.MuiGrid-root{padding-top:1em;}
+	.MuiGrid-root  li {width: 40%;padding-bottom: 1em;
+float: left;padding-right: 3%;}
+body.page-template-page-tour-23 #top-banner23{margin-bottom: 1.5em;}
+	body.page-template-page-tour-23 #top-banner23 
+.footer__inner01  li{width: 100%;
+padding-bottom: 0.5em;
+border-bottom: solid 1px #acacac;
+	margin-bottom: 0.5em;}
+body.page-template-page-tour-23 	#breadcrumbs{margin-bottom: 2em !important ;}
+#top-banner23 img{width:100%  !important ; margin:0  !important ;}
+.width50right {
+  position: relative;
+  float: right;
+  width: 48%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#top-banner23{color: #545454;}
+.greyboxtour{background: #eff0f0;
+width:100%; margin-top: 2em;
+}
+	#top-banner23 hr {border-color: #f5f3f0;}
+	
+ .page-id-35278  .button:hover{color:#fff;}
+	
+	
+	body.page-template-page-tour-23  .tour24button:hover{text-decoration:none;}
+.greyboxtour  .footer__inner {max-width: 1140px;
+margin: 0 auto;
+padding: 34px 0 28px;
+  padding-top: 34px;
+  padding-bottom: 28px;
+position: relative;}
+.greyboxtour h2{margin-top: 0;
+font-size: 24px;}
+#top-banner23 a.wpcf7-submit{color:#fff  !important  ; margin-top:1em;}
+html #headerWrap, html #footerWrapper{
+background: #cc0000;
+background-color: #cc0000;
+/*background: linear-gradient(90deg, rgba(204,0,0,1) 0%, rgba(235,85,20,1) 60%, rgba(255,162,0,1) 100%);*/
+text-shadow: 3px 3px 3px #00000045;
+}
+
+html #headerWrap.fixed { 
+    background: #c00  !important ;
+}
+
+/*
+mobile menu 
+header__navi
+<div id="navi" class="header__navi clearfix open" style="height: calc(100% - 95px); display: block;background: #ccc !important;">
+
+*/
+
+
+
+/*fukuoka promo page 2023 */ 
+.parent-pageid-35278 hr{width: 100%; }
+
+
+.page-id-35278 #breadcrumbs{display:none;}
+
+.page-id-35278 .greyboxtour {background: #ffe7c9;font-weight:bold;}
+
+.header__ul01  li li
+ {
+	background-color: #cc0000   !important ;
+	}
+
+  .header_footer .header__navi .header__ul01 > li.sub .submenu li a ,
+  .header_footer .header__navi .header__ul01 > li.sub .submenu li a:hover {
+     padding: 15px 0;
+    border-bottom: 2px #f74008 solid !important ;
+	 /*old 2px #a51725 solid !important */
+}
+
+ html #headerWrap div div a:active {   
+ background-color: #636363 !important; 
+ 
+}
+html #headerWrap ul.header__ul01 li.sub ul li a:active {
+	/*background-color: #c92535 !important; */
+	} 
+
+html #headerWrap,html #headerWrap div,html #headerWrap div div {
+	/*background-color: #c92535  !important ;*/
+	color: #fff;}
+
+
+html #headerWrap a ,html #headerWrap div a ,html #headerWrap div div  a {
+	/*background-color: #c92535  !important ;*/
+	color: #fff;}
+	
+	
+	#roobix_footer a {
+  color: #e5ffff !important ; 
+}
+
+
+
+
+ html #headerWrap div, html #headerWrap div div{background:initial;background-color:transparent  !important ;}
+
+
+
+/*USJ express scroll overflow*/
+
+table.usj {
+	max-width:100%;
+	overflow:scroll;
+	display:block;
+	
+}
+
+.page-id-705  .yellow-message{font-weight:bolder;}
+
+	.page-id-705  .yellow-message  .red-text,
+		.page-id-30845  .teal-message  .red-text
+	{    width: 100%;
+    display: block;
+    text-transform: inherit;
+    color: black;
+	font-weight:inherit; }
+
+
+
+
+/*tour pages blue itinerary*/
+
+table.itinerary   .classone p,table.itinerary   .classone {
+    color: #3e5f91;
+    font-weight: bold;    margin-bottom: 0;
+}
+
+html body h1,html body h2,html body h3,html body h4,html body h5,
+.entry h1,.entry h2,.entry h3,.entry h4,.entry h5,
+h1,h2,h3,h4,h5
+{color:#3e5f91;}
+
+
+table.itinerary.itineraryimg td{
+max-width: 70%;}
+table.itinerary.itineraryimg td td{
+	max-width: 100%;}
+	
+
+
+/*fix fonts*/
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
+
+
+/* - SEARCH for this 
+table colour bar 
+body table.itinerary table tr.classone ul, body table.itinerary table tr.classone ol {
+    background-color: #969696;
+    color: #fff;
+	
+//tab unselected	
+	body ul.tabs li a {        color: rgb(111 137 175);  }
+
+}*/
+
+/*2023 hide 3 of the USJ calendars */
+#divCal4,#divCal5,#divCal6{display:none;}
+.noborder2{border:none !important ;height:5px !important ;min-height:5px !important ;}
+
+/*2023 tour pages*/
+html #top-banner23   .clearfix{
+	    padding-top: 0  !important ;
+    padding-bottom: 0 !important ;
+}
+html #top-banner23   .clearfix img,
+html #top-banner23   .clearfix div{
+	    padding: 0  !important ;
+    margin: 0 !important ;
+}
+ 
+ 
+ #terms_and_conditions_1 .bodybutton{
+ margin-top: 0;
+  margin-bottom: 1em;
+ }
+ 
+body.page-id-3343 .yellow-message,
+body.page-id-35533 .yellow-message {
+    color: #404040;
+    border: solid 5px #ffba00 !important;
+    background-color: #fae06b !important;font-weight:bold;
+	font-size: 18px;text-transform:uppercase;    border-radius: 33px;
+}
+body.page-id-3343   h2.red-heading strong,
+body.page-id-35533   h2.red-heading strong{font-size:28px  !important ;
+    line-height: 1.2em;
+    top: 2px;     position: relative; margin-right:0.5em;}
+body.page-id-3343 .yellow-message a,
+body.page-id-35533 .yellow-message a{color: #1a0dab;font-weight:bold;text-decoration:underline;}
+body.page-id-3343 .yellow-message a:hover,
+body.page-id-35533 .yellow-message a:hover{text-decoration:none;}
+html body.page-id-3343 .yellow-message ,
+html body.page-id-35533 .yellow-message {
+    background-image: url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2023/03/flash-warning.gif);
+    background-repeat: no-repeat;
+       background-position: 12px 6px;
+    text-indent: 55px;
+    background-size: 40px;
+}
+
+
+
+/*REMOVE V T BOOKING SYSTEM TEMP 
+body.parent-pageid-33865 #tp-railpass-section-1 {display:none;}*/
+
+.page-id-33920 #tp-railpass-section-1{display:none;}
+.page-id-33982 #tp-railpass-section-1{display:none;}
+
+
+
+/*close disney usj temporarily 
+.page-id-20511 #tp_detail_section,
+.page-id-30123 #tp_detail_section
+{display:none;}*/
+
+
+body .homelistli {padding-left: 1em !important ;}
+body .homelistli li {list-style: circle;}
+body.page-template-tp_plugin_template2-php .col-xs-12 h3{display:none;}
+body.page-template-tp_plugin_template2-php .col-xs-12 .rail-product h3{display:block;}
+
+
+/*temp hide some stuff - upgrade
+.page-id-30922 .top__slider , .page-id-30922 .ryokan {display: none;} 
+
+ */
+#daytourfooter,#daytourfooterouter{background-color: #fff;}
+ #daytourfooter a:{padding:0;margin:0;position: relative;float: left;}
+ #daytourfooter .one{height: auto;width:61%;position: relative;float: left;padding:0;margin:0; }
+ #daytourfooter .two{    height: auto;    width: 37.82%;    position: relative;    float: right;    padding: 0;    margin: 0;}
+
+/*MOBI*/
+ @media only screen and  (max-width: 767px){
+ /*mob styles*/ 
+ html #headerWrap .header__title, html #headerWrap  .header__ul03 .sub,#headerWrap  .header__social, #web_logo_jtb {display: none ;}
+   html #headerWrap{  min-height: 95px;}
+.header__info02{width: 98%;}
+  html body header#headerWrap   .menu-btn div.burger-icon, .header_footer .menu-btn .burger-icon::before, .header_footer .menu-btn .burger-icon::after {
+    width: 30px;
+    height: 2px;
+    background-color: #fff  !important ;
+    outline: 1px solid transparent; 
+}html .header_footer .header__ul03 > li {    margin: 0 0 0 35px; }
+ html body header#headerWrap   .menu-btn div.burger-icon{    margin-top: 12px;}
+#navi{top: 95px;}
+html .header__inner  a:hover,.header_footer .header__navi   li a:hover,body  .header_footer .header__navi .header__ul01 > li a:hover { border-bottom: none  !important ;}
+.header__inner a,.header__inner a:hover,.header__inner a:active{border: none;}
+#headerWrap{     background-image: url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2020/03/jtb-australia-pty-ltd.png);
+    background-repeat: no-repeat; background-position: 10px 10px; background-size: 110px; }
+html .header__info02,html #headerWrap div div.header__info02,
+html #headerWrap div.header__inner
+{    background: transparent !important ;    background-color: transparent !important ;}
+html .header_footer .header__navi .header__ul01 > li.sub > a { 
+    background: url(https://nx.jtbtravel.com.au/wp-content/uploads/svg/ico_plus.svg) no-repeat right 17px center;     background-size: 22px;     padding-right: 60px; 
+  }
+html .header_footer .header__navi .header__ul01 > li.sub .submenu {
+    background: #c92535; 
+}.header_footer .header__navi .header__ul01 > li.sub.active > a {
+    background: url(https://nx.jtbtravel.com.au/wp-content/uploads/svg/ico_sub.svg) no-repeat right 17px center;
+     background-size: 22px;
+}html .header_footer .header__navi .header__ul02 {  margin-bottom: 0;}
+html #navi {     padding-top: 0;}
+  html #headerWrap div div a { 
+    font-size: 140%;
+    line-height: 190%;}
+    html #headerWrap ul.header__ul01 li.sub ul,html #headerWrap ul.header__ul01 li.sub ul li a{background-color: #f0680f !important;}
+html body header#headerWrap  .menu-btn.is-active div.burger-icon{    background: transparent;    background-color: transparent !important;}
+#headerWrap.fixed { 
+    background-image: url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2020/03/jtb-australia-pty-ltd.png);
+    background-repeat: no-repeat;  background-position: 15px 4px;
+    background-size: 80px;    height: 60px;    min-height: 60px;  }
+#headerWrap.fixed .header__ul03 {  margin-top: 7px;}
+
+
+
+
+html #roobix_footer div.social {     width: 100%;margin-bottom: 2em;}  
+html #roobix_footer .social img {     margin-left: 20%;}
+html #roobix_footer div {width: 67%;}
+html body .footer ul li a:link {     font-size: 16px; }
+html body .footer ul li{margin-bottom: 11px;    padding-left: 8px;}
+html #roobix_footer .map {     font-size: 16px;}
+#roobix_footer .social img.logo {     margin-bottom: 15px;}
+#roobix_footer {     padding-bottom: 25px;}
+html #roobix_footer .p50 {     width: 100% !important ;}
+html #roobix_footer .map {     width: 32%;}
+#navi .header__inner    .sp{display:none;}
+html #head_a_home{display: block;}
+    .header_footer .header__navi .header__ul01 > li.sub .submenu { top:0px;
+    padding-top: 0px;}
+html .header_footer .header__navi .header__ul01 > li.sub .submenu {
+    top: 0px;    padding-top: 0px;    background-color: #636363;
+    background: #636363 !important;
+}
+html .header_footer .header__navi .header__ul01 > li a {
+    height: auto;    padding: 10px;
+}
+html body .header_footer .header__navi .header__ul01 > li.sub .submenu li a, html body .header_footer .header__navi .header__ul01 > li.sub .submenu li a:hover {
+    padding: 10px  !important ;
+    border-bottom: none !important;
+}
+.header_footer .header__navi .header__ul02 .form .txtSearch, .header_footer .footer__connect.pc .form .txtSearch {
+  color: #000  !important  ;   filter: invert(0)  !important; 
+}
+div.socialbuttonjtb{margin-bottom: 2em;}
+#mob_footer_2, #mob_footer_2 div {display: block !important ; }
+.width50{width: 100% !important ;padding-left: 0 !important ;padding-right: 0 !important ;}
+
+} /*end mob screen size*/
+
+body.page-id-33017 span.h3-styling {
+    font-size: 88%; 
+    color: #000;
+}
+body.page-id-33017 .width50 .width50 {    font-size: 90%;}
+
+/*blog-list-thumbs*/
+body.category-158 .post img{    position: relative;    float: left;    margin-right: 1em; max-width: 50%;height: auto;}
+body.category-158 .post{overflow: hidden;}
+ body.page-id-32505 h2.rail_pass_heading {font-size: 18px;}
+}
+body.page-id-32505 h2{font-size: 45px;}
+body.page-id-32505 h4,body.page-id-33050 h4{    font-size: 30px;}
+body.page-id-33017  h3{       font-size: 18px;
+    color: #c92535;}
+
+body.page-id-33050 h3{display: none;}
+body.page-id-32505 .caption h4,body.page-id-33050 .caption h4{    font-size: 19px;}
+body.page-id-32505 .container .row .col-xs-12 h3{display:none;}
+
+.clear{clear: both;} #roobix_footer_mob a,#roobix_footer_mob a:visited,#roobix_footer_mob a:hover,#roobix_footer_mob li a {color: #fff  !important ;}
+#mob_footer_2, #mob_footer_2 div {display: none; background-color: #c92535;}
+#mob_footer_2 .num{font-weight: bold;font-size: 120%;}
+  #mob_footer_2  .phone  {padding-top:1em;width: 100%;text-align: center;font-size: 120%;    clear: both;}
+}
+html body .footer ul li a:link ,
+#roobix_footer_mob ul li a ,#roobix_footer_mob ul li a:visited {     font-size: 16px; color: #fff !important ;}
+#roobix_footer_mob ul ul{display: inline-block;}
+  #mob_footer_2 ul li{margin-bottom: 11px;    padding-left: 8px;width: 30%;float: left;}
+#roobix_footer_mob { 
+
+   padding-bottom: 25px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 34px 0 28px;
+    position: relative;
+    color: #fff;border-bottom: none;}
+ 
+
+html body.page-id-705 .thumbnail {    background-color: #fff;}
+#wpadminbar:hover{opacity:1  !important ;}
+#wpadminbar a:hover{color:#fff !important ;text-decoration:underline;}
+.blogimg{max-width: 200px;
+    position: relative;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    height: auto;}
+#categorynavigation  div.left,#categorynavigation  div.right{margin-bottom: 1em;}
+#blogtitle{width: 100%;clear: both;}
+.authorbiojtb{margin-bottom: 2em;margin-top: 1em;width: 100%;}
+img.authorbiopic{max-height: 75px;border-radius: 50%;margin-right: 1em; }
+div.socialbuttonjtb{float: right;position: relative;}
+div.social-padding2{margin-top:1.2em;}
+img.socialbuttonjtb{
+        max-height: 30px;
+    padding-left: 1em;
+}img.bioauthor{max-width: 200px;
+    padding-right: 1em;}
+.sp-post-carousel-section {padding-bottom: 3em;}
+
+.header_footer .header__navi .header__ul02 .form .txtSearch, .header_footer .footer__connect.pc .form .txtSearch {
+ z-index: 99999;
+    filter: invert(1);
+} 
+.header_footer .header__navi .header__ul02 .form .txtSearch:focus, .header_footer .footer__connect.pc .form .txtSearch:focus {
+       color: #000;
+    filter: invert(0);
+}
+
+html #footerWrapper .copy{display:none  !important  ;}
+html #stay_touch .container{padding: 0;
+    margin: 0 auto 0 auto; 
+    text-align: left;}
+
+html body {    font-size: 16px;}
+html .section:last-child {    margin-bottom: 40px;}
+html .section {    margin: 40px 0 40px;}
+
+html .ppad p{padding-bottom: 1.5em;}
+html .header__social{  margin-left: 115px;}
+html .header__social h1{display:none;}
+.sponsorbuttons div{margin-bottom: 2em;}
+html .header__inner  a:hover,.header_footer .header__navi   li a:hover,body  .header_footer .header__navi .header__ul01 > li a:hover { border-bottom: none  !important ;}
+ #head_a_home{display: none;}
+.thumbnail {     border: none;     padding: 10px; }
+
+html .carousel-inner .item {     border-top: none;     border-bottom: 9px solid #E00011; }
+.result__slider .carousel {    max-width: 400px;    float: right;}
+#head_a_home{
+position: fixed;    top: 5px;    left: 5px;    width: 125px;       height: 58px;
+        background-color: transparent;       z-index: 999999;   }
+
+ 
+html  body.page-id-30922 .owl-carousel.owl-loaded , html body.page-id-30922 .ver__top .ryokan .ryokan__h4 { display: none; }
+html .thumbnail { background-color: #ececec;}
+html div.caption p,.tours2 .thumbnail .caption a {    color: #444;}
+html .tp-badge {
+    padding-top: 0px;     top: -11px;    right: -13px;    background: #fff;    font-size: 12px;    color: #d60516;    border: 1px solid #d60516;
+    width: 18px;    height: 18px;    font-weight: bold;line-height: 1.5em;}
+ul.header__ul02 li.sub{display:none  !important ;}
+p.logo .logo__txt01,p.logo .logo__txt02,p.logo img,
+.header__shop .shop__btn, .logo02 img ,.logo
+{visibility: hidden;} 
+h1,h2,h3,h4,h5,p,div,span,ul,li,i,strong,b,body,html{font-family:"Rubik","Montserrat",Helvetica,Arial,sans-serif !important;}
+
+
+
+
+#headerWrap{padding-top: 1.2em;padding-bottom: 0.8em;}
+header.fixed{padding-top: 0 !important ;padding-bottom: 0 !important ;}
+
+p.logo a,#web_logo_jtb a{width:110px;height:70px;background-image: url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2020/03/jtb-australia-pty-ltd.png);background-repeat: no-repeat;    background-size: 110px;font-size: 10px;text-indent: -133em;}
+.logo02 a{width:61px !important ;height:39px !important ;background-image: url(https://www.nx.jtbtravel.com.au/u/jtb-australia-header.png);background-repeat: no-repeat;display: inline-block;}
+#web_logo_jtb{position: relative;top: -8px;}
+
+html #headerWrap h1,.header__tel,html .header__tel span.num {    color:     #fff   !important ;}
+.tp-badge-container img{    filter: invert(1)saturate(0)brightness(1.7);
+    width: 30px;} 
+
+   html .header_footer .header__title .header__link {
+    float: initial;
+}
+html div.header__contact{position: absolute;
+top: 1.2em;right: 143px;height: 43px;
+    overflow: hidden;}
+#hide_head{height: 1px;clear: both;display: flex;}
+#hide_head .header__info{width: 1px;}
+ header.fixed #web_logo_jtb{display: none;}
+
+
+header.fixed .header__inner {
+    height: initial;}
+.header__ul01{padding: 5px 0 0 0  !important ;}
+header.fixed .header__ul01{padding: 0 !important ;}
+.logo02{position: relative;top: 3px;}
+
+.header_footer .header__navi .header__ul01 > li.act > a { 
+    border-bottom: none   !important ;
+}.header_footer .header__navi .header__ul02 li.sub a:hover {
+    border-bottom: none !important ;
+}
+
+body .header_footer figure.effect-sarah h3 { 
+    text-align: center;    width: 100%;    padding: 0;    margin: 0;    padding-bottom: 0.3em;
+}
+.home_jtba figcaption,.home_jtba figcaption p {    font-size: 14px  !important ;}
+.home_jtba .gridFeature figure img:hover {
+    -webkit-transform: scale(1.065);
+    -moz-transform: scale(1.065);
+    -ms-transform: scale(1.065);
+    -o-transform: scale(1.065);
+    transform: scale(1.065);
+}i.material-icons { 
+    font-family: "Material Icons" !important;
+}
+
+#footerWrapper .copy, #footerWrapper .copy2{background: rgb(204,0,0);color: #ccc;padding-top: 20px;
+padding-bottom: 20px; border-top: 2px solid #fff; 
+    text-align: center;
+    padding: 9px 10px;}
+#footerWrapper .copy2 a,#footerWrapper .copy a{color: #919191;}
+#footerWrapper .copy2 a:hover,#footerWrapper .copy a:hover{color:#a2a2a2;} 
+
+.footer__inner03 ,.footer__inner04{display: none;}
+.footer__inner02{display: inline;}
+
+#footerWrapper{background-color: #c92535;}
+#roobix_footer{color: #fff;border-bottom: none;}
+#roobix_footer div{width: 39%;padding: 0 1% 0 0 ;position: relative;float: left;}
+#roobix_footer div.social{width: 19%;padding: 0 1% 0 0 ;}
+#roobix_footer .social img.logo{clear: both;float: initial;position: initial;    visibility: initial;margin-left: 2em;}
+#roobix_footer .social img{position: relative;float: left;margin-left: 1em;}
+.round-social-grey a::before,.fa-facebook-f:before {
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+html #roobix_footer .map{float: right;     line-height: 1.6em;}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
+html .menu-footer-menu-container li{    text-indent: unset;
+    width: 48%;  margin-right: 1%;  position: relative;    float: left;    margin-bottom: 0.2em;}
+html .menu-footer-menu-container li a{color: #fff !important ;    padding-left: 0  !important ;}
+html .menu-footer-menu-container,html .menu-footer-menu-container ul{width: 100%  !important ;}
+html #roobix_footer p{color: #fff;margin-bottom: 0.2em;}
+html #roobix_footer .p50{ width: 48%; margin-right: 1%;   position: relative;    float: left;}
+html #roobix_footer .p50 img{ width:100%;height: auto;}
+#wpadminbar{    opacity: 0.45;    top: -7px;}body.logged-in{top: -7px;    margin-bottom: -7px;}
+
+#stay_touch{background-color: #eeeeef;background: #eeeeef; text-align: center;    padding-bottom: 1em;    padding-top: 0.5em;}
+#stay_touch h2{color:#c92535;    letter-spacing: 0.06em; font-size: 34px; margin-bottom: 0.2em;}
+
+#content .post h1 , #content .post .ribon-red-desktop{display:none;}
+#content .post  .entry .ribon-red-desktop, #content .post .entry h1{display:block;}
+
+#stay_touch input,#stay_touch select{border: none;font-size: 18px;padding: 0.4em 1.2em;width: 22%;margin-right: 3%;position: relative;float: left;}
+#stay_touch input#ss-submit{float: right;margin-right:0;}
+#stay_touch p{width: 100%;margin-bottom: 2em;}
+#stay_touch #ss-submit:hover {    background-color: #616161 !important;}
+#stay_touch #ss-submit {  background-color: #808080 !important;}
+html .header_footer .footer__inner01 {    border-bottom: none  !important ;}
+div.grid h3 {     width: 100%; }
+
+body ul.tabs a.active,body ul.tabs a.active:hover,body ul.tabs a.active:active {    color: #ff3038;    border-bottom: solid 3px #ff3038;}
+body ul.tabs li a {        color: rgb(111 137 175);  }
+body table.itinerary table tr.classone ul, body table.itinerary table tr.classone ol {      background-color: #3e5f91; color: #fff;}
+body table.itinerary table table {    border: 2px solid #c1c1c1;    border-top: none; }
+
+
+
+#headerWrap{position: relative;}
+
+
+.header_message_jtb{width: 100%;padding:1em;background-color: #ccc;}
+
+/*header-screen-sizes*/
+ @media only screen and  (max-width: 1270px) {
+.header_footer .header__info .header__contact .header__tel span.num {
+    font-size: 18px; }
+    .header_footer .header__info .header__contact { 
+    top: 60px;      left: 148px;  height: 35px;width:250px;}
+.header_footer .header__navi .header__ul01 { 
+    height: 30px;    margin-top: 20px;    height: auto;}
+    .header__info .header__shop{display: none;}
+    .header_footer .header__navi .header__ul01 > li a {
+    height: auto;    padding: 0 0 9px 0;}
+    .header_footer .header__navi .header__ul01 > li.sub .submenu {       top: 35px;
+    padding-top: 10px;    background-color: #c92535;}
+
+ }

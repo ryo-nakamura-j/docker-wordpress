@@ -1,0 +1,2732 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Download Manager Pro v4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-17 11:24+0600\n"
+"PO-Revision-Date: 2023-03-17 11:24+0600\n"
+"Last-Translator: \n"
+"Language-Team: Shaon <proshaon@yahoo.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: download-manager.php:263 download-manager.php:275
+#: src/Package/Shortcodes.php:283
+#: src/Package/views/category-shortcode-toolbar.php:67
+#: src/Package/views/category-shortcode-toolbar.php:101
+#: src/Package/views/packages-shortcode-toolbar.php:50
+#: src/Package/views/packages-shortcode-toolbar.php:84
+msgid "Downloads"
+msgstr ""
+
+#: download-manager.php:264
+msgid "File"
+msgstr ""
+
+#: download-manager.php:265
+msgid "Add New"
+msgstr ""
+
+#: download-manager.php:266
+msgid "Add New File"
+msgstr ""
+
+#: download-manager.php:267
+msgid "Edit File"
+msgstr ""
+
+#: download-manager.php:268
+msgid "New File"
+msgstr ""
+
+#: download-manager.php:269
+msgid "All Files"
+msgstr ""
+
+#: download-manager.php:270
+msgid "View File"
+msgstr ""
+
+#: download-manager.php:271
+msgid "Search Files"
+msgstr ""
+
+#: download-manager.php:272
+msgid "No File Found"
+msgstr ""
+
+#: download-manager.php:273
+msgid "No Files found in Trash"
+msgstr ""
+
+#: download-manager.php:311 download-manager.php:321
+msgid "Categories"
+msgstr ""
+
+#: download-manager.php:312
+msgid "Category"
+msgstr ""
+
+#: download-manager.php:313
+msgid "Search Categories"
+msgstr ""
+
+#: download-manager.php:314 src/Package/views/datatable.php:171
+msgid "All Categories"
+msgstr ""
+
+#: download-manager.php:315
+msgid "Parent Category"
+msgstr ""
+
+#: download-manager.php:316
+msgid "Parent Category:"
+msgstr ""
+
+#: download-manager.php:317
+msgid "Edit Category"
+msgstr ""
+
+#: download-manager.php:318
+msgid "Update Category"
+msgstr ""
+
+#: download-manager.php:319
+msgid "Add New Category"
+msgstr ""
+
+#: download-manager.php:320
+msgid "New Category Name"
+msgstr ""
+
+#: download-manager.php:337 download-manager.php:345
+msgid "Tags"
+msgstr ""
+
+#: download-manager.php:338 src/Admin/views/templates/custom-tags.php:18
+msgid "Tag"
+msgstr ""
+
+#: download-manager.php:339
+msgid "Search Document Tags"
+msgstr ""
+
+#: download-manager.php:340
+msgid "All Tags"
+msgstr ""
+
+#: download-manager.php:341
+msgid "Edit Tag"
+msgstr ""
+
+#: download-manager.php:342
+msgid "Update Tag"
+msgstr ""
+
+#: download-manager.php:343 src/Admin/views/templates/custom-tags.php:12
+msgid "Add New Tag"
+msgstr ""
+
+#: download-manager.php:344
+msgid "New Tag Name"
+msgstr ""
+
+#: src/Admin/AdminController.php:53
+msgid "Changelog"
+msgstr ""
+
+#: src/Admin/AdminController.php:54
+msgid "Docs"
+msgstr ""
+
+#: src/Admin/AdminController.php:55
+msgid "Support Forum"
+msgstr ""
+
+#: src/Admin/AdminController.php:123 src/Admin/views/stats.php:15
+#: src/User/Dashboard.php:33 src/User/views/dashboard/download-history.php:3
+msgid "Download History"
+msgstr ""
+
+#: src/Admin/AdminController.php:176
+#: src/Admin/views/metaboxes/package-settings.php:6
+msgid "Package Settings"
+msgstr ""
+
+#: src/Admin/AdminController.php:181
+msgid "Attach File"
+msgstr ""
+
+#: src/Admin/DashboardWidgets.php:32
+msgid "Download Manager Overview"
+msgstr ""
+
+#: src/Admin/DashboardWidgets.php:33
+msgid "Social Overview"
+msgstr ""
+
+#: src/Admin/Menu/AddOns.php:23
+msgid "Add-Ons &lsaquo; Download Manager"
+msgstr ""
+
+#: src/Admin/Menu/AddOns.php:23
+msgid "Add-Ons"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:51 src/Admin/Menu/Categories.php:256
+msgid "Category Image:"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:54 src/Admin/Menu/Categories.php:261
+msgid "Image URL"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:56 src/Admin/Menu/Categories.php:263
+msgid "Select Category Image"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:56 src/Admin/Menu/Categories.php:263
+msgid "Browse"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:119 src/Admin/Menu/Categories.php:326
+msgid "Access:"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:121 src/Admin/Menu/Categories.php:329
+msgid ""
+"Select the roles who should have access to the packages under this category"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:124 src/Admin/Menu/Categories.php:342
+#: src/Admin/views/metaboxes/package-settings.php:68
+#: src/AssetManager/views/asset-manager-ui.php:854
+msgid "All Visitors"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:140 src/Admin/Menu/Categories.php:371
+msgid "Category Page Template"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:143 src/Admin/Menu/Categories.php:374
+msgid "Use Global"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:144 src/Admin/Menu/Categories.php:375
+msgid "Do Not Apply"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:146 src/Admin/Menu/Categories.php:377
+msgid "Keep current template as it is provided with the active theme"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:148 src/Admin/Menu/Categories.php:379
+msgid "Use Link Template"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:161 src/Admin/Menu/Categories.php:392
+#: src/Widgets/CatPackages.php:98 src/Widgets/ListPackages.php:143
+#: src/Widgets/NewDownloads.php:67 src/Widgets/TopDownloads.php:67
+msgid "Link Template:"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:167 src/Admin/Menu/Categories.php:398
+msgid "Items Per Page:"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:171 src/Admin/Menu/Categories.php:402
+msgid "Toolbar:"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:173 src/Admin/Menu/Categories.php:404
+msgid "Show"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:174 src/Admin/Menu/Categories.php:405
+msgid "Hide"
+msgstr ""
+
+#: src/Admin/Menu/Categories.php:180 src/Admin/Menu/Categories.php:411
+msgid "Number of Columns"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:278
+msgid "Duplicate"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:279
+msgid "Stats"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:281
+msgid "Master Download URL"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:321
+msgid "Embed Package"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:384
+msgid "Close"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:396
+msgid "Generate Download Link"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:405
+#: src/Admin/views/settings/user-interface.php:142
+#: src/Admin/views/settings/user-interface.php:171
+#: src/AssetManager/views/embed-asset.php:20
+#: src/MediaLibrary/views/media-shortcode.php:25
+#: src/Package/PackageController.php:259 src/Package/PackageController.php:992
+#: src/Package/PackageController.php:1021
+#: src/Package/PackageController.php:1137
+#: src/Package/PackageController.php:1245
+#: src/Package/PackageController.php:1280
+#: src/Package/PackageController.php:2062
+#: src/Package/PackageController.php:2102
+#: src/Package/views/all-packages-shortcode.php:352
+#: src/Package/views/lock-options-iframe.php:238
+#: src/Package/views/lock-options/password-lock.php:42
+#: src/Package/views/lock-options/recaptcha-lock.php:33
+msgid "Download"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:407
+msgid "Master Download Link:"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:425
+msgid "Count"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:456
+msgid "Direct download:"
+msgstr ""
+
+#: src/Admin/Menu/Packages.php:465
+msgid "Download page:"
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:23
+msgid "Settings &lsaquo; Download Manager"
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:23 src/Admin/views/settings.php:111
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:29 src/Admin/Menu/Settings.php:118
+#: src/Admin/Menu/Settings.php:159 src/Admin/Menu/Settings.php:178
+#: src/Admin/Menu/Settings.php:237 src/Admin/Menu/Settings.php:252
+#: src/Admin/Menu/Settings.php:267 src/__/__.php:561
+msgid "Security token is expired! Refresh the page and try again."
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:30 src/Admin/Menu/Settings.php:116
+msgid "You are not allowed to change settings!"
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:44 src/Admin/views/settings.php:132
+msgid "Something is wrong!"
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:169
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: src/Admin/Menu/Settings.php:289
+msgid "Privacy Settings Saved Successfully"
+msgstr ""
+
+#: src/Admin/Menu/Stats.php:28
+msgid "Stats &lsaquo; Download Manager"
+msgstr ""
+
+#: src/Admin/Menu/Stats.php:28
+msgid "History"
+msgstr ""
+
+#: src/Admin/Menu/Templates.php:50
+msgid "Templates &lsaquo; Download Manager"
+msgstr ""
+
+#: src/Admin/Menu/Templates.php:50
+msgid "Templates"
+msgstr ""
+
+#: src/Admin/Menu/Templates.php:116
+msgid ""
+"No package found! Please create at least 1 package to see template preview"
+msgstr ""
+
+#: src/Admin/views/addons-list.php:310
+msgid "Failed to connect with server!"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/overview.php:15
+msgid "Total Packages"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/overview.php:20
+#: src/User/views/dashboard/profile.php:35 src/Widgets/PackageInfo.php:24
+msgid "Total Downloads"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/overview.php:24
+msgid "Total Categories"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/overview.php:28
+msgid "Total Subscribers"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/overview.php:34
+msgid "Subscribed Today"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/social.php:14
+msgid "Facebook Likes"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/social.php:18
+msgid "Tweets"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/social.php:22
+msgid "Google +1"
+msgstr ""
+
+#: src/Admin/views/dashboard-widgets/social.php:26
+msgid "LinkedIn Shares"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:87
+msgid "Public Profile Info"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:92
+#: src/Admin/views/settings/social-connects.php:12
+#: src/Package/Shortcodes.php:282
+#: src/Package/views/category-shortcode-toolbar.php:65
+#: src/Package/views/category-shortcode-toolbar.php:99
+#: src/Package/views/datatable.php:175
+#: src/Package/views/packages-shortcode-toolbar.php:48
+#: src/Package/views/packages-shortcode-toolbar.php:82 src/wpdm-strings.php:18
+msgid "Title"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:96
+msgid "Short Intro"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:100
+#: src/Admin/views/templates/email-template-settings.php:38
+#: src/Admin/views/templates/email-template-settings.php:39
+msgid "Logo URL"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:109
+msgid "Banner URL"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:118
+msgid "Profile Header Background Color"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:122
+msgid "Profile Header Text Color"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:128
+#: src/Admin/views/edit-store-profile.php:129
+#: src/Admin/views/settings/social-connects.php:16 src/wpdm-strings.php:19
+msgid "Description"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:137
+msgid "Payment Settings"
+msgstr ""
+
+#: src/Admin/views/edit-store-profile.php:140
+msgid "PayPal Email"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/media-library-file.php:5
+msgid "Select from media library"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/server-file.php:7
+msgid "Select from server"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:15
+msgid "attached file is missing/deleted"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:44
+msgid "No file uploaded yet!"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:53
+msgid "Drop file here"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:75
+#: src/AssetManager/views/asset-manager-ui.php:767 src/wpdm-functions.php:384
+msgid "Allowed Files"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:154
+msgid "Invalid File Type!"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:156
+msgid "Unauthorized Access!"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:160
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:182
+msgid "Delete Current File"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:191
+#: src/Admin/views/templates/templates.php:220
+msgid "Are you sure?"
+msgstr ""
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:193
+msgid ""
+"<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-"
+"circle\"></i> Removed!</div></div>"
+msgstr ""
+
+#: src/Admin/views/metaboxes/icons.php:112
+msgid "Icon URL"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:2
+msgid ""
+"You can use one or more of following methods to lock your package download:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:9
+msgid "Must Agree with Terms"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:12
+msgid "Terms Page:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:13
+msgid "Use custom content below"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:16
+msgid "Terms Title:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:20
+msgid "Terms and Conditions:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:25
+msgid "Terms Checkbox Label:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:34
+msgid "Enable Password Lock"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:38
+#: src/MediaLibrary/MediaAccessControl.php:208
+msgid "Password:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:44
+msgid ""
+"You can use single or multiple password for a package. If you are using "
+"multiple password then separate each password by []. example [password1]"
+"[password2]"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:47
+msgid "PW Usage Limit:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:51
+msgid "password"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:54
+msgid "Reset Password Usage Count"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:57
+msgid "Password will expire after it exceed this usage limit"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:65
+msgid "Enable Captcha Lock"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:68
+msgid "Please configure reCAPTCHA"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:69
+msgid "Users will be asked for reCAPTCHA verification before download."
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:86
+msgid "Generate Password"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:90
+msgid "Password Lenght & Count"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:95
+#: src/__/views/generate-password.php:18
+msgid "Number of passwords:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:101
+msgid "Password length:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:107
+msgid "Password Strength"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:113
+msgid "Weak"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:114
+msgid "Strong"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:122
+#: src/__/views/generate-password.php:39
+msgid "Generated Passwords"
+msgstr ""
+
+#: src/Admin/views/metaboxes/lock-options.php:131
+#: src/__/views/generate-password.php:44
+msgid "Insert Password(s)"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:7
+msgid "Lock Options"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:8
+msgid "Icons"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:23
+msgid "Version:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:28
+msgid "Link Label:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:33
+msgid "Stock&nbsp;Limit:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:38
+msgid "View&nbsp;Count:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:43
+msgid "Download&nbsp;Count:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:48
+msgid "Package&nbsp;Size:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:53
+#: src/MediaLibrary/MediaAccessControl.php:210
+msgid "Allow Access:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:61
+msgid "Who should be able to download?"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:87
+msgid "Page Template:"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:96
+msgid "Master Key"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:99
+msgid "Regenerate Master Key for Download"
+msgstr ""
+
+#: src/Admin/views/metaboxes/package-settings.php:99
+msgid "This key can be used for direct download"
+msgstr ""
+
+#: src/Admin/views/settings.php:23 src/Admin/views/settings.php:70
+#: src/Admin/views/settings.php:86
+msgid "Save Settings"
+msgstr ""
+
+#: src/Admin/views/settings.php:154
+msgid "General"
+msgstr ""
+
+#: src/Admin/views/settings/author-dashboard.php:13
+msgid "Author Dashboard"
+msgstr ""
+
+#: src/Admin/views/settings/author-dashboard.php:18
+msgid "Allowed User Roles to Create Package From Front-end"
+msgstr ""
+
+#: src/Admin/views/settings/author-dashboard.php:47
+msgid "Front-end Administrator Roles"
+msgstr ""
+
+#: src/Admin/views/settings/author-dashboard.php:78
+msgid "Author Dashboard Page"
+msgstr ""
+
+#: src/Admin/views/settings/author-dashboard.php:79
+#: src/Admin/views/settings/frontend.php:10
+#: src/Admin/views/settings/frontend.php:19
+#: src/Admin/views/settings/profile-dashboard.php:7
+msgid "None Selected"
+msgstr ""
+
+#: src/Admin/views/settings/author-dashboard.php:80
+#: src/Admin/views/settings/frontend.php:12
+#: src/Admin/views/settings/profile-dashboard.php:8
+#, php-format
+msgid "The page where you used short-code %s"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:26
+msgid "Editor Settings"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:29
+msgid "Enable Gutenberg editor for WordPress Download Manager"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:34
+msgid "Access Settings"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:38
+msgid "File Browser Root:"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:39
+msgid ""
+"Root dir for server file browser.<br/><b>*Don't add tailing slash (/)</b>"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:49
+msgid "Reset Base Dir"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:58
+msgid "File Browser Access:"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:60
+msgid "Who will have access to server file browser"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:89
+msgid "reCAPTCHA Settings"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:92
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:97
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:106
+msgid "Enable sign up form CAPTCHA validation"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:112
+msgid "Enable sign in form CAPTCHA validation"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:119
+msgid "Verification Settings"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:123
+msgid "Blocked IPs"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:124
+msgid "One IP per line"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:127
+msgid ""
+"List IP Addresses to blacklist. One IP per line ( Ex: IPv4 - 192.168.23.12 "
+"or 192.168.23.1/24 or 192.168.23.* , IPv6 - 2a01:8760:2:3001::1 or "
+"2620:112:3000::/44 )"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:130
+msgid "Message for Blocked IPs"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:131
+#: src/Admin/views/settings/basic.php:134
+msgid "Message to show when an IP is blocked"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:143
+msgid "Upload Settings"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:147
+msgid "Allowed file types to upload"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:154
+msgid ""
+"Enter the file extensions you want to allow to upload through WPDM ( ex: png,"
+"jpg,pdf )"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:164
+msgid "Sanitize Filename"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:166
+msgid ""
+"Check the option if you want to sanitize uploaded file names to remove "
+"illegal chars"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:176
+msgid "Chunk Upload"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:177
+msgid ""
+"Check the option if you want to enable chunk upload to override http upload "
+"limits"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:182
+msgid "Chunk Size"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:198
+msgid "Messages"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:201
+msgid "Download Limit Exceeded Message for Packages:"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:206
+msgid "Permission Denied Message for Packages:"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:212
+msgid "Login Required Message:"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:215
+#, php-format
+msgid ""
+"If you want to show login form instead of message user short-code "
+"[wpdm_login_form]. To show login form in a modal popup, please follow %s the "
+"doc here %s"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:223
+msgid "File Download"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:228
+msgid "Mask Download Link"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:230
+msgid "Unmask Download Link"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:231
+msgid ""
+"Check this option if you want to mask/unmask file download link. If you "
+"unmask download link, bots will be able the find any public download link "
+"easily."
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:237
+msgid "Download Speed:"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:245
+msgid ""
+"If you get broken download, then try enabling/disabling following options, "
+"as sometimes server may not support output buffering or partial downloads"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:249
+msgid "Resumable Downloads"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:251
+#: src/Admin/views/settings/basic.php:258
+msgid "Enabled"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:252
+#: src/Admin/views/settings/basic.php:259
+msgid "Disabled"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:256
+msgid "Output Buffering"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:268
+msgid "Open in Browser"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:269
+msgid ""
+"Try to Open in Browser instead of download when someone clicks on download "
+"link"
+msgstr ""
+
+#: src/Admin/views/settings/basic.php:279
+msgid "Misc Settings"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:4
+msgid "Front-end Settings"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:9
+msgid "Login Page"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:11
+msgid "Clean login page"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:13
+msgid "Enable modal login form"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:18
+msgid "Register Page"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:20
+msgid "Clean signup page"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:21
+#, php-format
+msgid "The page where you used the short-code %s"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:22
+msgid "Enable email verification on signup"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:23
+msgid "Login automatically after signup is completed"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:30
+msgid "Include Packages in Main RSS Feed"
+msgstr ""
+
+#: src/Admin/views/settings/frontend.php:31
+#, php-format
+msgid ""
+"Check this option if you want to show wpdm packages in your main <a "
+"target=\"_blank\" href=\"%s\">RSS Feed</a>"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:9
+msgid "Privacy Settings"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:13
+msgid "Do not store visitor's IP"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:14
+msgid "Check this option if you do not want to store visitors IPs"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:19
+msgid "Delete download history when users close accounts"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:20
+msgid ""
+"If any user is deleted or close his/her own account, delete their download "
+"history too"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:35
+msgid "Temporary Storage Management"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:37
+msgid "Save in File"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:38
+msgid "Store in Database"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:39
+msgid "Use Cookie"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:44
+msgid "Cache & Stats"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:46
+msgid "Clear All Cache"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:47
+msgid "Delete All Stats Data"
+msgstr ""
+
+#: src/Admin/views/settings/privacy.php:50
+msgid "Auto clean cache dir & temporary storage everyday"
+msgstr ""
+
+#: src/Admin/views/settings/profile-dashboard.php:2
+msgid "User Dashboard"
+msgstr ""
+
+#: src/Admin/views/settings/profile-dashboard.php:6
+msgid "Dashboard Page"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:9
+msgid "Social Lock Panel"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:22
+msgid "Facebook App Settings"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:25
+msgid "Facebook APP ID"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:30
+msgid "Facebook APP Secret"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:46
+msgid "Google Developer Console"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:48
+msgid "Google API Credentials"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:53
+msgid ""
+"You need to create an app from Google developer console, them from "
+"Credentials tab, create an API key and OAuth client ID and use those info in "
+"the following fields."
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:87
+msgid "LinkedIn App Settings"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:90
+msgid "LinkedIn Client ID"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:95
+msgid "LinkedIn Client Secret"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:111
+msgid "Twitter App Settings"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:114
+msgid "Access Token"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:118
+msgid "Access Token Secret"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:122
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:126
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:136
+msgid "Enable Social Logins"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:140
+msgid "Google"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:141
+msgid "Facebook"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:142
+msgid "Twitter"
+msgstr ""
+
+#: src/Admin/views/settings/social-connects.php:143
+msgid "LinkedIn"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:15
+msgid "Frontend UI Library"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:17
+msgid "Bootstrap 4"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:17
+msgid "Bootstrap 3"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:21
+msgid "Disable Style & Script"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:30
+msgid "Disable Bootstrap JS"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:31
+msgid "Disable Bootstrap CSS"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:32
+msgid "Disable Font Awesome"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:33
+msgid "Disable Front CSS"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:34
+msgid "Google Font"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:36
+msgid ""
+"Because, sometimes your theme may have those scripts/styles enqueued already"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:45
+msgid "Enable Google Font"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:55
+msgid "Font Preview"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:66
+msgid "Colors"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:82
+msgid "Primary:"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:88
+msgid "Secondary:"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:94
+msgid "Info:"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:100
+msgid "Success:"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:106
+msgid "Warning:"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:112
+msgid "Danger:"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:124
+msgid "Download Button"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:128
+msgid "Details Page"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:152
+#: src/Admin/views/settings/user-interface.php:181
+msgid "Border Radius"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:157
+msgid "Shortcode Page"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:191
+msgid "Image and Previews"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:193
+msgid "Crop thumbnails"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:198
+msgid "Admin UI"
+msgstr ""
+
+#: src/Admin/views/settings/user-interface.php:200
+msgid "Left aligned settings page"
+msgstr ""
+
+#: src/Admin/views/stats.php:11
+msgid "Export History"
+msgstr ""
+
+#: src/Admin/views/stats.php:37
+msgid "Stats not found!"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:122
+msgid "From Date"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:132
+msgid "To Date"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:140
+msgid "Count Unique Downloads Only"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:152
+msgid "Users"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:165
+msgid "Packages"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:182
+msgid "Filter"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:183
+msgid "Export"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:184
+msgid "Reset"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:206
+#: src/User/views/dashboard/download-history.php:7
+#: src/User/views/dashboard/profile.php:116
+#: src/User/views/dashboard/profile.php:145
+msgid "Package Name"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:207 src/Widgets/PackageInfo.php:29
+#: src/Widgets/PackageInfo.php:140 src/wpdm-strings.php:11
+msgid "Version"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:208
+#: src/User/views/dashboard/download-history.php:8
+#: src/User/views/dashboard/profile.php:146
+msgid "Download Time"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:209
+msgid "User"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:210
+#: src/User/views/dashboard/download-history.php:9
+#: src/User/views/dashboard/profile.php:147
+msgid "IP"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:211
+msgid "Browser"
+msgstr ""
+
+#: src/Admin/views/stats/history.php:212
+msgid "OS"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:19
+msgid "Value"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:20
+#: src/User/views/dashboard/profile.php:117
+msgid "Action"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:41
+msgid "New Tag"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:45
+msgid "Tag Name"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:48
+msgid "Tag Value"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:49
+msgid "No php code, only text, html, css and js"
+msgstr ""
+
+#: src/Admin/views/templates/custom-tags.php:53
+msgid "Save Tag"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:20
+#, php-format
+msgid "To: %s"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:22
+#, php-format
+msgid "Editing: %s"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:33
+msgid "Email Subject"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:35
+msgid "Message"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:36
+msgid "Preview"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:54
+#: src/Admin/views/templates/email-template-editor.php:55
+msgid "Recipient's Email"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:66
+msgid "From Name"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:73
+msgid "From Email"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:84
+#: src/Admin/views/templates/email-template-settings.php:103
+#: src/Admin/views/templates/templates.php:162
+#: src/AssetManager/views/asset-manager-picker.php:752
+#: src/AssetManager/views/asset-manager-ui.php:584
+#: src/User/views/dashboard/edit-profile.php:44
+msgid "Save Changes"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:109
+msgid "Template Variables"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-editor.php:205
+msgid "Eamil template not found."
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:21
+#: src/Admin/views/templates/emails-template.php:22
+msgid "Email Template"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:42
+msgid "Logo Dimension"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:44
+msgid "Width"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:46
+msgid "Height"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:50
+#: src/Admin/views/templates/email-template-settings.php:51
+msgid "Banner/Background Image URL"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:55
+msgid "Footer Text"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:59
+msgid "Facebook Page URL"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:63
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: src/Admin/views/templates/email-template-settings.php:67
+msgid "Youtube Profile URL"
+msgstr ""
+
+#: src/Admin/views/templates/emails-template.php:14
+msgid "Subscribers"
+msgstr ""
+
+#: src/Admin/views/templates/emails-template.php:15
+msgid "Export All"
+msgstr ""
+
+#: src/Admin/views/templates/emails-template.php:16
+msgid "Export Unique Emails"
+msgstr ""
+
+#: src/Admin/views/templates/emails-template.php:21
+msgid "Emails"
+msgstr ""
+
+#: src/Admin/views/templates/header.php:13
+msgid "Link Templates"
+msgstr ""
+
+#: src/Admin/views/templates/header.php:14
+msgid "Page Templates"
+msgstr ""
+
+#: src/Admin/views/templates/header.php:15
+msgid "Email Templates"
+msgstr ""
+
+#: src/Admin/views/templates/import-template.php:14
+msgid "Connecting Template Server"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:15
+msgid ""
+"Pre-designed templates can't be deleted or edited from this section. But you "
+"can clone any of them and edit as your own. If you seriously want to edit "
+"any pre-designed template you have to edit those directly edting php files "
+"at /download-manager/templates/ dir"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:23
+msgid "Template Name"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:25
+msgid "Mail Receiver"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:27
+msgid "Template ID"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:29
+msgid "Status"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:31
+msgid "Actions"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:102
+#: src/Admin/views/templates/templates.php:200
+msgid "Edit"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:120
+msgid "Template Preview"
+msgstr ""
+
+#: src/Admin/views/templates/list-templates.php:126
+msgid ""
+"This is a preview, original template color scheme may look little different, "
+"but structure will be same"
+msgstr ""
+
+#: src/Admin/views/templates/templates.php:158
+msgid "Saving..."
+msgstr ""
+
+#: src/Admin/views/templates/templates.php:201
+msgid "Delete"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:175
+msgid ""
+"Download link is expired! Go back and Refresh the page to regenerate "
+"download link"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:199
+msgid "Asset Manager"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:216 src/AssetManager/AssetManager.php:231
+#: src/AssetManager/AssetManager.php:253 src/AssetManager/AssetManager.php:332
+#: src/AssetManager/AssetManager.php:348 src/AssetManager/AssetManager.php:382
+#: src/AssetManager/AssetManager.php:434 src/AssetManager/AssetManager.php:453
+#: src/AssetManager/AssetManager.php:465 src/AssetManager/AssetManager.php:477
+#: src/AssetManager/AssetManager.php:488 src/AssetManager/AssetManager.php:502
+#: src/AssetManager/AssetManager.php:514 src/AssetManager/AssetManager.php:537
+#: src/AssetManager/AssetManager.php:557 src/AssetManager/AssetManager.php:585
+msgid "Error! Session Expired. Try refreshing page."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:222 src/AssetManager/AssetManager.php:237
+#: src/AssetManager/AssetManager.php:261 src/AssetManager/AssetManager.php:340
+#: src/AssetManager/AssetManager.php:356 src/AssetManager/AssetManager.php:369
+#: src/AssetManager/AssetManager.php:387 src/AssetManager/AssetManager.php:439
+#: src/AssetManager/AssetManager.php:444 src/AssetManager/AssetManager.php:521
+#: src/AssetManager/AssetManager.php:691
+msgid "Error! Unauthorized Path."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:241 src/AssetManager/AssetManager.php:523
+#: src/AssetManager/AssetManager.php:547 src/AssetManager/AssetManager.php:566
+#: src/AssetManager/AssetManager.php:599
+msgid "Error! FileType is not allowed."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:315
+#: src/User/views/lost-password-form.php:33
+msgid "Home"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:335 src/AssetManager/AssetManager.php:351
+msgid "<b>Unauthorized Action!</b><br/>Execution is cancelled by the system."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:384 src/AssetManager/AssetManager.php:455
+#: src/AssetManager/AssetManager.php:467 src/AssetManager/AssetManager.php:479
+#: src/AssetManager/AssetManager.php:490 src/AssetManager/AssetManager.php:504
+#: src/AssetManager/AssetManager.php:516 src/AssetManager/AssetManager.php:539
+#: src/AssetManager/AssetManager.php:559 src/AssetManager/AssetManager.php:587
+msgid "Error! You are not authorized to execute this action."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:436
+msgid "Error! Unauthorized Access."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:571 src/AssetManager/AssetManager.php:595
+msgid "Invalid source path"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:572 src/AssetManager/AssetManager.php:596
+msgid "Invalid destination path"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:580
+msgid "File moved successfully"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:603
+msgid "File copied successfully"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:655
+msgid "Asset not found!"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:690
+msgid "Error! Only Administrator can execute this operation."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:692
+msgid "Error! Invalid Destination Path."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:693
+msgid "Please activate \"zlib\" in your server to perform zip operations"
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:698
+msgid "Unzipped successfully."
+msgstr ""
+
+#: src/AssetManager/AssetManager.php:700
+msgid "Error! Couldn't open the zip file."
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-picker.php:11
+msgid "Asset Manager Picker"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-picker.php:707
+msgid "Server File Picker"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-picker.php:779
+msgid "Attach selected files"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:531
+msgid "New Folder"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:533
+#: src/AssetManager/views/asset-manager-ui.php:735
+msgid "Upload File"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:539
+msgid "Digital Asset Manager"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:643
+msgid "Copy Shortcode"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:742
+msgid "Drop files here"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:849
+msgid "Authorized User Groups:"
+msgstr ""
+
+#: src/AssetManager/views/asset-manager-ui.php:871
+msgid "Authorized Users:"
+msgstr ""
+
+#: src/Category/views/taxonomy-wpdmcategory.php:59
+#: src/Package/views/all-packages-shortcode.php:53
+#: src/User/views/dashboard/download-history.php:43 src/wpdm-functions.php:1059
+msgid "Previous"
+msgstr ""
+
+#: src/Category/views/taxonomy-wpdmcategory.php:60
+#: src/Package/views/all-packages-shortcode.php:52
+#: src/User/views/dashboard/download-history.php:44 src/wpdm-functions.php:1060
+msgid "Next"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:68
+msgid "<b>Error:</b> Wrong Password! Try Again."
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:72
+msgid "Missing ID!"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:199
+msgid "This file is not protected."
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:202
+msgid "Protect this file"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:207
+msgid "This file is protected"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:209 src/User/Login.php:57
+#: src/User/Register.php:62
+msgid "Password"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:221
+msgid "Public"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:242
+msgid "Shortcode:"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:248
+msgid "Apply restrictions"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:251
+msgid "Remove all restrictions"
+msgstr ""
+
+#: src/MediaLibrary/MediaAccessControl.php:316
+msgid "Checking status..."
+msgstr ""
+
+#: src/MediaLibrary/MediaHandler.php:17
+msgid "Download Manager"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:30
+#: src/MediaLibrary/views/media-tab.php:32
+msgid "Search Media"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:55
+msgid "All Types"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:78
+msgid "&laquo;"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:79
+msgid "&raquo;"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:99
+msgid "Show all dates"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:119
+msgid "Filter »"
+msgstr ""
+
+#: src/MediaLibrary/views/media-tab.php:149
+msgid "Save all changes"
+msgstr ""
+
+#: src/Package/PackageController.php:55
+msgid "ID missing!"
+msgstr ""
+
+#: src/Package/PackageController.php:63
+msgid "Invalid Package ID!"
+msgstr ""
+
+#: src/Package/PackageController.php:244 src/Package/PackageController.php:249
+#: src/Package/PackageController.php:251
+msgid "Icon"
+msgstr ""
+
+#: src/Package/PackageController.php:283 src/Package/PackageController.php:1007
+#: src/Package/PackageController.php:1304
+msgid "Download was expired on"
+msgstr ""
+
+#: src/Package/PackageController.php:286 src/Package/PackageController.php:293
+#: src/Package/PackageController.php:301 src/Package/PackageController.php:1306
+#: src/Package/PackageController.php:1313
+#: src/Package/PackageController.php:1324
+msgid "DOWNLOAD ERROR:"
+msgstr ""
+
+#: src/Package/PackageController.php:290 src/Package/PackageController.php:1015
+#: src/Package/PackageController.php:1311
+msgid "Download will be available from "
+msgstr ""
+
+#: src/Package/PackageController.php:298
+msgid "You are not allowed to download."
+msgstr ""
+
+#: src/Package/PackageController.php:345
+msgid "Terms and Conditions"
+msgstr ""
+
+#: src/Package/PackageController.php:347
+msgid "I Agree With Terms and Conditions"
+msgstr ""
+
+#: src/Package/PackageController.php:725
+msgid "No File Attached!"
+msgstr ""
+
+#: src/Package/PackageController.php:1010
+#: src/Package/PackageController.php:1018
+#: src/Package/PackageController.php:1028
+msgid "Download:"
+msgstr ""
+
+#: src/Package/PackageController.php:1361 src/User/Login.php:289
+#: src/User/views/login-form.php:64 src/User/views/lost-password-form.php:34
+#: src/User/views/modal-login-form.php:46 src/User/views/reg-form.php:74
+#: src/__/Messages.php:110
+msgid "Login"
+msgstr ""
+
+#: src/Package/PackageController.php:1422
+msgid "Limit Over!"
+msgstr ""
+
+#: src/Package/PackageController.php:1592
+msgid "You are not allowed to download this item!"
+msgstr ""
+
+#: src/Package/PackageController.php:1800
+#: src/Package/PackageController.php:2195
+msgid "Add to favourite"
+msgstr ""
+
+#: src/Package/PackageController.php:1801
+#: src/Package/PackageController.php:2196
+msgid "Remove from favourite"
+msgstr ""
+
+#: src/Package/PackageController.php:2363
+msgid "Sample Package"
+msgstr ""
+
+#: src/Package/PackageController.php:2514
+msgid "No related download found!"
+msgstr ""
+
+#: src/Package/PackageLocks.php:48
+msgid "Captcha Verification Failed!"
+msgstr ""
+
+#: src/Package/PackageLocks.php:63 src/Package/PackageLocks.php:75
+msgid "Invalid request!"
+msgstr ""
+
+#: src/Package/PackageLocks.php:83 src/Package/PackageLocks.php:89
+msgid "Wrong Password!"
+msgstr ""
+
+#: src/Package/PackageLocks.php:83 src/Package/PackageLocks.php:89
+msgid "Try Again"
+msgstr ""
+
+#: src/Package/PackageLocks.php:96 src/__/Apply.php:388
+msgid "Password usages limit exceeded"
+msgstr ""
+
+#: src/Package/Shortcodes.php:284
+#: src/Package/views/category-shortcode-toolbar.php:64
+#: src/Package/views/category-shortcode-toolbar.php:98
+#: src/Package/views/datatable.php:177
+#: src/Package/views/packages-shortcode-toolbar.php:47
+#: src/Package/views/packages-shortcode-toolbar.php:81
+#: src/Widgets/PackageInfo.php:26 src/Widgets/PackageInfo.php:133
+msgid "Publish Date"
+msgstr ""
+
+#: src/Package/Shortcodes.php:285
+#: src/Package/views/category-shortcode-toolbar.php:66
+#: src/Package/views/category-shortcode-toolbar.php:100
+#: src/Package/views/datatable.php:178
+#: src/Package/views/packages-shortcode-toolbar.php:49
+#: src/Package/views/packages-shortcode-toolbar.php:83
+#: src/Widgets/PackageInfo.php:137
+msgid "Update Date"
+msgstr ""
+
+#: src/Package/Shortcodes.php:286 src/Package/views/datatable.php:184
+msgid "Asc"
+msgstr ""
+
+#: src/Package/Shortcodes.php:287 src/Package/views/datatable.php:185
+msgid "Desc"
+msgstr ""
+
+#: src/Package/Shortcodes.php:288
+msgid "Search"
+msgstr ""
+
+#: src/Package/Shortcodes.php:289
+msgid "Order"
+msgstr ""
+
+#: src/Package/Shortcodes.php:290
+msgid "Order By"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:38
+msgid "Display _MENU_ downloads per page"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:39
+msgid "Nothing _START_ to - sorry"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:40
+msgid "Showing _START_ to _END_ of _TOTAL_ downloads"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:41
+msgid "No downloads available"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:42
+msgid "(filtered from _MAX_ total downloads)"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:43
+msgid "No data available in table"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:46
+msgid "Loading..."
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:47
+#: src/Package/views/lock-options/password-lock.php:15
+#: src/Package/views/lock-options/password-lock.php:31
+msgid "Processing..."
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:48
+msgid "Search:"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:50
+msgid "First"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:51
+msgid "Last"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:56
+msgid "activate to sort column ascending"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:57
+msgid "activate to sort column descending"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:61
+msgid "All"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:329
+msgid "downloads"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:329
+msgid "download"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:335
+msgid "views"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:335
+msgid "view"
+msgstr ""
+
+#: src/Package/views/all-packages-shortcode.php:388
+msgid "No Packages Found"
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:59
+#: src/Package/views/category-shortcode-toolbar.php:93
+#: src/Package/views/packages-shortcode-toolbar.php:42
+#: src/Package/views/packages-shortcode-toolbar.php:76
+msgid "Search Keyword..."
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:63
+#: src/Package/views/category-shortcode-toolbar.php:97
+#: src/Package/views/packages-shortcode-toolbar.php:46
+#: src/Package/views/packages-shortcode-toolbar.php:80
+msgid "Order By:"
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:68
+#: src/Package/views/category-shortcode-toolbar.php:102
+#: src/Package/views/packages-shortcode-toolbar.php:51
+#: src/Package/views/packages-shortcode-toolbar.php:85
+msgid "Views"
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:73
+#: src/Package/views/category-shortcode-toolbar.php:107
+#: src/Package/views/packages-shortcode-toolbar.php:56
+#: src/Package/views/packages-shortcode-toolbar.php:90
+msgid "Order:"
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:74
+#: src/Package/views/category-shortcode-toolbar.php:108
+#: src/Package/views/packages-shortcode-toolbar.php:57
+#: src/Package/views/packages-shortcode-toolbar.php:91
+msgid "Descending"
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:75
+#: src/Package/views/category-shortcode-toolbar.php:109
+#: src/Package/views/packages-shortcode-toolbar.php:58
+#: src/Package/views/packages-shortcode-toolbar.php:92
+msgid "Ascending"
+msgstr ""
+
+#: src/Package/views/category-shortcode-toolbar.php:79
+#: src/Package/views/category-shortcode-toolbar.php:113
+#: src/Package/views/packages-shortcode-toolbar.php:62
+#: src/Package/views/packages-shortcode-toolbar.php:96
+msgid "Apply Filter"
+msgstr ""
+
+#: src/Package/views/datatable.php:168 src/Widgets/Search.php:24
+msgid "Search..."
+msgstr ""
+
+#: src/Package/views/datatable.php:176 src/Widgets/PackageInfo.php:125
+#: src/wpdm-strings.php:10
+msgid "Download Count"
+msgstr ""
+
+#: src/Package/views/datatable.php:179 src/Widgets/PackageInfo.php:144
+msgid "Package Size"
+msgstr ""
+
+#: src/Package/views/email-to-download.php:11
+msgid "Subscribe"
+msgstr ""
+
+#: src/Package/views/email-to-download.php:27
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: src/Package/views/email-to-download.php:27
+msgid "Email Address"
+msgstr ""
+
+#: src/Package/views/lock-options-iframe.php:238
+msgid "Buy"
+msgstr ""
+
+#: src/Package/views/lock-options/password-lock.php:11
+msgid "Enter Correct Password to Download"
+msgstr ""
+
+#: src/Package/views/lock-options/password-lock.php:12
+#: src/Package/views/lock-options/recaptcha-lock.php:14
+msgid "Your Download Link is Ready"
+msgstr ""
+
+#: src/Package/views/lock-options/password-lock.php:22 src/User/Login.php:59
+msgid "Enter Password"
+msgstr ""
+
+#: src/Package/views/lock-options/password-lock.php:23
+msgid "Submit"
+msgstr ""
+
+#: src/Package/views/search-result.php:3
+msgid "Search Package"
+msgstr ""
+
+#: src/Package/views/search-result.php:16
+msgid "Search Result For"
+msgstr ""
+
+#: src/Package/views/search-result.php:17
+#: src/Package/views/search-result.php:21
+msgid "Loading"
+msgstr ""
+
+#: src/User/Dashboard.php:32
+msgid "Profile"
+msgstr ""
+
+#: src/User/Dashboard.php:34
+msgid "Edit Profile"
+msgstr ""
+
+#: src/User/Dashboard.php:42
+msgid "Account"
+msgstr ""
+
+#: src/User/Login.php:52
+msgid "Login ID"
+msgstr ""
+
+#: src/User/Login.php:54 src/User/views/lost-password-form.php:23
+#: src/User/views/lost-password-form.php:24
+msgid "Username or Email"
+msgstr ""
+
+#: src/User/Login.php:153 src/User/Register.php:169
+msgid "Invalid CAPTCHA!"
+msgstr ""
+
+#: src/User/Login.php:187 src/User/views/reg-form.php:107
+msgid "Success! Redirecting..."
+msgstr ""
+
+#: src/User/Login.php:246
+msgid "Password update is disabled for this user!"
+msgstr ""
+
+#: src/User/Login.php:254 src/User/Login.php:256
+msgid "Session Expired! Please try again."
+msgstr ""
+
+#: src/User/Login.php:372 src/__/Apply.php:502 src/__/Apply.php:524
+#: src/wpdm-start-download.php:24
+msgid "Your email address is blocked!"
+msgstr ""
+
+#: src/User/Register.php:44
+msgid "First name"
+msgstr ""
+
+#: src/User/Register.php:44
+msgid "Your First Name"
+msgstr ""
+
+#: src/User/Register.php:45
+msgid "Last name"
+msgstr ""
+
+#: src/User/Register.php:45
+msgid "Your Last Name"
+msgstr ""
+
+#: src/User/Register.php:49
+msgid "Username"
+msgstr ""
+
+#: src/User/Register.php:51
+msgid "User Login ID"
+msgstr ""
+
+#: src/User/Register.php:54
+msgid "Email"
+msgstr ""
+
+#: src/User/Register.php:56
+msgid "Your Email Address"
+msgstr ""
+
+#: src/User/Register.php:62
+msgid "Be Secure"
+msgstr ""
+
+#: src/User/Register.php:63 src/User/views/reset-password-form.php:34
+msgid "Confirm Password"
+msgstr ""
+
+#: src/User/Register.php:63
+msgid "Do Not Forget"
+msgstr ""
+
+#: src/User/Register.php:90
+msgid "User registration is disabled"
+msgstr ""
+
+#: src/User/Register.php:152
+msgid "Something is Wrong! Please refresh the page and try again"
+msgstr ""
+
+#: src/User/Register.php:182
+msgid "Error: User registration is disabled!"
+msgstr ""
+
+#: src/User/Register.php:207
+msgid "Username is Empty!"
+msgstr ""
+
+#: src/User/Register.php:222
+msgid "Invalid email address!"
+msgstr ""
+
+#: src/User/Register.php:246
+msgid "Passwords not matched!"
+msgstr ""
+
+#: src/User/Register.php:326
+msgid "Edit User"
+msgstr ""
+
+#: src/User/Register.php:345
+msgid ""
+"Your account has been created successfully and login info sent to your mail "
+"address."
+msgstr ""
+
+#: src/User/Register.php:347 src/User/Register.php:353
+#: src/User/views/login-form.php:29
+msgid "Your account has been created successfully."
+msgstr ""
+
+#: src/User/Register.php:371
+msgid "Email already exist!"
+msgstr ""
+
+#: src/User/Register.php:384
+msgid "Username already exists."
+msgstr ""
+
+#: src/User/views/already-logged-in.php:15
+msgid "Welcome"
+msgstr ""
+
+#: src/User/views/already-logged-in.php:17
+msgid "You are already logged in."
+msgstr ""
+
+#: src/User/views/already-logged-in.php:21
+msgid "My Account"
+msgstr ""
+
+#: src/User/views/already-logged-in.php:22
+#: src/User/views/dashboard/dashboard.php:36
+msgid "Logout"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:12
+msgid "Basic Profile"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:16
+msgid "Display name:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:17
+msgid "Username:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:18 src/Widgets/CatPackages.php:82
+#: src/Widgets/Categories.php:140 src/Widgets/ListPackages.php:95
+#: src/Widgets/NewDownloads.php:56 src/Widgets/PackageInfo.php:115
+#: src/Widgets/Search.php:47 src/Widgets/Tags.php:78
+#: src/Widgets/TopDownloads.php:57
+msgid "Title:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:19
+msgid "Email:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:20
+msgid "About Me:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:29
+#: src/User/views/reset-password-form.php:38
+msgid "Update Password"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:33
+msgid "New Password:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:34
+msgid "Re-type New Password:"
+msgstr ""
+
+#: src/User/views/dashboard/edit-profile.php:36
+msgid "Keep empty if you don't want to change old password"
+msgstr ""
+
+#: src/User/views/dashboard/profile.php:23
+msgid "User Level"
+msgstr ""
+
+#: src/User/views/dashboard/profile.php:43
+msgid "Today's Download"
+msgstr ""
+
+#: src/User/views/dashboard/profile.php:54
+msgid "Recommended Downloads"
+msgstr ""
+
+#: src/User/views/dashboard/profile.php:111
+msgid "My Favourites"
+msgstr ""
+
+#: src/User/views/dashboard/profile.php:126
+msgid "Remove"
+msgstr ""
+
+#: src/User/views/dashboard/profile.php:141
+msgid "Last 5 Downloads"
+msgstr ""
+
+#: src/User/views/login-form.php:59 src/User/views/modal-login-form.php:36
+msgid "Remember Me"
+msgstr ""
+
+#: src/User/views/login-form.php:60 src/User/views/modal-login-form.php:37
+msgid "Forgot Password?"
+msgstr ""
+
+#: src/User/views/login-form.php:66 src/User/views/modal-login-form.php:74
+msgid "Don't have an account yet?"
+msgstr ""
+
+#: src/User/views/login-form.php:66 src/User/views/modal-login-form.php:74
+#: src/User/views/reg-form.php:45
+msgid "Register Now"
+msgstr ""
+
+#: src/User/views/login-form.php:90 src/User/views/modal-login-form.php:89
+msgid "Logging In..."
+msgstr ""
+
+#: src/User/views/login-form.php:95 src/User/views/login-form.php:109
+#: src/User/views/modal-login-form.php:92
+#: src/User/views/modal-login-form.php:105
+msgid "LOGIN FAILED!"
+msgstr ""
+
+#: src/User/views/lost-password-form.php:17
+msgid "Lost Password?"
+msgstr ""
+
+#: src/User/views/lost-password-form.php:19
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: src/User/views/lost-password-form.php:29
+msgid "Reset Password"
+msgstr ""
+
+#: src/User/views/lost-password-form.php:52
+msgid "MAO: SENT!"
+msgstr ""
+
+#: src/User/views/lost-password-form.php:52
+msgid "Password reset link sent to your email."
+msgstr ""
+
+#: src/User/views/lost-password-form.php:58 src/User/views/reg-form.php:98
+#: src/User/views/reset-password-form.php:52
+msgid "Please Wait..."
+msgstr ""
+
+#: src/User/views/lost-password-form.php:64
+#: src/User/views/reset-password-form.php:58
+#: src/User/views/reset-password-form.php:77
+msgid "ERROR!"
+msgstr ""
+
+#: src/User/views/lost-password-form.php:64
+msgid "Account not found."
+msgstr ""
+
+#: src/User/views/lost-password-form.php:69
+msgid "MAIL SENT!"
+msgstr ""
+
+#: src/User/views/lost-password-form.php:69
+msgid "Please check your inbox."
+msgstr ""
+
+#: src/User/views/modal-login-form.php:63 src/User/views/reg-form.php:54
+msgid "Or connect using your social account"
+msgstr ""
+
+#: src/User/views/reg-form.php:56
+msgid "Connect using your social account"
+msgstr ""
+
+#: src/User/views/reg-form.php:74
+msgid "Already have an account?"
+msgstr ""
+
+#: src/User/views/reg-form.php:92
+msgid "Password did not match with the confirm password"
+msgstr ""
+
+#: src/User/views/reg-form.php:120
+msgid "Signup Error:"
+msgstr ""
+
+#: src/User/views/reg-form.php:143
+msgid "Registration is disabled!"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:25
+#: src/User/views/reset-password-form.php:30
+msgid "New Password"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:27
+msgid "Please enter a new password"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:49
+msgid "Confirm password value must be same as the new password"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:56
+msgid "DONE!"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:56
+msgid "Password Updated"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:56
+msgid "Go to your account dashboard"
+msgstr ""
+
+#: src/User/views/reset-password-form.php:58
+msgid "Password Update Failed"
+msgstr ""
+
+#: src/Widgets/Affiliate.php:42
+msgid "WPDM Affiliate ID:"
+msgstr ""
+
+#: src/Widgets/CatPackages.php:87 src/Widgets/ListPackages.php:100
+msgid "Select Category:"
+msgstr ""
+
+#: src/Widgets/CatPackages.php:92 src/Widgets/ListPackages.php:136
+#: src/Widgets/NewDownloads.php:61 src/Widgets/TopDownloads.php:62
+msgid "Number of packages to show:"
+msgstr ""
+
+#: src/Widgets/Categories.php:145
+msgid "Parent:"
+msgstr ""
+
+#: src/Widgets/Categories.php:149
+msgid "On Category Page:"
+msgstr ""
+
+#: src/Widgets/Categories.php:152
+msgid "Show all"
+msgstr ""
+
+#: src/Widgets/Categories.php:153
+msgid "Show subcategories only"
+msgstr ""
+
+#: src/Widgets/Categories.php:157
+msgid "Style:"
+msgstr ""
+
+#: src/Widgets/Categories.php:172
+msgid "Top Level Only"
+msgstr ""
+
+#: src/Widgets/Categories.php:178
+msgid "Hide widget when no category"
+msgstr ""
+
+#: src/Widgets/ListPackages.php:107
+msgid "On Single Download Page"
+msgstr ""
+
+#: src/Widgets/ListPackages.php:109
+msgid "Show packages from current package category"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:25
+msgid "Total Views"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:27 src/wpdm-strings.php:17
+msgid "Last Updated"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:28
+msgid "Size"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:120
+msgid "Fields to Show:"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:129
+msgid "View Count"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:148
+msgid "Download Link"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:152
+msgid "Embed Download Options"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:155
+msgid "Style"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:157
+msgid "Tabular View"
+msgstr ""
+
+#: src/Widgets/PackageInfo.php:163
+msgid "Show QR Code"
+msgstr ""
+
+#: src/Widgets/Search.php:28
+msgid ""
+"Search result page was not configured properly. Please create a page with "
+"shortcode [wpdm_search_result] and select thee page from widget settings"
+msgstr ""
+
+#: src/Widgets/Search.php:52
+msgid "Search Result Page"
+msgstr ""
+
+#: src/Widgets/Search.php:57
+msgid ""
+"Note: Create a page with short-code <code>[wpdm_search_result]</code> and "
+"select that page as search redult page"
+msgstr ""
+
+#: src/Widgets/Tags.php:83
+msgid "Sub Title:"
+msgstr ""
+
+#: src/Widgets/Tags.php:88
+msgid "Number of tags to show:"
+msgstr ""
+
+#: src/__/Apply.php:246
+msgid "Download ID not found or expired"
+msgstr ""
+
+#: src/__/Apply.php:248
+msgid "The file is already removed from the server!"
+msgstr ""
+
+#: src/__/Apply.php:279
+msgid "&mdash; Invalid download link &mdash;"
+msgstr ""
+
+#: src/__/Apply.php:285
+msgid "&mdash; You are not allowed to download &mdash;"
+msgstr ""
+
+#: src/__/Apply.php:305
+msgid "You don't have permission to download this file"
+msgstr ""
+
+#: src/__/Apply.php:314
+msgid "Stock Limit Reached"
+msgstr ""
+
+#: src/__/Apply.php:403
+msgid "Invalid password"
+msgstr ""
+
+#: src/__/Email.php:46
+msgid "General Email Template"
+msgstr ""
+
+#: src/__/Email.php:55 src/__/Email.php:65
+msgid "User Signup Notification"
+msgstr ""
+
+#: src/__/Email.php:58
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: src/__/Email.php:68
+#, php-format
+msgid "[ %s ] New User Registration"
+msgstr ""
+
+#: src/__/Email.php:72
+msgid "New user registration on your site WordPress Download Manager:"
+msgstr ""
+
+#: src/__/Email.php:76
+msgid "Password Reset Notification"
+msgstr ""
+
+#: src/__/Email.php:79
+#, php-format
+msgid "Request to reset your %s password"
+msgstr ""
+
+#: src/__/Email.php:86
+msgid "Email Lock Notification"
+msgstr ""
+
+#: src/__/Email.php:89
+msgid "Download [#package_name#]"
+msgstr ""
+
+#: src/__/Email.php:96
+msgid "New Package Notification"
+msgstr ""
+
+#: src/__/Email.php:99
+msgid "New Package is Added By [#name#]"
+msgstr ""
+
+#: src/__/Email.php:283
+msgid "Sample Package Name"
+msgstr ""
+
+#: src/__/FileSystem.php:263
+msgid "<b>Zlib</b> is not active! Failed to initiate <b>ZipArchive</b>"
+msgstr ""
+
+#: src/__/Messages.php:102
+msgid "Download Limit Exceeded!"
+msgstr ""
+
+#: src/__/Messages.php:118
+msgid "Access Denied"
+msgstr ""
+
+#: src/__/__.php:562
+msgid "You are not allowed to execute this action!"
+msgstr ""
+
+#: src/__/views/generate-password.php:14
+msgid "Select Options"
+msgstr ""
+
+#: src/__/views/generate-password.php:21
+msgid "Number of chars for each password:"
+msgstr ""
+
+#: src/__/views/generate-password.php:26
+msgid "Valid Chars:"
+msgstr ""
+
+#: src/__/views/generate-password.php:27
+msgid "Small Letters"
+msgstr ""
+
+#: src/__/views/generate-password.php:28
+msgid "Capital Letters"
+msgstr ""
+
+#: src/__/views/generate-password.php:29
+msgid "Numbers"
+msgstr ""
+
+#: src/__/views/generate-password.php:30
+msgid "Special Chars"
+msgstr ""
+
+#: src/wpdm-core.php:122
+msgid "Select category"
+msgstr ""
+
+#: src/wpdm-core.php:198
+#, php-format
+msgid "[%s] Update Available"
+msgstr ""
+
+#: src/wpdm-functions.php:55
+msgid "Download Error"
+msgstr ""
+
+#: src/wpdm-functions.php:55
+msgid "File Not Found!"
+msgstr ""
+
+#: src/wpdm-start-download.php:15
+msgid "Your IP address is blocked!"
+msgstr ""
+
+#: src/wpdm-start-download.php:42
+msgid "Package you are trying to download is not available!"
+msgstr ""
+
+#: src/wpdm-start-download.php:53
+msgid "No Files"
+msgstr ""
+
+#: src/wpdm-start-download.php:53
+msgid "No file is attached with this package!"
+msgstr ""
+
+#: src/wpdm-start-download.php:100
+msgid "Sorry! File not found!"
+msgstr ""
+
+#: src/wpdm-strings.php:12
+msgid "Stock"
+msgstr ""
+
+#: src/wpdm-strings.php:13
+msgid "File Size"
+msgstr ""
+
+#: src/wpdm-strings.php:14
+msgid "File Type"
+msgstr ""
+
+#: src/wpdm-strings.php:15
+msgid "File Count"
+msgstr ""
+
+#: src/wpdm-strings.php:16
+msgid "Create Date"
+msgstr ""
+
+#: src/wpdm-strings.php:20
+msgid "Package Info"
+msgstr ""
+
+#: src/wpdm-strings.php:21
+msgid "Attached Files"
+msgstr ""
+
+#: src/wpdm-strings.php:22
+msgid "Total Files"
+msgstr ""
+
+#: src/wpdm-strings.php:23
+msgid "file(s)"
+msgstr ""
+
+#: src/wpdm-strings.php:24
+msgid "Buy Now"
+msgstr ""
+
+#: src/wpdm-strings.php:25
+msgid "Price"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Last Updated"
+#~ msgid "Last Name"
+#~ msgstr "Package Last Updated"

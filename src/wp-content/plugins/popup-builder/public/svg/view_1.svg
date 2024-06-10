@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="60" viewBox="0 0 59 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="59" height="60" fill="none"/>
+    </clipPath>
+    <filter id="Union_28" x="1.767" y="7.446" width="55.712" height="45.554" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#2873eb" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="view_1" data-name="view – 1" clip-path="url(#clip-path)">
+    <g id="Group_281" data-name="Group 281" transform="translate(-950 -368)">
+      <g id="Group_236" data-name="Group 236" transform="translate(37)">
+        <g id="Group_90" data-name="Group 90" transform="translate(-277 -1158)">
+          <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(1190 1526)" fill="#b5caec"/>
+        </g>
+        <g id="Artboard_2" data-name="Artboard 2" transform="translate(921.071 349.987)">
+          <g transform="matrix(1, 0, 0, 1, -8.07, 18.01)" filter="url(#Union_28)">
+            <path id="Union_28-2" data-name="Union 28" d="M.4,15.2a2.3,2.3,0,0,1-.022-2.552C2.079,10.062,9.349,0,19.369,0,29.451,0,35.96,10.19,37.4,12.693a2.291,2.291,0,0,1,.307,1.142v.113a2.3,2.3,0,0,1-.363,1.238c-1.614,2.531-8.52,12.367-18.5,12.367C9.459,27.554,2.149,17.755.4,15.2Zm8.4-1.424A10.063,10.063,0,1,0,18.86,3.715,10.063,10.063,0,0,0,8.8,13.779Zm6.515,4.029a5.362,5.362,0,0,1-1.324-6.294L18.86,13.7,17.023,8.743a5.359,5.359,0,1,1-1.71,9.066Z" transform="translate(10.77 16.45)" fill="#2873eb"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

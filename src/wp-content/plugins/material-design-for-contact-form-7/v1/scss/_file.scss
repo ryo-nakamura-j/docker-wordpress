@@ -1,0 +1,41 @@
+.cf7md-file {
+    .cf7md-label {
+        margin-bottom: 5px;
+    }
+    .wpcf7-not-valid-tip {
+        margin-top: 5px;
+    }
+    .cf7md-help-text {
+        margin-top: 3px !important;
+    }
+}
+.cf7md-file--btn {
+    color: #FFF;
+}
+.cf7md-file--label {
+    position: relative;
+    display: block;
+    [type="file"] {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+.cf7md-file--value {
+    @include mdc-theme-prop(color, text-primary-on-background);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding-left: 152px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform: translateY(-50%);
+    .mdc-theme--dark & {
+        @include mdc-theme-prop(color, text-primary-on-dark);
+    }
+}

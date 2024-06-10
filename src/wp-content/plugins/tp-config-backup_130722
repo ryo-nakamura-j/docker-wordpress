@@ -1,0 +1,8 @@
+[
+{"id": 4643, "label": "TOLL Express (FREE for JR Pass, $8.50 for other products alone)", "srbs": "Tickets", "suppliercodes": "GHIB01,SANRIO"},
+{"id": 4643, "label": "TOLL Express (FREE for JR Pass, $8.50 for other products alone)", "srbs": "Transfers,Sim"},
+{"id": 9478, "label": "E-Ticket", "hideDeliveryAddress":true, "srbs": "Tours,VirtualTour"},
+{"id": 12350, "label": "TOLL Express (FREE for JR Pass, $8.50 for other products alone)", "srbs": "Rail", "suppliercodes": "JRAC01,JRAE02,JRAE03,JRAI01,JRAI02,JRAI03,JTAI05,JRAI07,JRAI09,JRAI11,JRAI12"},
+{"id": 439, "label": "Courier ($21)", "srbs": "Rail,Tickets", "suppliercodes": "JRAC01,JRAE02,JRAE03,JRAI01,JRAI02,JRAI03,JTAI05,JRAI07,JRAI09,JRAI11,GHIB01,SANRIO,JRAI12"},
+{"id": 439, "label": "Courier ($21)", "srbs": "Transfers,Sim"}
+]

@@ -1,0 +1,219 @@
+
+.itinerary .heading {
+    background:lightgray;
+    padding:0.5em;
+    margin-bottom:0;
+}
+
+.itinerary .passenger_section,
+.itinerary .room_section,
+.itinerary .info_section,
+.itinerary .preferenceSection {
+    padding: 10px 25px 10px 25px;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+    background:#F7F7F7;
+}
+
+.itinerary .control_buttons {
+    padding: 10px 25px 10px 25px;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    background:#F7F7F7;
+}
+
+.itinerary .summery_section,
+.checkout .summery_section {
+    padding: 10px 5px 20px 5px;
+    border:1px solid lightgray;
+    background:#F7F7F7;
+    margin-bottom: 20px;
+}
+
+.itinerary .summery_section .summery_content,
+.checkout .summery_section .summery_content {
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.checkout .summery_section .product-title {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.itinerary .summery_section .summery_heading h4,
+.itinerary .summery_section .summery_content .sub_label,
+.checkout .summery_section .summery_heading h4,
+.checkout .summery_section .summery_content .sub_label {
+    font-weight: bold;
+}
+
+.itinerary .price,
+.checkout .price {
+    color:#CC0000;
+}
+
+.itinerary .pax_config,
+.itinerary .product_date {
+    color: #000000;
+}
+
+.itinerary label,
+.checkout label {
+    font-weight:normal;
+    margin-bottom: 0;
+}
+
+.passenger.duplicate,
+.arrangements-container .has-error input,
+.arrangements-container .has-error select,
+.arrangements-container .has-error textarea,
+.itinerary .has-error input,
+.itinerary .has-error select,
+.checkout .has-error input,
+.checkout .has-error select,
+#tpcreditcardsection .has-error input,
+#tpcreditcardsection .has-error select {
+    background-color:#FFCCCC;
+}
+
+
+.checkout .confirmationSection {
+    padding-top:1em;
+    padding-bottom:1em;
+    border-radius:0.5em;
+}
+
+.itinerary select,
+.itinerary input,
+.checkout select,
+.checkout input[type!="checkbox"] {
+    width: 100%;
+    border-radius: 0;
+}
+
+.itinerary .passenger_section .passenger_heading {
+    font-weight: bold;
+}
+
+.itinerary .tp-shorter-input {
+    width: 150px;
+}
+
+.itinerary .preferenceSection .notice_section {
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+.itinerary .required label.control-label::after,
+.checkout .required label.control-label::after {
+    content: '*';
+    color: red;
+}
+
+.itinerary .service_button_section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.itinerary .top_service_button_section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.itinerary .header-line-1 {
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: 0;
+    width: 102%;
+}
+
+.itinerary .toggle-arrow {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.itinerary .toggle-arrow-up::before {
+    content: "\f0d8";
+    font-family: FontAwesome;
+}
+
+.itinerary .toggle-arrow-down::before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+}
+
+.checkout label.control-label,
+.itinerary label.control-label {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.itinerary .pikaday__container {
+    width: 100%;
+}
+
+.itinerary .form-control {
+    margin-bottom: 8px;
+}
+
+.itinerary .heading {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.itinerary .itinerary-message {
+    margin-bottom: 20px;
+    background-color: lightyellow;
+    height: auto;
+}
+
+.tourplan_plugin_section .progress_bar_container {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tourplan_plugin_section .progress_bar_container .progress_label label {
+    text-align: center;
+    width: 120px;
+}
+
+.tourplan_plugin_section .progress_bar_container .progress_label,
+.tourplan_plugin_section .progress_bar_container .progress_img .pic img {
+    width: 120px;
+}
+
+.tourplan_plugin_section .progress_bar_container .progress_img .next img {
+    width: 47px;
+}
+
+
+.tourplan_plugin_section #tp-breadcrumbs {
+    margin-bottom: 15px; 
+}
+
+.loadmask-msg div {
+    cursor: wait;
+    height: 76px;
+    width: 76px;
+}
+
+
+#tpcreditcardsection select#creditcard_expirymonth,
+#tpcreditcardsection select#creditcard_expiryyear {
+    width:5em;
+    display:inline-block;
+}
+
+.checkout .validationMessage p {
+    color: red;
+    font-size: 12px;
+}

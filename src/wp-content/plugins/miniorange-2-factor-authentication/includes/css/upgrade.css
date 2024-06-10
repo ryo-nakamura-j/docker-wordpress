@@ -1,0 +1,873 @@
+
+.wp-core-ui select {
+  padding: 4px 24px 4px 8px;
+  margin-left: 1em;
+}
+
+i.fa-check {
+  color: black;
+  margin-left: 2em;
+  margin-right: 17px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+i.fa-times {
+  color: #b6abab;
+  margin-left: 2em;
+  margin-right: 17px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.fa,
+.fas {
+  font-weight: 900;
+  margin-right: 21px;
+  margin-top: 1em;
+  color: #b6abab;
+}
+
+.mo2fa_upgrade_my_plan {
+  border: none;
+  top: 50%;
+  left: 50%;
+  color: white;
+  padding: 15px 32px;
+  width: auto;
+  min-width: 50%;
+  border-radius: 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: #1f3668;
+  font-size: 16px;
+  height: auto;
+  margin-top: 24px;
+  margin-bottom: 0.7em;
+  cursor: pointer;
+}
+.mo2fa_upgrade_my_plan:hover {
+  border: none;
+  background: #476198;
+}
+.mo2fa_plugins {
+  width: 12%;
+}
+
+.mo2fa_make_my_plan_mo {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 55%;
+  border-radius: 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: #2a80ca;
+  font-size: 16px;
+  height: auto;
+}
+.mo2fa_make_my_plan_mo:hover {
+  border: none;
+  color: white;
+  background: #8d86f5;
+}
+.mo2fa_web_sec {
+  padding: 20px 0;
+}
+
+.mo2fa_increase_my_limit {
+  width: 40%;
+  color: black;
+  font-size: 11px;
+  background: #c9dbdb75;
+  border-radius: 3px;
+  min-height: 27px;
+  margin-left: -10px;
+  margin-right: 3px;
+}
+
+.mo2fa_more_details_p,
+.mo2fa_more_details_p1 {
+  font-size: 13px;
+  margin-bottom: -10px;
+  margin-top: 1em;
+  font-weight: bold;
+  color: #4545ff;
+  text-align: center;
+}
+
+.mo2fa_payment_p {
+  font-size: 110%;
+}
+.mo2fa_card {
+  size: landscape;
+  width: 100px;
+  height: 27px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  opacity: 1;
+  padding-left: 8px;
+}
+.mo2fa_hr {
+  border-top: 2px solid #143af4;
+}
+.mo2fa_form_control1 {
+  border-radius: 5px;
+  width: 70%;
+}
+
+
+.mo2fa_note {
+  font-size: 17px;
+}
+
+
+.mo2fa_bank_transfer {
+  height: 28px;
+  width: auto;
+}
+.mo2fa_category_feature {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+}
+
+.mo2fa_main_category_header {
+  background: #d5d5d5 !important;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.mo2fa_bg_category_main {
+  font-size: 17px;
+  border: 0.5px solid #c1c1c1;
+  background: #c9dbdb !important;
+}
+.mo2fa_description {
+  font-size: 13px !important;
+  font-weight: 400;
+}
+table.mo2fa_table_features {
+  border: 1px 1px 1px 1px;
+}
+table.mo2fa_table_features th,
+table.mo2fa_table_features tr {
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 25px;
+}
+table.mo2fa_table_features,
+table.mo2fa_table_features th,
+table.mo2fa_table_features td {
+  border-left: 1px solid #c1c1c1;
+  border-right: 1px solid #c1c1c1;
+  border-collapse: collapse;
+}
+table.mo2fa_table_features tr:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+table.mo2fa_table_features tr:last-child {
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.mo2fa_hide {
+  display: none !important;
+}
+
+.mo2fa_hide1 {
+  display: none;
+}
+
+.mo2fa_comparison {
+  font-size: 18px;
+  width: 20%;
+}
+
+
+.mo2fa_compare1 {
+  min-width: 22% !important;
+  width: 10%;
+}
+
+
+.mo2fa_table-scrollbar {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 50%;
+}
+.mo2fa_fa-check {
+  color: #fff !important;
+}
+
+.mo_wpns_upgrade_page_header {
+  margin-top: 0%;
+  padding: 10% 0% 0% 0%;
+  color: white;
+  font-size: 200%;
+  line-height:1.5em;
+}
+
+.mo_wpns_upgrade_security_title {
+  width: 23%;
+  min-height: 480px;
+  background-color: white;
+  float: left;
+  border: none;
+  border-top: none;
+  margin-bottom: 1em;
+  border-radius: 1em 1em 0.5em 0.5em;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+@media only screen and (max-width: 600px) {
+ 
+ 
+  .mo2fa_compare1 {
+    width: 101%;
+    margin-top: -2em;
+  }
+
+  .mo_2fa_card-deck {
+    display: block;
+  }
+  .mo_2fa_card {
+    width: 98%;
+  }
+  .mo2f_upgrade_toggle_lable {
+    font-size: 1em;
+    width: 12em;
+  }
+  .mo_wpns_upgrade_security_title {
+    width: 97%;
+  }
+  .mo_ns_features_only {
+    display: grid;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+  .mo2fa_increase_my_limit {
+    width: 6em;
+  }
+ 
+ 
+  .mo2fa_upgrade_my_plan {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: auto;
+    min-width: 50%;
+    border-radius: 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+  .mo2f-cloud-onprem-solution {
+    text-align: center;
+    color: black;
+    padding: 0.4167em;
+    border-radius: 1em;
+    z-index: 1;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.mo2f-ribbon-title{
+  font-size:1.6667em;
+  padding-top: 0.4em;
+}
+.mo2f-cloud-solution-ribbon{
+  background-color: #c7e8f1;
+  background-color: #1d66ff2e;
+  border-radius: 0.7500em;
+  width: 49.5%;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  padding-top:1.2500em;
+  float: left;
+  
+}
+
+.mo2f-on-prem-ribbon{
+  background-color:#c7e8f1;
+  background-color: #1d66ff2e;
+  border-radius:0.7500em;
+  width: 48.5%;
+  margin-left: 1em;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+  padding-top:1.2500em;
+  float: left;
+  
+}
+
+.mo2f-upper-row {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.mo2f-cloud-onprem-solution {
+  text-align: center;
+    color: black;
+    padding: 0.4167em;
+    border-radius: 1em;
+    z-index: 1;
+
+}
+
+.mo2f-text-center {
+  text-align: center;
+}
+.mo2f-single-site-rot {
+  transform: rotateY(0deg);
+}
+
+.mo2f-single-site {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.mo2f-single-site {
+    flex-direction: row;
+}
+
+.mo2f-hover-2fa {
+  width: 25%;
+  border-radius: 0.8333em;
+  margin: 0.3em;
+  background:rgb(255, 255, 255); ;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+  float:left; 
+  font-family:'Poppins', sans-serif;
+  font-size: 1em;
+  box-shadow: rgb(0 0 0 / 20%) 0px 0.75em 1.75em 0em, rgb(0 0 0 / 10%) 0em 0.125em 0.25em 0em, rgb(255 255 255 / 5%) 0em 0em 0em 0.0625em inset;
+}
+
+.mo2f-col-me-4{
+  position: relative;
+  min-height: 0.0625em;
+
+}
+.mo2f-hover-2fa h3{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size:2.1666em;
+  text-transform: none;
+  letter-spacing: 0.2px;
+  color: #585858;
+  text-rendering: optimizeLegibility;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom:0.8em;
+  margin-top: 0.8em;
+}
+.mo2f-price-list1 {
+
+  border-top: 0.0625em solid #fff;
+  border-bottom: 0.0625em solid #fff;
+  font-size: 1.2em;
+  background: white;
+ 
+}
+.mo2f-price-list1 .mo2f-choose-plan-2fa {
+
+  display: block;
+  font-family:'Open sans', sans-serif !important;
+  font-weight: 300;
+  color: rgb(105, 100, 100);
+ 
+}
+.mo2f-text-left {
+  text-align: left;
+  
+}
+.mo2f-hover-2fa.fas {
+    font-weight: 900;
+    font-family:'Open sans', sans-serif !important;
+   -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+
+.mo2f-text-success {
+  color: #1d66ff;
+}
+
+.mo2f-hover-2fa .fa-xs {
+  font-size: .75em;
+}
+
+.mo2f-mt {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    margin: 0 0 0.625em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.mo2f-display-1 {
+  font-size: 2.0em;
+  font-weight: 200;
+}
+.mo2f-year {
+  font-size: 12px;
+  font-weight: 500; 
+  color: black;
+}
+.mo2f-hover-2fa sub {
+  bottom: -0.25em;
+  position: relative;
+  
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.mo2f-inst-btn2 {
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 8%;
+    height: 1%;
+    min-height: 2.0625em;
+    width: fit-content;
+    margin:5%;
+  
+}
+
+.mo2f-mt select{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: 0;
+    text-align: left;
+    vertical-align: top;
+    box-shadow: none!important;
+    border: 1px solid #E9E9E9;
+    background: #f5f5f5;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    appearance: auto;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+   
+}
+
+.mo2f-license-btn-2fa {
+  color: #1d66ff!important;
+  font-size: 1.2em;
+  padding:0.625em 1.875em 0.625em 1.875em;
+  border-radius: 0.5625em;
+  background: #e3ecfe;
+  font-weight: 600;
+  box-shadow: rgb(50 50 105 / 15%) 0em 0.125em 0.3125em 0em, rgb(0 0 0 / 5%) 0em 0.0625em 0.0625em 0em;
+}
+
+.mo2f-license-btn {
+
+  display: inline-block;
+  margin-bottom:2em;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  border:0.0625em solid transparent;
+
+}
+
+.mo2fa_15_tooltip_methodlist {
+  position: relative;
+  display: inline-block;
+}
+.mo2fa_15_tooltip_methodlist .mo2fa_methodlist {
+  visibility: hidden;
+  width: 12em;
+  background-color: #000000b8;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 11px 12px 11px 23px;
+  position: absolute;
+  z-index: 1;
+  top: -2em;
+  left: 100%;
+  margin-left:-6em;
+
+}
+.mo2fa_15_tooltip_methodlist .mo2fa_methodlist::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.mo2fa_15_tooltip_methodlist:hover .mo2fa_methodlist {
+  visibility: visible;
+}
+    
+.mo2f-license-btn-2fa:hover{
+  box-shadow: rgba(136, 165, 191, 0.48) 0.375em 0.125em 1em 0em, rgba(255, 255, 255, 0.8) -0.375em -0.125em 1em 0em;
+} 
+.mo2f-container-dropdown{
+    align-items:left;
+    margin-top: -1.5em;
+   
+}
+.mo2f-dropdown-width{
+  width:8em;
+}
+
+.mo2f-price-list .mo2f-choose-plan-2fa {
+  display: block;
+  font-family:'Open sans', sans-serif !important;
+  font-style:normal;
+  font-variant: normal;
+  font-weight: 300;
+  color: rgb(105, 100, 100);
+ 
+}
+
+.mo2f-premium-color {
+  color: #96df8a!important;
+  font-weight: bold!important;
+}
+
+.mo2f-basic-color {
+  color: #ffc06d!important;
+  font-weight: bold!important;
+}
+
+.mo2f-price-tag {
+  width: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.9375em;
+  border-radius: 0.5em 0.5em 0 0.5em;
+  background: #46a9f4;
+  z-index: 99;
+  position: absolute;
+  top: -1.8em;
+  left: 68%;
+}
+.mo2f-price {
+    color: #fff;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+
+.mo2f-price-list {
+ 
+   border-top: 0.0625em solid #fff;
+   border-bottom: 0.0625em solid #fff; 
+   font-size: 1.2em;
+   background: white;
+
+}
+.mo2f-price-list li{
+  margin-bottom:0.1875em;
+}
+
+  .mo2f-plan-head-2fa {
+    text-align: center;
+}
+
+.mo2f-plan-head-2fa {
+  color: #000000;
+  font-weight: unset;
+  margin-bottom: 0.7em;
+  
+}
+
+ #mo2f_twofa_plans h2{
+  font-family:'Open sans', sans-serif !important;
+  margin-top:0.75em;
+  font-size: 2.5em;
+  line-height: 2.1875em;
+  text-transform: none;
+  letter-spacing: 0.0125em;
+}
+
+.mo2f-pp-row {
+  margin-right: 0.9375em;
+  margin-left: 0.9375em;
+}
+
+
+
+.mo2f-price-list-incl {
+  background: linear-gradient(145deg, #fafbfe,#e3ecfe);
+}
+
+#mo2f-list-margin li span{
+  margin-left: -0.625em;
+}
+
+#mo2fa-plan-name h3{
+  font-size:1.75em;
+}
+#mo2f-list-margin li .mo2fa_15_tooltip_methodlist span{
+  margin-left:-0.925em;
+}
+.mo2f_price_list_border{
+  box-shadow: rgb(3 102 214 / 30%) 0em 0em 0em 0.1875em; 
+  border-radius: 0.625em;
+  padding-left: 0.625em;
+  padding-right:0.625em;
+  padding-bottom:0.1em;
+ 
+}
+.mo2f-reg-plans-2fa{
+  letter-spacing: 0.3px;
+}
+
+@media only screen and (min-width: 2350px)
+{ 
+  .mo2f_price_list_border{
+    height:18em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 2150px)and (max-width:2350px)
+{ 
+  .mo2f_price_list_border{
+    height:19.5em;
+  }
+ 
+ 
+}
+
+@media only screen and (min-width: 1950px)and (max-width:2150px)
+{ 
+  .mo2f_price_list_border{
+    height:20.8em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 1750px)and (max-width:1950px)
+{ 
+  .mo2f_price_list_border{
+    height:21em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 1550px)and (max-width:1750px)
+{ 
+  .mo2f_price_list_border{
+    height:22em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 1400px)and (max-width:1550px)
+{ 
+  .mo2f_price_list_border{
+    height:24.5em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 1300px)and (max-width:1400px)
+{ 
+  .mo2f_price_list_border{
+    height:25.5em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 1200px)and (max-width:1300px)
+{ 
+  .mo2f_price_list_border{
+    height:28.5em;
+  }
+ 
+ 
+}
+@media only screen and (min-width: 1000px)and (max-width:1200px)
+{ 
+  .mo2f_price_list_border{
+    height:31em;
+  }
+ 
+ 
+}
+
+@media only screen and (min-width:769px)and (max-width:1000px)
+{ 
+  .mo2f_price_list_border{
+    height:31.5em;
+  }
+ 
+ 
+}
+
+@media screen and (max-width: 550px){
+.mo2f-cloud-solution-ribbon-rpn {
+    text-align: center;
+    color: black;
+    padding: 5px;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+    z-index: 1;
+    background-color: #ebf1fa;
+    border-radius: 9px;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 18%) 0px 2px 4px;
+    display: block;
+}
+
+}
+@media screen and (min-width:550px){
+  .mo2f-cloud-solution-ribbon-rpn{
+    display: none;
+  }
+}
+@media screen and (max-width: 550px){
+.mo2f-ribbon-title {
+    font-size: 20px;
+    padding-top: 0.4em;
+}
+
+.mo2f-single-site {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 550px){
+.mo2f-cloud-solution-ribbon {
+    display: none;
+}
+}
+
+.mo2f-col-md-4{ 
+
+   position: relative; 
+ 
+
+} 
+@media screen and (max-width: 550px){
+.mo2f-on-prem-ribbon {
+    display: none;
+}
+.mo2f-price-tag{
+  left:75%;
+}
+}
+@media screen and (max-width: 550px){
+.mo2f-hover-2fa {
+    width: 90%;
+    border-radius: 10px;
+    height: auto;
+    border: 5px solid white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+}
+}
+
+@media screen and (max-width: 550px){
+.mo2f-price-list {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 1.4em;
+    background: white;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: rgb(3 102 214 / 30%) 0px 0px 0px 3px;
+   
+}
+}
+
+@media screen and (max-width: 550px){
+.mo2f-on-prem-ribbon-rpn {
+    text-align: center;
+    color: black;
+    padding: 5px;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+    z-index: 1;
+    background-color: #ebf1fa;
+    border-radius: 9px;
+    width: 94%;
+    margin-left:8px;
+    box-shadow: rgb(0 0 0 / 18%) 0px 2px 4px;
+    display: block;
+}
+}
+@media screen and (min-width:550px){
+  .mo2f-on-prem-ribbon-rpn{
+    display: none;
+  }
+ 
+}
+@media screen and (max-width:550px){
+  .mo2fa_15_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+    width: 12em;
+    background-color: #000000b8;
+    color: #fff;
+    text-align: left;
+    border-radius: 0.375em;
+    padding: 0.6875em 0.75em 0.6875em 1.4375em;
+    position: absolute;
+    z-index: 1;
+    top: 4em;
+    left:2%; 
+    line-height:1.4em;
+  
+  }
+
+  .mo2fa_15_tooltip_methodlist .mo2fa_methodlist::after {
+    content: "";
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    margin-left: -0.3125em;
+    border-width: 0.3125em;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+}
+
+
+.mo2fa-top-auth-unbold {
+  font-weight:400;
+}

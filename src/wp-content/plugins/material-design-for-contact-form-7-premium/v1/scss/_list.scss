@@ -1,0 +1,71 @@
+// Tweaks to mdc list component
+.mdc-list-item:hover {
+  &:before {
+    opacity: 1;
+  }
+}
+.mdc-list a.mdc-list-item {
+  color: $text-primary-on-light;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+// My own lists
+.cf7md-list {
+
+}
+.cf7md-list__stacked {
+
+}
+.cf7md-list__inline {
+  .wpcf7-list-item {
+    width: auto;
+    margin-right: 34px;
+  }
+}
+[class*="cf7md-list__columns-"] {
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .wpcf7-form-control {
+    display: block;
+    margin-left: -34px;
+    font-size: 0;
+  }
+  .wpcf7-list-item {
+    //font-size: 1rem;
+    padding-left: 34px;
+    width: 50%;
+    display: inline-flex;
+    min-width: 225px;
+    vertical-align: top;
+  }
+}
+.cf7md-list__columns-2 {
+  .wpcf7-list-item {
+    width: 50%;
+  }
+}
+.cf7md-list__columns-3 {
+  .wpcf7-list-item {
+    width: 33.3333%;
+  }
+}
+.cf7md-list__columns-4 {
+  .wpcf7-list-item {
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .cf7md-list__columns-2,
+  .cf7md-list__columns-3,
+  .cf7md-list__columns-4 {
+    .wpcf7-list-item {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,982 @@
+# Copyright (C) 2019 Material Design for Contact Form 7
+# This file is distributed under the same license as the Material Design for Contact Form 7 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Material Design for Contact Form 7\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: ja_JP\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: close as in exit
+#: admin/cf7-material-design-admin.php:124,
+#: admin/cf7-material-design-admin.php:219
+msgid "Close"
+msgstr "閉じる"
+
+#: admin/cf7-material-design-admin.php:128
+msgid "Back"
+msgstr "戻る"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-admin.php:130
+msgid "%s Shortcode Generator"
+msgstr "%sショートコードジェネレータ"
+
+#: admin/cf7-material-design-admin.php:134
+msgid "Choose a shortcode to generate"
+msgstr "生成したいショートコードを選ぶ"
+
+#: admin/cf7-material-design-admin.php:151
+msgid "Pro feature"
+msgstr "PRO版 機能"
+
+#: admin/cf7-material-design-admin.php:156,
+#: admin/cf7-material-design-shortcode-generator.php:608
+msgid "Upgrade Now"
+msgstr "今すぐアップグレード"
+
+#. translators: %s: A shortcode type
+#: admin/cf7-material-design-admin.php:179
+msgid "Generate a %s shortcode with your desired settings."
+msgstr "オリジナルの%sショートコードを生成。"
+
+#: admin/cf7-material-design-admin.php:192
+msgid "Copy"
+msgstr "コピー"
+
+#: admin/cf7-material-design-admin.php:193
+msgid "Insert"
+msgstr "挿入"
+
+#. translators: %s: "Material Design". Please match character count
+#: admin/cf7-material-design-admin.php:230
+msgid "Upgrade to %s Pro"
+msgstr "%s PRO版にアップグレード"
+
+#: admin/cf7-material-design-admin.php:234
+msgid "Demo (opens in new tab)"
+msgstr "サンプルデモ (新しいタブで開く)"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:239
+msgid "%s Customize %s the colors and fonts."
+msgstr "%s 色とフォントを  カスタマイズ %s。"
+
+#: admin/cf7-material-design-admin.php:243
+msgid "Try it for free"
+msgstr "無料で試す"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:248
+msgid "Turn checkboxes into %s switches%s."
+msgstr "チェックボックスを %s スイッチ %s に変換。"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:256
+msgid "Decorate your fields with %s icons%s."
+msgstr "フィールドに%sアイコン%sを使用。"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:264
+msgid "Organize your fields into %s columns%s."
+msgstr "フィールドを%s縦列%sに並べる。"
+
+#. translators: %s: Hyperlink, Cards: https://material.io/design/components/cards.html
+#: admin/cf7-material-design-admin.php:272
+msgid "Group fields with %s cards%s."
+msgstr "%sカード%sでフィールドをグループ化。"
+
+#. translators: %s: price
+#. translators: %s: price
+#: admin/cf7-material-design-admin.php:280,
+#: admin/cf7-material-design-admin.php:389
+msgid "Upgrade for %s"
+msgstr "%sへのアップグレード"
+
+#. translators: %1$s and %2$s: "Material Design"
+#: admin/cf7-material-design-admin.php:350
+msgid ""
+"Apply %1$s to your form using shortcodes which you can generate with the "
+"\"%2$s\" button. Your form should look something like this:"
+msgstr ""
+"「%2$s」ボタンで生成したショートコードを使用して、問い合わせフォームに%1$sを"
+"適用します。結果、次のような表示になります："
+
+#: admin/cf7-material-design-admin.php:353
+msgid "Your name"
+msgstr "名前"
+
+#: admin/cf7-material-design-admin.php:357
+msgid "Your email"
+msgstr "メールアドレス"
+
+#: admin/cf7-material-design-admin.php:361
+msgid "Your message"
+msgstr "お問い合わせ内容"
+
+#: admin/cf7-material-design-admin.php:366
+msgid "Send"
+msgstr "送信"
+
+#: admin/cf7-material-design-admin.php:371,
+#: admin/cf7-material-design-page.php:178
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: admin/cf7-material-design-admin.php:372
+msgid "Demos"
+msgstr "製品デモ"
+
+#: admin/cf7-material-design-admin.php:373
+msgid "Rate this plugin"
+msgstr "このプラグインを評価する"
+
+#: admin/cf7-material-design-admin.php:375,
+#: admin/cf7-material-design-page.php:180
+msgid "Support"
+msgstr "サポート"
+
+#: admin/cf7-material-design-admin.php:376
+msgid "Try the style customizer"
+msgstr "スタイルをカスタマイズ"
+
+#: admin/cf7-material-design-admin.php:376
+msgid "pro feature"
+msgstr "pro版機能"
+
+#: admin/cf7-material-design-admin.php:378
+msgid "Direct email support"
+msgstr "Eメールでのサポート"
+
+#: admin/cf7-material-design-admin.php:379
+msgid "Customize styles"
+msgstr "スタイルのカスタマイズ"
+
+#: admin/cf7-material-design-admin.php:382
+msgid "Get the CF7 Live Preview plugin"
+msgstr "Contact Form 7 ライブ プレビュー プラグインを入手"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-customizer.php:95
+msgid "%s Forms"
+msgstr "%s問い合わせフォーム"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-customizer.php:96
+msgid "Customize your %s forms"
+msgstr "%s問い合わせフォームをカスタマイズ"
+
+#: admin/cf7-material-design-customizer.php:114
+msgid "Use custom styles?"
+msgstr "カスタムスタイルを使用しますか？"
+
+#. translators: %s: hyperlink
+#: admin/cf7-material-design-customizer.php:115
+msgid ""
+"Note: you're on the free version. Your style changes will not take effect "
+"until you %s upgrade to pro%s"
+msgstr ""
+"注: ご使用中のバージョンは無料版です。%s PRO版へのアップグレード %s 後、スタ"
+"イルの変更が可能になります"
+
+#: admin/cf7-material-design-customizer.php:137
+msgid "Primary color (default/light theme)"
+msgstr "メインで使用する色 (デフォルト/ライトテーマ)"
+
+#: admin/cf7-material-design-customizer.php:157
+msgid "Primary color (dark theme)"
+msgstr "メインで使用する色 (ダークテーマ)"
+
+#: admin/cf7-material-design-customizer.php:160
+msgid ""
+"You may want to choose a slightly lighter version of your primary color for "
+"better contrast in the dark theme."
+msgstr ""
+"ダークテーマを使用する場合、メインで使用する色を少し明るい色に設定すると、視"
+"認性が高くなります。"
+
+#: admin/cf7-material-design-customizer.php:177
+msgid "Button color"
+msgstr "ボタンの色"
+
+#: admin/cf7-material-design-customizer.php:196
+msgid "Button hover color"
+msgstr "マウスホバー時のボタンの色"
+
+#: admin/cf7-material-design-customizer.php:215
+msgid "Button text color"
+msgstr "ボタンテキストの色"
+
+#: admin/cf7-material-design-customizer.php:235
+msgid "Button color (dark theme)"
+msgstr "ボタンの色 (ダークテーマ)"
+
+#: admin/cf7-material-design-customizer.php:238
+msgid "Leave blank to use the dark theme primary color"
+msgstr "ダークテーマのメイン色を使用する場合、空白のままにしてください"
+
+#: admin/cf7-material-design-customizer.php:255
+msgid "Button hover color (dark theme)"
+msgstr "マウスホバー時のボタンの色 (ダークテーマ)"
+
+#: admin/cf7-material-design-customizer.php:274
+msgid "Button text color (dark theme)"
+msgstr "ボタンテキストの色 (ダークテーマ)"
+
+#: admin/cf7-material-design-customizer.php:294
+msgid "Label text opacity"
+msgstr "ラベルテキストの不透明度"
+
+#: admin/cf7-material-design-customizer.php:295
+msgid "1 = black, 0 = transparent, default = 0.5"
+msgstr "1 = 黒、0 = 透明、デフォルト = 0.5"
+
+#: admin/cf7-material-design-customizer.php:312
+msgid "Normal text opacity"
+msgstr "通常のテキストの不透明度"
+
+#: admin/cf7-material-design-customizer.php:313
+msgid "1 = black, 0 = transparent, default = 0.87"
+msgstr "1 = 黒、0 = 透明、デフォルト = 0.87"
+
+#: admin/cf7-material-design-customizer.php:330
+msgid "Label text opacity (dark theme)"
+msgstr "ラベルテキストの不透明度 (ダークテーマ)"
+
+#: admin/cf7-material-design-customizer.php:331
+msgid "1 = white, 0 = transparent, default = 0.72"
+msgstr "1 = 白、0 = 透明、デフォルト = 0.72"
+
+#: admin/cf7-material-design-customizer.php:348
+msgid "Normal text opacity (dark theme)"
+msgstr "通常のテキストの不透明度 (ダークテーマ)"
+
+#: admin/cf7-material-design-customizer.php:349
+msgid "1 = white, 0 = transparent, default = 1"
+msgstr "1 = 白、0 = 透明、デフォルト = 1"
+
+#: admin/cf7-material-design-customizer.php:366
+msgid "Base font size"
+msgstr "基本フォントサイズ"
+
+#: admin/cf7-material-design-customizer.php:367
+msgid ""
+"Resize labels, help text etc. Text inputs and select fields can not be "
+"resized except by changing the font-size of your html tag, which is "
+"recommended to be set at 16px."
+msgstr ""
+"ラベル、ヘルプテキストなどのサイズを変更します。テキストの入力欄・選択欄のサ"
+"イズ変更は、HTMLタグでのサイズ変更以外には対応していません。これらは16pxに設"
+"定することをお勧めします。"
+
+#: admin/cf7-material-design-customizer.php:392
+msgid "Font family"
+msgstr "フォント"
+
+#: admin/cf7-material-design-customizer.php:393
+msgid ""
+"Optionally choose to use a font from your current theme. Fonts not showing "
+"up? Try refreshing."
+msgstr ""
+"現在のテーマのフォントを使用することも可能です。フォントが表示されませんか？"
+"ページのリロードをお試しください。"
+
+#: admin/cf7-material-design-customizer.php:408,
+#: admin/cf7-material-design-customizer.php:425
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: admin/cf7-material-design-customizer.php:418,
+#: admin/cf7-material-design-customizer.php:426
+msgid "Add any custom CSS here. This will work even in the free version."
+msgstr "カスタムCSSをここに追加してください。この機能は無料版で使用できます。"
+
+#: admin/cf7-material-design-page.php:85
+msgid "Plugin Settings"
+msgstr "プラグインの設定"
+
+#: admin/cf7-material-design-page.php:90
+msgid "Legacy styles"
+msgstr "レガシースタイル"
+
+#: admin/cf7-material-design-page.php:99
+msgid "Use legacy styles"
+msgstr "レガシースタイルを使用する"
+
+#: admin/cf7-material-design-page.php:102
+msgid ""
+"Material Design was recently updated to use boxed and outlined fields, "
+"rather than the classic underlined fields. This is a large design and code "
+"change. Activating legacy styles will force the plugin to use the legacy "
+"code for underlined fields. This is a site-wide setting."
+msgstr ""
+"マテリアルデザインでは最近、古くからあるアンダーラインのフィールドから、線で"
+"囲まれたボックス型のフィールドを使用するよう、アップデートされました。これは"
+"デザイン的にもコード設計的にも大きな変更でした。レガシースタイルを使用する場"
+"合、今後、このプラグインでも以前のアンダーラインのフィールドデザインの仕様を"
+"強制される場合があります。これはWordpress側での設定に基づきます。"
+
+#: admin/cf7-material-design-page.php:106
+msgid "Upgrading from version 1"
+msgstr "バージョン1からのアップグレード"
+
+#: admin/cf7-material-design-page.php:107
+msgid ""
+"If you're upgrading from version 1 of this plugin, there are a few things "
+"you should know before moving to the new styles."
+msgstr ""
+"こちらのプラグインをv1からアップデートする場合のいくつかの変更点について、事"
+"前にご確認ください。"
+
+#: admin/cf7-material-design-page.php:109
+msgid ""
+"The font-size settings in the customizer work slightly differently, as the "
+"new material fields cannot be easily resized, only the text around them will "
+"be resized."
+msgstr ""
+"新しいバージョンのマテリアルデザインのフィールドのサイズを簡単に変更できない"
+"ため、カスタムフォントサイズの設定は、テキスト周囲のみに適用されます。"
+
+#: admin/cf7-material-design-page.php:110
+msgid ""
+"Radio fields can no longer be turned into switches, only checkboxes can be "
+"switches."
+msgstr ""
+"ラジオボタンフィールドからスイッチへの変更には非対応です。チェックボックスか"
+"らスイッチへの変更は可能です。"
+
+#: admin/cf7-material-design-page.php:111
+msgid ""
+"You now have the option to use the outlined variants of text and select "
+"fields instead of the default boxed variant."
+msgstr ""
+"従来のデフォルトのボックス型テキスト入力欄に変わり、アウトライン化されたテキ"
+"スト入力欄を使用できます。"
+
+#: admin/cf7-material-design-page.php:113
+msgid ""
+"Once you've turned off the switch above, check that your forms all still "
+"look and function as you'd expect. If you think there's a bug, please post a "
+"message in the support forum."
+msgstr ""
+"上記のような変更を行った場合でも、引き続き問い合わせフォームは問題なく表示、"
+"動作します、バグを発見された場合、サポートまでご連絡ください。"
+
+#: admin/cf7-material-design-page.php:114
+msgid ""
+"If you liked the old styles better than the new styles, you can reactivate "
+"the switch above to continue to use the old styles and v1 plugin code. Note "
+"though that v1 will not receive updates other than bug fixes, and v1 is not "
+"translated."
+msgstr ""
+"新マテリアルデザインより旧マテリアルデザインをお好みの場合、v1のプラグインを"
+"使用することで旧デザインを使い続けることができます。v1のプラグインはバグ修正"
+"や翻訳の予定はございませんのでご留意ください。"
+
+#: admin/cf7-material-design-page.php:118,
+#: admin/cf7-material-design-page.php:170
+msgid "Save"
+msgstr "保存"
+
+#: admin/cf7-material-design-page.php:150
+msgid "Thanks for installing!"
+msgstr "インストールしていただき、誠にありがとうございます！"
+
+#. translators: %1$s: "Material Design for Contact Form 7", %2$s: "Material Design"
+#: admin/cf7-material-design-page.php:154
+msgid "%1$s lets you style your forms with Google's %2$s"
+msgstr "%1$sは、あなたの問い合わせフォームをGoogle準拠の%2$s風に仕上げます"
+
+#: admin/cf7-material-design-page.php:159
+msgid "Getting Started"
+msgstr "始めましょう"
+
+#: admin/cf7-material-design-page.php:160
+msgid ""
+"This plugin provides a set of shortcodes that wrap your existing Contact "
+"Form 7 form tags in the form editor. When you wrap a form tag in one of "
+"these shortcodes, its output is changed to Material Design."
+msgstr ""
+"このプラグインでは、Contact Form 7のフォームタグのショートコードを使えるよう"
+"にしています。例えば、Contact Form 7のショートコードとフォームタグを使用する"
+"ことで、これらの設定がマテリアルデザイン内で反映されます。"
+
+#: admin/cf7-material-design-page.php:163
+msgid "Quick Start"
+msgstr "クイックスタート"
+
+#: admin/cf7-material-design-page.php:164
+msgid "Fastest track to a working form"
+msgstr "問合せフォームのクイック作成"
+
+#: admin/cf7-material-design-page.php:168
+msgid "Add a new form"
+msgstr "新しい問い合わせフォームを追加する"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:169
+msgid ""
+"Delete everything from the form editor, and instead copy the example form "
+"code from the %s meta-box into the editor."
+msgstr ""
+"フォームエディターに記載のものをすべて削除し、代わりに %sメタボックスから問い"
+"合わせフォームにサンプルフォームコードをコピーします。"
+
+#: admin/cf7-material-design-page.php:171
+msgid ""
+"Copy your form shortcode (under the form title) and paste it into a page (or "
+"post, widget, etc)."
+msgstr ""
+"フォームのショートコード(フォームのタイトルの下)をコピーし、ページ (または投"
+"稿、ウィジェットなど) にペーストします。"
+
+#: admin/cf7-material-design-page.php:172
+msgid "Save and preview the page."
+msgstr "ページを保存してプレビュー。"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:176
+msgid ""
+"After that, you can customize your form to your liking. Click the %s button "
+"alongside the CF7 form tag buttons to automatically generate shortcodes for "
+"the different field types."
+msgstr ""
+"その後、フォームのリンクを自由にカスタマイズすることができます。Contact Form "
+"7のタグボタンに並んでいる%sのボタンをクリックすると、自動で異なるフィールドタ"
+"イプのショートコードが生成されます。"
+
+#. translators: %s: Plugin name
+#: admin/cf7-material-design-page.php:177
+msgid "We also recommend installing the %s plugin for easier form development."
+msgstr ""
+"このプラグインでは、併せて、%sのプラグインをインストールすることを推奨してい"
+"ます。"
+
+#: admin/cf7-material-design-page.php:179
+msgid ""
+"All shortcodes are documented in the help tab (top right of the screen) on "
+"the form editor page."
+msgstr "すべてのショートコードは編集ページのヘルプ（右上）から確認できます。"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:181
+msgid ""
+"Confused? Something doesn't look right? Have a specific question? Make a "
+"post in the %s support forum %s and I'll help you out."
+msgstr ""
+"よくわかりませんか？きちんと表示されませんか？%sサポートフォーラム%sに投稿し"
+"ていただければ、順次回答いたします。"
+
+#: admin/cf7-material-design-page.php:182
+msgid "Custom colors and fonts"
+msgstr "色とフォントをカスタマイズ"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:183
+msgid ""
+"Customizing colors and fonts is a pro feature, but you can %s try it out for "
+"free in the customizer %s. Your changes just won't be saved unless you "
+"upgrade."
+msgstr ""
+"色とフォントのカスタマイズはPRO版の機能になりますが、%s無料でお試しいただけま"
+"す%s 。PRO版にアップグレードするまで、変更は保存されません。"
+
+#: admin/cf7-material-design-page.php:184
+msgid "Like this plugin? Rate it!"
+msgstr "このプラグインを評価しましょう！"
+
+#: admin/cf7-material-design-page.php:185
+msgid "Leave a 5 star review"
+msgstr "5つ星のレビューを書く"
+
+#. translators: %s: Cost
+#: admin/cf7-material-design-page.php:195
+msgid "Upgrade to Pro for %s"
+msgstr "%s のPRO版にアップグレード"
+
+#: admin/cf7-material-design-page.php:199
+msgid "And unlock all these extra features"
+msgstr "すべての機能を使用する"
+
+#: admin/cf7-material-design-page.php:207,
+#: admin/cf7-material-design-page.php:269
+msgid "Customize the colors and fonts to suit your theme."
+msgstr "テーマに合わせて色やフォントをカスタマイズ。"
+
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#: admin/cf7-material-design-page.php:218,
+#: admin/cf7-material-design-page.php:273,
+#: admin/cf7-material-design-page.php:309
+msgid "Turn checkboxes into %1$s switches %2$s using %3$s."
+msgstr "チェックボックスを%3$sを使用して%1$sスイッチ%2$sに切り替え。"
+
+#: admin/cf7-material-design-page.php:231
+msgid "Add icons to text and select fields."
+msgstr "アイコンをテキストフィールドに追加。"
+
+#: admin/cf7-material-design-page.php:239,
+#: admin/cf7-material-design-page.php:280
+msgid "Easily organize your fields into columns."
+msgstr "フィールドはカラムに変更可能です。"
+
+#. translators: %s: shortcode
+#. translators: %s: shortcode
+#. translators: %s: shortcode
+#: admin/cf7-material-design-page.php:250,
+#: admin/cf7-material-design-page.php:284,
+#: admin/cf7-material-design-page.php:327
+msgid "Group fields into sections with the %s shortcode."
+msgstr "%sでセクションをグループ化。"
+
+#. translators: %s: Cost
+#. translators: %s: Cost
+#: admin/cf7-material-design-page.php:261,
+#: admin/cf7-material-design-page.php:293
+msgid "Upgrade now for %s"
+msgstr "%sでアップグレード"
+
+#: admin/cf7-material-design-page.php:267
+msgid "All Pro Benefits"
+msgstr "PRO版でできること"
+
+#: admin/cf7-material-design-page.php:279,
+#: admin/cf7-material-design-page.php:315
+msgid "Add icons to your text and select fields."
+msgstr "アイコンとプルダウンフィールドの追加。"
+
+#: admin/cf7-material-design-page.php:288
+msgid "Faster support, directly through email."
+msgstr "問い合わせをEメール経由で受信、迅速なサポートが可能。"
+
+#: admin/cf7-material-design-page.php:300
+msgid "You have the pro version"
+msgstr "PRO版をお持ちの方"
+
+#: admin/cf7-material-design-page.php:301
+msgid "Start using pro features now!"
+msgstr "今すぐPRO版を試す！"
+
+#: admin/cf7-material-design-page.php:305
+msgid "Customize the colors and fonts"
+msgstr "色とフォントをカスタマイズする"
+
+#. translators: %1$s, %2$s, %3$s: attribute
+#: admin/cf7-material-design-page.php:319
+msgid ""
+"Use the %1$s, %2$s and %3$s attributes on your shortcodes to arrange them "
+"into columns"
+msgstr "%1$sを使用し、ショートコード%2$sと%3$sでカラムに変更可能"
+
+#: admin/cf7-material-design-page.php:332
+msgid "Email me (Angus) directly for support"
+msgstr "サポートは私（Angus）までEメール（英語）で直接お待ちしております"
+
+#: admin/cf7-material-design-page.php:334
+msgid "See documentation on form editor screen"
+msgstr "編集画面からドキュメントを確認"
+
+#: admin/cf7-material-design-shortcode-generator.php:31,
+#: admin/cf7-material-design-shortcode-generator.php:297
+msgid "Label"
+msgstr "ラベル"
+
+#: admin/cf7-material-design-shortcode-generator.php:37
+msgid "Help text"
+msgstr "ヘルプテキスト"
+
+#: admin/cf7-material-design-shortcode-generator.php:38
+msgid "This will appear below the field"
+msgstr "フィールドの下に表示されます"
+
+#: admin/cf7-material-design-shortcode-generator.php:44
+msgid "Icon"
+msgstr "アイコン"
+
+#. translators: %1$s hyperlink, %2$s: "Material Design", %3$s: end of hyperlink, %4$s: Icon name
+#: admin/cf7-material-design-shortcode-generator.php:48
+msgid ""
+"Optionally enter the name of a %1$s %2$s Icon%3$s. E.g. <code>%4$s</code>."
+msgstr ""
+"%1$s %2$sアイコン%3$sの名前を任意で入力できます。 例）<code>%4$s</code>。"
+
+#: admin/cf7-material-design-shortcode-generator.php:60,
+#: admin/cf7-material-design-shortcode-generator.php:340
+msgid "Outlined"
+msgstr "アウトライン"
+
+#: admin/cf7-material-design-shortcode-generator.php:61
+msgid "Use outlined variant"
+msgstr "アウトライン変形"
+
+#. translators: As in vertical
+#: admin/cf7-material-design-shortcode-generator.php:68
+msgid "Stacked"
+msgstr "積み上げ"
+
+#. translators: As in side-by-side
+#: admin/cf7-material-design-shortcode-generator.php:69
+msgid "Inline"
+msgstr "インライン"
+
+#: admin/cf7-material-design-shortcode-generator.php:70,
+#: admin/cf7-material-design-shortcode-generator.php:71,
+#: admin/cf7-material-design-shortcode-generator.php:72
+msgid "Columns"
+msgstr "カラム"
+
+#. translators: As in layout
+#: admin/cf7-material-design-shortcode-generator.php:74
+msgid "Display"
+msgstr "表示"
+
+#. translators: As in laptop
+#: admin/cf7-material-design-shortcode-generator.php:80
+msgid "Desktop width"
+msgstr "デスクトップの横幅"
+
+#: admin/cf7-material-design-shortcode-generator.php:81
+msgid "How many columns out of 12 should this element occupy on large screens?"
+msgstr "12のカラムのうち、何個をデスクトップ画面に表示させますか？"
+
+#. translators: As in iPad
+#: admin/cf7-material-design-shortcode-generator.php:88
+msgid "Tablet width"
+msgstr "タブレットの横幅"
+
+#: admin/cf7-material-design-shortcode-generator.php:89
+msgid ""
+"How many columns out of 8 should this element occupy on tablet-sized screens?"
+msgstr "8のカラムのうち、何個をタブレット画面に表示させますか？"
+
+#: admin/cf7-material-design-shortcode-generator.php:96
+msgid "Mobile width"
+msgstr "モバイルの横幅"
+
+#: admin/cf7-material-design-shortcode-generator.php:97
+msgid ""
+"How many columns out of 4 should this element occupy on mobile-sized screens?"
+msgstr "4のカラムのうち、何個をモバイル画面に表示させますか？"
+
+#: admin/cf7-material-design-shortcode-generator.php:110
+msgid "Form"
+msgstr "フォーム"
+
+#: admin/cf7-material-design-shortcode-generator.php:111
+msgid "Wraps your entire form."
+msgstr "フォーム全体を囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:114
+msgid "all your other form tags and shortcodes go here"
+msgstr "すべてのフォームタグとショートコードはこちらです"
+
+#: admin/cf7-material-design-shortcode-generator.php:119
+msgid "Theme"
+msgstr "テーマ"
+
+#: admin/cf7-material-design-shortcode-generator.php:120
+msgid "Dark"
+msgstr "ダーク"
+
+#: admin/cf7-material-design-shortcode-generator.php:122
+msgid "The dark theme is useful when your form is on a dark background"
+msgstr "ダークテーマは、暗い背景のフォームに合います"
+
+#: admin/cf7-material-design-shortcode-generator.php:127
+msgid "Spacing"
+msgstr "語間"
+
+#. translators: As in close-together
+#: admin/cf7-material-design-shortcode-generator.php:128
+msgid "Tight"
+msgstr "タイト"
+
+#: admin/cf7-material-design-shortcode-generator.php:130
+msgid "Reduce the vertical spacing between items?"
+msgstr "アイテム間の行間を小さくしますか？"
+
+#: admin/cf7-material-design-shortcode-generator.php:138
+msgid "Text"
+msgstr "テキスト"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:141
+msgid "Wraps %s, %s, %s, %s, %s and %s form tags."
+msgstr "%s, %s, %s, %s, %s , %sのフォームタグで囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:153
+msgid "Text area"
+msgstr "テキストエリア"
+
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:156,
+#: admin/cf7-material-design-shortcode-generator.php:195,
+#: admin/cf7-material-design-shortcode-generator.php:210,
+#: admin/cf7-material-design-shortcode-generator.php:241,
+#: admin/cf7-material-design-shortcode-generator.php:312,
+#: admin/cf7-material-design-shortcode-generator.php:327
+msgid "Wraps your %s form tags."
+msgstr "%sフォームタグで囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:164
+msgid "Autosize"
+msgstr "自動サイズ"
+
+#: admin/cf7-material-design-shortcode-generator.php:165
+msgid "Automatically expand as the user types"
+msgstr "入力された内容を自動的に広げて表示する"
+
+#: admin/cf7-material-design-shortcode-generator.php:177
+msgid "Select"
+msgstr "選択"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:180
+msgid "Wraps your %s and %s form tags."
+msgstr "%sと%sのフォームタグで囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:192
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#. translators: As in switch form control
+#: admin/cf7-material-design-shortcode-generator.php:222
+msgid "Switch"
+msgstr "スイッチ"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:225
+msgid "Turn %s into switches."
+msgstr "%sをスイッチに変更。"
+
+#: admin/cf7-material-design-shortcode-generator.php:238
+msgid "Acceptance"
+msgstr "Acceptance"
+
+#. translators: As in terms and conditions
+#: admin/cf7-material-design-shortcode-generator.php:249
+msgid "Terms"
+msgstr "利用規約"
+
+#: admin/cf7-material-design-shortcode-generator.php:251
+msgid ""
+"The terms to which the user must agree. NOTE: If the CF7 acceptance tag has "
+"content, that content will override this terms attribute."
+msgstr ""
+"ユーザーは利用規約に同意する必要があります。注：Contact Form 7のAcceptanceタ"
+"グにコンテンツがある場合、この利用規約タグは上書きされます。"
+
+#. translators: As in a file on your computer
+#: admin/cf7-material-design-shortcode-generator.php:263
+msgid "File"
+msgstr "ファイル"
+
+#: admin/cf7-material-design-shortcode-generator.php:264
+msgid "Wraps your file upload form tags."
+msgstr "ファイルアップロードフォームのタグを囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:269,
+#: public/cf7-material-design-public.php:574
+msgid "No file chosen"
+msgstr "ファイルが選択されていません"
+
+#: admin/cf7-material-design-shortcode-generator.php:270
+msgid "No file text"
+msgstr "ファイルテキストなし"
+
+#: admin/cf7-material-design-shortcode-generator.php:272
+msgid "The text shown before a file is chosen."
+msgstr "ファイルの前に表示されるテキストが選択されます。"
+
+#: admin/cf7-material-design-shortcode-generator.php:276,
+#: public/cf7-material-design-public.php:575
+msgid "Choose file"
+msgstr "ファイルを選択"
+
+#: admin/cf7-material-design-shortcode-generator.php:277
+msgid "Button text"
+msgstr "ボタンのテキスト"
+
+#: admin/cf7-material-design-shortcode-generator.php:289
+msgid "Quiz"
+msgstr "クイズ"
+
+#: admin/cf7-material-design-shortcode-generator.php:290
+msgid "Wraps your quiz form tags."
+msgstr "クイズのフォームタグを囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:299
+msgid ""
+"This label will appear above the field. The quiz question will appear in the "
+"floating label."
+msgstr ""
+"このラベルはフィールドの上に表示されます。クイズの質問はフローティングラベル"
+"に表示されます。"
+
+#: admin/cf7-material-design-shortcode-generator.php:309
+msgid "Captcha"
+msgstr "キャプチャ"
+
+#: admin/cf7-material-design-shortcode-generator.php:324
+msgid "Submit"
+msgstr "送信"
+
+#: admin/cf7-material-design-shortcode-generator.php:335
+msgid "Button style"
+msgstr "ボタンスタイル"
+
+#: admin/cf7-material-design-shortcode-generator.php:338
+msgid "Raised"
+msgstr "Raised"
+
+#: admin/cf7-material-design-shortcode-generator.php:339
+msgid "Unelevated"
+msgstr "Unelevated"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:348
+msgid "one or more %s or %s form tags go here"
+msgstr "1つ以上の %sまたは%s フォームタグはこちら"
+
+#: admin/cf7-material-design-shortcode-generator.php:357
+msgid "Card"
+msgstr "カード"
+
+#: admin/cf7-material-design-shortcode-generator.php:358
+msgid "Group elements into sections with cards."
+msgstr "要素をカード付きのセクションにグループ化。"
+
+#: admin/cf7-material-design-shortcode-generator.php:364
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/cf7-material-design-shortcode-generator.php:370
+msgid "Subtitle"
+msgstr "サブタイトル"
+
+#: admin/cf7-material-design-shortcode-generator.php:376
+msgid "Title size"
+msgstr "タイトルサイズ"
+
+#: admin/cf7-material-design-shortcode-generator.php:377
+msgid "Larger title"
+msgstr "大きいタイトル"
+
+#. translators: %s: shortcode type
+#: admin/cf7-material-design-shortcode-generator.php:384
+msgid "one or more %s shortcodes or other elements go here"
+msgstr "1つ以上の%sのショートコードまたは他の要素はこちら"
+
+#: admin/cf7-material-design-shortcode-generator.php:394
+msgid "Raw"
+msgstr "未加工"
+
+#: admin/cf7-material-design-shortcode-generator.php:395
+msgid "Wraps html or any miscellaneous elements."
+msgstr "htmlまたはその他の要素を囲う。"
+
+#: admin/cf7-material-design-shortcode-generator.php:398
+msgid "any raw html or miscellaneous elements go here"
+msgstr "未加工のhtmlまたはその他の要素はこちら"
+
+#: admin/cf7-material-design-shortcode-generator.php:406
+msgid "Grid"
+msgstr "グリッド"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:409
+msgid "Fixes layout for non-immediate children of %s or %s."
+msgstr "%sまたは%sの非直下の子レイアウトを修正しました。"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:416
+msgid "%s shortcodes go here"
+msgstr "%sショートコードはこちら"
+
+#: admin/cf7-material-design-shortcode-generator.php:422
+msgid "Help"
+msgstr "ヘルプ"
+
+#: admin/cf7-material-design-shortcode-generator.php:461
+msgid "Upgrade to pro"
+msgstr "PRO版にアップグレード"
+
+#: admin/cf7-material-design-shortcode-generator.php:461
+msgid "to use this feature."
+msgstr "この機能を試す。"
+
+#. translators: mobile as in cell phone
+#: admin/cf7-material-design-shortcode-generator.php:586
+msgid "mobile-sized"
+msgstr "モバイルサイズ"
+
+#. translators: tablet as in ipad
+#: admin/cf7-material-design-shortcode-generator.php:590
+msgid "tablet-sized"
+msgstr "タブレットサイズ"
+
+#: admin/cf7-material-design-shortcode-generator.php:595
+msgid "large"
+msgstr "大"
+
+#: admin/cf7-material-design-shortcode-generator.php:602
+msgid "Layout Attributes"
+msgstr "レイアウト属性"
+
+#: admin/cf7-material-design-shortcode-generator.php:603
+msgid ""
+"Layout attributes let you organize your form fields into columns. You can "
+"control how wide each field is on mobile, tablet and large screens."
+msgstr ""
+"レイアウト属性を使用すると、フォームフィールドをカラムデザインに整理できま"
+"す。各フィールドの幅は、モバイル、タブレット、およびデスクトップごとに設定で"
+"きます。"
+
+#: admin/cf7-material-design-shortcode-generator.php:607
+msgid "Layout attributes are a pro feature."
+msgstr "レイアウト属性はPRO版の機能です。"
+
+#. translators: %1$s: "all" or a fraction like "half", %2$s: screen size (mobile, tablet, desktop)
+#: admin/cf7-material-design-shortcode-generator.php:620
+msgid ""
+"This element will occupy %1$s of the available horizontal space on %2$s "
+"screens."
+msgstr "この要素は、%2$sの画面で使用可能なな領域の%1$sを占有します。"
+
+#: public/cf7-material-design-public.php:116,
+#: public/cf7-material-design-public.php:116
+msgid "Edit form styles."
+msgstr "フォームスタイルを編集します。"
+
+#: public/cf7-material-design-public.php:122
+msgid "Only admins can see this message"
+msgstr "管理者のみがこのメッセージを見ることができます"
+
+#: public/cf7-material-design-public.php:122
+msgid "Customize your form's colors and fonts"
+msgstr "フォームの色とフォントをカスタマイズする"
+
+#: public/cf7-material-design-public.php:123,
+#: public/cf7-material-design-public.php:123
+msgid "Don't show this again"
+msgstr "今後は表示しない"

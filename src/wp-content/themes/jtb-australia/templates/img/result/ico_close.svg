@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.9" height="32.9" viewBox="0 0 32.9 32.9">
+  <title>ico_close</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="pc">
+      <g>
+        <circle cx="16.5" cy="16.5" r="15.5" fill="none" stroke="#939598" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="11.7" y1="12.4" x2="21.2" y2="21.9" fill="none" stroke="#939598" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="21.2" y1="12.4" x2="11.7" y2="21.9" fill="none" stroke="#939598" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

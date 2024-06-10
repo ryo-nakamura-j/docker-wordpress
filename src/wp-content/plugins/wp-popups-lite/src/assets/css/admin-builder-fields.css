@@ -1,0 +1,1564 @@
+/* ==========================================================================
+Admin Form Builder - Fields panel
+========================================================================== */
+.wppopups-field-row:before {
+	content: " ";
+	display: table;
+}
+
+.wppopups-field-row:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+#wppopups-hidden {
+	display: none;
+}
+
+/* Sidebar
+-------------------------------------------------------------- */
+
+.wppopups-panel-sidebar {
+	background: #ebf3fb;
+	/*padding-top: 55px;*/
+}
+
+.wppopups-panel-sidebar .wppopups-help-tooltip,
+.wppopups-panel-content .wppopups-help-tooltip {
+	display: inline-block;
+	color: rgba( 0, 0, 0, 0.25);
+	margin: 0 0 0 10px;
+}
+
+.wppopups-panel-sidebar .wppopups-help-tooltip:hover,
+.wppopups-panel-content .wppopups-help-tooltip:hover {
+	cursor: help;
+	color: rgba( 0, 0, 0, 1);
+}
+
+
+.wppopups-panel-sidebar .wppopups-panel-content-section-fields {
+	padding-top: 0;
+}
+
+/* Tabs
+--------------------------------------------- */
+
+.wppopups-tabs {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	border-bottom: 1px solid #b1bac3;
+	width: 590px;
+}
+
+.wppopups-tabs li {
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+
+.wppopups-tabs li:last-of-type {
+	float: right;
+}
+
+.wppopups-tabs li a {
+	display: block;
+	text-align: center;
+	padding: 18px 10px;
+	font-size: 14px;
+	color: #888;
+	text-decoration: none;
+}
+
+.wppopups-tabs li a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+.wppopups-tabs li a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wppopups-tabs li i {
+	font-size: 16px;
+	margin-left: 4px;
+}
+
+.wppopups-tabs li .active,
+.wppopups-tabs li .active:hover {
+	color: #444;
+}
+
+/* Add Fields */
+.wppopups-tabs #add-fields .active {
+	background: #ebf3fb;
+}
+
+/* Field Options */
+/*.wppopups-sidebar#wppopups-sidebar-field-options {
+	background: #effbef;
+	border-right: 1px solid #82e082;
+}*/
+
+.wppopups-tabs #field-options .active {
+	background: #ebf3fb;
+}
+
+/* Tab content
+--------------------------------------------- */
+
+.wppopups-tab-content {
+	padding: 20px;
+	display: none;
+}
+
+.wppopups-tab-content.wppopups-add-fields {
+	display: block;
+}
+
+/* Add Fields */
+
+.wppopups-add-fields-group {
+	margin: 0;
+}
+
+.wppopups-add-fields-group.wppopups-hide {
+	margin: 0;
+}
+
+.wppopups-add-fields-group:first-of-type .wppopups-add-fields-heading {
+	border-top: 0;
+}
+
+.wppopups-add-fields-group:last-of-type .wppopups-add-fields-heading {
+	border-bottom: 1px solid #b1bac3 !important;
+}
+
+.wppopups-add-fields-group.wppopups-hide .wppopups-add-fields-heading {
+	border-bottom: 0;
+}
+
+.wppopups-add-fields-buttons {
+	overflow: hidden;
+	padding: 20px 0 12px 0;
+}
+
+.wppopups-add-fields-heading {
+	color: #444;
+	display: block;
+	font-size: 16px;
+	margin: 0;
+	padding: 18px 0;
+	border-top: 1px solid #b1bac3;
+	border-bottom: 1px solid #b1bac3;
+	text-decoration: none;
+	outline: 0;
+}
+
+.wppopups-add-fields-heading:active,
+.wppopups-add-fields-heading:focus {
+	outline: 0;
+}
+
+.wppopups-add-fields-heading .fa {
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.wppopups-add-fields-button {
+	display: block;
+	width: 48%;
+	margin: 0 0 15px 0;
+	float:left;
+	background: #0e6cad;
+	border: none;
+	color: #fff;
+	padding: 12px 5px 12px 18px;
+	border-radius: 2px;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.wppopups-add-fields-button.upgrade-modal,
+.wppopups-add-fields-button.education-modal,
+.wppopups-add-fields-button:disabled {
+	opacity: 0.6;
+}
+
+.wppopups-add-fields-button:nth-child(odd) {
+	margin-right: 2%;
+}
+
+.wppopups-add-fields-button:nth-child(even) {
+	margin-left: 2%;
+}
+
+.wppopups-add-fields-button i {
+	display: inline-block;
+	margin:0 5px 0 0;
+}
+
+.wppopups-add-fields-button:hover {
+	cursor: pointer;
+	background: #2C4D6F;
+}
+
+/* Options and Settings */
+
+.wppopups-field-option-row {
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+
+.wppopups-field-option-row label {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 0 8px 0;
+	vertical-align: text-top;
+}
+
+.wppopups-field-option-row label.inline {
+	display: inline-block;
+	font-weight: normal;
+	margin: 0 0 0 5px;
+}
+
+.wppopups-field-option-row input[type=text],
+.wppopups-field-option-row input[type=number],
+.wppopups-field-option-row textarea {
+	width: 99%;
+}
+
+.wppopups-field-option-row input[type=number] {
+	width: 20%;
+}
+
+.wppopups-field-option-row input[type=text].has-before {
+	float: right;
+	width: 95%;
+}
+
+.wppopups-field-option-row .before-input {
+	width: 4%;
+	font-size: 16px;
+	float: left;
+	padding: 7px 0 0;
+}
+
+.wppopups-field-option-row.wppopups-field-option-row-code textarea {
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	font-size: 11px;
+	min-height: 120px;
+}
+
+#wppopups-field-option-row-0-required {
+	opacity: 0.6;
+}
+
+.wppopups-field-option-row p {
+	margin: 0;
+	font-size: 14px;
+}
+
+.wppopups-field-option-row .meta {
+	font-weight: normal;
+}
+
+.wppopups-field-option-row span.id {
+	color: #999;
+	font-size: 12px;
+}
+
+/* Color picker */
+.wppopups-field-option-row.color-picker-row {
+	overflow: visible;
+}
+
+.wppopups-field-option-row .wppopups-color-picker {
+	height: auto;
+	padding-left: 30px !important;
+}
+
+.color-picker-row .minicolors-theme-default .minicolors-swatch {
+	height: 24px
+}
+
+/* Toggle */
+.wppopups-field-option-row .wppopups-toggle-icon {
+	display: block;
+	cursor: pointer;
+}
+
+.wppopups-field-option-row .wppopups-toggle-icon i {
+	color: #aaa;
+	font-size: 24px;
+	vertical-align: middle;
+	margin-right: 6px;
+	height: 22px;
+}
+
+.wppopups-field-option-row .wppopups-toggle-icon.wppopups-on i {
+	color: #83c11f;
+}
+
+.wppopups-field-option-row .wppopups-toggle-icon-label {
+	text-transform: uppercase;
+	vertical-align: middle;
+	font-weight: 600;
+}
+
+.wppopups-field-option-row .wppopups-toggle-icon input {
+	display: none;
+}
+
+
+/* Field Option groups (Basic, Advanced, Conditionals, etc) */
+.wppopups-field-option-group-toggle {
+	color: #444;
+	display: block;
+	font-size: 16px;
+	margin: 0;
+	padding: 18px 0;
+	border-top: 1px solid #b1bac3;
+	border-bottom: 1px solid #b1bac3;
+	text-decoration: none;
+	outline: 0;
+}
+
+.wppopups-field-option-group-toggle.upgrade-modal {
+	opacity: 0.6;
+}
+
+.wppopups-field-option-group-toggle span {
+	color: #888;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.wppopups-field-option-group-toggle i {
+	font-size: 16px;
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.wppopups-field-option-group-inner {
+	padding: 15px 0;
+}
+
+.wppopups-field-option-group .wppopups-field-option-group-inner {
+	display: none;
+}
+
+.wppopups-field-option-group.wppopups-field-option-group-basic .wppopups-field-option-group-inner {
+	display: block;
+}
+
+/* */
+.wppopups-field-option-group:first-of-type .wppopups-field-option-group-toggle {
+	border-top: 0;
+}
+
+.wppopups-field-option-group:last-of-type .wppopups-field-option-group-toggle {
+	border-bottom: 1px solid #b1bac3 !important;
+}
+
+.wppopups-field-option-group.wppopups-hide .wppopups-field-option-group-toggle {
+	border-bottom: 0;
+}
+
+/* Dropdown Choices / Multiple choice / Captcha questions */
+
+.wppopups-field-option-row-choices ul,
+.wppopups-field-option-row-questions ul {
+	margin-bottom: 0;
+}
+
+.wppopups-field-option-row-choices li,
+.wppopups-field-option-row-questions li {
+	border-bottom:1px solid #ddd;
+	overflow: hidden;
+	padding: 8px 0;
+	margin: 0
+}
+
+.wppopups-field-option-row-choices li:first-of-type ,
+.wppopups-field-option-row-questions li:first-of-type {
+	padding-top:0;
+}
+
+.wppopups-field-option-row-choices li:last-of-type,
+.wppopups-field-option-row-questions li:last-of-type {
+	padding-bottom:0;
+	border: 0;
+}
+
+.wppopups-field-option-row-choices li i,
+.wppopups-field-option-row-questions li i {
+	font-size:18px;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.wppopups-field-option-row-choices li .move:hover {
+	cursor: pointer;
+}
+
+.wppopups-field-option-row-choices li .move i {
+	margin: 0 10px 0 5px;
+}
+
+.wppopups-field-option-row-choices li .add i,
+.wppopups-field-option-row-questions li .add i  {
+	margin-left:10px;
+}
+
+.wppopups-field-option-row-choices li input[type=text] {
+	display: inline-block;
+	width:68%;
+}
+
+.wppopups-field-option-row-choices li input[type=text].value {
+	margin: 10px 0 0 50px;
+	display: none;
+}
+
+.wppopups-field-option-row-questions li input[type=text] {
+	display: inline-block;
+	width:82%;
+	margin: 0 0 10px 0;
+}
+
+.wppopups-field-option-row-questions li input[type=text]:last-of-type {
+	margin: 0;
+}
+
+.wppopups-field-option-row-choices .show-values li input[type=text].value {
+	display:block;
+}
+
+.wppopups-field-option-row-choices .wppopups-alert {
+	margin-bottom: 0;
+}
+
+/* Address, Name, Date/Time field */
+
+.wppopups-field-option-address .placeholder,
+.wppopups-field-option-address .default,
+.wppopups-field-option-name .placeholder,
+.wppopups-field-option-name .default,
+.wppopups-field-option-date-time .placeholder,
+.wppopups-field-option-date-time .format {
+	float: left;
+	width: 44%;
+	margin-right: 2%;
+}
+
+.wppopups-field-option-date-time .type,
+.wppopups-field-option-date-time .interval {
+	float: left;
+	width: 44%;
+	margin-right: 2%;
+	clear: both;
+}
+
+.wppopups-field-option-address .default select,
+.wppopups-field-option-date-time .format select,
+.wppopups-field-option-date-time .interval select,
+.wppopups-field-option-date-time .type select  {
+	display: block;
+	width: 100%;
+}
+
+.wppopups-field-option-address .hide input {
+	margin: 8px 0 0 0;
+}
+
+.wppopups-field-option-address .sub-label,
+.wppopups-field-option-name .sub-label,
+.wppopups-field-option-date-time .sub-label,
+.wppopups-field-option-credit-card .sub-label {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.wppopups-field-option-name .format-selected-simple  .wppopups-field-option-row-first,
+.wppopups-field-option-name .format-selected-simple  .wppopups-field-option-row-middle,
+.wppopups-field-option-name .format-selected-simple  .wppopups-field-option-row-last,
+.wppopups-field-option-name .format-selected-first-last  .wppopups-field-option-row-simple,
+.wppopups-field-option-name .format-selected-first-last  .wppopups-field-option-row-middle,
+.wppopups-field-option-name .format-selected-first-middle-last  .wppopups-field-option-row-simple,
+.wppopups-field-option-date-time .format-selected-time .wppopups-field-option-row-date,
+.wppopups-field-option-date-time .format-selected-date .wppopups-field-option-row-time {
+	display: none;
+}
+
+.wppopups-field-option-date-time.wppopups-date-type-dropdown option.datepicker-only {
+	display: none;
+}
+
+.wppopups-field-option-date-time.wppopups-date-type-dropdown .wppopups-field-option-row-date .placeholder {
+	display: none;
+}
+
+/* Payment Multiple Items and Dropdown Items */
+
+.wppopups-field-option-payment-multiple .wppopups-field-option-row-choices li input[type=text],
+.wppopups-field-option-payment-checkbox .wppopups-field-option-row-choices li input[type=text],
+.wppopups-field-option-payment-select .wppopups-field-option-row-choices li input[type=text] {
+	width: 45%;
+}
+
+.wppopups-field-option-payment-multiple .wppopups-field-option-row-choices li input[type=text].value,
+.wppopups-field-option-payment-checkbox .wppopups-field-option-row-choices li input[type=text].value,
+.wppopups-field-option-payment-select .wppopups-field-option-row-choices li input[type=text].value {
+	margin: 0 0 0 5px;
+	width: 21%;
+	display: inline-block;
+}
+
+/* Email/Password Confirmation */
+
+.wppopups-field-option.wppopups-confirm-disabled .wppopups-field-option-row-confirmation_placeholder,
+.wppopups-field-option.wppopups-confirm-disabled .wppopups-field-option-row-sublabel_hide {
+	display: none;
+}
+
+/* After field description */
+.after-label-description {
+	font-size: 11px;
+	color: #999;
+	text-decoration: none;
+	float: right;
+}
+
+.after-label-description:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+
+/* Preview (right column)
+-------------------------------------------------------------- */
+
+.no-fields-preview {
+	background: url(../images/builder-default-arrow.png) no-repeat;
+	background-size: 148px 140px;
+	background-position: 50px 40px;
+	text-align: center;
+	padding-top: 210px;
+	padding-bottom: 40px;
+	font-size: 18px;
+	color: #666;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.wppopups-title-desc {
+	border: 1px solid #fff;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 0 200px 20px 0;
+	margin: 10px 10px 20px 10px;
+}
+
+
+#wppopups-panel-optin .wppopups-field {
+	border: 1px solid #fff;
+}
+
+.wppopups-field {
+	padding: 10px;
+	margin: 0 0 5px 0;
+	font-size:14px;
+	position: relative;
+}
+
+.wppopups-field.wppopups-field-stick {
+	cursor: default;
+}
+
+.wppopups-field .wppopups-field-row {
+	margin: 0 0 10px 0;
+	position: relative;
+}
+
+.wppopups-field .wppopups-field-row:last-of-type {
+	margin: 0;
+}
+
+.wppopups-panel:not(#wppopups-panel-optin) .wppopups-field label {
+	cursor: default;
+}
+
+.wppopups-field .wppopups-field-duplicate {
+	color: #777;
+	position: absolute;
+	top: 5px;
+	right: 35px;
+	font-size: 16px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background-color: #fff;
+	display: none;
+	z-index: 10;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition:    all 0.4s ease-in-out;
+	-ms-transition:     all 0.4s ease-in-out;
+	-o-transition:      all 0.4s ease-in-out;
+	transition:         all 0.4s ease-in-out;
+	border-radius: 50%;
+}
+
+#wppopups-panel-optin .wppopups-field:hover .wppopups-field-duplicate,
+#wppopups-panel-optin .wppopups-field.active .wppopups-field-duplicate {
+	display: block;
+}
+
+#wppopups-panel-optin .wppopups-field .wppopups-field-duplicate i {
+	opacity: 0.45;
+}
+
+#wppopups-panel-optin .wppopups-field .wppopups-field-duplicate:hover i {
+	color: #e27730;
+	opacity: 1;
+}
+
+.wppopups-field.wppopups-field-pagebreak .wppopups-field-duplicate {
+	display: none;
+}
+
+.wppopups-field .wppopups-field-delete {
+	color: #d22222;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 16px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background-color: #fff;
+	display: none;
+	z-index: 10;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition:    all 0.4s ease-in-out;
+	-ms-transition:     all 0.4s ease-in-out;
+	-o-transition:      all 0.4s ease-in-out;
+	transition:         all 0.4s ease-in-out;
+	border-radius: 50%;
+}
+
+#wppopups-panel-optin .wppopups-field:hover .wppopups-field-delete,
+#wppopups-panel-optin .wppopups-field.active .wppopups-field-delete {
+	display: block;
+}
+
+#wppopups-panel-optin .wppopups-field .wppopups-field-delete i {
+	opacity: 0.45;
+}
+
+#wppopups-panel-optin .wppopups-field .wppopups-field-delete:hover i {
+	color: #d22222;
+	opacity: 1;
+}
+
+.wppopups-field .wppopups-field-helper {
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	z-index: 10;
+	background-color: #8a8a8a;
+	font-size: 12px;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 2px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition:    all 0.4s ease-in-out;
+	-ms-transition:     all 0.4s ease-in-out;
+	-o-transition:      all 0.4s ease-in-out;
+	transition:         all 0.4s ease-in-out;
+	opacity: 0;
+}
+
+#wppopups-panel-optin .wppopups-field:hover .wppopups-field-helper {
+	opacity: 1;
+}
+
+.wppopups-field.wppopups-field-stick .wppopups-field-delete,
+.wppopups-field.wppopups-field-stick .wppopups-field-helper {
+	display: none !important;
+}
+
+.wppopups-field input[readonly],
+.wppopups-field input[disabled],
+.wppopups-field textarea[readonly],
+.wppopups-field textarea[disabled]  {
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+	box-shadow: none;
+}
+
+.wppopups-field input[type=text],
+.wppopups-field input[type=range],
+.wppopups-field input[type=email],
+.wppopups-field input[type=url],
+.wppopups-field input[type=password] {
+	padding: 6px 10px;
+	display: block;
+	width: 65%;
+	background-color: #fff;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 38px;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.wppopups-field input[type=checkbox],
+.wppopups-field input[type=radio] {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 14px;
+	height: 14px;
+	min-width: 14px;
+	margin: 0 10px 0 3px;
+	display: inline-block;
+}
+
+.wppopups-field select {
+	display: block;
+	background-color: #fff;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	padding: 6px 24px 6px 6px;
+	height: 38px;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.wppopups-field.size-large input[type=text],
+.wppopups-field.size-large input[type=hidden],
+.wppopups-field.size-large input[type=range],
+.wppopups-field.size-large input[type=email],
+.wppopups-field.size-large input[type=url],
+.wppopups-field.size-large input[type=password]{
+	width: 100%;
+}
+
+.wppopups-field.size-small input[type=text],
+.wppopups-field.size-small input[type=hidden],
+.wppopups-field.size-small input[type=range],
+.wppopups-field.size-small input[type=email],
+.wppopups-field.size-small input[type=url],
+.wppopups-field.size-small input[type=password]{
+	width: 25%;
+}
+
+.wppopups-field textarea {
+	padding: 6px 10px;
+	display: block;
+	background-color: #fff;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 110px;
+	font-size: 16px;
+	line-height: 1.3;
+	width: 100%;
+}
+
+.wppopups-field.size-small textarea {
+	height: 60px;
+}
+
+.wppopups-field.size-large textarea {
+	height: 300px;
+}
+
+#wppopups-panel-optin .wppopups-title-desc:hover {
+	cursor: pointer;
+
+}
+#wppopups-panel-optin .wppopups-field:hover {
+	cursor: pointer;
+	border: 1px dashed #ddd;
+}
+
+.wppopups-title-desc.active,
+.wppopups-field.active {
+	background-color: #f6f9fc;
+	border: 1px solid #eee;
+}
+
+.wppopups-title-desc .wppopups-form-name {
+	padding: 0 0 5px 0;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 24px;
+	margin: 0;
+}
+
+.wppopups-title-desc .wppopups-form-desc {
+	color: #888;
+	font-size: 15px;
+	margin: 10px 0 0;
+	display: block;
+}
+
+.wppopups-field .label-title {
+	display:block;
+	font-weight: 600;
+	margin: 0 0 8px 0;
+}
+
+.wppopups-field.label_hide .label-title {
+	display: none;
+}
+
+.wppopups-field .label-title .required {
+	display: none;
+	color: red;
+}
+
+.wppopups-field .label-title .grey {
+	color: #888888;
+	margin: 8px 0 0 0;
+}
+
+.wppopups-field.required .label-title .required {
+	display: inline-block;
+	font-weight: 300;
+	margin: 0 0 0 2px;
+}
+
+.wppopups-field .description {
+	font-size:12px;
+	color: #666;
+	margin: 5px 0 0 0;
+	clear:both;
+}
+
+.wppopups-field .description.disclaimer {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 15px 15px 0;
+	margin-top: 15px;
+	height: 125px;
+	overflow: scroll;
+	font-size: 12px
+}
+
+.wppopups-field .description.disclaimer p {
+	margin: 0 0 15px 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.wppopups-field .wppopups-sub-label {
+	font-size: 12px;
+	display: block;
+}
+
+.wppopups-field.sublabel_hide .wppopups-sub-label {
+	display: none;
+}
+
+/* Multiple choice field */
+.wppopups-field-radio .wppopups-alert-dynamic {
+	font-size: 12px;
+	margin: 12px 0 0 0;
+}
+
+/* Dropdown and Dropdown Items payment field */
+.wppopups-field-select.size-large .primary-input,
+.wppopups-field-payment-select.size-large .primary-input {
+	width: 100%;
+	max-width: 100%;
+}
+
+.wppopups-field-select .primary-input,
+.wppopups-field-select.size-medium .primary-input,
+.wppopups-field-payment-select .primary-input,
+.wppopups-field-payment-select.size-medium .primary-input {
+	width: 65%;
+}
+
+.wppopups-field-select.size-small .primary-input,
+.wppopups-field-payment-select.size-small .primary-input {
+	width: 25%;
+}
+
+/* Divider field */
+.wppopups-field-divider {
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+.wppopups-field-divider label {
+	font-size: 18px;
+}
+
+.wppopups-field-divider .description {
+	font-size: 14px;
+	padding-top:6px;
+}
+
+/* Name field */
+.wppopups-field-name {
+}
+
+div.wppopups-field-name .format-selected input[type=text] {
+	width: 100%;
+}
+
+.wppopups-field-name.size-large .format-selected {
+	width: 100%;
+}
+
+.wppopups-field-name .format-selected,
+.wppopups-field-name.size-medium .format-selected {
+	width: 65%;
+}
+
+.wppopups-field-name.size-small .format-selected {
+	width: 25%;
+}
+
+.wppopups-field-name .format-selected-first-last .wppopups-simple,
+.wppopups-field-name .format-selected-first-last .wppopups-middle-name,
+.wppopups-field-name .format-selected-first-middle-last .wppopups-simple,
+.wppopups-field-name .format-selected-simple .wppopups-first-name,
+.wppopups-field-name .format-selected-simple .wppopups-middle-name,
+.wppopups-field-name .format-selected-simple .wppopups-last-name {
+	display: none;
+}
+
+.wppopups-field-name .format-selected-first-last .wppopups-first-name {
+	float: left;
+	width: 48%;
+}
+
+.wppopups-field-name .format-selected-first-last .wppopups-last-name {
+	float: right;
+	width: 48%;
+}
+
+.wppopups-field-name .format-selected-first-middle-last .wppopups-first-name {
+	float: left;
+	width: 37%;
+	margin-right: 3%;
+}
+
+.wppopups-field-name .format-selected-first-middle-last .wppopups-middle-name {
+	float: left;
+	width: 20%;
+}
+
+.wppopups-field-name .format-selected-first-middle-last .wppopups-last-name {
+	float: right;
+	width: 37%;
+}
+
+/* Address field */
+.wppopups-field-address.size-small .wppopups-address-scheme {
+	width: 25%;
+}
+
+.wppopups-field-address.size-medium .wppopups-address-scheme,
+.wppopups-field-address .wppopups-address-scheme {
+	width: 65%;
+}
+
+.wppopups-field-address.size-large .wppopups-address-scheme {
+	width: 100%;
+}
+
+.wppopups-field-address .wppopups-hide{
+	display: none;
+}
+
+.wppopups-field.wppopups-field-address input[type=text],
+.wppopups-field.wppopups-field-address select {
+	width: 100%;
+}
+
+/* Date Time field */
+.wppopups-field-date-time .format-selected input[type=text] {
+	width: 100%;
+}
+
+.wppopups-field-date-time.size-large .format-selected {
+	width: 100%;
+}
+
+.wppopups-field-date-time.size-medium .format-selected,
+.wppopups-field-date-time .format-selected {
+	width: 65%;
+}
+
+.wppopups-field-date-time.size-small .format-selected {
+	width: 25%;
+}
+
+.wppopups-field-date-time .format-selected-date-time .wppopups-date{
+	float: left;
+	width: 48%;
+}
+
+.wppopups-field-date-time .format-selected-date-time .wppopups-time {
+	float: right;
+	width: 48%;
+}
+
+.wppopups-field-date-time .format-selected-date .wppopups-time,
+.wppopups-field-date-time .format-selected-time .wppopups-date,
+.wppopups-field-date-time .format-selected-time .wppopups-sub-label,
+.wppopups-field-date-time .format-selected-date .wppopups-sub-label {
+	display: none;
+}
+
+.wppopups-field-date-time .wppopups-date-dropdown select {
+	display: inline-block;
+}
+
+.wppopups-field-date-time .wppopups-date-dropdown,
+.wppopups-field-date-time .wppopups-date-type-dropdown .wppopups-date-datepicker {
+	display: none;
+}
+
+.wppopups-field-date-time .wppopups-date-type-dropdown .wppopups-date-dropdown,
+.wppopups-field-date-time .wppopups-date-type-datepicker .wppopups-date-datepicker  {
+	display: block;
+}
+
+.wppopups-field-date-time .wppopups-date-dropdown span {
+	display: inline-block;
+	padding:0 5px;
+}
+
+/* Page break field */
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons {
+	text-align: center;
+	margin: 0 0 22px 0;
+	overflow: hidden;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-button {
+	font-size: 14px;
+	background: #ddd;
+	border: none;
+	padding: 6px 5px;
+	color: #000;
+	margin: 0 10px;
+	min-width: 85px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons.wppopups-pagebreak-buttons-left {
+	text-align: left;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons.wppopups-pagebreak-buttons-left .wppopups-pagebreak-button {
+	margin: 0 20px 0 0;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons.wppopups-pagebreak-buttons-right {
+	text-align: right;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons.wppopups-pagebreak-buttons-right .wppopups-pagebreak-button {
+	margin: 0 0 0 20px;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons.wppopups-pagebreak-buttons-split .wppopups-pagebreak-prev {
+	float: left;
+	margin: 0;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-buttons.wppopups-pagebreak-buttons-split .wppopups-pagebreak-next {
+	float: right;
+	margin: 0;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-divider {
+	position: relative;
+	height: 30px;
+	text-align: center;
+}
+
+.wppopups-field-pagebreak .line {
+	display: block;
+	border-top: 1px dashed #aaa;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+}
+
+.wppopups-field-pagebreak.active .pagebreak-label {
+	background-color: #f6f9fc;
+}
+
+.wppopups-field-pagebreak .pagebreak-label {
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #fff;
+	position: relative;
+	padding: 5px 10px;
+	display: inline-block;
+	z-index: 2;
+}
+
+.wppopups-field-pagebreak .wppopups-pagebreak-title {
+	font-weight: 400;
+	color: #999;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal {
+	border: none;
+	padding: 0;
+	margin: 0 -30px 20px -30px;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal .wppopups-pagebreak-divider {
+	background-color: #6b6b6b;
+	height: 60px;
+	padding-top: 16px;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal .pagebreak-label {
+	background-color: #6b6b6b;
+	color: #eee;
+	font-weight: 400;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal .wppopups-pagebreak-title {
+	color: #ddd;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal:hover .wppopups-pagebreak-divider,
+.wppopups-field-pagebreak.wppopups-pagebreak-normal:hover .pagebreak-label,
+.wppopups-field-pagebreak.wppopups-pagebreak-normal.active .wppopups-pagebreak-divider,
+.wppopups-field-pagebreak.wppopups-pagebreak-normal.active .pagebreak-label {
+	background-color: #777;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal.active {
+	background-color: #fff;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal .wppopups-pagebreak-buttons {
+	border: 1px solid #fff;
+	padding: 10px;
+	margin: 0 30px 10px;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal:hover .wppopups-pagebreak-buttons {
+	border: 1px dashed #ddd;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal.active .wppopups-pagebreak-buttons {
+	background-color: #f6f9fc;
+	border: 1px solid #eee;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-normal .wppopups-field-delete,
+.wppopups-field-pagebreak.wppopups-pagebreak-normal .wppopups-field-helper {
+	right: 40px;
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-bottom .wppopups-pagebreak-divider  {
+/*	display: none;*/
+}
+
+.wppopups-field-pagebreak.wppopups-pagebreak-bottom .wppopups-pagebreak-buttons {
+	margin: 0;
+}
+
+/* Payment single field */
+.wppopups-field.wppopups-field-payment-single .primary-input,
+.wppopups-field-payment-single .item-price-hidden {
+	display: none;
+}
+
+.wppopups-field-payment-single .format-selected-user .primary-input {
+	display: block;
+}
+
+.wppopups-field-payment-single .item-price {
+	margin-bottom: 0;
+}
+
+.wppopups-field-payment-single .format-selected-user .item-price {
+	display: none;
+}
+
+.wppopups-field-payment-single .item-price-hidden {
+	color: #999;
+	font-size: 12px;
+	margin: 0;
+}
+
+.wppopups-field-payment-single .format-selected-hidden .item-price-hidden {
+	display: block;
+}
+
+/* Credit Card field */
+
+.wppopups-field-credit-card input[type=text],
+.wppopups-field-credit-card select {
+	width: 100%;
+}
+
+.wppopups-field-credit-card.size-large .format-selected {
+	width: 100%;
+}
+
+.wppopups-field-credit-card .format-selected,
+.wppopups-field-credit-card.size-medium .format-selected {
+	width: 65%;
+}
+
+.wppopups-field-credit-card.size-small .format-selected {
+	width: 25%;
+}
+
+.wppopups-field-credit-card .wppopups-sub-label {
+	display: block;
+}
+
+.wppopups-field-credit-card .wppopups-credit-card-cardnumber {
+	margin-right: 100px;
+}
+
+.wppopups-field-credit-card .wppopups-credit-card-cardcvc {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 92px;
+}
+
+.wppopups-field-credit-card .wppopups-credit-card-cardname {
+	margin-right: 140px;
+}
+
+.wppopups-field-credit-card .wppopups-credit-card-expiration {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 130px;
+}
+
+.wppopups-field-credit-card .wppopups-credit-card-cardmonth,
+.wppopups-field-credit-card .wppopups-credit-card-cardyear {
+	width: 45%;
+	float: left;
+	display: block;
+}
+
+.wppopups-field-credit-card .wppopups-credit-card-expiration span {
+	float: left;
+	width: 10%;
+	text-align: center;
+	padding-top: 8px;
+}
+
+/* Custom captcha  */
+
+.wppopups-field-captcha .format-selected-math {
+	font-size: 16px;
+}
+
+.wppopups-field-captcha .format-selected-math input {
+	display: inline-block;
+	width: 70px;
+}
+
+.wppopups-field-captcha .format-selected-math .wppopups-question,
+.wppopups-field-captcha .format-selected-qa .wppopups-equation {
+	display: none;
+}
+
+/* Email/Password confirmation */
+
+.wppopups-field .wppopups-confirm input[type=email],
+.wppopups-field .wppopups-confirm input[type=email],
+.wppopups-field .wppopups-confirm input[type=password],
+.wppopups-field .wppopups-confirm input[type=password] {
+	width: 100%;
+}
+
+.wppopups-field.size-large .wppopups-confirm {
+	width: 100%;
+}
+
+.wppopups-field .wppopups-confirm,
+.wppopups-field.size-medium .wppopups-confirm {
+	width: 65%;
+}
+
+.wppopups-field.size-small .wppopups-confirm {
+	width: 25%;
+}
+
+.wppopups-confirm-disabled .wppopups-confirm-confirmation,
+.wppopups-confirm-disabled .wppopups-confirm-primary .wppopups-sub-label {
+	display: none;
+}
+
+.wppopups-confirm-enabled .wppopups-confirm-primary {
+	float: left;
+	width: 48%;
+}
+
+.wppopups-confirm-enabled .wppopups-confirm-confirmation {
+	float: right;
+	width: 48%;
+}
+
+
+/* Choice input layouts */
+
+ ul.primary-input {
+	margin-bottom: 0;
+}
+
+ .wppopups-list-2-columns ul,
+ .wppopups-list-3-columns ul {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+ .wppopups-list-2-columns ul li {
+	width: 50%;
+	display: block;
+	padding-right: 26px;
+}
+
+ .wppopups-list-3-columns ul li {
+	width: 33.3333%;
+	display: block;
+	padding-right: 26px !important;
+}
+
+ .wppopups-list-inline ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* reCaptcha. */
+.wppopups-field-recaptcha {
+	position: absolute;
+	top: 56px;
+	right: 35px;
+	display: none;
+	min-width: 165px;
+	background-color: #f6f6f6;
+	border-radius: 25px 0 0 25px;
+}
+
+.wppopups-field-recaptcha-wrap {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	padding: 0 13px;
+}
+
+.wppopups-field-recaptcha-wrap-l {
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+.wppopups-field-recaptcha-wrap-r {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.wppopups-field-recaptcha-icon {
+	width: 28px;
+}
+
+.wppopups-field-recaptcha-title {
+	margin: 0;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.wppopups-field-recaptcha-desc {
+	overflow: hidden;
+	margin: 0;
+	color: #777;
+	line-height: 1.07692308;
+	white-space: nowrap;
+}
+
+.wppopups-field-recaptcha-desc-txt,
+.wppopups-field-recaptcha-desc-icon {
+	vertical-align: middle;
+}
+
+.wppopups-field-recaptcha-desc-icon {
+	width: 14px;
+	color: #4285f4;
+}
+
+.wppopups-field-recaptcha-desc-icon path {
+	fill: currentColor;
+}
+
+/* Submit. */
+.wppopups-field-submit {
+	padding-left: 10px;
+}
+
+.wppopups-field-submit input[type=submit] {
+	font-size:16px;
+	background: #ddd;
+	border: none;
+	padding: 8px 20px;
+	color: #000;
+	cursor: pointer;
+}
+
+/* Drag and Drop
+-------------------------------------------------------------- */
+
+.wppopups-field-dragging {
+	background-color: #f5f5f5;
+}
+
+.wppopups-field-drag-out {
+	display: block;
+	width: 48%;
+	margin: 0;
+	background: #0e6cad;
+	border: none;
+	color: #fff;
+	padding: 12px 5px 12px 18px;
+	border-radius: 2px;
+	text-align: left;
+}
+
+.wppopups-field-drag-over {
+	border: 1px dashed #ddd;
+	padding: 20px 10px;
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	width: 100%;
+	color: #444;
+	text-align: center;
+}
+
+.wppopups-field-drag-pending {
+	background-color: #f6f9fc;
+	border: 1px solid #eee;
+}
+
+.wppopups-field-drag-pending .fa {
+	margin-left: 8px;
+	font-size: 18px;
+	color: #666;
+}
+
+/* File uploader */
+
+.wppopups-field-file-upload .wppopups-hide {
+	display: none !important;
+}
+
+.wppopups-row-hide {
+	display: none !important;
+}
+
+.wppopups-field-file-upload .wppopups-file-upload-builder-modern {
+	border: 1px dashed #ccc;
+	border-radius: 2px;
+	background: #fcfcfc;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 1.5;
+}
+
+.wppopups-field-file-upload .wppopups-file-upload-builder-modern svg {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 5px;
+	opacity: 0.5;
+}
+
+.wppopups-field-file-upload .wppopups-file-upload-builder-modern .modern-hint {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+/* Number slider */
+.wppopups-field-option-row-min_max .wppopups-input-row {
+	display: flex;
+}
+
+.wppopups-field-option-row-min_max .wppopups-input-row input {
+	width: 95%;
+}
+
+.wppopups-field-option-row-min_max .wppopups-input-row label {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.wppopups-preview .wppopups-field-number-slider input[type=range] {
+	-webkit-appearance: none;  /* Override default CSS styles */
+	appearance: none;
+	height: 10px;
+	background: #fff;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	outline: none;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.wppopups-preview .wppopups-field-number-slider input[type=range]::-ms-track {
+	color: transparent;
+}
+
+.wppopups-preview .wppopups-field-number-slider input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	background: #B5B5B5;
+	border-radius: 100%;
+}
+
+.wppopups-preview .wppopups-field-number-slider input[type=range]::-moz-range-thumb {
+	width: 17px;
+	height: 17px;
+	background: #B5B5B5;
+	border-radius: 100%;
+}
+
+.wppopups-preview .wppopups-field-number-slider input[type=range]::-ms-thumb {
+	width: 17px;
+	height: 17px;
+	background: #B5B5B5;
+	border-radius: 100%;
+}
+
+.wppopups-preview .wppopups-field-number-slider .wppopups-number-slider-hint {
+	display: block;
+	font-size: 12px;
+}

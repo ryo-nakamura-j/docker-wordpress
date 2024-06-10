@@ -1,0 +1,28 @@
+.cf7md-page {
+    margin-left: -20px;
+    -webkit-font-smoothing: antialiased;
+}
+.cf7md-main {
+    @extend .cf;
+    padding: $base-v-space * 4;
+}
+.cf7md-content {
+    float: left;
+    width: calc(60% - #{$base-v-space * 4});
+    margin-right: $base-v-space * 4;
+    min-width: 400px;
+}
+.cf7md-aside {
+    float: left;
+    width: 40%;
+    min-width: 300px;
+}
+
+// Notices
+.cf7md-page {
+    .update-nag, .fs-notice, .notice, .notice-warning, .notice-error, .notice-success, .notice-info, .error, .updated {
+        strong {
+            font-weight: 500;
+        }
+    }
+}

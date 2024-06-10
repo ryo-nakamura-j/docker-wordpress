@@ -1,0 +1,56 @@
+$offset: 187;
+$duration: 1.4s;
+
+.cf7md-spinner {
+  animation: rotator $duration linear infinite;
+}
+
+@keyframes rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.cf7md-spinner-path {
+    stroke-dasharray: $offset;
+    stroke-dashoffset: 0;
+    stroke: $text-primary-on-light;
+    transform-origin: center;
+    animation: dash $duration ease-in-out infinite;
+    .mdc-theme--dark & {
+        stroke: $text-primary-on-dark;
+    }
+}
+
+@keyframes dash {
+    0% { stroke-dashoffset: $offset; }
+    50% {
+        stroke-dashoffset: $offset/4;
+        transform:rotate(135deg);
+    }
+    100% {
+        stroke-dashoffset: $offset;
+        transform:rotate(450deg);
+    }
+}
+
+// Reset the default spinner
+.ajax-loader {
+    background-image: none;
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+}
+
+// Hiding and showing
+.cf7md-spinner {
+    display: none;
+    .ajax-loader.is-active & {
+        display: block;
+    }
+}
+
+// Avada theme puts its own spinner in
+.fusion-slider-loading, .fusion-slider-loading:after {
+    width: 2.2em !important;
+    height: 2.2em;
+}

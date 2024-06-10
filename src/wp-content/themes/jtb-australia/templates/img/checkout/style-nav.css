@@ -1,0 +1,60 @@
+
+#my-breadcrumbs ul li {
+	list-style:none;	
+}
+
+#my-breadcrumbs ul li span a{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	/* padding-top: 10px; */
+	top: 10px;
+	position: relative;
+	width: 470px;
+	/* height: 100px; */
+}
+
+#my-breadcrumbs ul li span {
+	display: block;
+	float: left;
+	height: 80px;
+	background: #4060A5;
+	text-align: center;
+	/* padding: 30px 40px 0 40px; */
+	position: relative;
+	margin: 0 45px 0 0;
+	width: 100px;
+}
+
+
+#my-breadcrumbs ul li span:after {
+	content: "";
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid #4060A5;
+	position: absolute;right: -40px;top: 0;
+}
+
+
+#my-breadcrumbs ul li span:before {
+ content: "";
+ position: absolute;
+ /* margin-top: -30px; */
+ border-width: 40px 0 40px 40px;
+ border-style: solid;
+ border-color: #4060A5 #4060A5 #4060A5 transparent;
+ left: -40px;
+}
+
+#my-breadcrumbs ul li span.my-breadcrumbs-gray:before {
+ 	border-color: #808083 #808083 #808083 transparent;
+	background-color: 
+}
+#my-breadcrumbs ul li span.my-breadcrumbs-gray:after {
+	border-left: 40px solid #808083;
+}
+
+#my-breadcrumbs ul li span.my-breadcrumbs-gray {
+	background: #808083;
+}

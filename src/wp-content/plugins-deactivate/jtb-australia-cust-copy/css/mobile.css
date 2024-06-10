@@ -1,0 +1,254 @@
+
+
+
+
+
+
+
+@media (max-device-width: 1300px) , (max-width: 1300px){
+	.header__contact {display:none;}
+
+}
+
+@media (max-device-width: 1200px) , (max-width: 1200px){
+	body .carousel .carousel-inner {
+	    height: 270px; 
+	}
+	.header__contact {display:none;}
+	.btn-block { 
+    margin-top: 20px;
+	}
+	p.right-side-image{max-width: 55%;}
+
+	.copy-protect-3-img div{
+        top: -200px;
+    height: 200px;
+	
+	html #top-banner23   .clearfix img{
+	width:100%  !important ;	
+	 padding-right: 0px !important ;
+    padding-left: 0px !important ;
+	}
+	html #top-banner23   .clearfix{
+padding:0 !important ;}
+	
+}
+
+
+}
+
+@media (max-device-width: 1199px) , (max-width: 1199px){
+	.jrpass-bookingflow div.single {
+	    min-height: 330px;
+	}
+	.search_page .thumbnail {
+    min-height: 280px;
+	}
+	
+
+	body .hearderwarning p.yellow-message, body .hearderwarning p.red-message, body .hearderwarning p.green-message {
+    max-width: 330px; 
+	}
+
+	  .cruise_group .clear-left,.cruise_group .clear-right{width: 100%;}
+
+.navbar-nav li a {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: initial;
+}
+
+html #top-banner23   .clearfix{
+padding:0 !important ;}
+
+}
+
+
+@media (max-device-width: 991px) , (max-width: 991px){
+ html .page-id-24138 .container .row .col-xs-12 iframe{
+	width: 48%; 
+}
+
+	.jrpass-bookingflow  .icon{
+	  font-size: 25px;
+	}
+	.jrpass-bookingflow div.single {
+	    min-height: 450px;
+	}
+	.search_page .thumbnail {
+    min-height: 390px;
+	}
+	.mobileonly{display: block;}
+	 
+		body .carousel .carousel-inner {
+	    height: auto; 
+	}
+#product-slider{padding: 10%;}
+html body div.dt_search_left,html body div.dt_search_img {
+  width: 100%;
+}
+
+	.copy-protect-3-img div{
+           top: -150px;
+    height: 150px;
+}
+
+
+}
+
+/*
+@media (max-device-width: 843px) , (max-width: 843px){
+	body .carousel .carousel-inner {
+	    height: 280px; mobile banners
+	}
+}
+*/
+
+
+
+
+
+ 
+
+/* Mobile menu appears  */
+@media (max-device-width: 767px) , (max-width: 767px){
+html #top-banner23   .clearfix{
+padding:0 !important ;}
+
+html body div#navi ,html body div#navi div{
+	background-color: #cc0000   !important ;}
+html #headerWrap ul.header__ul01 li.sub ul, html #headerWrap ul.header__ul01 li.sub ul li a {
+  background-color: #f0680f !important;
+}
+
+html #top-banner23   .clearfix img{
+	width:100%  !important ;	
+	 padding-right: 0px !important ;
+    padding-left: 0px !important ;
+	}
+
+	.copy-protect-3-img div{
+         top: -420px;
+    height: 420px;
+}
+
+body.page-id-33017 .width50 .width50  {
+   width: 45%  !important ;margin-right: 2%;position: relative;float: left;
+}
+
+.page-id-31209 .right-side-image{max-width: 44%;height: auto;float: right; }
+.page-id-31209 .rwc_header{display: none;}
+.page-id-31209 .rwc_header_mobile{display: block !important ;}
+
+/*RWC T/C */
+	.page-id-24379  #flightbox input{    width: 98%;float: left;}
+
+.calendar-wrapper { 
+    font-size: 70%;
+}
+.calendar-wrapper .days{
+    font-size: 80%;
+}
+	.col-sm-3 .thumbnail a {
+    max-height: none;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+	}
+	.jrpass-bookingflow div img:after{    content: "\f01a";}
+	.jrpass-bookingflow  .iconmob{
+  		display: inline-block;
+	}
+	.jrpass-bookingflow  .icon{
+  		display: none;
+	}
+	.jrpass-bookingflow div.single{ min-height: 40px;}
+	.jrpass-bookingflow  .icon,.jrpass-bookingflow  .iconmob{ right: 11%;}
+
+	.image3list,.image3list div.col-sm-4{width: 100%;}
+	.image3list img{width: 60%; margin: 0 20% 10px 20%;}
+	.image3list  div.imageset2,.image3list  div.imageset3{width: 50% ;margin: 0 ;position: relative;float: left;padding: 0;}
+	.image3list .imageset2 .post,.image3list .imageset3 .post,.image3list .imageset2 .entry,.image3list .imageset3 .entry{width: 100%;}
+	.imageset3 .imageset2 img,.imageset3 .imageset3 img{    margin: 0 10% 10px 10%;    width: 80%;}
+	.search_page .thumbnail {
+    min-height: 10px;
+	}
+
+		 
+	body .carousel .carousel-inner {
+	    height: auto; 
+	}
+	body .search-mobile input.input-search{    width: 66%;}
+
+
+
+
+}
+
+@media (max-device-width: 601px) , (max-width: 601px){
+	#myModal-a .modal-content {width: 80%;}
+	.redupperlower .heading-image img {
+	    position: inherit;
+	    float: none;
+	    width: 100%;
+	    margin: 0 0 20px 0;
+	    padding: 0;
+	}
+	table.itinerary img {
+	    position: inherit;
+	    top: 0;
+	    right: 0;
+	    width: 70%;
+	    height: auto;
+	    padding: 0;
+	    margin: 0 15% 20px 15%;
+	}
+	table.itinerary table {
+	    width: 100%;
+	    margin-bottom: 0;
+	}
+	.accreditation{padding-top: 0.5em;}
+		#menu-footer-menu li a{    padding: 12px;
+    display: inline-block;
+    margin: 5px;
+    background-position-y: 15px;}
+    body p.right-side-image{width: 94%;max-width: 100%;float: left;}
+     html .page-id-24138 .container .row .col-xs-12 iframe{
+	width: 100%; 
+}
+    body p.right-side-image img{margin: 15px auto;display: block;}
+#product-slider{padding:0;}
+body .carousel .carousel-inner {
+	    height: auto;
+	}
+
+
+.copy-protect-3-img div{
+     top: -330px;
+    height: 330px;
+}
+
+
+}
+
+
+@media (max-device-width: 540px) , (max-width: 540px){
+	p.right-side-image {width: 100%;clear: both;}
+	p.right-side-image img{margin: 15px auto;padding: 0;    display: block;}
+
+
+
+
+}
+
+
+@media (max-device-width: 420px) , (max-width: 420px){
+body .carousel .carousel-inner {
+	    height: auto;
+	}
+}
+
+
+
+
+

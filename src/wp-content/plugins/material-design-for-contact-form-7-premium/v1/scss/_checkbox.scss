@@ -1,0 +1,19 @@
+.cf7md-checkbox-item {
+    align-items: flex-start;
+}
+.mdc-checkbox {
+    margin-left: -11px;
+    flex: 0 0 18px;
+}
+.cf7md-checkbox-label {
+    padding-top: 10px;
+}
+.cf7md-accept {
+    //.wpcf7-form-control-wrap,
+    .cf7md-accept--inner {
+        display: inline-flex;
+    }
+    .wpcf7-list-item-label {
+        display: none;
+    }
+}

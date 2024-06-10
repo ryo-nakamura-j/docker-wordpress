@@ -1,0 +1,1611 @@
+/* ==========================================================================
+   Theme - standard form styling
+   ========================================================================== */
+
+.wppopups-clear:before {
+	content: " ";
+	display: table;
+}
+
+.wppopups-clear:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+
+/* Resets
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full,
+div.wppopups-container-full .wppopups-form * {
+	background:none;
+	border:0 none;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	float:none;
+	font-size:100%;
+	height:auto;
+	letter-spacing:normal;
+	list-style:none;
+	outline:none;
+	position:static;
+	text-decoration:none;
+	text-indent:0;
+	text-shadow:none;
+	text-transform:none;
+	width:auto;
+	visibility:visible;
+	overflow:visible;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	-o-box-shadow:none;
+	box-shadow:none;
+}
+
+div.wppopups-container-full {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.wppopups-container-full .wppopups-form amp-img > img {
+	position: absolute; /* Override position:static from previous rule, to prevent breaking AMP layout. */
+}
+
+div.wppopups-container-full .wppopups-form input,
+div.wppopups-container-full .wppopups-form label,
+div.wppopups-container-full .wppopups-form select,
+div.wppopups-container-full .wppopups-form button,
+div.wppopups-container-full .wppopups-form textarea {
+	margin:0;
+	border:0;
+	padding:0;
+	display: inline-block;
+	vertical-align: middle;
+	background: none;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.wppopups-container-full .wppopups-form textarea {
+	width: 100%;
+}
+
+div.wppopups-container-full .wppopups-form ul,
+div.wppopups-container-full .wppopups-form ul li {
+	background: none !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+}
+
+div.wppopups-container-full .wppopups-form ul li {
+	margin-bottom: 5px !important;
+}
+
+div.wppopups-container-full .wppopups-form ul li:last-of-type {
+	margin-bottom: 0 !important;
+}
+
+div.wppopups-container-full .wppopups-form hr {
+	border-top: 1px solid #ccc;
+	margin: 0.5em auto;
+}
+
+/* Basic Field properties
+----------------------------------------------------------------------------- */
+
+/* Field sizes - medium */
+div.wppopups-container-full .wppopups-form input.wppopups-field-medium,
+div.wppopups-container-full .wppopups-form select.wppopups-field-medium,
+div.wppopups-container-full .wppopups-form .wppopups-field-row.wppopups-field-medium {
+	max-width: 60%;
+}
+
+div.wppopups-container-full .wppopups-form textarea.wppopups-field-medium {
+	height: 120px;
+}
+
+/* Field sizes - small */
+div.wppopups-container-full .wppopups-form input.wppopups-field-small,
+div.wppopups-container-full .wppopups-form select.wppopups-field-small,
+div.wppopups-container-full .wppopups-form .wppopups-field-row.wppopups-field-small {
+	max-width: 25%;
+}
+
+div.wppopups-container-full .wppopups-form textarea.wppopups-field-small {
+	height: 70px;
+}
+
+/* Field sizes - large */
+div.wppopups-container-full .wppopups-form input.wppopups-field-large,
+div.wppopups-container-full .wppopups-form select.wppopups-field-large,
+div.wppopups-container-full .wppopups-form .wppopups-field-row.wppopups-field-large {
+	max-width: 100%;
+}
+
+div.wppopups-container-full .wppopups-form textarea.wppopups-field-large {
+	height: 220px;
+}
+
+/* Field container */
+div.wppopups-container-full .wppopups-form .wppopups-field {
+	padding: 10px 0;
+	clear: both;
+}
+
+/* Field Description */
+div.wppopups-container-full .wppopups-form .wppopups-field-description,
+div.wppopups-container-full .wppopups-form .wppopups-field-limit-text {
+	font-size: 13px;
+	line-height: 1.3;
+	margin: 8px 0 0 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-description.wppopups-disclaimer-description {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	color: #444;
+	padding: 15px 15px 0;
+	margin-top: 15px;
+	height: 125px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-size: 12px
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-description.wppopups-disclaimer-description p {
+	color: #444;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-description-before,
+div.wppopups-container-full .wppopups-form .wppopups-field-description.before {
+	margin: 0 0 8px 0;
+}
+
+/* Labels and sub-labels */
+div.wppopups-container-full .wppopups-form .wppopups-field-label {
+	display: block;
+	font-weight: 700;
+	font-size: 16px;
+	float: none;
+	line-height: 1.3;
+	margin: 0 0 4px 0;
+	padding: 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-sublabel {
+	display: block;
+	font-size: 13px;
+	float: none;
+	font-weight: 400;
+	line-height: 1.3;
+	margin: 4px 0 0;
+	padding: 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-sublabel.before {
+	margin: 0 0 4px 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-label-inline {
+	display: inline;
+	vertical-align: baseline;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-label.wppopups-label-hide,
+div.wppopups-container-full .wppopups-form .wppopups-field-sublabel.wppopups-sublabel-hide {
+	position: absolute;
+	left: -99999px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-required-label {
+	color: #ff0000;
+	font-weight: 400;
+}
+
+
+/* Rows (multi-line fields: address, credit card, etc)
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-field-row {
+	margin-bottom: 8px;
+	position: relative;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field .wppopups-field-row:last-of-type {
+	margin-bottom: 0;
+}
+
+/* Clear each row */
+div.wppopups-container-full .wppopups-form .wppopups-field-row:before {
+	content: " ";
+	display: table;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-row:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+
+/* Columns
+----------------------------------------------------------------------------- */
+
+/* User column classes  */
+div.wppopups-container-full .wppopups-form .wppopups-five-sixths,
+div.wppopups-container-full .wppopups-form .wppopups-four-sixths,
+div.wppopups-container-full .wppopups-form .wppopups-four-fifths,
+div.wppopups-container-full .wppopups-form .wppopups-one-fifth,
+div.wppopups-container-full .wppopups-form .wppopups-one-fourth,
+div.wppopups-container-full .wppopups-form .wppopups-one-half,
+div.wppopups-container-full .wppopups-form .wppopups-one-sixth,
+div.wppopups-container-full .wppopups-form .wppopups-one-third,
+div.wppopups-container-full .wppopups-form .wppopups-three-fourths,
+div.wppopups-container-full .wppopups-form .wppopups-three-fifths,
+div.wppopups-container-full .wppopups-form .wppopups-three-sixths,
+div.wppopups-container-full .wppopups-form .wppopups-two-fourths,
+div.wppopups-container-full .wppopups-form .wppopups-two-fifths,
+div.wppopups-container-full .wppopups-form .wppopups-two-sixths,
+div.wppopups-container-full .wppopups-form .wppopups-two-thirds {
+	float: left;
+	margin-left: 4%;
+	clear: none;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-one-half,
+div.wppopups-container-full .wppopups-form .wppopups-three-sixths,
+div.wppopups-container-full .wppopups-form .wppopups-two-fourths {
+	width: 48%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-one-third,
+div.wppopups-container-full .wppopups-form .wppopups-two-sixths {
+	width: 30.6666666667%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-four-sixths,
+div.wppopups-container-full .wppopups-form .wppopups-two-thirds {
+	width: 65.3333333333%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-one-fourth {
+	width: 22%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-three-fourths {
+	width: 74%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-one-fifth {
+	width: 16.8%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-two-fifths {
+	width: 37.6%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-three-fifths {
+	width: 58.4%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-four-fifths {
+	width: 79.2%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-one-sixth {
+	width: 13.3333333333%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-five-sixths {
+	width: 82.6666666667%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-first {
+	clear: both !important;
+	margin-left: 0 !important;
+}
+
+/* User list column classes  */
+div.wppopups-container-full .wppopups-form .wppopups-checkbox-2-columns ul,
+div.wppopups-container-full .wppopups-form .wppopups-multiplechoice-2-columns ul,
+div.wppopups-container-full .wppopups-form .wppopups-list-2-columns ul,
+div.wppopups-container-full .wppopups-form .wppopups-checkbox-3-columns ul,
+div.wppopups-container-full .wppopups-form .wppopups-multiplechoice-3-columns ul,
+div.wppopups-container-full .wppopups-form .wppopups-list-3-columns ul {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-checkbox-2-columns ul li,
+div.wppopups-container-full .wppopups-form .wppopups-multiplechoice-2-columns ul li,
+div.wppopups-container-full .wppopups-form .wppopups-list-2-columns ul li {
+	width: 50%;
+	display: block;
+	padding-right: 26px !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-checkbox-3-columns ul li,
+div.wppopups-container-full .wppopups-form .wppopups-multiplechoice-3-columns ul li,
+div.wppopups-container-full .wppopups-form .wppopups-list-3-columns ul li {
+	width: 33.3333%;
+	display: block;
+	padding-right: 26px !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-list-inline ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px !important;
+}
+
+/* Legacy, for BC */
+div.wppopups-container-full .wppopups-form .wppopups-field.wppopups-first-half {
+	float: left;
+	width: 48%;
+	clear: both;
+}
+div.wppopups-container-full .wppopups-form .wppopups-field.wppopups-last-half {
+	float: right;
+	width: 48%;
+	clear: none;
+}
+div.wppopups-container-full .wppopups-form .wppopups-field.wppopups-first-third {
+	float: left;
+	width: 30.666666667%;
+	clear: both;
+}
+div.wppopups-container-full .wppopups-form .wppopups-field.wppopups-middle-third  {
+	float: left;
+	width: 30.666666667%;
+	margin-left: 4%;
+	clear: none;
+}
+div.wppopups-container-full .wppopups-form .wppopups-field.wppopups-last-third {
+	float: right;
+	width: 30.666666667%;
+	clear: none;
+}
+div.wppopups-container-full .wppopups-form div.wppopups-last {
+	float: right !important;
+	margin-right: 0 !important;
+	clear: none;
+}
+
+
+/* Preset Layouts
+----------------------------------------------------------------------------- */
+
+/* Single line */
+div.wppopups-container-full.inline-fields {
+	overflow: hidden;
+}
+
+div.wppopups-container-full.inline-fields .wppopups-form .wppopups-field-container  {
+	display: table;
+	width: calc(100% - 160px);
+	float: left;
+}
+
+div.wppopups-container-full.inline-fields .wppopups-form .wppopups-field  {
+	display: table-cell;
+	padding-right: 2%;
+	vertical-align: top;
+}
+
+div.wppopups-container-full.inline-fields .wppopups-form .wppopups-submit-container {
+	float: right;
+	width: 160px;
+	clear: none;
+}
+
+div.wppopups-container-full.inline-fields .wppopups-form .wppopups-submit {
+	display: block;
+	width: 100%;
+}
+
+div.wppopups-container-full.inline-fields .wppopups-form input.wppopups-field-medium,
+div.wppopups-container-full.inline-fields .wppopups-form select.wppopups-field-medium,
+div.wppopups-container-full.inline-fields .wppopups-form .wppopups-field-row.wppopups-field-medium {
+	max-width: 100%;
+}
+
+
+/* Set Styles
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form input[type=date],
+div.wppopups-container-full .wppopups-form input[type=datetime],
+div.wppopups-container-full .wppopups-form input[type=datetime-local],
+div.wppopups-container-full .wppopups-form input[type=email],
+div.wppopups-container-full .wppopups-form input[type=month],
+div.wppopups-container-full .wppopups-form input[type=number],
+div.wppopups-container-full .wppopups-form input[type=password],
+div.wppopups-container-full .wppopups-form input[type=range],
+div.wppopups-container-full .wppopups-form input[type=search],
+div.wppopups-container-full .wppopups-form input[type=tel],
+div.wppopups-container-full .wppopups-form input[type=text],
+div.wppopups-container-full .wppopups-form input[type=time],
+div.wppopups-container-full .wppopups-form input[type=url],
+div.wppopups-container-full .wppopups-form input[type=week],
+div.wppopups-container-full .wppopups-form select,
+div.wppopups-container-full .wppopups-form textarea {
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 2px;
+	color: #333;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	display: block;
+	float: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	padding: 6px 10px;
+	height: 38px;
+	width: 100%;
+	line-height: 1.3;
+}
+
+div.wppopups-container-full .wppopups-form input[type=checkbox],
+div.wppopups-container-full .wppopups-form input[type=radio] {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 14px;
+	height: 14px;
+	margin: 0 10px 0 3px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+div.wppopups-container-full .wppopups-form input[type=radio] {
+	border-radius: 50%;
+}
+
+div.wppopups-container-full .wppopups-form select {
+	max-width: 100%;
+	text-transform: none;
+	white-space: nowrap;
+}
+
+div.wppopups-container-full .wppopups-form input[type=submit],
+div.wppopups-container-full .wppopups-form button[type=submit],
+div.wppopups-container-full .wppopups-form .wppopups-page-button {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	color: #333;
+	font-size: 1em;
+	padding: 10px 15px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-button {
+	font-size: 0.9em;
+	font-weight: 400;
+	margin: 0 5px;
+	min-width: 90px;
+	text-align: center;
+}
+
+div.wppopups-container-full .wppopups-form input[type=submit]:hover,
+div.wppopups-container-full .wppopups-form input[type=submit]:focus,
+div.wppopups-container-full .wppopups-form input[type=submit]:active,
+div.wppopups-container-full .wppopups-form button[type=submit]:hover,
+div.wppopups-container-full .wppopups-form button[type=submit]:focus,
+div.wppopups-container-full .wppopups-form button[type=submit]:active,
+div.wppopups-container-full .wppopups-form .wppopups-page-button:hover,
+div.wppopups-container-full .wppopups-form .wppopups-page-button:active,
+div.wppopups-container-full .wppopups-form .wppopups-page-button:focus {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+div.wppopups-container-full .wppopups-form input[type=submit]:disabled,
+div.wppopups-container-full .wppopups-form button[type=submit]:disabled,
+div.wppopups-container-full .wppopups-form .wppopups-page-button:disabled {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	cursor: default;
+	opacity: 0.5;
+}
+
+div.wppopups-container-full .wppopups-form input:focus,
+div.wppopups-container-full .wppopups-form textarea:focus,
+div.wppopups-container-full .wppopups-form select:focus {
+	border: 1px solid #999;
+}
+
+div.wppopups-container-full .wppopups-form input:disabled,
+div.wppopups-container-full .wppopups-form textarea:disabled,
+div.wppopups-container-full .wppopups-form select:disabled {
+	background-color: #f9f9f9;
+	border-color: #ddd;
+	color: #999;
+	cursor: not-allowed;
+}
+
+
+/* Errors, Warnings, etc
+----------------------------------------------------------------------------- */
+div.wppopups-container-full .wppopups-form .wppopups-error-container,
+div.wppopups-container-full .wppopups-form noscript.wppopups-error-noscript {
+	color: #990000;
+}
+
+div.wppopups-container-full .wppopups-form label.wppopups-error {
+	display: block;
+	color: #990000;
+	font-size: 12px;
+	float: none;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field input.wppopups-error,
+div.wppopups-container-full .wppopups-form .wppopups-field input.user-invalid,
+div.wppopups-container-full .wppopups-form .wppopups-field textarea.wppopups-error,
+div.wppopups-container-full .wppopups-form .wppopups-field textarea.user-invalid,
+div.wppopups-container-full .wppopups-form .wppopups-field select.wppopups-error,
+div.wppopups-container-full .wppopups-form .wppopups-field select.user-invalid {
+	border: 1px solid #cc0000;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-expiration label.wppopups-error,
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-code label.wppopups-error {
+	display: none !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-error-alert {
+	color: #b94a48;
+	background-color: #f2dede;
+	border: 1px solid #eed3d7;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	padding: 10px 15px;
+	font-size: 13px;
+	margin: 0 0 10px 0;
+}
+
+
+/* Confirmation
+----------------------------------------------------------------------------- */
+
+/*
+ * Note: The second selector for the following two rules is needed to override the rule with
+ * the selector: `div.wppopups-container-full, div.wppopups-container-full .wppopups-form *`.
+ * The underlying cause is that the .wppopups-confirmation-container-full is not expected
+ * to be located inside of the .wppopups-confirmation-container-full element, since on non-AMP
+ * pages the confirmation message is never displayed on the same page as the form.
+ */
+.wppopups-confirmation-container-full,
+div[submit-success] > .wppopups-confirmation-container-full {
+	color: #333;
+	margin: 0 auto 24px;
+	padding: 15px 15px;
+}
+
+.wppopups-confirmation-container-full,
+div[submit-success] > .wppopups-confirmation-container-full:not(.wppopups-redirection-message) {
+	background: #e0ffc7;
+	border: 1px solid #b4d39b;
+}
+
+.wppopups-confirmation-container-full p:last-of-type,
+div[submit-success] > .wppopups-confirmation-container-full p:last-of-type {
+	margin: 0;
+}
+
+/*
+ * Hide the form fields upon successful submission. This may not be the best approach.
+ * Perhaps more robust: .wppopups-form.amp-form-submit-success > *:not([submit-success]) { display:none }
+ */
+.amp-form-submit-success .wppopups-field-container,
+.amp-form-submit-success .wppopups-submit-container {
+	display: none;
+}
+
+
+/* reCAPTCHA Area
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-recaptcha-container {
+	padding: 10px 0 20px 0;
+	clear: both;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-recaptcha-container iframe {
+	width: 100%;
+}
+
+
+/* Form Header area
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-title {
+	font-size: 26px;
+	margin: 0 0 10px 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-description {
+	margin: 0 0 10px 0;
+}
+
+
+/* Form Footer area
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-submit-container {
+	padding: 10px 0 0 0;
+	clear: both;
+	position: relative;
+}
+
+div.wppopups-container-full .wppopups-form button[type=submit] {
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-submit-spinner {
+	margin-left: 0.5em;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 26px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-center {
+	text-align: center;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-left {
+	text-align: left;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-left .wppopups-page-button {
+	margin: 0 10px 0 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-right {
+	text-align: right;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-right .wppopups-page-button {
+	margin: 0 0 0 10px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-split .wppopups-page-prev {
+	float: left;
+	margin: 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-pagebreak-split .wppopups-page-next {
+	float: right;
+	margin: 0;
+}
+
+
+/* Credit Card field
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-number {
+	margin-right: 100px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-code {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 90px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-name {
+	margin-right: 170px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-expiration {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 160px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-expiration select {
+	width: 45%;
+	float: left;
+	display: block;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-credit-card-expiration span {
+	float: left;
+	width: 10%;
+	text-align: center;
+	line-height: 38px;
+}
+
+/* Number slider field
+----------------------------------------------------------------------------- */
+div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range] {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 10px;
+	background: #fff;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	outline: none;
+	padding: 0;
+	margin: 10px 0 5px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range]::-ms-track {
+	color: transparent;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	background: #B5B5B5;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range]::-moz-range-thumb {
+	width: 17px;
+	height: 17px;
+	background: #B5B5B5;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range]::-ms-thumb {
+	width: 17px;
+	height: 17px;
+	background: #B5B5B5;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-number-slider .wppopups-field-number-slider-hint {
+	font-size: 13px;
+}
+
+/* Stripe Credit Card field
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-field-stripe-credit-card-cardnumber,
+div.wppopups-container-full .wppopups-form input.wppopups-stripe-credit-card-hidden-input {
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 2px;
+	color: #333;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: block;
+	float: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	padding: 8px 10px;
+	height: 38px;
+	width: 100%;
+	line-height: 1.3
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-stripe-element-invalid {
+	border: 1px solid #cc0000!important;
+}
+
+
+/* HTML field
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-field-html ul,
+div.wppopups-container-full .wppopups-form .wppopups-field-html ol {
+	margin: 0 0 20px !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-html ul li,
+div.wppopups-container-full .wppopups-form .wppopups-field-html ol li {
+	margin: 0 0 5px 0 !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-html ul li {
+	list-style: disc !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-html ol li {
+	list-style: decimal !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-html li > ul,
+div.wppopups-container-full .wppopups-form .wppopups-field-html li > ol {
+	margin: 6px 0 0 20px !important;
+}
+
+
+/* Date/time field
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-field-date-time-date-sep {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-date-time-date-year,
+div.wppopups-container-full .wppopups-form .wppopups-field-date-time-date-day,
+div.wppopups-container-full .wppopups-form .wppopups-field-date-time-date-month {
+	display: inline-block;
+	width: auto;
+}
+
+div.wppopups-container-full .wppopups-datepicker-wrap {
+	position: relative;
+}
+
+div.wppopups-container-full .wppopups-datepicker-wrap .wppopups-datepicker-clear {
+	position: absolute;
+	background-image: url(../images/times-solid-white.svg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: 8px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50%;
+	right: 10px;
+	top: 50%;
+	margin-top: -8px;
+	transition: all 0.3s;
+}
+
+div.wppopups-container-full .wppopups-datepicker-wrap .wppopups-datepicker-clear:hover {
+	background-color: red;
+}
+
+div.wppopups-container-full .wppopups-datepicker-wrap .wppopups-field-small + .wppopups-datepicker-clear {
+	right: calc( 75% + 10px );
+}
+
+div.wppopups-container-full .wppopups-datepicker-wrap .wppopups-field-medium + .wppopups-datepicker-clear {
+	right: calc( 40% + 10px );
+}
+
+/* Custom Captcha field
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-captcha-math input {
+	display: inline-block;
+	width: 70px;
+	vertical-align: inherit;
+	margin: 0 0 0 5px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-captcha-equation {
+	font-size: 16px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-captcha-question {
+	margin: 0 0 4px 0;
+}
+
+/* Rating field
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-field-rating-item {
+	padding-right: 6px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-rating svg {
+	cursor: pointer;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	opacity: 0.60;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-rating-item.selected svg,
+div.wppopups-container-full .wppopups-form .wppopups-field-rating-item.hover svg,
+div.wppopups-container-full .wppopups-form .wppopups-field-rating-item input:focus + svg {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	opacity: 1;
+}
+
+/* File upload field
+----------------------------------------------------------------------------- */
+div.wppopups-field-file-upload .wppopups-hide{
+	display: none !important;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern {
+	border: 2px dashed rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.02);
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern.wppopups-with-files{
+	padding: 5px;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern svg{
+	height: 50px;
+	width: 50px;
+	color: #e27730;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-modern-title{
+	font-weight: bold;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-modern-hint{
+	color: rgba(0, 0, 0, 0.1);
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern.wppopups-highlighted{
+	border-color: #e27730;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block{
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+	background-size: cover !important;
+	margin: 5px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: default;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block:hover .wppopups-overlay{
+	opacity: 1;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay .wppopups-close{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	display: block;
+	width: 18px;
+	height: 18px;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay .wppopups-title{
+	position: absolute;
+	font-size: 12px;
+	color: #fff;
+	top: 25px;
+	bottom: 10px;
+	left: 5px;
+	right: 5px;
+	overflow-y: auto;
+	line-height: 16px;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay .wppopups-close .wppopups-close-left,
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay .wppopups-close .wppopups-close-right{
+	height: 18px;
+	width: 1px;
+	background: #fff;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	right: 9px;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay .wppopups-close .wppopups-close-left{
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-overlay .wppopups-close .wppopups-close-right{
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block svg{
+	height: 25px;
+	width: 25px;
+	color: rgba(0, 0, 0, 0.1);
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern .wppopups-preview-block .wppopups-progress{
+	height: 5px;
+	width: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #e27730;
+	transition: all 0.5s;
+}
+
+div.wppopups-field-file-upload .wppopups-file-upload-builder-modern input[type="file"] {
+	display: none;
+}
+
+
+/* Image choices
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices label {
+	cursor: pointer;
+}
+
+/* Modern style */
+div.wppopups-container-full .wppopups-form .wppopups-list-inline ul.wppopups-image-choices-modern li {
+	margin: 5px 5px 5px 5px !important;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern img {
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern label:not(.wppopups-error) {
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 20px 20px 18px 20px;
+	transition: all 0.5s;
+	text-align: center;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern label:not(.wppopups-error):hover,
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern label:not(.wppopups-error):focus {
+	border:1px solid #ddd;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern .wppopups-selected label {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern .wppopups-image-choices-image:after {
+	content: "\2714";
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	background: green;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -16px 0 0 -16px;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern .wppopups-selected .wppopups-image-choices-image:after {
+	opacity: 1;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern .wppopups-image-choices-image {
+	display: block;
+	position: relative;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern .wppopups-selected .wppopups-image-choices-label {
+	font-weight: 700;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-modern .wppopups-image-choices-label {
+	display: block;
+	margin-top: 12px;
+}
+
+/* Classic */
+div.wppopups-container-full .wppopups-form .wppopups-list-inline ul.wppopups-image-choices-classic li {
+	margin: 0 10px 10px 0 !important;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic img {
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic label:not(.wppopups-error) {
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	border: 2px solid #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic label:not(.wppopups-error):hover,
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic label:not(.wppopups-error):focus {
+	border-color: #ddd;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic .wppopups-image-choices-image {
+	display: block;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic .wppopups-selected label {
+	border-color: #666 !important;
+}
+
+div.wppopups-container-full .wppopups-form ul.wppopups-image-choices-classic .wppopups-image-choices-label {
+	display: block;
+	margin-top: 8px;
+}
+
+
+/* Page Indicator themes
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator {
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+
+/** Circles theme **/
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles {
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 15px 10px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles .wppopups-page-indicator-page {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles .wppopups-page-indicator-page:last-of-type {
+	margin: 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles .wppopups-page-indicator-page-number {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	line-height: 40px;
+	text-align: center;
+	background-color: #ddd;
+	color: #666;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles .active .wppopups-page-indicator-page-number {
+	color: #fff;
+}
+
+/* Connector theme */
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.connector .wppopups-page-indicator-page {
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.connector .wppopups-page-indicator-page-number {
+	display: block;
+	text-indent: -9999px;
+	height: 6px;
+	background-color: #ddd;
+	margin: 0 0 16px 0;
+	position: relative;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.connector .wppopups-page-indicator-page-triangle {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -5px;
+	border-style: solid;
+	border-width: 6px 5px 0 5px;
+	border-color: transparent transparent transparent transparent;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.connector .wppopups-page-indicator-page-title {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 16px;
+}
+
+/* Progress theme */
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.progress {
+	font-size: 18px;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.progress .wppopups-page-indicator-page-progress-wrap {
+	display: block;
+	width: 100%;
+	background-color: #ddd;
+	height: 18px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	margin: 5px 0 0;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-page-indicator.progress .wppopups-page-indicator-page-progress {
+	height: 18px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* Notices
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full .wppopups-notice {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-left-width: 12px;
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	padding: 20px 36px 20px 26px;
+	position: relative;
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-delete {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-color: rgba(10, 10, 10, 0.2);
+	border: none;
+	border-radius: 290486px;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	vertical-align: top;
+	width: 20px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-delete:before,
+div.wppopups-container-full .wppopups-notice .wppopups-delete:after {
+	background-color: #fff;
+	content: "";
+	display: block;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-delete:before {
+	height: 2px;
+	width: 50%;
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-delete:after {
+	height: 50%;
+	width: 2px;
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-delete:hover,
+div.wppopups-container-full .wppopups-notice .wppopups-delete:focus  {
+	background-color: rgba(10, 10, 10, 0.3);
+}
+
+div.wppopups-container-full .wppopups-notice a {
+	text-decoration: underline;
+}
+
+div.wppopups-container-full .wppopups-notice p {
+	margin: 0 0 20px 0;
+}
+
+div.wppopups-container-full .wppopups-notice p:last-of-type {
+	margin-bottom: 0;
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-info .wppopups-notice-action,
+div.wppopups-container-full .wppopups-notice.wppopups-info {
+	border-color: #3273dc
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-success .wppopups-notice-action,
+div.wppopups-container-full .wppopups-notice.wppopups-success {
+	border-color: #23d160
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-warning .wppopups-notice-action,
+div.wppopups-container-full .wppopups-notice.wppopups-warning {
+	border-color: #ffdd57
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-error .wppopups-notice-action,
+div.wppopups-container-full .wppopups-notice.wppopups-error {
+	border-color: #ff3860
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-notice-actions {
+	margin-top: 20px;
+}
+
+div.wppopups-container-full .wppopups-notice .wppopups-notice-action {
+	border: 2px solid;
+	margin-right: 20px;
+	padding: 5px;
+	text-decoration: none;
+}
+div.wppopups-container-full .wppopups-notice .wppopups-notice-action:hover,
+div.wppopups-container-full .wppopups-notice .wppopups-notice-action:focus,
+div.wppopups-container-full .wppopups-notice .wppopups-notice-action:active {
+	color: #fff;
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-info .wppopups-notice-action:hover,
+div.wppopups-container-full .wppopups-notice.wppopups-info .wppopups-notice-action:focus,
+div.wppopups-container-full .wppopups-notice.wppopups-info .wppopups-notice-action:active {
+	background-color: #3273dc;
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-success .wppopups-notice-action:hover,
+div.wppopups-container-full .wppopups-notice.wppopups-success .wppopups-notice-action:focus,
+div.wppopups-container-full .wppopups-notice.wppopups-success .wppopups-notice-action:active {
+	background-color: #23d160;
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-warning .wppopups-notice-action:hover,
+div.wppopups-container-full .wppopups-notice.wppopups-warning .wppopups-notice-action:focus,
+div.wppopups-container-full .wppopups-notice.wppopups-warning .wppopups-notice-action:active {
+	background-color: #ffdd57;
+	color: inherit;
+}
+
+div.wppopups-container-full .wppopups-notice.wppopups-error .wppopups-notice-action:hover,
+div.wppopups-container-full .wppopups-notice.wppopups-error .wppopups-notice-action:focus,
+div.wppopups-container-full .wppopups-notice.wppopups-error .wppopups-notice-action:active {
+	background-color: #ff3860;
+}
+
+
+/* Misc
+----------------------------------------------------------------------------- */
+
+div.wppopups-container-full {
+	margin-bottom: 24px;
+}
+
+div.wppopups-container-full .wppopups-form h3 {
+	font-size: 24px;
+}
+
+/* Honeypot Area */
+div.wppopups-container-full .wppopups-form .wppopups-field-hp {
+	display: none !important;
+	position: absolute !important;
+	left: -9000px !important;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-field-hidden {
+	display: none;
+}
+
+div.wppopups-container-full .wppopups-form .wppopups-screen-reader-element {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0) !important;
+	height: 1px !important;
+	width: 1px !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	word-wrap: normal !important;
+}
+
+/* Limit options */
+div.wppopups-container-full .wppopups-form .wppopups-limit-text{
+	font-size: 13px;
+	display: block;
+}
+
+/* Media Queries
+----------------------------------------------------------------------------- */
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+
+	/* Avoid horizontal scroll on mobiles.
+	   Skip for phone field, otherwise country dropdown (Smart format) would be cropped.
+	*/
+	div.wppopups-container-full .wppopups-form .wppopups-field:not(.wppopups-field-phone) {
+		overflow-x: hidden;
+	}
+	div.wppopups-container-full .wppopups-form .wppopups-field > * {
+		max-width: 100%;
+	}
+
+	/* Mobile width override */
+	div.wppopups-container-full .wppopups-form .wppopups-mobile-full {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+
+	/* Full width for all sizes */
+	div.wppopups-container-full .wppopups-form input.wppopups-field-medium,
+	div.wppopups-container-full .wppopups-form select.wppopups-field-medium,
+	div.wppopups-container-full .wppopups-form .wppopups-field-row.wppopups-field-medium,
+	div.wppopups-container-full .wppopups-form input.wppopups-field-small,
+	div.wppopups-container-full .wppopups-form select.wppopups-field-small,
+	div.wppopups-container-full .wppopups-form.wppopups-field-row.wppopups-field-small,
+	div.wppopups-container-full .wppopups-form input.wppopups-field-large,
+	div.wppopups-container-full .wppopups-form select.wppopups-field-large,
+	div.wppopups-container-full .wppopups-form .wppopups-field-row.wppopups-field-large {
+		max-width: 100%;
+	}
+
+	/* User list column classes  */
+	div.wppopups-container-full .wppopups-form .wppopups-checkbox-2-columns ul li,
+	div.wppopups-container-full .wppopups-form .wppopups-multiplechoice-2-columns ul li,
+	div.wppopups-container-full .wppopups-form .wppopups-list-2-columns ul li,
+	div.wppopups-container-full .wppopups-form .wppopups-checkbox-3-columns ul li,
+	div.wppopups-container-full .wppopups-form .wppopups-multiplechoice-3-columns ul li,
+	div.wppopups-container-full .wppopups-form .wppopups-list-3-columns ul li {
+		float: none;
+		width: 100%
+	}
+
+	/* Page indicator */
+	div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles .wppopups-page-indicator-page {
+		margin: 0 10px 0 0;
+	}
+	div.wppopups-container-full .wppopups-form .wppopups-page-indicator.circles .wppopups-page-indicator-page-number {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+	/* Date-Time field */
+	div.wppopups-container-full .wppopups-form .wppopups-field-date-time .wppopups-one-half {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+	div.wppopups-container-full .wppopups-form .wppopups-field-date-time .wppopups-one-half:first-of-type {
+		margin-bottom: 8px;
+	}
+
+	/* Preset layout - single line */
+	div.wppopups-container-full.inline-fields .wppopups-form .wppopups-field-container,
+	div.wppopups-container-full.inline-fields .wppopups-form .wppopups-field {
+		display: block;
+		width: 100%;
+	}
+	div.wppopups-container-full.inline-fields .wppopups-form .wppopups-submit-container {
+		width: 100%;
+	}
+
+	/* Number Slider field */
+	div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range] {
+		margin: 20px 0 15px;
+	}
+	div.wppopups-container-full .wppopups-form .wppopups-field-number-slider input[type=range]::-webkit-slider-thumb {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/* Gutenberg Block
+----------------------------------------------------------------------------- */
+
+.edit-post-visual-editor .wppopups-gutenberg-form-selector-wrap {
+	align-items: center;
+}
+
+.edit-post-visual-editor .wppopups-gutenberg-form-selector-wrap h3 {
+	width: 100%;
+	margin: 10px 0 5px;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+}
+
+.edit-post-visual-editor .wppopups-gutenberg-form-selector-wrap img {
+	margin-right: 15px;
+	height: 100px;
+	width: auto;
+}
+
+.edit-post-visual-editor .wppopups-gutenberg-form-selector-wrap .components-base-control {
+	width: 100%;
+}
+
+.edit-post-visual-editor .wppopups-gutenberg-form-selector-wrap .components-placeholder__fieldset {
+	justify-content: center;
+	max-width: 400px;
+}
+
+div.wppopups-gutenberg-form-selector .wppopups-form input:disabled,
+div.wppopups-gutenberg-form-selector .wppopups-form textarea:disabled,
+div.wppopups-gutenberg-form-selector .wppopups-form select:disabled {
+	background-color: #fff;
+	border-color: #ccc;
+	color: #333;
+	cursor: not-allowed;
+}
+
+div.wppopups-gutenberg-form-selector .wppopups-form button[type=submit]:disabled {
+	cursor: not-allowed;
+}
+
+div.components-panel__body .wppopups-gutenberg-panel-notice {
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+	color: #31708f;
+	padding: 10px;
+}
+
+/* RTL support
+----------------------------------------------------------------------------- */
+
+/* Phone US format */
+body.rtl .wppopups-field-phone input[type=tel] {
+	direction: ltr;
+	unicode-bidi: embed;
+	text-align: right;
+}
+

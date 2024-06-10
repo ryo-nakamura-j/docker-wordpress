@@ -1,0 +1,158 @@
+div.sp-post-carousel-section {
+    overflow: hidden;
+}
+
+div.sp-post-carousel-section h2.sp-post-carousel-section-title {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 23px;
+    line-height: 1;
+}
+
+div.sp-post-carousel-area {
+    display: none;
+    margin-right: -20px;
+}
+
+div.sp-post-carousel-area.slick-initialized {
+    display: block;
+}
+
+.sp-post-carousel-area .sp-pc-post {
+    margin-right: 20px;
+}
+
+.sp-post-carousel-area .sp-pc-post:focus {
+    outline: none;
+}
+
+.sp-post-carousel-area .sp-pc-post a{
+    text-decoration: none;
+    border-bottom: 0;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.sp-post-carousel-area .sp-pc-post a:hover{
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.sp-post-carousel-section .sp-pc-post-image {
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+.sp-post-carousel-section .sp-pc-post-image img {
+    width: 100%;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.sp-post-carousel-section .sp-pc-post-meta {
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.sp-post-carousel-section .sp-pc-post-meta ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sp-post-carousel-section .sp-pc-post-meta ul li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 13px;
+    line-height: 1.3;
+}
+
+.sp-post-carousel-section .sp-pc-post-meta ul li:last-child {
+    margin-right: 0;
+}
+
+.sp-post-carousel-section .sp-pc-post-meta .hidden{
+    display: none;
+}
+
+/* Nav */
+.sp-post-carousel-section .sp-post-carousel-area .slick-arrow {
+    position: absolute;
+    z-index: 9;
+    width: 30px;
+    height: 30px;
+    top: -45px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 28px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.sp-post-carousel-section .sp-post-carousel-area .slick-prev {
+    right: 56px;
+}
+
+.sp-post-carousel-section .sp-post-carousel-area .slick-next {
+    right: 20px;
+}
+
+/* Dots */
+.sp-post-carousel-section .slick-dots {
+    margin: 0;
+    margin-top: 21px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.sp-post-carousel-section .slick-dots li {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin: 3px;
+    overflow: hidden;
+}
+
+.sp-post-carousel-section .slick-dots li button {
+    border-radius: 50%;
+    text-indent: -999px;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+}
+
+.sp-post-carousel-section .sp-post-carousel-area.sp_pc_theme_carousel_two .sp-pc-post-box {
+    margin: 6px;
+    padding: 15px 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px 0 #dddddd;
+    -moz-box-shadow: 0 0 10px 0 #dddddd;
+    box-shadow: 0 0 10px 0 #dddddd;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.sp-post-carousel-section .sp-post-carousel-area.sp_pc_theme_carousel_two .sp-pc-post:hover .sp-pc-post-box {
+    -webkit-box-shadow: 0 0 10px 0 #c5c5c5;
+    -moz-box-shadow: 0 0 10px 0 #c5c5c5;
+    box-shadow: 0 0 10px 0 #c5c5c5;
+}

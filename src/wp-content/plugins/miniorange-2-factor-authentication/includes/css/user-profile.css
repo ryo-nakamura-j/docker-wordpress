@@ -1,0 +1,179 @@
+#mo2fa_form-table-user-profile th{
+  padding:0px 0px 0px 0px !important;
+  text-align: center;
+  
+}
+.mo2fa_form-table td{
+  padding:6px 10px;
+}
+.miniOrange-2FA-methods-table {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-spacing: 0;
+}
+
+.miniOrange-2FA-methods-table thead,
+.miniOrange-2FA-methods-table tfoot {
+  background: #fff;
+}
+
+.miniOrange-2FA-methods-table thead th {
+  padding: 0.5em;
+}
+
+.miniOrange-2FA-methods-table .col-primary,
+.miniOrange-2FA-methods-table .col-enabled {
+  width: 5%;
+}
+
+.miniOrange-2FA-methods-table .col-name {
+  width: 90%;
+}
+.miniOrange-2FA-methods-
+.miniOrange-2FA-methods-table tbody th {
+  text-align: center;
+}
+
+.miniOrange-2FA-methods-table tbody th,
+.miniOrange-2FA-methods-table tbody td {
+  vertical-align: top;
+}
+
+.miniOrange-2FA-methods-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+
+  /*background-color: nome;*/
+}
+#mo2f_configure_kba{
+  border:1px solid;
+  text-align: center;
+  border: 1px solid #52523b;
+}
+.mo2f_kba_header thead th{
+  border-bottom: 1px solid black;
+}
+.miniOrange-2FA-methods-table tbody th, .miniOrange-2FA-methods-table tbody td{
+  /*text-align: center;*/
+}
+#mo2f_setup_sms{
+  /*margin:0 auto;*/
+}
+#mo2f_setup_sms tr{
+  background-color: transparent; 
+}
+.mo2f_qr{
+  margin-left: 5%;
+}
+.mcol-2{
+  margin-left: 2%;
+}
+.mo2fa_popup_text
+{
+  color:black;
+  margin-top: 2%;
+  font-weight: 600; 
+  font-size: 12px !important;;
+
+}
+.mo2fa_overlay_success {
+  width: min-content;
+  height: 40px;
+  position: fixed;
+  float: right;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-top: 7%;
+  background-color:#bcffb4 !important ;
+  /* overflow-x: hidden; */ 
+  border-left: 4px solid #46b450;
+}
+.mo2fa_overlay_error {
+  width: min-content;
+  height: min-content;
+  padding-bottom: 1%;
+  position: fixed;
+  float: right;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-top: 7%;
+  background-color:bisque !important ;
+  /* overflow-x: hidden; */
+  border-left: 4px solid red;
+}
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.mo2fa_tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 15%;
+  height: 324px;
+  min-height: 300px;
+  /*margin-left: 210px;*/
+}
+
+/* Style the buttons that are used to open the tab content */
+.mo2fa_tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 8px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.mo2fa_tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.mo2fa_tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.mo2fa_tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 80%;
+  border-left: none;
+  /*height: autoffrom;*/
+  height: 324px;
+}
+
+.mo2f_miniAuthApp { 
+  color: #2271b1;
+  padding:0.5% 3%;
+  /*font-size: 18px;*/
+  /*font-weight: 600;*/
+  /*width: 50%;*/
+  /*height: 20%;*/
+  margin:1px;
+  border: 1px solid black;
+  border-color: #2271b1;
+  background-color:#f6f7f7;
+  border-radius: 2px;
+}
+.mo2f_miniAuthApp:hover {
+  /*background: #20b2aa9e;*/
+  background: transparent;
+}
+input[name = 'miniOrangeAuthenticator'] {
+  visibility:hidden;
+}
+input[name = 'miniOrangeAuthenticator']:checked + .mo2f_miniAuthApp{
+  background: #e5e5ea;
+}
+.mo2fa_select_method{
+  width: auto !important;
+}

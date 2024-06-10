@@ -1,0 +1,92 @@
+// Some version mismatch in npm means I need to declare this here
+$mdc-animation-standard-curve-timing-function: cubic-bezier(.4, 0, .2, 1);
+
+// Import dependencies of ALL components
+@import "@material/animation/variables";
+@import "@material/animation/functions";
+@import "@material/animation/mixins";
+@import "@material/elevation/mixins";
+@import "@material/rtl/mixins";
+@import "@material/theme/variables";
+@import "@material/theme/mixins";
+@import "@material/typography/mixins";
+@import "@material/typography/variables";
+@import "@material/ripple/mixins";
+
+// Set/override variables
+@import "variables";
+
+// Reset
+@import "reset";
+
+// Helpers
+@import "helpers";
+
+// Layout grid
+@import "@material/layout-grid/variables";
+@import "@material/layout-grid/mixins";
+@import "layout-grid-mdc";
+@import "layout-grid";
+
+// Form field
+@import "form-field-mdc";
+
+// Textfield
+@import "textfield-mdc";
+@import "textfield";
+
+// Date
+@import "date";
+
+// Select
+@import "select-mdc";
+@import "select";
+
+// Checkbox
+@import "@material/checkbox/keyframes";
+@import "checkbox-mdc";
+@import "checkbox";
+
+// Radio
+@import "radio-mdc";
+@import "radio";
+
+// Switch
+@import "switch-mdc";
+@import "switch";
+
+// File
+@import "file";
+
+// Button
+@import "button-mdc";
+
+// Alerts, static labels, validation errors etc
+@import "messages";
+
+// Card
+@import "card-mdc";
+@import "card";
+
+// Spinner
+@import "spinner";
+
+// Lists (radios, checkboxes, switches)
+@import "list";
+
+// Customize message
+@import "customize-msg";
+
+// Override stuff below here ===
+
+// Colour
+@import "colour";
+
+// Typography
+@import "typography";
+
+// Layout
+@import "layout";
+
+// Customizer
+@import "customizer";

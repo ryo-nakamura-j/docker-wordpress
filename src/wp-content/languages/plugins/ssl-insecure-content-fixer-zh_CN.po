@@ -1,0 +1,363 @@
+# Translation of Plugins - SSL Insecure Content Fixer - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - SSL Insecure Content Fixer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-26 17:47:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - SSL Insecure Content Fixer - Stable (latest release)\n"
+
+#: views/settings-fields-common.php:116
+msgctxt "proxy settings"
+msgid "HTTP_X_FORWARDED_SCHEME (e.g. KeyCDN)"
+msgstr "HTTP_X_FORWARDED_SCHEME (例如： KeyCDN)"
+
+#: views/settings-fields-common.php:99
+msgctxt "ignore external settings"
+msgid "Only fix content pointing to this WordPress site"
+msgstr "只修正指向这个WordPress站点的内容"
+
+#: views/settings-fields-common.php:95
+msgctxt "ignore external settings"
+msgid "Select only if you wish to leave content pointing to external sites as http"
+msgstr "仅当您希望将指向别的站点的内容保留为http时才选择"
+
+#: views/settings-fields-common.php:93
+msgctxt "ignore external settings"
+msgid "Ignore external sites"
+msgstr "忽略别的站点"
+
+#: views/ssl-tests.php:44
+msgid "It looks like your server is behind Windows Azure ARR. The recommended setting for HTTPS detection is %s."
+msgstr "看起来您的服务器位于Windows Azure ARR。HTTPS检测的建议设置为 %s 。"
+
+#: views/settings-fields-common.php:117
+msgctxt "proxy settings"
+msgid "HTTP_X_ARR_SSL (Windows Azure ARR)"
+msgstr "HTTP_X_ARR_SSL (Windows Azure ARR)"
+
+#: views/settings-fields-common.php:67
+msgctxt "fix level settings"
+msgid "includes AJAX calls, which can cause compatibility and performance problems"
+msgstr "包括AJAX调用，这可能会导致兼容性和性能问题"
+
+#: views/settings-fields-common.php:64
+msgctxt "fix level settings"
+msgid "The biggest potential to break things, but sometimes necessary"
+msgstr "有很大的可能性破坏一切,但有时是有必要的."
+
+#: views/settings-fields-common.php:63
+msgctxt "fix level settings"
+msgid "Capture All"
+msgstr "捕获全部"
+
+#: views/settings-fields-common.php:54
+msgctxt "fix level settings"
+msgid "Everything on the page, from the header to the footer:"
+msgstr "页面上的所有内容，从页眉到页脚："
+
+#: views/requires-pcre.php:8
+msgid "SSL Insecure Content Fixer requires <a target=\"_blank\" rel=\"noopener\" href=\"%1$s\">PCRE</a> version %2$s or higher; your website has PCRE version %3$s"
+msgstr "SSL不安全内容修复程序需要<a target=\"_blank\" href=\"%1$s\"> PCRE </a>版本为 %2$s 或更高版本;您的网站的PCRE版本为 %3$s"
+
+#: views/requires-extensions.php:8
+msgid "SSL Insecure Content Fixer requires these missing PHP extensions. Please contact your website host to have these extensions installed."
+msgstr "SSL不安全内容修复程序需要这些缺少的PHP扩展。请与您的网站主机联系，以安装这些扩展程序。"
+
+#: views/ssl-tests.php:40
+msgid "It looks like your server is behind Amazon CloudFront, not configured to send HTTP_X_FORWARDED_PROTO. The recommended setting for HTTPS detection is %s."
+msgstr "看起来您的服务器位于Amazon CloudFront，未为发送HTTP_X_FORWARDED_PROTO进行配置。HTTPS检测的建议设置为 %s 。"
+
+#: views/settings-fields-common.php:118
+msgctxt "proxy settings"
+msgid "HTTP_CF_VISITOR (Cloudflare Flexible SSL); deprecated, since Cloudflare sends HTTP_X_FORWARDED_PROTO now"
+msgstr "HTTP_CF_VISITOR（Cloudflare Flexible SSL）;已弃用，自从Cloudflare从现在开始发送HTTP_X_FORWARDED_PROTO"
+
+#: views/settings-fields-common.php:115
+msgctxt "proxy settings"
+msgid "HTTP_CLOUDFRONT_FORWARDED_PROTO (Amazon CloudFront HTTPS cached content)"
+msgstr "HTTP_CLOUDFRONT_FORWARDED_PROTO（Amazon CloudFront HTTPS高速缓存的内容）"
+
+#. Author URI of the plugin/theme
+msgid "https://shop.webaware.com.au/"
+msgstr "https://webaware.com.au/"
+
+#. Author of the plugin/theme
+msgid "WebAware"
+msgstr "WebAware"
+
+#. Description of the plugin/theme
+msgid "Clean up WordPress website HTTPS insecure content"
+msgstr "帮助您清理并修复 WordPress 站点的 HTTPS 不安全内容"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ssl.webaware.net.au/"
+msgstr "https://ssl.webaware.net.au/"
+
+#. Plugin Name of the plugin/theme
+msgid "SSL Insecure Content Fixer"
+msgstr "SSL 不安全内容修复器"
+
+#: views/ssl-tests.php:58
+msgid "Your server environment shows this:"
+msgstr "您的服务器环境测试结果如下："
+
+#: views/ssl-tests.php:54
+msgid "If you know of a way to detect HTTPS on your server, please <a href=\"%s\" target=\"_blank\" rel=\"noopener\">tell me about it</a>."
+msgstr "如果您了解如何使您的服务器能够检测 HTTPS 配置，请 <a href=\"%s\" target=\"_blank\">向我提供您的方法</a>."
+
+#: views/ssl-tests.php:53
+msgid "Your server cannot detect HTTPS. The recommended setting for HTTPS detection is %s."
+msgstr "您的服务器不能检测 HTTPS 配置，推荐给您的“HTTPS 检测”设置选项是 %s 。"
+
+#: views/ssl-tests.php:49
+msgid "It looks like your server uses Cloudflare Flexible SSL. The recommended setting for HTTPS detection is %s."
+msgstr "您的服务器可能使用了CloudFlare Flexible SSL，推荐给您的“HTTPS 检测”设置选项是%s 。"
+
+#: views/ssl-tests.php:28 views/ssl-tests.php:32 views/ssl-tests.php:36
+msgid "It looks like your server is behind a reverse proxy. The recommended setting for HTTPS detection is %s."
+msgstr "您的服务器可能配置于一个反向代理之后，推荐给您的“HTTPS 检测”设置选项是 %s 。"
+
+#: views/ssl-tests.php:24
+msgid "Your server can detect HTTPS normally. The recommended setting for HTTPS detection is %s."
+msgstr "你的服务器能够正常检测 HTTPS 配置，推荐给您的“HTTPS 检测”设置选项是 %s 。"
+
+#: views/ssl-tests.php:21
+msgid "Tests completed."
+msgstr "测试已完成。"
+
+#: views/ssl-tests.php:16
+msgid "Running tests..."
+msgstr "测试进行中……"
+
+#: views/ssl-tests.php:13
+msgid "This page checks to see whether WordPress can detect HTTPS."
+msgstr "本页面将用于测试 WordPress 是否能够检测 HTTPS。"
+
+#: views/ssl-tests.php:11
+msgid "SSL Insecure Content Fixer tests"
+msgstr "SSL 不安全内容修复器测试"
+
+#: views/settings-form.php:11
+msgid "SSL Insecure Content Fixer settings"
+msgstr "SSL 不安全内容修复器设置"
+
+#: views/settings-form-network.php:16
+msgid "These settings affect all sites on this network that have not been set individually."
+msgstr "这些设置将会影响到该网络上未进行单独配置的所有网站。"
+
+#. translators: heading for multisite network admin settings
+#: views/settings-form-network.php:13
+msgid "SSL Insecure Content Fixer multisite network settings"
+msgstr "SSL 不安全内容修复器多站点网络设置"
+
+#: views/settings-fields-common.php:119 views/ssl-tests.php:53
+msgctxt "proxy settings"
+msgid "unable to detect HTTPS"
+msgstr "不判断是否通过 HTTPS 加载"
+
+#: views/settings-fields-common.php:114
+msgctxt "proxy settings"
+msgid "HTTP_X_FORWARDED_SSL (e.g. reverse proxy)"
+msgstr "HTTP_X_FORWARDED_SSL (例如反向代理)"
+
+#: views/settings-fields-common.php:113
+msgctxt "proxy settings"
+msgid "HTTP_X_FORWARDED_PROTO (e.g. load balancer, reverse proxy, NginX)"
+msgstr "HTTP_X_FORWARDED_PROTO（例如负载平衡器、反向代理、NginX）"
+
+#. translators: standard WordPress function means no reverse proxy, just plain
+#. website access
+#: views/settings-fields-common.php:112 views/ssl-tests.php:24
+msgctxt "proxy settings"
+msgid "standard WordPress function"
+msgstr "标准的 WordPress 功能形式"
+
+#: views/settings-fields-common.php:108
+msgctxt "proxy settings"
+msgid "Select how WordPress should detect that a page is loaded via HTTPS"
+msgstr "选择 WordPress 应如何判断页面是通过 HTTPS 加载的"
+
+#: views/settings-fields-common.php:106
+msgctxt "proxy settings"
+msgid "HTTPS detection"
+msgstr "HTTPS 检测"
+
+#: views/settings-fields-common.php:86
+msgctxt "plugin fix settings"
+msgid "WooCommerce  + Google Chrome HTTP_HTTPS bug (fixed in WooCommerce v2.3.13)"
+msgstr "WooCommerce  + Google Chrome HTTP_HTTPS bug (修复于 WooCommerce v2.3.13)"
+
+#: views/settings-fields-common.php:78
+msgctxt "plugin fix settings"
+msgid "Select only the fixes your website needs."
+msgstr "请只选择你的站点需要修复的内容。"
+
+#: views/settings-fields-common.php:76
+msgctxt "plugin fix settings"
+msgid "Fixes for specific plugins and themes"
+msgstr "修复特定的插件与主题"
+
+#: views/settings-fields-common.php:56 views/settings-fields-common.php:66
+msgctxt "fix level settings"
+msgid "capture the whole page and fix scripts, stylesheets, and other resources"
+msgstr "抓取整个页面并修复脚本、样式表以及其它一切资源"
+
+#: views/settings-fields-common.php:53
+msgctxt "fix level settings"
+msgid "Capture"
+msgstr "抓取"
+
+#: views/settings-fields-common.php:47
+msgctxt "fix level settings"
+msgid "resources in any widgets"
+msgstr "所有小工具中的资源"
+
+#: views/settings-fields-common.php:45
+msgctxt "fix level settings"
+msgid "Everything that Content does, plus:"
+msgstr "除了 内容 级别的修复外，还包括："
+
+#: views/settings-fields-common.php:44
+msgctxt "fix level settings"
+msgid "Widgets"
+msgstr "小工具"
+
+#: views/settings-fields-common.php:38
+msgctxt "fix level settings"
+msgid "resources in \"Text\" widgets"
+msgstr "“文本”小工具中的资源"
+
+#: views/settings-fields-common.php:37
+msgctxt "fix level settings"
+msgid "resources in the page content"
+msgstr "页面内容中的资源"
+
+#: views/settings-fields-common.php:35
+msgctxt "fix level settings"
+msgid "Everything that Simple does, plus:"
+msgstr "除了 简单 级别的修正外，还包括："
+
+#: views/settings-fields-common.php:34
+msgctxt "fix level settings"
+msgid "Content"
+msgstr "内容"
+
+#: views/settings-fields-common.php:28
+msgctxt "fix level settings"
+msgid "images loaded by the plugin Image Widget"
+msgstr "图片将通过 Image Widget 插件加载"
+
+#: views/settings-fields-common.php:27
+msgctxt "fix level settings"
+msgid "data returned from <code>wp_upload_dir()</code> (e.g. for some CAPTCHA images)"
+msgstr "数据将从 <code>wp_upload_dir()</code> 处返回（例如某些 CAPTCHA/验证码 图像）"
+
+#: views/settings-fields-common.php:26
+msgctxt "fix level settings"
+msgid "images and other media loaded by calling <code>wp_get_attachment_image()</code>, <code>wp_get_attachment_image_src()</code>, etc."
+msgstr "图片或其他媒体元素将通过加载 <code>wp_get_attachment_image()</code>, <code>wp_get_attachment_image_src()</code> 等方式实现"
+
+#: views/settings-fields-common.php:25
+msgctxt "fix level settings"
+msgid "stylesheets registered using <code>wp_register_style()</code> or <code>wp_enqueue_style()</code>"
+msgstr "已注册的样式表将使用 <code>wp_register_style()</code> 或 <code>wp_enqueue_style()</code>"
+
+#: views/settings-fields-common.php:24
+msgctxt "fix level settings"
+msgid "scripts registered using <code>wp_register_script()</code> or <code>wp_enqueue_script()</code>"
+msgstr "已注册的脚本将使用 <code>wp_register_script()</code> 或 <code>wp_enqueue_script()</code>"
+
+#: views/settings-fields-common.php:22
+msgctxt "fix level settings"
+msgid "The fastest method with the least impact on website performance"
+msgstr "最快速的方法，对网站性能影响最小"
+
+#: views/settings-fields-common.php:21
+msgctxt "fix level settings"
+msgid "Simple"
+msgstr "简单"
+
+#: views/settings-fields-common.php:16
+msgctxt "fix level settings"
+msgid "No insecure content will be fixed"
+msgstr "不修复任何不安全内容"
+
+#: views/settings-fields-common.php:15
+msgctxt "fix level settings"
+msgid "Off"
+msgstr "关闭"
+
+#: views/settings-fields-common.php:10
+msgid "Select the level of fixing. Try the Simple level first, it has the least impact on your website performance."
+msgstr "选择需要的修复等级。你可以先尝试“简单”等级，它对你的网站性能影响最小。"
+
+#: views/settings-fields-common.php:8
+msgid "Fix insecure content"
+msgstr "修复不安全内容"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:249
+msgctxt "settings error"
+msgid "HTTPS detection setting is invalid"
+msgstr "HTTPS 配置检测无效"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:244
+msgctxt "settings error"
+msgid "Fix level is invalid"
+msgstr "修复级别不可用"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:226
+msgctxt "proxy settings"
+msgid "* detected as recommended setting"
+msgstr "已调整至检测到的推荐设置"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:203
+msgid "Multisite network settings updated."
+msgstr "多站点网络设置已更新。"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:154
+#: includes/class.SSLInsecureContentFixerAdmin.php:167
+msgctxt "menu link"
+msgid "SSL Insecure Content"
+msgstr "SSL 不安全内容修复"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:142
+msgctxt "plugin details links"
+msgid "Donate"
+msgstr "捐助"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:141
+msgctxt "plugin details links"
+msgid "Translate"
+msgstr "翻译"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:140
+msgctxt "plugin details links"
+msgid "Rating"
+msgstr "评分"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:139
+msgctxt "plugin details links"
+msgid "Get help"
+msgstr "获取帮助"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:138
+msgctxt "plugin details links"
+msgid "Instructions"
+msgstr "介绍"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:135
+#: includes/class.SSLInsecureContentFixerAdmin.php:158
+msgctxt "menu link"
+msgid "SSL Tests"
+msgstr "SSL 测试"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:130
+#: includes/class.SSLInsecureContentFixerAdmin.php:178
+msgctxt "plugin details links"
+msgid "Settings"
+msgstr "设置"

@@ -1,0 +1,55 @@
+// Alerts (success, error)
+.cf7md-form {
+    + .wpcf7-response-output {
+        border: none;
+        border-bottom: 2px solid $error-on-light;
+        padding: 0 0 $base-v-space;
+        font-size: 0.85em;
+        color: $error-on-light;
+        margin: $base-v-space * 3 0 $base-v-space * 2;
+        background: transparent;
+        box-shadow: none;
+        text-align: left;
+        text-transform: none;
+    }
+    + .wpcf7-mail-sent-ok {
+        border-bottom-color: $success-on-light;
+        color: $success-on-light;
+    }
+    &.mdc-theme--dark {
+        + .wpcf7-response-output {
+            border-bottom-color: $error-on-dark;
+            color: $error-on-dark;
+        }
+        + .wpcf7-mail-sent-ok {
+            border-bottom-color: $success-on-dark;
+            color: $success-on-dark;
+        }
+    }
+}
+
+// Inline validation
+.wpcf7-not-valid-tip {
+    color: $error-on-light;
+    margin-bottom: 5px;
+    display: block;
+    float: none;
+    .mdc-theme--dark & {
+        color: $error-on-dark;
+    }
+}
+
+// Labels and help text
+.cf7md-label--static,
+.cf7md-help-text {
+    display: block;
+    float: none;
+}
+
+// Avada stupidness
+.cf7md-form + .fusion-alert {
+    .alert-icon,
+    .toggle-alert {
+        display: none;
+    }
+}

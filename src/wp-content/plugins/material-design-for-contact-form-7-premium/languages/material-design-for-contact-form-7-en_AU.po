@@ -1,0 +1,992 @@
+# Copyright (C) 2019 Material Design for Contact Form 7
+# This file is distributed under the same license as the Material Design for Contact Form 7 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Material Design for Contact Form 7\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_AU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: close as in exit
+#: admin/cf7-material-design-admin.php:124,
+#: admin/cf7-material-design-admin.php:219
+msgid "Close"
+msgstr "Close"
+
+#: admin/cf7-material-design-admin.php:128
+msgid "Back"
+msgstr "Back"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-admin.php:130
+msgid "%s Shortcode Generator"
+msgstr "%s Shortcode Generator"
+
+#: admin/cf7-material-design-admin.php:134
+msgid "Choose a shortcode to generate"
+msgstr "Choose a shortcode to generate"
+
+#: admin/cf7-material-design-admin.php:151
+msgid "Pro feature"
+msgstr "Pro feature"
+
+#: admin/cf7-material-design-admin.php:156,
+#: admin/cf7-material-design-shortcode-generator.php:608
+msgid "Upgrade Now"
+msgstr "Upgrade Now"
+
+#. translators: %s: A shortcode type
+#: admin/cf7-material-design-admin.php:179
+msgid "Generate a %s shortcode with your desired settings."
+msgstr "Generate a %s shortcode with your desired settings."
+
+#: admin/cf7-material-design-admin.php:192
+msgid "Copy"
+msgstr "Copy"
+
+#: admin/cf7-material-design-admin.php:193
+msgid "Insert"
+msgstr "Insert"
+
+#. translators: %s: "Material Design". Please match character count
+#: admin/cf7-material-design-admin.php:230
+msgid "Upgrade to %s Pro"
+msgstr "Upgrade to %s Pro"
+
+#: admin/cf7-material-design-admin.php:234
+msgid "Demo (opens in new tab)"
+msgstr "Demo (opens in new tab)"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:239
+msgid "%s Customize %s the colors and fonts."
+msgstr "%s Customise %s the colours and fonts."
+
+#: admin/cf7-material-design-admin.php:243
+msgid "Try it for free"
+msgstr "Try it for free"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:248
+msgid "Turn checkboxes into %s switches%s."
+msgstr "Turn checkboxes into %s switches%s."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:256
+msgid "Decorate your fields with %s icons%s."
+msgstr "Decorate your fields with %s icons%s."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:264
+msgid "Organize your fields into %s columns%s."
+msgstr "Organise your fields into %s columns%s."
+
+#. translators: %s: Hyperlink, Cards: https://material.io/design/components/cards.html
+#: admin/cf7-material-design-admin.php:272
+msgid "Group fields with %s cards%s."
+msgstr "Group fields with %s cards%s."
+
+#. translators: %s: price
+#. translators: %s: price
+#: admin/cf7-material-design-admin.php:280,
+#: admin/cf7-material-design-admin.php:389
+msgid "Upgrade for %s"
+msgstr "Upgrade for %s"
+
+#. translators: %1$s and %2$s: "Material Design"
+#: admin/cf7-material-design-admin.php:350
+msgid ""
+"Apply %1$s to your form using shortcodes which you can generate with the "
+"\"%2$s\" button. Your form should look something like this:"
+msgstr ""
+"Apply %1$s to your form using shortcodes which you can generate with the "
+"\"%2$s\" button. Your form should look something like this:"
+
+#: admin/cf7-material-design-admin.php:353
+msgid "Your name"
+msgstr "Your name"
+
+#: admin/cf7-material-design-admin.php:357
+msgid "Your email"
+msgstr "Your email"
+
+#: admin/cf7-material-design-admin.php:361
+msgid "Your message"
+msgstr "Your message"
+
+#: admin/cf7-material-design-admin.php:366
+msgid "Send"
+msgstr "Send"
+
+#: admin/cf7-material-design-admin.php:371,
+#: admin/cf7-material-design-page.php:178
+msgid "Documentation"
+msgstr "Documentation"
+
+#: admin/cf7-material-design-admin.php:372
+msgid "Demos"
+msgstr "Demos"
+
+#: admin/cf7-material-design-admin.php:373
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/cf7-material-design-admin.php:375,
+#: admin/cf7-material-design-page.php:180
+msgid "Support"
+msgstr "Support"
+
+#: admin/cf7-material-design-admin.php:376
+msgid "Try the style customizer"
+msgstr "Try the style customiser"
+
+#: admin/cf7-material-design-admin.php:376
+msgid "pro feature"
+msgstr "pro feature"
+
+#: admin/cf7-material-design-admin.php:378
+msgid "Direct email support"
+msgstr "Direct email support"
+
+#: admin/cf7-material-design-admin.php:379
+msgid "Customize styles"
+msgstr "Customise styles"
+
+#: admin/cf7-material-design-admin.php:382
+msgid "Get the CF7 Live Preview plugin"
+msgstr "Get the CF7 Live Preview plugin"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-customizer.php:95
+msgid "%s Forms"
+msgstr "%s Forms"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-customizer.php:96
+msgid "Customize your %s forms"
+msgstr "Customise your %s forms"
+
+#: admin/cf7-material-design-customizer.php:114
+msgid "Use custom styles?"
+msgstr "Use custom styles?"
+
+#. translators: %s: hyperlink
+#: admin/cf7-material-design-customizer.php:115
+msgid ""
+"Note: you're on the free version. Your style changes will not take effect "
+"until you %s upgrade to pro%s"
+msgstr ""
+"Note: you're on the free version. Your style changes will not take effect "
+"until you %s upgrade to pro%s"
+
+#: admin/cf7-material-design-customizer.php:137
+msgid "Primary color (default/light theme)"
+msgstr "Primary colour (default/light theme)"
+
+#: admin/cf7-material-design-customizer.php:157
+msgid "Primary color (dark theme)"
+msgstr "Primary colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:160
+msgid ""
+"You may want to choose a slightly lighter version of your primary color for "
+"better contrast in the dark theme."
+msgstr ""
+"You may want to choose a slightly lighter version of your primary colour for "
+"better contrast in the dark theme."
+
+#: admin/cf7-material-design-customizer.php:177
+msgid "Button color"
+msgstr "Button colour"
+
+#: admin/cf7-material-design-customizer.php:196
+msgid "Button hover color"
+msgstr "Button hover colour"
+
+#: admin/cf7-material-design-customizer.php:215
+msgid "Button text color"
+msgstr "Button text colour"
+
+#: admin/cf7-material-design-customizer.php:235
+msgid "Button color (dark theme)"
+msgstr "Button colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:238
+msgid "Leave blank to use the dark theme primary color"
+msgstr "Leave blank to use the dark theme primary colour"
+
+#: admin/cf7-material-design-customizer.php:255
+msgid "Button hover color (dark theme)"
+msgstr "Button hover colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:274
+msgid "Button text color (dark theme)"
+msgstr "Button text colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:294
+msgid "Label text opacity"
+msgstr "Label text opacity"
+
+#: admin/cf7-material-design-customizer.php:295
+msgid "1 = black, 0 = transparent, default = 0.5"
+msgstr "1 = black, 0 = transparent, default = 0.5"
+
+#: admin/cf7-material-design-customizer.php:312
+msgid "Normal text opacity"
+msgstr "Normal text opacity"
+
+#: admin/cf7-material-design-customizer.php:313
+msgid "1 = black, 0 = transparent, default = 0.87"
+msgstr "1 = black, 0 = transparent, default = 0.87"
+
+#: admin/cf7-material-design-customizer.php:330
+msgid "Label text opacity (dark theme)"
+msgstr "Label text opacity (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:331
+msgid "1 = white, 0 = transparent, default = 0.72"
+msgstr "1 = white, 0 = transparent, default = 0.72"
+
+#: admin/cf7-material-design-customizer.php:348
+msgid "Normal text opacity (dark theme)"
+msgstr "Normal text opacity (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:349
+msgid "1 = white, 0 = transparent, default = 1"
+msgstr "1 = white, 0 = transparent, default = 1"
+
+#: admin/cf7-material-design-customizer.php:366
+msgid "Base font size"
+msgstr "Base font size"
+
+#: admin/cf7-material-design-customizer.php:367
+msgid ""
+"Resize labels, help text etc. Text inputs and select fields can not be "
+"resized except by changing the font-size of your html tag, which is "
+"recommended to be set at 16px."
+msgstr ""
+"Resize labels, help text etc. Text inputs and select fields can not be "
+"resized except by changing the font-size of your html tag, which is "
+"recommended to be set at 16px."
+
+#: admin/cf7-material-design-customizer.php:392
+msgid "Font family"
+msgstr "Font family"
+
+#: admin/cf7-material-design-customizer.php:393
+msgid ""
+"Optionally choose to use a font from your current theme. Fonts not showing "
+"up? Try refreshing."
+msgstr ""
+"Optionally choose to use a font from your current theme. Fonts not showing "
+"up? Try refreshing."
+
+#: admin/cf7-material-design-customizer.php:408,
+#: admin/cf7-material-design-customizer.php:425
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: admin/cf7-material-design-customizer.php:418,
+#: admin/cf7-material-design-customizer.php:426
+msgid "Add any custom CSS here. This will work even in the free version."
+msgstr "Add any custom CSS here. This will work even in the free version."
+
+#: admin/cf7-material-design-page.php:85
+msgid "Plugin Settings"
+msgstr "Plugin Settings"
+
+#: admin/cf7-material-design-page.php:90
+msgid "Legacy styles"
+msgstr "Legacy styles"
+
+#: admin/cf7-material-design-page.php:99
+msgid "Use legacy styles"
+msgstr "Use legacy styles"
+
+#: admin/cf7-material-design-page.php:102
+msgid ""
+"Material Design was recently updated to use boxed and outlined fields, "
+"rather than the classic underlined fields. This is a large design and code "
+"change. Activating legacy styles will force the plugin to use the legacy "
+"code for underlined fields. This is a site-wide setting."
+msgstr ""
+"Material Design was recently updated to use boxed and outlined fields, "
+"rather than the classic underlined fields. This is a large design and code "
+"change. Activating legacy styles will force the plugin to use the legacy "
+"code for underlined fields. This is a site-wide setting."
+
+#: admin/cf7-material-design-page.php:106
+msgid "Upgrading from version 1"
+msgstr "Upgrading from version 1"
+
+#: admin/cf7-material-design-page.php:107
+msgid ""
+"If you're upgrading from version 1 of this plugin, there are a few things "
+"you should know before moving to the new styles."
+msgstr ""
+"If you're upgrading from version 1 of this plugin, there are a few things "
+"you should know before moving to the new styles."
+
+#: admin/cf7-material-design-page.php:109
+msgid ""
+"The font-size settings in the customizer work slightly differently, as the "
+"new material fields cannot be easily resized, only the text around them will "
+"be resized."
+msgstr ""
+"The font-size settings in the customiser work slightly differently, as the "
+"new material fields cannot be easily resized, only the text around them will "
+"be resized."
+
+#: admin/cf7-material-design-page.php:110
+msgid ""
+"Radio fields can no longer be turned into switches, only checkboxes can be "
+"switches."
+msgstr ""
+"Radio fields can no longer be turned into switches, only checkboxes can be "
+"switches."
+
+#: admin/cf7-material-design-page.php:111
+msgid ""
+"You now have the option to use the outlined variants of text and select "
+"fields instead of the default boxed variant."
+msgstr ""
+"You now have the option to use the outlined variants of text and select "
+"fields instead of the default boxed variant."
+
+#: admin/cf7-material-design-page.php:113
+msgid ""
+"Once you've turned off the switch above, check that your forms all still "
+"look and function as you'd expect. If you think there's a bug, please post a "
+"message in the support forum."
+msgstr ""
+"Once you've turned off the switch above, check that your forms all still "
+"look and function as you'd expect. If you think there's a bug, please post a "
+"message in the support forum."
+
+#: admin/cf7-material-design-page.php:114
+msgid ""
+"If you liked the old styles better than the new styles, you can reactivate "
+"the switch above to continue to use the old styles and v1 plugin code. Note "
+"though that v1 will not receive updates other than bug fixes, and v1 is not "
+"translated."
+msgstr ""
+"If you liked the old styles better than the new styles, you can reactivate "
+"the switch above to continue to use the old styles and v1 plugin code. Note "
+"though that v1 will not receive updates other than bug fixes, and v1 is not "
+"translated."
+
+#: admin/cf7-material-design-page.php:118,
+#: admin/cf7-material-design-page.php:170
+msgid "Save"
+msgstr "Save"
+
+#: admin/cf7-material-design-page.php:150
+msgid "Thanks for installing!"
+msgstr "Thanks for installing!"
+
+#. translators: %1$s: "Material Design for Contact Form 7", %2$s: "Material Design"
+#: admin/cf7-material-design-page.php:154
+msgid "%1$s lets you style your forms with Google's %2$s"
+msgstr "%1$s lets you style your forms with Google's %2$s"
+
+#: admin/cf7-material-design-page.php:159
+msgid "Getting Started"
+msgstr "Getting Started"
+
+#: admin/cf7-material-design-page.php:160
+msgid ""
+"This plugin provides a set of shortcodes that wrap your existing Contact "
+"Form 7 form tags in the form editor. When you wrap a form tag in one of "
+"these shortcodes, its output is changed to Material Design."
+msgstr ""
+"This plugin provides a set of shortcodes that wrap your existing Contact "
+"Form 7 form tags in the form editor. When you wrap a form tag in one of "
+"these shortcodes, its output is changed to Material Design."
+
+#: admin/cf7-material-design-page.php:163
+msgid "Quick Start"
+msgstr "Quick Start"
+
+#: admin/cf7-material-design-page.php:164
+msgid "Fastest track to a working form"
+msgstr "Fastest track to a working form"
+
+#: admin/cf7-material-design-page.php:168
+msgid "Add a new form"
+msgstr "Add a new form"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:169
+msgid ""
+"Delete everything from the form editor, and instead copy the example form "
+"code from the %s meta-box into the editor."
+msgstr ""
+"Delete everything from the form editor, and instead copy the example form "
+"code from the %s meta-box into the editor."
+
+#: admin/cf7-material-design-page.php:171
+msgid ""
+"Copy your form shortcode (under the form title) and paste it into a page (or "
+"post, widget, etc)."
+msgstr ""
+"Copy your form shortcode (under the form title) and paste it into a page (or "
+"post, widget, etc)."
+
+#: admin/cf7-material-design-page.php:172
+msgid "Save and preview the page."
+msgstr "Save and preview the page."
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:176
+msgid ""
+"After that, you can customize your form to your liking. Click the %s button "
+"alongside the CF7 form tag buttons to automatically generate shortcodes for "
+"the different field types."
+msgstr ""
+"After that, you can customise your form to your liking. Click the %s button "
+"alongside the CF7 form tag buttons to automatically generate shortcodes for "
+"the different field types."
+
+#. translators: %s: Plugin name
+#: admin/cf7-material-design-page.php:177
+msgid "We also recommend installing the %s plugin for easier form development."
+msgstr ""
+"We also recommend installing the %s plugin for easier form development."
+
+#: admin/cf7-material-design-page.php:179
+msgid ""
+"All shortcodes are documented in the help tab (top right of the screen) on "
+"the form editor page."
+msgstr ""
+"All shortcodes are documented in the help tab (top right of the screen) on "
+"the form editor page."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:181
+msgid ""
+"Confused? Something doesn't look right? Have a specific question? Make a "
+"post in the %s support forum %s and I'll help you out."
+msgstr ""
+"Confused? Something doesn't look right? Have a specific question? Make a "
+"post in the %s support forum %s and I'll help you out."
+
+#: admin/cf7-material-design-page.php:182
+msgid "Custom colors and fonts"
+msgstr "Custom colours and fonts"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:183
+msgid ""
+"Customizing colors and fonts is a pro feature, but you can %s try it out for "
+"free in the customizer %s. Your changes just won't be saved unless you "
+"upgrade."
+msgstr ""
+"Customizing colours and fonts is a pro feature, but you can %s try it out "
+"for free in the customiser %s. Your changes just won’t be saved unless you "
+"upgrade."
+
+#: admin/cf7-material-design-page.php:184
+msgid "Like this plugin? Rate it!"
+msgstr "Like this plugin? Rate it!"
+
+#: admin/cf7-material-design-page.php:185
+msgid "Leave a 5 star review"
+msgstr "Leave a 5 star review"
+
+#. translators: %s: Cost
+#: admin/cf7-material-design-page.php:195
+msgid "Upgrade to Pro for %s"
+msgstr "Upgrade to Pro for %s"
+
+#: admin/cf7-material-design-page.php:199
+msgid "And unlock all these extra features"
+msgstr "And unlock all these extra features"
+
+#: admin/cf7-material-design-page.php:207,
+#: admin/cf7-material-design-page.php:269
+msgid "Customize the colors and fonts to suit your theme."
+msgstr "Customise the colours and fonts to suit your theme."
+
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#: admin/cf7-material-design-page.php:218,
+#: admin/cf7-material-design-page.php:273,
+#: admin/cf7-material-design-page.php:309
+msgid "Turn checkboxes into %1$s switches %2$s using %3$s."
+msgstr "Turn checkboxes into %1$s switches %2$s using %3$s."
+
+#: admin/cf7-material-design-page.php:231
+msgid "Add icons to text and select fields."
+msgstr "Add icons to text and select fields."
+
+#: admin/cf7-material-design-page.php:239,
+#: admin/cf7-material-design-page.php:280
+msgid "Easily organize your fields into columns."
+msgstr "Easily organise your fields into columns."
+
+#. translators: %s: shortcode
+#. translators: %s: shortcode
+#. translators: %s: shortcode
+#: admin/cf7-material-design-page.php:250,
+#: admin/cf7-material-design-page.php:284,
+#: admin/cf7-material-design-page.php:327
+msgid "Group fields into sections with the %s shortcode."
+msgstr "Group fields into sections with the %s shortcode."
+
+#. translators: %s: Cost
+#. translators: %s: Cost
+#: admin/cf7-material-design-page.php:261,
+#: admin/cf7-material-design-page.php:293
+msgid "Upgrade now for %s"
+msgstr "Upgrade now for %s"
+
+#: admin/cf7-material-design-page.php:267
+msgid "All Pro Benefits"
+msgstr "All Pro Benefits"
+
+#: admin/cf7-material-design-page.php:279,
+#: admin/cf7-material-design-page.php:315
+msgid "Add icons to your text and select fields."
+msgstr "Add icons to your text and select fields."
+
+#: admin/cf7-material-design-page.php:288
+msgid "Faster support, directly through email."
+msgstr "Faster support, directly through email."
+
+#: admin/cf7-material-design-page.php:300
+msgid "You have the pro version"
+msgstr "You have the pro version"
+
+#: admin/cf7-material-design-page.php:301
+msgid "Start using pro features now!"
+msgstr "Start using pro features now!"
+
+#: admin/cf7-material-design-page.php:305
+msgid "Customize the colors and fonts"
+msgstr "Customise the colours and fonts"
+
+#. translators: %1$s, %2$s, %3$s: attribute
+#: admin/cf7-material-design-page.php:319
+msgid ""
+"Use the %1$s, %2$s and %3$s attributes on your shortcodes to arrange them "
+"into columns"
+msgstr ""
+"Use the %1$s, %2$s and %3$s attributes on your shortcodes to arrange them "
+"into columns"
+
+#: admin/cf7-material-design-page.php:332
+msgid "Email me (Angus) directly for support"
+msgstr "Email me (Angus) directly for support"
+
+#: admin/cf7-material-design-page.php:334
+msgid "See documentation on form editor screen"
+msgstr "See documentation on form editor screen"
+
+#: admin/cf7-material-design-shortcode-generator.php:31,
+#: admin/cf7-material-design-shortcode-generator.php:297
+msgid "Label"
+msgstr "Label"
+
+#: admin/cf7-material-design-shortcode-generator.php:37
+msgid "Help text"
+msgstr "Help text"
+
+#: admin/cf7-material-design-shortcode-generator.php:38
+msgid "This will appear below the field"
+msgstr "This will appear below the field"
+
+#: admin/cf7-material-design-shortcode-generator.php:44
+msgid "Icon"
+msgstr "Icon"
+
+#. translators: %1$s hyperlink, %2$s: "Material Design", %3$s: end of hyperlink, %4$s: Icon name
+#: admin/cf7-material-design-shortcode-generator.php:48
+msgid ""
+"Optionally enter the name of a %1$s %2$s Icon%3$s. E.g. <code>%4$s</code>."
+msgstr ""
+"Optionally enter the name of a %1$s %2$s Icon%3$s. E.g. <code>%4$s</code>."
+
+#: admin/cf7-material-design-shortcode-generator.php:60,
+#: admin/cf7-material-design-shortcode-generator.php:340
+msgid "Outlined"
+msgstr "Outlined"
+
+#: admin/cf7-material-design-shortcode-generator.php:61
+msgid "Use outlined variant"
+msgstr "Use outlined variant"
+
+#. translators: As in vertical
+#: admin/cf7-material-design-shortcode-generator.php:68
+msgid "Stacked"
+msgstr "Stacked"
+
+#. translators: As in side-by-side
+#: admin/cf7-material-design-shortcode-generator.php:69
+msgid "Inline"
+msgstr "Inline"
+
+#: admin/cf7-material-design-shortcode-generator.php:70,
+#: admin/cf7-material-design-shortcode-generator.php:71,
+#: admin/cf7-material-design-shortcode-generator.php:72
+msgid "Columns"
+msgstr "Columns"
+
+#. translators: As in layout
+#: admin/cf7-material-design-shortcode-generator.php:74
+msgid "Display"
+msgstr "Display"
+
+#. translators: As in laptop
+#: admin/cf7-material-design-shortcode-generator.php:80
+msgid "Desktop width"
+msgstr "Desktop width"
+
+#: admin/cf7-material-design-shortcode-generator.php:81
+msgid "How many columns out of 12 should this element occupy on large screens?"
+msgstr ""
+"How many columns out of 12 should this element occupy on large screens?"
+
+#. translators: As in iPad
+#: admin/cf7-material-design-shortcode-generator.php:88
+msgid "Tablet width"
+msgstr "Tablet width"
+
+#: admin/cf7-material-design-shortcode-generator.php:89
+msgid ""
+"How many columns out of 8 should this element occupy on tablet-sized screens?"
+msgstr ""
+"How many columns out of 8 should this element occupy on tablet-sized screens?"
+
+#: admin/cf7-material-design-shortcode-generator.php:96
+msgid "Mobile width"
+msgstr "Mobile width"
+
+#: admin/cf7-material-design-shortcode-generator.php:97
+msgid ""
+"How many columns out of 4 should this element occupy on mobile-sized screens?"
+msgstr ""
+"How many columns out of 4 should this element occupy on mobile-sized screens?"
+
+#: admin/cf7-material-design-shortcode-generator.php:110
+msgid "Form"
+msgstr "Form"
+
+#: admin/cf7-material-design-shortcode-generator.php:111
+msgid "Wraps your entire form."
+msgstr "Wraps your entire form."
+
+#: admin/cf7-material-design-shortcode-generator.php:114
+msgid "all your other form tags and shortcodes go here"
+msgstr "all your other form tags and shortcodes go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:119
+msgid "Theme"
+msgstr "Theme"
+
+#: admin/cf7-material-design-shortcode-generator.php:120
+msgid "Dark"
+msgstr "Dark"
+
+#: admin/cf7-material-design-shortcode-generator.php:122
+msgid "The dark theme is useful when your form is on a dark background"
+msgstr "The dark theme is useful when your form is on a dark background"
+
+#: admin/cf7-material-design-shortcode-generator.php:127
+msgid "Spacing"
+msgstr "Spacing"
+
+#. translators: As in close-together
+#: admin/cf7-material-design-shortcode-generator.php:128
+msgid "Tight"
+msgstr "Tight"
+
+#: admin/cf7-material-design-shortcode-generator.php:130
+msgid "Reduce the vertical spacing between items?"
+msgstr "Reduce the vertical spacing between items?"
+
+#: admin/cf7-material-design-shortcode-generator.php:138
+msgid "Text"
+msgstr "Text"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:141
+msgid "Wraps %s, %s, %s, %s, %s and %s form tags."
+msgstr "Wraps %s, %s, %s, %s, %s and %s form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:153
+msgid "Text area"
+msgstr "Text area"
+
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:156,
+#: admin/cf7-material-design-shortcode-generator.php:195,
+#: admin/cf7-material-design-shortcode-generator.php:210,
+#: admin/cf7-material-design-shortcode-generator.php:241,
+#: admin/cf7-material-design-shortcode-generator.php:312,
+#: admin/cf7-material-design-shortcode-generator.php:327
+msgid "Wraps your %s form tags."
+msgstr "Wraps your %s form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:164
+msgid "Autosize"
+msgstr "Autosize"
+
+#: admin/cf7-material-design-shortcode-generator.php:165
+msgid "Automatically expand as the user types"
+msgstr "Automatically expand as the user types"
+
+#: admin/cf7-material-design-shortcode-generator.php:177
+msgid "Select"
+msgstr "Select"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:180
+msgid "Wraps your %s and %s form tags."
+msgstr "Wraps your %s and %s form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:192
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#. translators: As in switch form control
+#: admin/cf7-material-design-shortcode-generator.php:222
+msgid "Switch"
+msgstr "Switch"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:225
+msgid "Turn %s into switches."
+msgstr "Turn %s into switches."
+
+#: admin/cf7-material-design-shortcode-generator.php:238
+msgid "Acceptance"
+msgstr "Acceptance"
+
+#. translators: As in terms and conditions
+#: admin/cf7-material-design-shortcode-generator.php:249
+msgid "Terms"
+msgstr "Terms"
+
+#: admin/cf7-material-design-shortcode-generator.php:251
+msgid ""
+"The terms to which the user must agree. NOTE: If the CF7 acceptance tag has "
+"content, that content will override this terms attribute."
+msgstr ""
+"The terms to which the user must agree. NOTE: If the CF7 acceptance tag has "
+"content, that content will override this terms attribute."
+
+#. translators: As in a file on your computer
+#: admin/cf7-material-design-shortcode-generator.php:263
+msgid "File"
+msgstr "File"
+
+#: admin/cf7-material-design-shortcode-generator.php:264
+msgid "Wraps your file upload form tags."
+msgstr "Wraps your file upload form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:269,
+#: public/cf7-material-design-public.php:574
+msgid "No file chosen"
+msgstr "No file chosen"
+
+#: admin/cf7-material-design-shortcode-generator.php:270
+msgid "No file text"
+msgstr "No file text"
+
+#: admin/cf7-material-design-shortcode-generator.php:272
+msgid "The text shown before a file is chosen."
+msgstr "The text shown before a file is chosen."
+
+#: admin/cf7-material-design-shortcode-generator.php:276,
+#: public/cf7-material-design-public.php:575
+msgid "Choose file"
+msgstr "Choose file"
+
+#: admin/cf7-material-design-shortcode-generator.php:277
+msgid "Button text"
+msgstr "Button text"
+
+#: admin/cf7-material-design-shortcode-generator.php:289
+msgid "Quiz"
+msgstr "Quiz"
+
+#: admin/cf7-material-design-shortcode-generator.php:290
+msgid "Wraps your quiz form tags."
+msgstr "Wraps your quiz form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:299
+msgid ""
+"This label will appear above the field. The quiz question will appear in the "
+"floating label."
+msgstr ""
+"This label will appear above the field. The quiz question will appear in the "
+"floating label."
+
+#: admin/cf7-material-design-shortcode-generator.php:309
+msgid "Captcha"
+msgstr "Captcha"
+
+#: admin/cf7-material-design-shortcode-generator.php:324
+msgid "Submit"
+msgstr "Submit"
+
+#: admin/cf7-material-design-shortcode-generator.php:335
+msgid "Button style"
+msgstr "Button style"
+
+#: admin/cf7-material-design-shortcode-generator.php:338
+msgid "Raised"
+msgstr "Raised"
+
+#: admin/cf7-material-design-shortcode-generator.php:339
+msgid "Unelevated"
+msgstr "Unelevated"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:348
+msgid "one or more %s or %s form tags go here"
+msgstr "one or more %s or %s form tags go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:357
+msgid "Card"
+msgstr "Card"
+
+#: admin/cf7-material-design-shortcode-generator.php:358
+msgid "Group elements into sections with cards."
+msgstr "Group elements into sections with cards."
+
+#: admin/cf7-material-design-shortcode-generator.php:364
+msgid "Title"
+msgstr "Title"
+
+#: admin/cf7-material-design-shortcode-generator.php:370
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: admin/cf7-material-design-shortcode-generator.php:376
+msgid "Title size"
+msgstr "Title size"
+
+#: admin/cf7-material-design-shortcode-generator.php:377
+msgid "Larger title"
+msgstr "Larger title"
+
+#. translators: %s: shortcode type
+#: admin/cf7-material-design-shortcode-generator.php:384
+msgid "one or more %s shortcodes or other elements go here"
+msgstr "one or more %s shortcodes or other elements go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:394
+msgid "Raw"
+msgstr "Raw"
+
+#: admin/cf7-material-design-shortcode-generator.php:395
+msgid "Wraps html or any miscellaneous elements."
+msgstr "Wraps html or any miscellaneous elements."
+
+#: admin/cf7-material-design-shortcode-generator.php:398
+msgid "any raw html or miscellaneous elements go here"
+msgstr "any raw html or miscellaneous elements go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:406
+msgid "Grid"
+msgstr "Grid"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:409
+msgid "Fixes layout for non-immediate children of %s or %s."
+msgstr "Fixes layout for non-immediate children of %s or %s."
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:416
+msgid "%s shortcodes go here"
+msgstr "%s shortcodes go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:422
+msgid "Help"
+msgstr "Help"
+
+#: admin/cf7-material-design-shortcode-generator.php:461
+msgid "Upgrade to pro"
+msgstr "Upgrade to pro"
+
+#: admin/cf7-material-design-shortcode-generator.php:461
+msgid "to use this feature."
+msgstr "to use this feature."
+
+#. translators: mobile as in cell phone
+#: admin/cf7-material-design-shortcode-generator.php:586
+msgid "mobile-sized"
+msgstr "mobile-sized"
+
+#. translators: tablet as in ipad
+#: admin/cf7-material-design-shortcode-generator.php:590
+msgid "tablet-sized"
+msgstr "tablet-sized"
+
+#: admin/cf7-material-design-shortcode-generator.php:595
+msgid "large"
+msgstr "large"
+
+#: admin/cf7-material-design-shortcode-generator.php:602
+msgid "Layout Attributes"
+msgstr "Layout Attributes"
+
+#: admin/cf7-material-design-shortcode-generator.php:603
+msgid ""
+"Layout attributes let you organize your form fields into columns. You can "
+"control how wide each field is on mobile, tablet and large screens."
+msgstr ""
+"Layout attributes let you organise your form fields into columns. You can "
+"control how wide each field is on mobile, tablet and large screens."
+
+#: admin/cf7-material-design-shortcode-generator.php:607
+msgid "Layout attributes are a pro feature."
+msgstr "Layout attributes are a pro feature."
+
+#. translators: %1$s: "all" or a fraction like "half", %2$s: screen size (mobile, tablet, desktop)
+#: admin/cf7-material-design-shortcode-generator.php:620
+msgid ""
+"This element will occupy %1$s of the available horizontal space on %2$s "
+"screens."
+msgstr ""
+"This element will occupy %1$s of the available horizontal space on %2$s "
+"screens."
+
+#: public/cf7-material-design-public.php:116,
+#: public/cf7-material-design-public.php:116
+msgid "Edit form styles."
+msgstr "Edit form styles."
+
+#: public/cf7-material-design-public.php:122
+msgid "Only admins can see this message"
+msgstr "Only admins can see this message"
+
+#: public/cf7-material-design-public.php:122
+msgid "Customize your form's colors and fonts"
+msgstr "Customise your form’s colours and fonts"
+
+#: public/cf7-material-design-public.php:123,
+#: public/cf7-material-design-public.php:123
+msgid "Don't show this again"
+msgstr "Don't show this again"

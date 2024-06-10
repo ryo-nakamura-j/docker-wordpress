@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Carousel\n"
+"POT-Creation-Date: 2017-09-30 16:13+0530\n"
+"PO-Revision-Date: 2017-09-30 16:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: ShapedPlugin <support@shapedplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_atts__;esc_html_e;esc_html_x;"
+"esc_atts_e;esc_atts_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/views/partials/carousel-settings.php:15
+msgid "AutoPlay"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:16
+msgid "Check to on autoplay carousel."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:21
+msgid "AutoPlay Speed"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:22
+msgid "Set autoplay speed."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:23
+msgid "(Millisecond)"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:28
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:29
+msgid "Check to activate pause on hover."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:34
+msgid "Navigation"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:35
+msgid "Check to show navigation arrows."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:41
+msgid "Navigation Color\t"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:42
+msgid "Pick a color for navigation arrows."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:48
+msgid "Navigation Background\t"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:49
+msgid "Pick a color for navigation arrows background."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:54
+msgid "Pagination Dots"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:55
+msgid "Check to show pagination dots."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:61
+msgid "Pagination Color\t"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:62
+msgid "Pick a color for pagination dots."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:68
+msgid "Pagination Active Color\t"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:69
+msgid "Pick a color for pagination active dots."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:74
+msgid "Pagination Speed"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:75
+msgid "Set pagination/slide scroll speed."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:76
+msgid "(Millisecond)."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:81
+msgid "Touch Swipe"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:82
+msgid "Check to on touch swipe."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:87
+msgid "Mouse Draggable"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:88
+msgid "Check to on mouse draggable."
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:93
+msgid "RTL Mode"
+msgstr ""
+
+#: ../admin/views/partials/carousel-settings.php:94
+msgid ""
+"Check and Set a RTL language from admin settings to make the rtl option work."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:16
+msgid "Layout"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:17
+msgid "Select which layout you want to display."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:22
+msgid "Select Theme"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:23
+msgid "Select which theme you want to display."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:25
+msgid "Theme One"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:26
+msgid "Theme Two"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:32
+msgid "Display Posts From"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:33
+msgid "Select an option to display the posts."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:38
+msgid "Total Posts"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:39
+msgid "Number of Total posts to show. Default value is unlimited."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:44
+msgid "Post Column(s)"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:45
+msgid "Set number of posts column for the screen larger than 1100px."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:50
+msgid "Post Column(s) on Desktop"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:51
+msgid "Set number of column on desktop for the screen smaller than 1100px."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:56
+msgid "Post Column(s) on Tablet"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:57
+msgid "Set number of column on tablet for the screen smaller than 990px."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:62
+msgid "Post Column(s) on Mobile"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:63
+msgid "Set number of column on mobile for the screen smaller than 650px."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:68
+msgid "Order By"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:69
+msgid "Select an order by option."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:71
+msgid "Title"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:72 ../main.php:252
+msgid "Date"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:73
+msgid "Modified"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:79
+msgid "Order"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:80
+msgid "Set post order."
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:82
+msgid "Ascending"
+msgstr ""
+
+#: ../admin/views/partials/general-settings.php:83
+msgid "Descending"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:15 ../main.php:249
+msgid "Carousel Title"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:16
+msgid "Check to display the shortcode name as carousel title."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:22
+msgid "Carousel Title Color"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:23
+msgid "Set carousel title color."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:28
+msgid "Post Title"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:29
+msgid "Check to show post title."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:35
+msgid "Post Title Color"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:36
+msgid "Set post title color."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:42
+msgid "Post Title Hover Color"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:43
+msgid "Set post title hover color."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:48
+msgid "Post Content"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:49
+msgid "Check to show post content."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:55
+msgid "Post Content Color"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:56
+msgid "Set post content color."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:61
+msgid "Post Author Name"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:62
+msgid "Check to show post author name."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:67
+msgid "Post Date"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:68
+msgid "Check to show post date."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:74
+msgid "Post Meta Color"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:75
+msgid "Set post meta color."
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:81
+msgid "Post Meta Hover Color"
+msgstr ""
+
+#: ../admin/views/partials/stylization.php:82
+msgid "Set post meta hover color."
+msgstr ""
+
+#: ../admin/views/tab-navigation.php:24 ../main.php:250
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/views/tab-navigation.php:25
+msgid "Copy and paste this shortcode into your posts or pages:"
+msgstr ""
+
+#: ../admin/views/tab-navigation.php:36
+msgid "Template Include"
+msgstr ""
+
+#: ../admin/views/tab-navigation.php:38
+msgid "Paste the PHP code into your template file:"
+msgstr ""
+
+#: ../admin/views/tab-navigation.php:46
+msgid "Post or Page editor"
+msgstr ""
+
+#: ../admin/views/tab-navigation.php:48
+msgid "Insert it into an existing post or page with the icon:"
+msgstr ""
+
+#: ../class/metabox.php:53
+msgid "Shortcode Options"
+msgstr ""
+
+#: ../class/shortcodes.php:29 ../class/shortcodes.php:30
+msgid "Generate Shortcode"
+msgstr ""
+
+#: ../class/shortcodes.php:40 ../class/shortcodes.php:43
+msgid "Post Carousels"
+msgstr ""
+
+#: ../class/shortcodes.php:41 ../class/shortcodes.php:42
+msgid "Post Carousel"
+msgstr ""
+
+#: ../class/shortcodes.php:44
+msgid "Add New"
+msgstr ""
+
+#: ../class/shortcodes.php:45
+msgid "Add New Carousel"
+msgstr ""
+
+#: ../class/shortcodes.php:46
+msgid "Edit"
+msgstr ""
+
+#: ../class/shortcodes.php:47
+msgid "Edit Post Carousel"
+msgstr ""
+
+#: ../class/shortcodes.php:48
+msgid "New Post Carousel"
+msgstr ""
+
+#: ../class/shortcodes.php:49
+msgid "Search Post Carousels"
+msgstr ""
+
+#: ../class/shortcodes.php:50
+msgid "No Post Carousels found"
+msgstr ""
+
+#: ../class/shortcodes.php:51
+msgid "No Post Carousels found in Trash"
+msgstr ""
+
+#: ../class/shortcodes.php:52
+msgid "Parent Post Carousel"
+msgstr ""
+
+#: ../includes/functions.php:69
+msgid "Post Carousel Help"
+msgstr ""
+
+#: ../includes/functions.php:69
+msgid "Help"
+msgstr ""
+
+#: ../includes/functions.php:79
+msgid "Welcome to Post Carousel!"
+msgstr ""
+
+#: ../includes/functions.php:80
+msgid ""
+"Thank you for installing Post Carousel! You're now running the most popular "
+"Post Carousel plugin.\n"
+"This video will help you get started with the plugin."
+msgstr ""
+
+#: ../includes/functions.php:218
+#, php-format
+msgid ""
+"If you like <strong>Post Carousel</strong> please leave us a <a href=\"%s\" "
+"target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Your "
+"Review is very important to us as it helps us to grow more. "
+msgstr ""
+
+#: ../includes/functions.php:236
+msgid "Create Carousel"
+msgstr ""
+
+#: ../includes/functions.php:240
+msgid "Update Carousel"
+msgstr ""
+
+#: ../main.php:160
+msgid "Go Pro!"
+msgstr ""
+
+#: ../main.php:161
+msgid "Shortcode Generator"
+msgstr ""
+
+#: ../main.php:183
+msgid "Live Demo"
+msgstr ""
+
+#: ../public/views/shortcoderender.php:238
+#: ../public/views/shortcoderender.php:285
+msgid "No posts found"
+msgstr ""

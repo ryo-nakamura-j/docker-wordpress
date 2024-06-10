@@ -1,0 +1,37 @@
+#cf7md-pro-admin {
+    overflow: hidden;
+    position: relative;
+    @media (max-width: 1199px) {
+        display: none;
+    }
+    .notice-dismiss {
+        text-decoration: none;
+    }
+    .slick-slide {
+        min-height: 237px;
+    }
+}
+.cf7md-card--img-left {
+    width: 400px;
+    float: left;
+    margin: -16px;
+    margin-right: 16px;
+    line-height: 0;
+    position: relative;
+    img {
+        width: 100%;
+        display: none;
+        &:first-child {
+            display: block;
+        }
+    }
+    .slick-prev, .slick-next {
+        top: 50%;
+        &:before {
+            color: $mdc-theme-primary;
+        }
+    }
+}
+.cf7md-card--body-right {
+    overflow: hidden;
+}

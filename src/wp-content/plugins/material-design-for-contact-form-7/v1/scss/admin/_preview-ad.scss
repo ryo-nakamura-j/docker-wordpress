@@ -1,0 +1,11 @@
+.cf7md-submit-wrapper {
+  @extend .cf;
+  input[type="submit"] {
+    float: left;
+    margin-right: 15px;
+    margin-top: 4px;
+  }
+}
+.cf7md-live-preview-text {
+  overflow: hidden;
+}

@@ -1,0 +1,4655 @@
+/* 
+Theme Name: JTB Singapore
+Description: 
+Version: 1
+Author: Meta Digital
+Author URI: http://metadigital.co.nz/
+*/
+
+/*============Sticky Footer============*/
+
+/*html,
+body {
+    height: 100%;
+}   
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;
+    padding: 0 0 100px;
+}
+footer {
+    height: 100px;
+}*/
+
+
+/*==========Bootstrap Overrides========*/
+
+/*.navbar-header {
+    float:none;
+}
+.navbar-toggle {
+    display: initial;
+}*/
+@media (max-width: 768px) {
+    .container-fluid>.navbar-header {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .search-mobile {
+        margin:0.5em 0;
+    }
+
+    .search-mobile .form-search-mobile input.input-search {
+        border:1px solid #E00011;
+        border-right:none;
+        border-top-left-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+    }
+
+    .search-mobile .form-search-mobile button.btn-search {
+        border:1px solid #E00011;
+        border-left:none;
+        border-top-right-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        padding:0;
+    }
+}
+
+@media (max-width: 991px) {
+    .container-fluid>.navbar-header {
+        float: none;
+        margin-left:-15px;
+        margin-right:-15px;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .md-top-margin {
+        margin-top:15px;
+    }
+
+    .search-tab .form-search {
+        right:10%;
+        margin-top:17px;
+        position:absolute;
+    }
+
+    .search-tab .form-search input.input-search {
+        background:#FFFFFF;
+        box-shadow: 2px 3px 1px #d8cdcd;
+        max-width:240px;
+    }
+    .search-tab .form-search button.btn-search {
+        background:#F0F0F0;
+    }
+}
+
+/*==========Fonts & Headings===========*/
+
+h1 {
+    font-family: "Signika",sans-serif;
+}
+
+h2 {
+    font-family: "Signika",sans-serif;
+}
+
+h3 {
+    font-family: "Signika",sans-serif;
+}
+
+h4 {
+    font-family: "Signika",sans-serif;
+}
+
+h5 {
+    font-family: "Signika",sans-serif;
+}
+
+h6 {
+    font-family: "Signika",sans-serif;
+}
+
+p { 
+    font-family: "Arimo",sans-serif;
+}
+
+strong{font-weight:bold}
+
+a{
+    text-decoration:none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a:visited{ 
+    
+}
+
+a:hover,
+a:active {
+    color: #2A6496;
+    text-decoration: underline; 
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+.alignleft {
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+
+.alignright {
+    float: right;
+    padding: 10px 0 10px 10px;
+}
+
+.clear { clear:both;}
+
+
+
+/*========== Header ===========*/
+
+
+div.brand {
+    padding:1em 0;
+}
+
+div.header-info {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+a.header-logo {
+    margin-right: 32px;
+}
+
+p.country-name {
+    display: inline-block;
+    line-height: 25px;
+    font-family: "Arial",sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+p.phone-number {
+    font-weight:bold;
+    color:#9C1429;
+    font-family: "Arial", sans-serif;
+    font-size:20px;
+    font-style:italic;
+}
+
+div.secondary-menu {
+    border-radius: 0px 0px 4px 4px;
+    background: linear-gradient(#FCFCFC, #EEE) repeat scroll 0% 0% transparent;
+    font-family: "Arial",sans-serif;
+    display: inline-block;
+    padding: 0px 12px;
+    margin-bottom: 8px;
+    /*float: right;*/
+    /*top: 0;*/
+    /*position: absolute;*/
+    /*right: 15px;*/
+}
+
+div.secondary-menu ul.menu {
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+div.secondary-menu ul.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    line-height:43px;
+}
+
+div.secondary-menu ul.menu li:after {
+    content: " | ";
+    font-style: bold;
+}
+
+div.secondary-menu ul.menu li:last-child:after {
+    content: "";
+}
+
+div.lang-switcher,
+#polylang-2,
+.menu-secondary-menu-container {
+    display: inline-block;
+}
+
+#lang_choice_polylang-2 {
+    background: url("/wp-content/themes/jtb-singapore/images/caret.png") no-repeat scroll 8px 10px #E2E2E2;
+    color: #595757;
+    display: inline-block;
+    background-color: #E2E2E2;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0px solid;
+    padding: 6px 6px 6px 18px;
+    margin: 4px 10px 4px 50px;
+}
+
+#polylang-2 select,
+#polylang-2 option {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+#polylang-2 select {
+    padding: 8px 12px 8px 18px;
+}
+
+/* Firefox specific CSS */
+@-moz-document url-prefix() {
+    #polylang-2 select {
+        padding: 3px 12px 3px 18px;
+    }
+}
+
+/*#polylang-2 option {
+    border: 0px solid white;
+    padding: 6px 12px 6px 18px;
+}*/
+
+#polylang-2 option:focus {
+    color: red;
+    background: white;
+}
+
+#lang_choice_polylang-2 > option {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.lang-switcher option {
+    padding: 4px;
+}
+
+#lang_choice_polylang-2 {
+    padding: inherit;
+}
+
+.welcome-text {
+    font-size: 12px;
+    color: #777;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1em;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.header-logo img {
+    z-index: 1000;
+}
+
+.round-social-grey {
+    text-align: right;
+    display: inline-block;
+}
+
+.round-social-grey a {
+    margin: 0 0 0 4px;
+    color: #ffffff;
+    display: inline-block;
+    width: 2.4em;
+    height: 2.4em;
+    text-align: center;
+    border-radius: 50%;
+    background: none repeat scroll 0% 0% #888;
+    transition: background-color 0.25s ease-in-out 0s;
+}
+
+.round-social-grey a.fa-twitter:hover {
+    background: none repeat scroll 0% 0% #3DBAF4;
+    text-decoration: none;
+}
+
+.round-social-grey a.fa-facebook:hover {
+    background: #4C6AA8;
+    text-decoration: none;
+}
+
+.round-social-grey a::before {
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+.round-social-grey a.fa-question {
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .round-social-grey.tp-tooltip a.fa-question {
+        display: none;
+    }
+    .tp-mobile-tooltip {
+        display: block;
+    }
+    .tp-booking-button {
+        margin-top: -25px;
+        margin-right: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .round-social-grey.tp-tooltip a.fa-question {
+        display: inline-block;
+    }
+    .tp-mobile-tooltip {
+        display: none;
+    }
+    .has-error .tp-mobile-tooltip {
+        display: block;
+        color: red;
+    }
+    .tp-booking-button {
+        margin-top: -65px;
+        margin-right: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* main menu */
+.navbar {position: relative; min-height: 50px; margin-bottom: 0px; border: none;}
+.navbar .container-fluid.no-padding{padding-left:0px; padding-right:0px;}
+.menu-wrapper #navbar{padding-left: 0px; padding-right:0px; border-top:4px solid #dc0a0e; -webkit-box-shadow: 0px 3px 3px 0px rgba(183,183,183,1); -moz-box-shadow: 0px 3px 3px 0px rgba(183,183,183,1); box-shadow: 0px 3px 3px 0px rgba(183,183,183,1);}
+.navbar-nav{width:100%; margin-left:0px;}
+.navbar-nav ul {display: none; padding: 0;}
+.navbar-nav li:hover > ul {display: block;} 
+.navbar-nav li a:before{content:"\25BA"; font-size:7px; padding-left:3px; padding-right:2px; margin-right:6px; position:relative; top:-3px; color:#dd0b17;}
+.navbar-nav li a{color:#000000!important; font-weight:600; font-size:16px; font-family: "Signika", sans-serif; padding-top:10px; padding-right:15px; padding-left:9px; padding-bottom:10px;}
+.navbar-nav li a:link{}
+.navbar-nav li a:visited{}
+.navbar-nav li a:hover{background-color:#d8d8da!important; color:#dd0b17!important;}
+.navbar-nav li a:active{}
+
+ 
+.navbar-nav li.current-menu-item {
+    background-color:#d8d8da!important; 
+}
+
+.navbar-nav li.current-menu-item > a {
+    color:#dd0b17!important;
+}
+
+.navbar-nav > li.current_page_parent > a{background-color:#d8d8da; color:#dd0b17;}
+.navbar-nav li a:hover:before{content:"\25BA"; font-size:7px; background-color:#ffffff; border-radius:25px; padding-top:1px; padding-left:3px; padding-right:2px; margin-right:6px; position:relative; top:-3px; color:#dd0b17;}
+.navbar-nav li.current-menu-item a:before{content:"\25BA"; font-size:7px; background-color:#ffffff; border-radius:25px; padding-top:1px; padding-left:3px; padding-right:2px; margin-right:6px; position:relative; top:-3px; color:#dd0b17;}
+.navbar-nav > li.current_page_parent > a:before{content:"\25BA"; font-size:7px; background-color:#ffffff; border-radius:25px; padding-top:1px; padding-left:3px; padding-right:2px; margin-right:6px; position:relative; top:-3px; color:#dd0b17;}
+
+@media (min-width:769px) {
+
+
+    .social-top {
+        display: inline-block;
+        float: right;
+        position: absolute;
+        top: 48px;
+        right: 15px;
+        z-index: 0;
+    }
+
+
+    .navbar-nav li a {
+        border-left:1px solid #c9c9ca;
+    }
+
+    .navbar-nav ul {
+        background-color:#ffffff;
+        border-top:1px solid #c9c9ca;
+        width:195px;
+        position: absolute;
+        z-index:20;
+        top: 100%;
+    }
+
+    .navbar-nav ul li:last-child a {
+        border-bottom:1px solid #c9c9ca;
+    }
+
+    .navbar-nav ul li a{
+        padding-left:15px; 
+        padding-right:15px;
+        border-right:1px solid #c9c9ca;
+    }
+}
+
+.navbar-nav ul li {
+    float: none; 
+    position:relative; 
+    list-style-type:none;
+}
+
+.navbar-nav ul li a {
+    padding-top:2px!important; 
+    padding-bottom:0px!important; 
+    display:block; 
+    line-height:30px; 
+    text-decoration: none; 
+}
+
+.navbar-nav ul ul {position: absolute; left: 100%; top:0;}
+
+@media (max-width: 768px) {
+    .navbar-nav ul.sub-menu {
+        display:block;
+        background-color:#EEE
+    }
+
+    .navbar-nav ul.sub-menu li {
+        padding-left:1em;
+    }
+
+    .welcome-text {
+        text-align:center;
+        font-size:initial;
+    }
+
+    .brand {
+        text-align:center;
+    }
+
+
+}
+
+
+#breadcrumbs {
+    /*margin: 12px 0 18px 0;*/
+    /*margin: 12px 0 0 0;*/
+    margin:12px 0;
+}
+
+#breadcrumbs a:link { color: #000000; }
+#breadcrumbs a:visited { color: #000000; }
+#breadcrumbs a:hover { color: #000000; }
+#breadcrumbs a:active { color: #000000; }
+
+
+/*========== Home RSS bar ===========*/
+
+.rss-banner {
+    height: auto;
+    position: relative;
+    background: none repeat scroll 0% 0% #F2F2F3;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 0px;
+    padding: 5px 5px 5px 10px;
+    color: #595757;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    width: 95%;
+    margin: 12px 24px 0;
+}
+
+.round-social-small a.fa-rss {
+    color: #ffffff;
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    text-align: center;
+    border-radius: 50%;
+    background: none repeat scroll 0% 0% #888;
+    transition: background-color 0.25s ease-in-out 0s;
+    margin: 0px 0px 0px 4px;
+    line-height: 24px;
+}
+
+.round-social-small a.fa-rss {
+    background: #CC2A1E;
+    margin-right: 8px;
+}
+
+.round-social-small a.fa-rss:hover {
+    text-decoration: none;
+}
+
+a.rss-desc:link { color: #595757; }
+a.rss-desc:visited { color: #595757; }
+a.rss-desc:hover { color: #595757; text-decoration: none; }
+a.rss-desc:active { color: #595757; }
+
+
+/*========== Home Slider ===========*/
+
+/* Fade carousel */
+.tp-wp-carousel.carousel .item {-webkit-transition: opacity 1s; -moz-transition: opacity 1s; -ms-transition: opacity 1s; -o-transition: opacity 1s; transition: opacity 1s;}
+.tp-wp-carousel.carousel .active.left {left:0;opacity:0;z-index:2;}
+.tp-wp-carousel.carousel .next {left:0;opacity:1;z-index:1;}
+
+.tp-wp-carousel{
+    /*margin-top:18px;*/
+    border-top:4px solid #E00011;
+}
+
+.tp-wp-carousel img{
+    width:100%;
+}
+
+.tp-wp-carousel .carousel-indicators{
+    position:relative;
+    margin:0 0 0 0;
+    left:auto;
+    bottom:auto;
+    width:100%;
+}
+
+.tp-wp-carousel .carousel-indicators li {
+    text-indent:0;
+    width:100%;
+    height:auto;
+    max-width:140px;
+    border: 1px solid #AAAAAA;
+    border-radius:0px;
+    margin:10px 3px 0 3px;
+    opacity:0.5;
+}
+
+.tp-wp-carousel .carousel-indicators li.active {
+    opacity:1;
+    border: 2px solid #AAAAAA;
+}
+
+div.slider-caption {
+    margin: 12px 0;
+}
+
+/*========== Home page grids ===========*/
+
+div.page-top p {
+    margin-top: 12px;
+    text-align: right;
+}
+
+div.ribon-red-desktop {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    background: none repeat scroll 0% 0% #E00011;
+    height: 4px;
+}
+
+.three.grid h4 {
+    font-size: 16px;
+}
+
+
+div.grid h3 {
+    font-family: "Signika",sans-serif;
+    color: #E60012;
+    font-size: 22px;
+}
+
+.thumbnail {
+    background-color: #E6E6E6;
+    border: medium none;
+    border-radius: 0px;
+}
+
+.four.grid h4 {
+    font-size: 12px;
+    font-family: "Arimo",sans-serif;
+    font-weight: bold;
+    color: #727172;
+    margin: 0;
+}
+
+.caption h4 {
+    font-family: "Arimo",sans-serif;
+    font-weight: bold;
+    color: #727172;
+    margin: 0;
+}
+
+.thumbnail > img, .thumbnail a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 9px 9px;
+}
+
+div.caption p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Arial",sans-serif;
+}
+
+.multi > .flying-text {
+    text-align: left;
+    color: #FFF;
+    position: absolute;
+        top:2px;
+    font-family: "Arimo",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0px 0px 10px;
+}
+
+p.flying-text {
+    text-shadow: 0px 2px 2px #000;
+    text-transform: uppercase;
+}
+
+div.multi.row .multi {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+
+    .multi.row.two p {
+        font-size: 18px;
+    }
+
+    .multi.row.two p {
+        font-size: 16px;
+    }
+
+    .multi.row.three p {
+        font-size: 12px;
+    }
+}
+
+/*========== Home page Footer ===========*/
+
+
+
+/* Mobile Home page */
+
+.mobile-content,
+.footer-mobile {
+    display: none;
+}
+
+.button-search {
+    background: none repeat scroll 0% 0% #E60012;
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 0px;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.mobile-content .round-social {
+    border-top: 8px solid #E60012;
+}
+
+.mobile-content .round-social .fa {
+    margin: 8px 38px;
+}
+
+.mobile-content .fa.fa-facebook {
+    background: #3C5A98;
+}
+
+.mobile-content a.fa.fa-facebook:hover {
+    background: #4C6AA8;
+}
+
+.mobile-content .fa.fa-search {
+    background: #E50010;
+}
+
+.mobile-content .fa.fa-twitter {
+    background: #2DAAE4;
+}
+
+.mobile-content a.fa.fa-twitter:hover {
+    background: #3DBAF4;
+}
+
+.mobile-content .round-social a {
+    text-align: center;
+}
+
+.mobile-content .round-social a.fa:link {}
+.mobile-content .round-social a.fa:visited {}
+.mobile-content .round-social a.fa:hover { text-decoration: none; }
+.mobile-content .round-social a.fa:active {}
+
+.mobile-content .round-social a {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border-radius: 80%;
+    background: none repeat scroll 0% 0% #888;
+    transition: background-color 0.25s ease-in-out 0s;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 33px;
+    font-size: 23px;
+    color: #FFF;
+}
+
+
+.mobile-content .fa-angle-right {
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.mobile-content .home-full-width-button {
+    padding-bottom: 8px;
+}
+
+.home-full-width-button.tickets {
+    border-bottom: 8px solid #E60012;
+}
+
+#lang_choice_polylang-2 {
+    font-size: 12px;
+}
+
+.walking-link-mobile a {
+    font-size: 11px;
+    padding: 12px 30px;
+    display: inline-block;
+}
+
+.walking-link-mobile a:link { color: #908F8F;}
+.walking-link-mobile a:visited { color: #908F8F;}
+.walking-link-mobile a:hover { color: #908F8F;}
+.walking-link-mobile a:active { color: #908F8F;}
+.walking-link-mobile a:focus { color: #908F8F;}
+
+.footer-mobile {
+    display: inline-block;
+    height: auto;
+    background-color: #C00;
+    color: #FFF;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/****************************************/
+/*** Japan Rail Pass - Single ***/
+/****************************************/
+
+h2.rail-pass-name {
+    background: none repeat scroll 0% 0% #9AC527;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 12px;
+    width: 52%;
+    margin-bottom: -2px;
+    border-radius: 10px 10px 0 0;
+    margin-left: 18px;
+    text-align: center;
+}
+
+.with-centre-image .price-card-package {
+    width: 40%;
+}
+
+.centre-image img {
+    width: 100%;
+}
+
+h2.rail-pass-name span {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+h2.rail-pass-name img {
+    margin-right: 12px;
+}
+
+.price-card {
+    margin-bottom: 12px;
+}
+
+.price-chart {
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 12px;
+    /*height: 248px;*/
+}
+
+div.col-sm-3:nth-child(4) > div:nth-child(1) > h1:nth-child(1) {
+    font-size: 14px;
+    padding: 9px 0;
+}
+
+.price-card-packages {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.price-card-package {
+    text-align: center;
+    width: 23%;
+    margin: 0px auto;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.price-card-package h1 {
+    font-size: 15px;
+    background: none repeat scroll 0% 0% #9B9A9A;
+    color: #FFF;
+    padding: 6px 0px;
+    width: 100%;
+    font-family: "Arial",sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.price-card-packages .price-card-package:nth-child(2) h1 {
+    background: #848282;
+}
+
+.price-card-packages .price-card-package:nth-child(3) h1 {
+    background: #626060;
+}
+
+.price-card-packages .price-card-package:nth-child(4) h1 {
+    background: #434242;
+}
+
+.price-card-package .price-cards.loading {
+    background:#FFF;
+    height:110px;
+}
+
+.price-card-package .price-cards.loading * {
+    line-height:110px;
+}
+
+
+.price-card-package .price {
+    background: none repeat scroll 0% 0% #FFF;
+    display: inline-block;
+    width: 48%;
+    height: 110px;
+    margin-bottom: 18px;
+}
+
+.price-card-package .price.multipleRates {
+    height: 153px;
+}
+
+
+.price-card-package .buy-now {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: inherit;
+    background: none repeat scroll 0% 0% #EA5404;
+    padding: 10px;
+    color: #FFF;
+    display: inline-block;
+    font-weight: bold;
+}
+
+select[disabled=disabled] {
+    background:#EEE;
+}
+
+.price-card-package .buy-now:disabled {
+    background:#777;
+}
+
+button.book:disabled {
+    background:#777 !important;
+}
+
+i.down-arrow {
+    color: #FFF;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+
+i.down-arrow.left {
+    margin-left: 18px;
+}
+
+i.down-arrow.right {
+    margin-right: 18px;
+}
+
+i.down-arrow.center {
+}
+
+
+span.symbol {
+    /*vertical-align: super;*/
+    font-size:13px;
+}
+
+p.amount {
+    font-family: "Signika",sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height:18px;
+}
+
+p.wp-amount {
+    font-size:12px;
+}
+
+.buy-now a:link { color: #ffffff; padding: 8px 12px; }
+.buy-now a:visited {}
+.buy-now a:hover {}
+.buy-now a:active {}
+
+
+.price-card-package .price .age {
+    color: #EA5404;
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+.maps {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.maps img {
+    max-width: 100%;
+}
+
+img.map-national-view,
+img.map-regional-view {
+    margin-bottom: 8px;
+}
+
+.terms-conditions {
+    border: 1px solid #CACACA;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 12px;
+}
+
+.terms-conditions > .inner {
+    display: none;
+    padding: 12px;
+}
+
+.terms-conditions h3 {
+    background: #CACACA;
+    color: #192D76;
+    margin: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.terms-conditions h3 > a:link { color: #192D76; }
+.terms-conditions h3 > a:visited { color: #192D76; }
+.terms-conditions h3 > a:hover{ color: #192D76; text-decoration: none; }
+.terms-conditions h3 > a:active { color: #192D76; }
+.terms-conditions h3 > a:focus{ color: #192D76; text-decoration: none; }
+
+
+.terms-conditions h3 > a { 
+    background: url("/wp-content/themes/jtb-singapore/images/blue-plus.png") no-repeat scroll 0% 0% transparent;
+    background-size: 24px;
+    padding-left: 24px; 
+}
+
+.terms-conditions h3 > a.read-less { 
+    background: url("/wp-content/themes/jtb-singapore/images/blue-minus.png") no-repeat scroll 0% 0% transparent;
+    background-size: 24px;
+    padding-left: 24px; 
+}
+
+span.plus-minus {   
+    width: 20px;
+    display: inline-block;
+    background: none repeat scroll 0% 0% rgb(25, 45, 118);
+    height: 20px;
+    border-radius: 15px;
+    margin-right: 12px;
+    color: rgb(255, 255, 255);
+}
+
+i.fa.fa-plus-circle {
+    margin-right: 12px;
+}
+
+
+.terms-conditions h4,
+.terms_and_conditions h4 {
+    background: #9AC527;
+    color: #ffffff;
+    margin: 0 0 12px;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.terms-conditions ul li::before {
+    color: green;
+}
+
+
+/* Japan Rail Pass */
+
+.japan.rail-pass h3 {
+    color: #E60012;
+}
+
+/*.japan.rail-pass .price-card-package {
+    width: 30%;
+}*/
+
+a.more-info {
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    border: 4px solid #008CD6;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+a.more-info:link { text-decoration: none; }
+a.more-info:visited { text-decoration: none; }
+a.more-info:hover { color: #ffffff; background: #008CD6; text-decoration: none; }
+a.more-info:active { text-decoration: none; }
+
+span.red {
+    color: #E60012;
+}
+
+.japan.rail-pass .regional-rail-pass {
+    background: red;
+}
+
+.regional-rail-pass h4 {
+    color: #ffffff;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.regional-rail-pass h4 a:link { color:#ffffff; }
+.regional-rail-pass h4 a:visited { color:#ffffff; }
+.regional-rail-pass h4 a:hover { color:#ffffff; text-decoration: underline; }
+.regional-rail-pass h4 a:active { color:#ffffff; }
+
+.more-info i.fa.fa-train {
+    color: #E60012;
+}
+
+i.fa.fa-train {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.regional-rail-pass {
+    background: #EAEAEA;
+    display: table;
+    padding: 12px;
+    width: 100%;
+}
+
+.regional-rail-pass .single {
+    margin-bottom: 24px;
+}
+
+/*.regional-rail-pass .col-sm-4{
+    padding: 0;
+}*/
+
+
+/* National Rail Pass */
+
+.national.rail-pass h3 {
+    color: #E60012;
+}
+
+.national.rail-pass .price-card-package {
+    width: 30%;
+}
+
+.japan.rail-pass .price-card-package {
+    width: 30%;
+    vertical-align:top;
+}
+
+.national.rail-pass h2.rail-pass-name {
+    color: #00009A;
+}
+
+.national.rail-pass.description {
+    background: url("/wp-content/themes/jtb-singapore/images/mapall003.png") no-repeat scroll right top / 400px auto transparent;
+    margin-bottom: 36px;
+    /*min-height: 580px;*/
+}
+
+.national.rail-pass.description .upper-box {
+    margin-bottom: 36px;
+    width: 74%;
+}
+
+.national.rail-pass.description .lower-box {
+    width: 54%;
+}
+
+.national.rail-pass.description h4 {
+    margin: 18px 0 12px;
+}
+
+.national.rail-pass.description p,
+.national.rail-pass.description li {
+    font-size: 12px;
+}
+
+
+/****************************************/
+/*** Tickets                          ***/
+/****************************************/
+
+.tickets .major-attractions .ribon-red-desktop { 
+    margin-bottom: 0;
+}
+
+.tickets .major-attractions .thumbnail { 
+    padding: 0;
+}
+
+.tickets .major-attractions .thumbnail { 
+    background: #ffffff;
+}
+
+.tickets .major-attractions .thumbnail div.main-image { 
+    margin-bottom: 24px;
+}
+
+.tickets .major-attractions .thumbnail img.logo { 
+    padding: 0;
+}
+
+.tickets .major-attractions .thumbnail a > img {
+    padding: 0px;
+}
+
+/* Tickets - Second Level */
+
+.tickets-second h3 {
+    font-family: "Signika",sans-serif;
+    color: #E60012;
+    font-size: 22px;
+}
+
+.ticket-product h4 {
+    font-size: 12px;
+    font-family: "Arimo",sans-serif;
+    font-weight: bold;
+    color: #727172;
+    margin: 0px;
+}
+
+.ticket-product .thumbnail {
+    padding: 0px;
+}
+
+.ticket-product .thumbnail a > img {
+    padding: 12px;
+}
+
+
+/* Tickets - Third Level */
+
+.tickets-third .banner {
+    margin: 12px 0 24px;
+}
+
+.tickets-third .banner img {
+    width: 100%;
+}
+
+.tickets-third .banner .ribon-red-desktop {
+    margin-bottom: 0;
+}
+
+#product_content {
+    background: #ffffff;
+}
+
+.tickets-third .top-section {
+    margin: 12px 0 24px;
+}
+
+.tickets-third .top-section .left img {
+    width: 100%;
+}
+
+.ticket-information {
+    /* background: url('http://jtb-singapore.megatron.co.nz/wp-content/themes/jtb-singapore/images/ajax-loader.gif') center center no-repeat; */
+    height: 252px;
+}
+
+#productavailabilitysection,
+#searchSection {
+    text-align: center;
+    background: #2A86C5;
+    margin-bottom: 12px;
+}
+
+
+.tpproduct-tickets label {
+    font-weight:normal;
+    margin-left:16px;
+}
+
+.tpproduct-tickets .searchControls {
+    height:38px;
+}
+
+.productWrapper {
+    position:relative;
+}
+
+.overlay {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:gray;
+    opacity:0.6;
+    top:0;
+    left:0;
+}
+
+
+#productavailabilitysection .tpproduct-transfers::before{
+/*#productavailabilitysection .tpproduct-tickets::before {*/
+    content: "Change details";
+    width: 100%;
+    color: #fff;
+    display: block;
+    background: #2A86C5;
+    text-align: left;
+    padding: 6px 0;
+    margin-bottom: 12px;
+}
+
+.searchTitle {
+    width: 100%;
+    color: #fff;
+    display: block;
+    background: #2A86C5;
+    text-align: left;
+    padding: 6px 0;
+    margin-bottom: 12px;
+}
+
+#productavailabilitysection .tpproduct-transfers,
+.tpproduct-tickets {
+    background: none repeat scroll 0% 0% #FBDAC8;
+    margin-bottom: 12px;
+    width: 98%;
+    display: inline-block;
+    text-align: left;
+}
+
+#productavailabilitysection .basicSearchSection,
+#productavailabilitysection .quantityPanel,
+#productavailabilitysection .refreshActions,
+#productavailabilitysection .adultsSection,
+#productavailabilitysection .childrenSection,
+#productavailabilitysection .fromDateSection {
+    display: inline-block;
+    /* padding-bottom: 8px; */
+    width: auto;
+}
+
+#productavailabilitysection .fromDateLabel {
+    margin-left: 16px;
+}
+
+#productavailabilitysection .adultsSection, 
+#productavailabilitysection .childrenSection {
+    margin-right: 16px;
+}
+
+.refreshActions {
+    float: right;
+}
+
+#productavailabilitysection .fromDateSection {
+    margin-right: 24px;
+}
+
+img.fromDateIcon {
+    display: none;
+}
+
+input.fromDate::after {
+    height: 10px;
+    width: 10px;
+    background:  url('/wp-content/themes/jtb-singapore/images/calendar.png');
+}
+
+.ticket-information .scuSection{
+    display: none;
+}
+
+
+.ticket-information .adultsSection::before {
+    content: 'Adults';
+    margin-right: 4px;
+}
+
+.ticket-information .childrenSection::before {
+    content: 'Children';
+    margin-right: 4px;
+}
+
+.ticket-information .availabilityDate,
+.ticket-information .availability,
+.ticket-information .productComment,
+.ticket-information .productConfig,
+.ticket-information .productImage {
+    display: none;
+}
+
+
+.ticket-information button.refresh {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 8px;
+    border: 0px none;
+    background: none repeat scroll 0% 0% #1D9949;
+    color: #FFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    float: right;
+    font-size: 12px;
+    margin: 2px 16px 0px 0px;
+}
+
+.productDetailHeader .productName {
+    color: #4484D1;
+    display: inline-block;
+    background: none repeat scroll 0% 0% #BAD3EF;
+    width: 48%;
+    text-align: center;
+    padding: 22px 0;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.ticket-information .adultRateSection,
+.ticket-information .childRateSection {
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    margin-right: 2px;
+    vertical-align: top;
+    background: none repeat scroll 0% 0% #EFF0EF;
+    height: 100px;
+}
+
+.ticket-information .adultRateLabel {
+    background: none repeat scroll 0% 0% #008ED3;
+    color: #FFF;
+    padding: 2px 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.ticket-information .adultRate {
+    background: #eff0ef;
+    color: #000; 
+    padding: 8px;
+    display: block;
+}
+
+.ticket-information .childRateLabel {
+    background: none repeat scroll 0% 0% #008ED3;
+    color: #FFF;
+    padding: 2px 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.ticket-information .childRate {
+    background: none repeat scroll 0% 0% #EFF0EF;
+    color: #000;
+    padding: 8px 12px;
+    display: block;
+} 
+
+.ticket-information div.adultSection,
+.ticket-information div.childSection,
+.ticket-information div.priceSection {
+
+    width:14%;
+    display:inline-block;
+}
+
+.ticket-information span.adultsLabel,
+.ticket-information span.childrenLabel,
+.ticket-information span.priceLabel {
+    display: inline-block;
+    background: #008ED3;
+    color: #fff;
+    padding: 8px 12px;
+    text-align:center;
+    width: 100%;
+}
+
+.ticket-information span.qtyAdults,
+.ticket-information span.qtyChildren,
+.ticket-information span.totalPrice {
+    height: 28px;
+    line-height:28px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: #EFF0EF;
+}
+
+
+.ticket-information button.book {
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 64px;
+    border: 0px none;
+    background: #1d9949;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.tickets-third h3 {
+    font-family: "Signika",sans-serif;
+    color: #E60012;
+    font-size: 22px;
+}
+
+.tickets-third .main-central-image {
+    margin-bottom: 24px;
+}
+
+.tickets-third .main-central-image .ribon-red-desktop {
+    margin-bottom: 0;
+}
+
+.tickets-third .main-central-image img {
+    width: 100%;
+}
+
+.tourplan_plugin_section.Tickets .priceElement {
+    color:#CC0000;
+}
+
+.tourplan_plugin_section.Tickets .ticketControlFlex {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.tourplan_plugin_section.Tickets .controlTitle,
+.tourplan_plugin_section.Tickets .priceElement {
+    /*width:55px;*/
+    text-align:center;
+}
+
+/* calendar dropdown */
+
+.dateBoxPopup{z-index:999999;}
+.gwt-DatePicker, .datePickerDays, .datePickerMonthSelector {background-color: #F7F7F7;border: 1px solid #999999;margin: 0;width: 170px;}
+.datePickerDays {border: medium none;}
+.gwt-DatePicker tr td, .datePickerDays tr td {border: medium none;padding: 0 2px;}
+.gwt-DatePicker tr:first-child td {padding: 2px;}
+.datePickerMonthSelector {background-color: #999999;}
+.datePickerMonth, .html-face {color: #F7F7F7;font-size: 14px;font-weight: bold;text-align: center;}
+.html-face:hover {cursor: pointer;}
+.datePickerWeekdayLabel {color: #333333; font-weight: bold;text-align: center;}
+.datePickerWeekendLabel {color: red;font-style: italic;font-weight: bold;text-align: center;}
+.datePickerDayIsWeekend {font-style: italic;}
+.datePickerDay {text-align: center;}
+.datePickerDay {color: #133153;}
+.datePickerDayIsFiller {background-color: #F7F7F7;font-style: italic;}
+.datePickerDayIsToday {color: #133153;font-weight: bold;}
+.datePickerDayIsValue {background-color: #99CC00;color: #FFFFFF;font-weight: bold;}
+.datePickerDay:hover {cursor: pointer;}
+.datePickerDayIsDisabled {color:#aaaaaa;}
+
+
+/****************************************/
+/***        Airport Transfer          ***/
+/****************************************/
+
+.tickets-third.airport .banner {
+    margin: 12px 0 0;
+}
+
+
+/****************************************/
+/***        Ryokans & Hotels          ***/
+/****************************************/
+
+.ryokan-hotel.landing section.search h3 {
+    background: #A0A0A0;
+    text-align: center;
+    padding: 12px 0px;
+    margin-bottom: 0px;
+    border-top: 4px solid #E00011;
+    margin-top: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.ryokan-hotel.search {
+    width: 920px;
+    margin: 0 auto
+}
+
+.ryokan-hotel.search #searchparamssection {
+    border-radius: 5px;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.ryokan-hotel.search #searchresultssection {
+    background: url("http://jtb.metadev.nz/wp-content/themes/jtb-singapore/images/loading.gif") no-repeat center 50px;
+    min-height: 200px;
+}
+
+/* Hides loading.gif when search result comes up empty */
+.ryokan-hotel.search .gwt-Label {
+    margin-top: 24px;
+    background: white;
+    height: 200px;
+}
+
+#searchparamssection a.header[style] {
+    display: none !important;
+}
+
+.searchPanel {
+    font-size: 12px;
+}
+
+.ryokan-hotel.search .searchPanel {
+    font-size: 14px;
+    border: 1px solid #A0A0A0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#searchparamssection table td {
+    padding: 4px;
+}
+
+table.searchParams {
+/*     border: 1px solid #a0a0a0; */
+    width: 100%;
+/*     height: 260px; */
+}
+
+.ryokan-hotel.landing section.search {
+    height: 320px;
+    border: 1px solid #eee;
+    /*margin-top: 17px;*/
+    margin-top:0;
+    background: url('http://jtb.metadev.nz/wp-content/themes/jtb-singapore/images/loading.gif') no-repeat  #EEE;
+    background-position: center;
+}
+
+
+.destinationsSection {
+    position: absolute;
+    top: 83px;
+}
+
+.localitiesSection {
+    position: absolute;
+    top: 115px;
+    width: 198px;
+}
+
+.dateSection {
+    position: absolute;
+    top: 149px;  
+}
+
+.quicksearch .quantityPanel {
+    position: absolute;
+    top: 244px; 
+    width: 194px;
+}
+
+.fromDateSection,
+.toDateSection,
+.dateSection,
+.scuSection,
+.destinationsSection,
+.localitiesSection,
+.quantityPanel {
+    display: block;
+    margin-bottom: 14px;
+    width: 194px;
+}
+
+.ryokan-hotel.landing .fromDateSection,
+.ryokan-hotel.landing .toDateSection,
+.ryokan-hotel.landing .dateSection,
+.ryokan-hotel.landing .scuSection,
+.ryokan-hotel.landing .destinationsSection,
+.ryokan-hotel.landing .localitiesSection,
+.ryokan-hotel.landing .quantityPanel {
+    display: block;
+    margin-bottom: 14px;
+    width: 194px;
+    background: #EEEEEE;
+}
+
+.ryokan-hotel.landing .localitiesSection {
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+
+.destinationsLabel {
+    display: inline-block;
+    width: 44px;
+    margin-top:3px;
+}
+
+.localitiesLabel {
+    display: inline-block;
+    margin-top:3px;
+}
+
+.serviceButtonsSection {
+    display: none;
+}
+
+
+img.toDateIcon {
+    display: none;
+}
+
+
+#searchparamssection input,
+#searchparamssection select,
+select.qty {
+    width: 200px;
+    float: right;
+    text-align: left;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding: 4px;
+    height: 22px;
+    width: 41px;
+}
+
+.ryokan-hotel.search #searchparamssection input,
+.ryokan-hotel.search #searchparamssection select,
+.ryokan-hotel.search select.qty {
+    width: 180px;
+    margin-left: 8px;
+    padding: 0 4px;
+}
+
+.ryokan-hotel.product select.qty {
+    border-radius: 0px;
+    border: 1px solid #808080;
+    height: 22px;
+    width: 41px;
+    padding: 0;
+    margin-top: 2px;
+}
+
+select.destinations {
+    width: 120px;
+}
+
+.ryokan-hotel.landing #searchparamssection select.qty,
+.ryokan-hotel.landing #searchparamssection .scuSection select, 
+.ryokan-hotel.landing #searchparamssection select.localities,
+.ryokan-hotel.landing #searchparamssection .destinationsSection select.destinations {
+    padding: 0 4px;
+}
+
+.ryokan-hotel.landing #searchparamssection .dateSection input {
+    padding: 4px 8px;
+}
+
+
+.searchAction {
+    text-align: center;
+}
+
+button.search {
+    background: none repeat scroll 0% 0% #EA5404;
+    color: #FFF;
+    display: block;
+    border: 0px none;
+    padding: 9px 34px;
+    position: absolute;
+    top: 281px;
+    left: 69px;
+}
+
+button.refine {
+    display: none;
+}
+
+
+.featured .thumbnail {
+    background: #FAFAD2;
+}
+
+.featured .title a h4 {
+    color: #727172;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0px 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.featured .title a:link { color: #727172; }
+.featured .title a:visited { color: #727172; }
+.featured .title a:hover { color: #727172; }
+.featured .title a:active { color: #727172; }
+
+.featured .thumbnail .caption {
+    color: #E50112;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ryokan-hotel h3 {
+    font-family: "Signika",sans-serif;
+    color: #E60012;
+    font-size: 22px;
+}
+
+.popular-destinations {
+    background: #FFE4E1;
+    padding: 8px 18px;
+}
+
+.popular-destinations .col-sm-6 {
+    background: #FFE4E1;
+    padding: 0 12px;
+}
+
+.popular-destinations h4 {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 20px;
+    color: #E50112;
+}
+
+.popular-destinations img {
+    margin: 14px 0;
+}
+
+.ryokan-hotel.search a.supplierName {
+    font-size: 21px;
+    color: #132996;
+    margin: 0px 0px 8px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: "Signika", sans-serif;
+    display: inline-block;
+}
+
+.ryokan-hotel.search .productDetails {
+    height: 180px;
+    margin: 12px 0;
+    border: 1px solid grey;
+}
+
+.ryokan-hotel.search .productImageSection {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    height: 178px;
+    overflow: hidden;
+}
+
+.ryokan-hotel.search .productImageSection img {
+    width: 100%;
+}
+
+.ryokan-hotel.search .productImageSection img::before {
+    content: "<a href="#">";
+}
+
+.ryokan-hotel.search .productImageSection img::before {
+    content: "</a>";
+}
+
+.ryokan-hotel.search .productDetailsSection {
+    display: inline-block;
+    width: 600px;
+    height: 172px;
+    padding: 10px;
+    background: #fff;
+}
+
+.ryokan-hotel.search .className.className1ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star1.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className2ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star2.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className2HS {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star2h.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className3ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star3.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className3HS {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star3h.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className4ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star4.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className4HS {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star4h.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className5ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star5.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className5HS {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star5h.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className6ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star6.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .className.className7ST {
+    text-indent: -9999px;
+    overflow: hidden;
+    background: transparent url("/wp-content/themes/jtb-singapore/images/star7.png") no-repeat scroll right 6px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+.ryokan-hotel.search .infoNotes {
+    width: 380px;
+}
+
+.ryokan-hotel.search .infoNoteTST p::before {
+    width: 30px;
+    height: 30px;
+    background: url("/wp-content/themes/jtb-singapore/images/car-logo.png") no-repeat top left;
+    content: ' ';
+    display: inline-block;
+    float: left;
+}
+
+.ryokan-hotel.search .infoNoteTST p {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.ryokan-hotel.search .infoNoteSDS {
+    font-size: 11px;
+}
+
+.ryokan-hotel.search .infoNoteSDS p {
+    height: 62px;
+    overflow: hidden;
+}
+
+.ryokan-hotel.search span.price {
+    font-size: 40px;
+    color: #000;
+    margin: 0;
+    line-height: 40px;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+    float: right;
+}
+
+.ryokan-hotel.search span.price span {
+    font-size: 16px;
+    color: #9D9D9D;
+    margin: 8px 0;
+    line-height: 10px;
+    text-align: right;
+    font-weight: 700;
+    display: block;
+}
+
+
+/*  */
+
+.ryokan-hotel.search table.searchParams {
+    height: 166px;
+}
+
+.ryokan-hotel.search .destinationsSection {
+    position: absolute;
+    top: 20px;
+    width: 280px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+.ryokan-hotel.search .localitiesSection {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    width: 280px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+.ryokan-hotel.search .quantityPanel {
+    position: absolute;
+    top: 20px;
+    left: 603px;
+    width: 280px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+span.qtyLabel {
+    margin-top:3px;
+    margin-right: 4px;
+    display: inline-block
+}
+
+.ryokan-hotel.search .dateSection {
+    position: absolute;
+    top: 60px;
+    width: 660px;
+}
+
+.ryokan-hotel.search .fromDateSection {
+    display: inline-block;
+    width: 280px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+.ryokan-hotel.search span.fromDateLabel {
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.ryokan-hotel.search span.toDateLabel {
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.ryokan-hotel.search span.scuLabel {
+    margin-top: 3px;
+    display: inline-block;
+}
+
+
+.ryokan-hotel.search .toDateSection {
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    padding: 0 10px;;
+    top: 0;
+    left: 296px;
+    text-align: right;
+}
+
+
+
+.ryokan-hotel.search .scuSection {
+    position: absolute;
+    top: 0px;
+    left: 579px;
+    width: 280px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+.ryokan-hotel.search button.search {
+    top: 106px;
+    left: 247px;
+    width: 460px;
+    background: #00A1E9;
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.ryokan-hotel.search .sortSection {
+    display: block;
+    padding: 16px 24px 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ryokan-hotel.search select.sort {
+    border-radius: 0px;
+    border: 1px solid #808080;
+}
+
+
+/* Ryokan & Hotel - product */
+
+.ryokan-hotel.product h1.hotelName {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ryokan-hotel.product .supAddress .address {
+    margin-right: 4px;
+}
+
+.ryokan-hotel.product .supAddress .address:nth-child(1)::after {
+   /* content: ',';*/
+}
+
+.ryokan-hotel.product .supAddress .address:nth-child(3) {
+    display: block;
+}
+
+.ryokan-hotel.product #suppliersection {
+    width: 62%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 250px;
+}
+
+.ryokan-hotel.product #gallerysection {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.ryokan-hotel.product .pika-stage {
+    height: 200px !important;
+    max-height: 200px !important;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    float: right;
+}
+
+.ryokan-hotel.product .pika-stage > img[style] {
+    height: 100% !important;
+    float: right;
+    margin-right: 1px;
+    left: inherit !important;
+}
+
+/* Image Gallery */
+#galleryImages li img {display:none;}
+#gallerysection {min-height:260px;width:305px;float:right;position: relative !important;margin-left:15px;}
+#gallerysection ul#galleryImages, #gallerysection ul#galleryImages li {list-style: none outside none;}
+#gallerysection ul#galleryImages li {margin: 2px;}
+.jcarousel-skin-pika {right: 0;}
+
+.pika-image {background-color: #FFFFFF;height: 205px;float:right;padding: 0;width: 305px;}
+.pika-image .animation, .pika-image .main-image {left: 0;overflow: hidden;position: absolute;top: 0;width: 300px;}
+.pika-image .animation {display: none;z-index: 2;}
+.pika-image img {border: 1px solid #CCCCCC;height: 200px;width: 300px;padding:1px;background:#FFFFFF;}
+.pika-textnav a {color: #333333;font-size: 12px;padding: 4px;text-decoration: none;}
+.pika-textnav a:hover {background: none repeat scroll 0 0 #E5E5E5;color: #0065B2;}
+.pika-textnav a.previous {cursor: pointer;display: block;float: left;width: auto;}
+.pika-textnav a.next {cursor: pointer;display: block;float: right;width: auto;}
+#gallerysection .pika-thumbs { clear:both; display:block; margin:0; overflow: hidden; padding: 0; width: 100%; }
+#gallerysection .pika-thumbs li {background: none repeat scroll 0 0 #FAFAFA;/*border: 1px solid #E5E5E5;*/cursor: pointer;float: right;list-style-type: none;margin: 5px;padding: 1px; width: 50px;}
+#gallerysection .pika-thumbs li .clip {height: 50px;overflow: hidden;position: relative;text-align: center;width: 50px;}
+#gallerysection .pika-thumbs li .clip img {height: 50px;width: 50px;}
+.jcarousel-skin-pika .jcarousel-container-horizontal {padding: 5px;}
+.jcarousel-skin-pika .jcarousel-container-vertical {height: 200px;padding: 5px;width: 150px;}
+.jcarousel-skin-pika .jcarousel-clip-horizontal {height: 200px;width: 150px;}
+.jcarousel-skin-pika .jcarousel-clip-vertical {height: 300px;width: 70px;}
+.jcarousel-skin-pika .jcarousel-item-horizontal {margin-right: 5px;}
+.jcarousel-skin-pika .jcarousel-item-vertical {margin-bottom: 5px;}
+.jcarousel-skin-pika .jcarousel-item-placeholder {background: none repeat scroll 0 0 #FFFFFF;color: #000000;}
+
+.ryokan-hotel.product ul#galleryImages {
+    list-style: none;
+}
+
+.ryokan-hotel.product #galleryImages li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.ryokan-hotel.product #galleryImages .clip {
+    height: 40px;
+    width: 50px;
+}
+
+.ryokan-hotel.product .viewMap {
+    float: right;
+    position: relative;
+    top: -20px;
+}
+
+.ryokan-hotel.product .pika-textnav {
+    display: none;
+}
+
+.ryokan-hotel.product .pika-imgnav {
+    height: 0;
+    color: #fff;
+}
+
+
+/* Select Your Room */
+
+.ryokan-hotel.product .productsHeader {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+}
+
+.ryokan-hotel.product .detailsTitle {
+    font-size: 1.2em;
+    line-height: 1.25em;
+    margin: 0px 0px 10px;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    padding: 4px 8px 0px;
+    text-transform: uppercase;
+}
+
+.ryokan-hotel.product select.scu {
+    border-radius: 0px;
+    border: 1px solid #808080;
+}
+
+.ryokan-hotel.product img.productImage {
+    display: none;
+}
+
+.ryokan-hotel.product .productsHeading {
+    display: inline-block;
+    padding-left: 14px;
+}
+
+.ryokan-hotel.product .productsHeading.roomdescription {
+    width: 560px;
+}
+
+.ryokan-hotel.product #products_section {
+    min-height: 400px !important;
+}
+
+.ryokan-hotel.product .productssection-accommodation {
+    min-height: 200px !important;
+}
+
+.ryokan-hotel.product .productsHeading.status {
+    width: 150px;
+}
+
+.ryokan-hotel.product .productsHeading.price {
+    width: 100px;
+}
+
+.ryokan-hotel.product .productDetailHeader .productName {
+    color: inherit;
+    background: inherit;
+    width: 200px;
+    text-align: inherit;
+    padding: inherit;
+    font-weight: inherit;
+    vertical-align: inherit;
+    margin-right: 12px;
+}
+
+.ryokan-hotel.product .productDetail {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 18px;
+    padding: 0 15px;
+}
+
+.ryokan-hotel.product .productDetail:last-child {
+    border-bottom: 1px solid #fff;
+}
+
+.ryokan-hotel.product .productDetail .productDetailHeader {
+    margin-bottom: 6px;
+}
+
+.ryokan-hotel.product .productDetailHeader .productConfig {
+    width: 334px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+
+.ryokan-hotel.product .productDetailHeader .availabilityDate {
+    display: none;
+}
+
+.ryokan-hotel.product .productDetailHeader .availability {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+
+
+.ryokan-hotel.product .product_content_section_hightlight_gray .tpproduct-accommodation {
+    height: 30px;
+}
+
+.ryokan-hotel.product .product_content_section_hightlight_gray #productavailabilitysection {
+    margin: 0px 0px 24px;
+    border: 1px solid #CCC;
+    padding: 5px 5px 10px;
+    background: url('http://jtb.metadev.nz/wp-content/themes/jtb-singapore/images/loading.gif') no-repeat  #EEE;
+    background-position: 20px 44px;
+    height: 85px;
+    background-size: 30px;
+}
+
+.ryokan-hotel.product .fromDateSection {
+    float: left;
+}
+
+.ryokan-hotel.product #productavailabilitysection .tpproduct-accommodation .basicSearchSection {
+    width: 380px;
+    float: left;
+    background: #eee;
+}
+
+.ryokan-hotel.product #productavailabilitysection .tpproduct-accommodation .basicSearchSection .scuSection {
+    width: auto;
+    margin-bottom: 0;
+    padding: 2px 0;
+}
+
+.ryokan-hotel.product #productavailabilitysection .tpproduct-accommodation .basicSearchSection .fromDateSection {
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+.ryokan-hotel.product #productavailabilitysection .fromDateLabel {
+    margin-left: 8px;
+}
+
+.ryokan-hotel.product #productavailabilitysection .fromDateSection {
+    margin-right: 0;
+}
+
+.ryokan-hotel.product #productavailabilitysection .quantityPanel {
+    float: left;
+}
+
+
+.ryokan-hotel.product button.refresh {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 8px;
+    border: 0px none;
+    background: #1D9949 none repeat scroll 0% 0%;
+    color: #FFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    float: right;
+    font-size: 12px;
+    margin: 2px 19px 0px 0px;
+    width: 70px;
+}
+
+.ryokan-hotel.product .moreDetailSection {
+    margin-bottom: 24px;
+}
+
+.ryokan-hotel.product .productDetailHeader button.book {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 8px;
+    border: 0px none;
+    background: #1D9949 none repeat scroll 0% 0%;
+    color: #FFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    float: right;
+    font-size: 12px;
+    margin: 0 10px 0px 0px;
+    width: 70px;
+}
+
+.ryokan-hotel.product .extcancellation {
+    display: none;
+}
+
+.ryokan-hotel.product .extrateplandescrSection,
+.ryokan-hotel.product .extoptiondescrSection, 
+.ryokan-hotel.product .extdetail.mealSection.extdetaildescr {
+    /*margin-bottom: 12px;*/
+}
+
+.ryokan-hotel.product .externalDetails {
+    padding: 12px 0 0 0;
+}
+
+.ryokan-hotel.product .gwt-Label.occupancy,
+.ryokan-hotel.product .gwt-Label.extdetaillabel.occupancyLabel,
+.ryokan-hotel.product .gwt-Label.meal,
+.ryokan-hotel.product .gwt-Label.extdetaillabel.mealLabel,
+.ryokan-hotel.product .gwt-Label.extoptiondescr,
+.ryokan-hotel.product .gwt-Label.extdetaillabel.extoptiondescrLabel {
+    display: inline-block;
+}
+
+.ryokan-hotel.product .gwt-Label.extdetaillabel.occupancyLabel,
+.ryokan-hotel.product .gwt-Label.extdetaillabel.mealLabel,
+.ryokan-hotel.product .gwt-Label.extdetaillabel.extoptiondescrLabel {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.ryokan-hotel.product #hoteldescriptionsection {
+    border-right: 1px solid #CCC;
+    min-height: 200px;
+}
+
+.ryokan-hotel.product #hotelamenitiessection {
+/*    width: 30%;
+    display: inline-block;
+    vertical-align: top;*/
+}
+
+.ryokan-hotel.product .hotelmap {
+    width: 100%;
+    text-align: center;  
+    border-top: 1px solid #CCC;
+    margin-top: 24px;
+    padding: 24px 0;
+}
+
+.ryokan-hotel.product #mapsection {
+    width: 625px;
+    height: 300px;
+    border: 1px solid #CCC;
+    padding: 1px;
+    background: #FFF none repeat scroll 0% 0%;
+    display: inline-block;
+}
+
+
+/****************************************/
+/***            Itinerary             ***/
+/****************************************/
+
+.itinerary select.qty {
+    width: auto;
+    float: none;
+    border-radius: inherit;
+    border: 1px solid #808080;
+    padding: 0;
+}
+
+.itinerary .quantityPanel .roomConfig {
+    margin-bottom: 8px;
+}
+
+.itinerary .updateSection input,
+.itinerary .updateSection select {
+    height: 22px;
+    text-align: left;
+    border-radius: 0px;
+    border: 1px solid #808080;
+}
+
+.itinerary #tpcartsection {
+    background: transparent url("http://jtb.metadev.nz/wp-content/themes/jtb-singapore/images/loading.gif") no-repeat scroll center center;
+    background-size: 30px;
+    display: block;
+    height: 50px;
+}
+
+.itinerary #cartHeader {
+    background: #fff;
+}
+
+.required.has-error.tp-checkbox label {
+    background-color: #FFCCCC;
+}
+
+.required.tp-checkbox label::before {
+    content: '*';
+    color: red;
+}
+
+/****************************************/
+/***                404               ***/
+/****************************************/
+
+#four0four {
+    min-height: 200px;
+}
+
+
+
+
+/**************************************/
+/*** CHROME AND SAFARI SPECIFIC CSS ***/
+/**************************************/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  
+  
+  
+}
+
+/************************/
+/*** TOURPLAN STYLING ***/
+/************************/
+
+.cartGroup .cartGroupHeader {
+    display:none;
+}
+#cartHeader {
+    padding:10px 0;
+    text-align:right;
+    border-bottom:1px solid #CCCCCC;
+    margin-bottom:10px;
+}
+#cartHeader .cartMessage {
+    text-align:left;
+    font-weight:bold;
+}
+#cartHeader .clearCart {
+    display:inline-block;
+    cursor:pointer;
+    background-color: #E00011;
+    background-repeat:repeat-x;
+    border: 1px solid #B3000E;
+    padding:0 10px;
+    color:#FFFFFF;
+    text-decoration:none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display:inline-block;
+    background-position:0 -28px;
+    height:26px;
+    font-size:110%;
+}
+.cartItem {
+    padding:5px 10px;
+    margin-bottom:15px;
+    position:relative;
+    border:1px solid #DDDDDD;
+    background:#F7F7F7;
+}
+.cartItem h2 {
+    margin-bottom:5px;
+    line-height:1.7em;
+}
+.cartItem h2 span {
+    font-weight:normal;
+    font-size:70%;
+    margin:3px 0 0 5px;
+    cursor:pointer;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.cartFooter {
+    text-align:right; 
+}
+
+.cartFooter .cartTotal {
+    float:right;
+    font-weight:bold;
+}
+.cartFooter .cartTotalLabel {
+    padding-right:10px;
+}
+.cartFooter button.checkout {
+    clear:both;
+    display:block;
+    background-color: #E00011;
+    border: 1px solid #B3000E;
+    padding:0 10px;
+    color:#FFFFFF;
+    text-decoration:none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-position:0 -28px;
+    height:26px;
+    font-size:110%;
+    margin-top:5px;
+    float:right;
+}
+.paxConfigSection {
+    margin-top:-15px;
+} /* Modified by Takeshi 16/10/2012 */
+
+
+/* Hotel Data */
+.cartItem.accommodation .updateSection .qtySection {
+    display:inline-block;
+}
+.cartItem .headings, 
+.cartItem .data {
+    padding:3px 5px;
+}
+.cartItem .headings {
+    background:#EEEEEE;
+    border-bottom:1px solid #FFFFFF;  
+    position: relative;
+    overflow: hidden;
+    height: 30px;
+}
+.cartItem .headings .dateOutLabel {
+    position: absolute; 
+    top: 20px; 
+    left:5px;
+}
+.cartItem .headings .dateOutLabel {
+    display:none;
+}
+.cartItem .headings .supplierNameLabel {
+    display: none;
+}
+.cartItem .headings .productNameLabel {
+    position: absolute; 
+    left: 125px;
+}
+.cartItem .headings .adultCountLabel {
+    position: absolute; 
+    left: 590px;
+}
+.cartItem .headings .childCountLabel {
+    position: absolute; 
+    left: 705px;
+}
+.cartItem .headings .cartItemTotalLabel {
+    position: absolute; 
+    right: 5px;
+}
+
+
+.cartItem .data {
+    background:#F7F7F7; height: 50px; position: relative;
+}
+.cartItem .data .dateOut {
+    position: absolute; 
+    top: 25px; 
+    left:5px;
+}
+.cartItem .data .supplierName {
+    position: absolute; 
+    left: 125px;
+}
+.cartItem .data .productName {
+    position: absolute; 
+    top: 25px; 
+    left: 125px;
+}
+.cartItem .data .adultCount {
+    position: absolute; 
+    left: 590px;
+}
+.cartItem .data .childCount {
+    position: absolute; 
+    left: 705px;
+}
+.cartItem .data .cartItemTotal {
+    position: absolute; 
+    right: 5px;
+}
+
+.cartItem .headings div, 
+.cartItem .data div {
+    display:inline-block;
+}
+.cartItem .headings div {
+    font-weight:bold;
+}
+.cartItem.accommodation .headings .dateInLabel, 
+.cartItem.accommodation .data .dateIn, 
+.cartItem .headings .dateOutLabel, 
+.cartItem .data .dateOut {
+    width:120px;
+}
+.cartItem .headings .productNameLabel, 
+.cartItem .data .productName {
+    width:235px;
+}
+.cartItem .headings .adultCountLabel, 
+.cartItem .headings .childCountLabel, 
+.cartItem .data .adultCount, 
+.cartItem .data .childCount {
+    width:100px;
+}
+.cartItem .headings .cartItemTotalLabel, 
+.data .cartItemTotal {
+    width:90px;
+    text-align:right;
+}
+.cartItem.rail-pass .classNameLabel, 
+.cartItem.rail-pass .data .className {
+    display:inline-block;
+    width:480px;
+}
+
+
+.updateSection, 
+.preferencesSection {
+    padding:5px 10px;
+    margin: 5px 0 30px 0;
+}
+.remarksSection {
+    background:#F7F7F7;
+    padding:5px 10px;
+    margin:0 0 5px;
+}
+.remarksSection .remarks {
+    width:250px;
+}
+.updateSection h3, 
+.remarksSection h3 {
+    margin-bottom:5px;
+    border-bottom:1px solid #DDDDDD;
+}
+.remarksSection small {
+    vertical-align:top;
+}
+.updateSection .qtySection, 
+.updateSection .roomsConfigSection {
+    display:inline-block;
+}
+.updateSection .qtySection {
+    width:150px;
+vertical-align: top;
+}
+.updateSection .qtySection .qtyLabel {
+    width:60px;
+}
+.roomNum {
+    display:inline-block;
+    clear:both;
+    width:85px;
+}
+.updateSection .quantityPanel {
+    padding-top:0;
+    display:inline-block;
+    width: 100%;
+}
+.roomTypeSection {
+    display:inline-block;
+    width:235px;
+}
+.updateSection .adultsSection {
+    display:inline-block;
+    width:142px;
+}
+.updateSection .childrenSection {
+    display:inline-block;
+    width:160px;
+}
+/*button.update, button.remove {
+    cursor:pointer;
+    background-color: #E00011;
+    background-repeat:repeat-x;
+    border: 1px solid #B3000E;
+    padding:0 10px;
+    color:#FFFFFF;
+    text-decoration:none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display:inline-block;
+    margin-top:3px;
+    background-position:0 -30px;
+    line-height:170%;
+}
+button.update {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+.cartItem.accommodation button.update {
+    margin:0;
+}
+button.remove {
+    position:absolute;
+    right:10px;
+    bottom: 10px;
+    margin:0;
+    z-index:1000;
+}*/
+
+/* Tickets and Tours */
+
+.paxConfigSection{margin-top:-15px;}
+.paxConfigSection .pax {
+    position: relative;
+    height:115px;
+    margin: 0 0 10px;   
+}
+.cartItems .tours .supplierName {
+    /*display: none;*/
+}
+
+.cartItem .headings .dateInLabel, 
+.cartItem .data .dateIn {
+    width:480px;
+}
+.cartItem .updateSection {}
+.cartItem .updateSection h3, 
+.cartItem .updateSection .qtySection {
+    display:none;
+}
+.cartItem.accommodation .updateSection h3 {
+    display:block;
+}
+.cartItem .updateSection .paxConfigSection .pax h3 {
+    display:block;
+    width: 100%;
+    border-bottom:1px solid #DDDDDD;
+}
+.cartItem .titleSection { /***   Title   ***/
+    width:140px;    
+    position: absolute;
+    top: 27px ;
+    left: 30px;
+}  
+.cartItem .firstNameSection {  /***   First Name   ***/
+    width:230px;
+    position: absolute;
+    top: 27px ;
+    left: 175px;
+}
+.cartItem .middleNameSection {  /***  Middle Name    ***/
+    width:250px;
+    position: absolute;
+    top: 27px ;
+    left: 408px;
+}
+.cartItem .lastNameSection {  /***   Last Name   ***/
+    width:170px;
+    position: absolute;
+    top: 27px ;
+    left: 662px;
+}
+.cartItem .nationalitySection {  /***   Nationality   ***/
+    width:250px;
+    
+    position: absolute;
+    top: 76px ;
+    left: 408px;
+}
+.cartItem .dobSection {  /***  Date of Birth    ***/
+    width:230px;
+    position: absolute;
+    top: 76px;
+    left: 175px;
+}
+.cartItem .passportSection {  /***  Passport    ***/
+    width:170px;
+    position: absolute;
+    top: 76px ;
+    left: 662px;
+}
+
+.cartItem .titleLabel, 
+.cartItem .firstNameLabel, 
+.cartItem .middleNameLabel, 
+.cartItem .lastNameLabel, 
+.cartItem .nationalityLabel,
+.cartItem .dobLabel, 
+.cartItem .passportLabel {
+    font-size:80%;
+    line-height:1em;
+    display:block;
+    width:100px;
+}
+.cartItem .titleSection select {
+    width:80px;
+}
+.cartItem .firstNameLabel, 
+.cartItem .middleNameLabel, 
+.cartItem .lastNameLabel, 
+.cartItem .nationalityLabel, 
+.cartItem .dobLabel,
+.cartItem .passportLabel {
+    width:190px;
+}
+.cartItem input.firstName, 
+.cartItem input.middleName, 
+.cartItem input.lastName, 
+.cartItem input.passport {
+    width:140px;
+}
+.cartItem select.nationality {
+    width:145px;
+}
+.cartItem.tickets .updateSection {
+    border-top:none;margin-top:0;
+}
+.cartItem.tickets .preferencesSection {
+    border-bottom:none;
+}
+.cartItem.tickets .preferencesSection h3 {
+    margin-bottom:10px;
+    border-bottom:1px solid #DDDDDD;
+}
+.cartItem.tickets .preferencesSection .preference {
+    width:345px;
+    display:inline-block;
+    margin-left:30px;
+}
+.cartItem.tickets .preferencesSection .preference img {
+    vertical-align:bottom;
+}
+.cartItem.tickets .preferencesSection .preference .preference1Label, 
+.cartItem.tickets .preferencesSection .preference .preference2Label {
+    padding-right:10px;
+}
+
+/* Itinerary railway pass */
+.cartItems .rail .supplierName 
+{
+    display: none;
+}
+.cartItems .rail .classNameLabel, .cartItems .rail .className 
+{
+    width: 480px;
+}
+.cartItems .rail .productName 
+{
+    position: absolute;
+    top: 0px;
+}
+.cartItems .rail .productNameLabel, .cartItems .rail .productName 
+{
+    left: 5px;
+    width: 480px;
+}
+/* Checkout Page - Personal Details */
+#cardform {position:relative;top:-50px;border-bottom:1px solid #CCCCCC;marign-bottom:100px;padding-bottom:20px;}
+#tpcartsection.checkout {position:relative;top:240px;}
+#tpcustomersection {padding-bottom:5px;margin-bottom:5px;}
+#tpcustomersection h3, #cardform h3, #tpcardform h3 {border-bottom:4px solid #E00011;}
+
+#tpcustomersection .titleLabel, 
+#tpcustomersection .firstNameLabel, 
+#tpcustomersection .middleNameLabel, 
+#tpcustomersection .lastNameLabel, 
+#tpcustomersection #emailLabel, 
+#tpcustomersection #confirmEmailLabel, 
+#tpcustomersection #addressLabel,
+#tpcustomersection #deliveryAddressLabel, 
+#cardform .cardlabel {
+    width:120px;
+    display:inline-block;
+}
+#tpcartsection.checkout #cartHeader, 
+#tpcartsection.checkout .cartGroups {
+    display:none;
+}
+/*#tpcardform label {*/
+    /*width:120px;*/
+    /*font-weight:normal;*/
+/*}*/
+/*#tpcardform input {*/
+    /*width:300px;*/
+    /*margin-bottom:10px;*/
+/*}*/
+#CARDCVN {
+    vertical-align:top;
+    width:50px;
+    margin:0;
+}
+
+#confirmcheckout {
+    position:relative; 
+    top:240px; 
+    left:240px; 
+    width:500px;
+}
+
+
+#tpcartsection {
+    color:#313131;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height:1.55em;
+    font-size:0.9em;
+}
+
+#tpcartsection h3 {
+    font-size:1.2em;
+    line-height:1.25em;
+    color:#000;
+    font-family:"Roboto", Arial, sans-serif;
+}
+
+
+.updateSection input,
+.updateSection select {
+    height: 22px;
+}
+
+.itinerary input,
+.checkout input,
+#tpcreditcardsection input {
+    text-transform:uppercase;
+}
+
+.checkout input#checkout_email,
+.checkout input#checkout_email_confirm {
+    text-transform:none;
+}
+
+
+input.invalid,
+select.invalid {
+    border:1px solid red !important;
+}
+
+.invalid > select,
+.invalid > input {
+    border:1px solid red !important;
+}
+
+.invalid > select,
+.invalid > input {
+    border:1px solid red !important;
+}
+
+.invalid input.preference1 {
+   border:1px solid red !important; 
+}
+
+#tpcustomersection .firstNameLabel:after,
+#tpcustomersection .lastNameLabel:after,
+#tpcustomersection .phoneLabel:after,
+#tpcustomersection .emailLabel:after,
+#tpcustomersection .confirmEmailLabel:after,
+#tpcustomersection .addressSection .addressSection span:after,
+#tpcustomersection .departureDateSection span:after,
+#tpcardform label:after {
+    content:' *';
+    color:red;  
+}
+
+.validationMessage p {
+    color:red;
+    font-size:12px;
+}
+
+.customer input {
+    width:300px;
+    margin-bottom:10px;
+}
+
+/*#tpcardform #copyButton {*/
+    /*margin-left:120px;*/
+/**/
+    /*background-color:#E00011;*/
+    /*border: 1px solid #B3000E;*/
+    /*padding:0 10px;*/
+    /*color:#FFFFFF;*/
+    /*border-radius:3px;*/
+    /*font-size:110%;*/
+/*}*/
+
+
+.customer select {
+    margin-bottom:10px;
+}
+
+#tpcustomersection .departureDate {
+    width:224px;
+}
+
+.departureDateDescription {
+    font-size:12px;
+}
+
+#tpcustomersection .title,
+#tpcustomersection .postCode {
+    width:100px;
+}
+
+.customer .phoneSection  span.phoneLabel, 
+.customer .emailSection  span.emailLabel,  
+.customer .confirmEmailSection  span.confirmEmailLabel {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection {
+    width: 520px;
+}
+
+
+
+.addressSection .addressSection span[stylename="address1Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address1 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.addressSection .addressSection span[stylename="address2Label"] {
+    display:inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address2 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.addressSection .addressSection span[stylename="address3Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address3 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.addressSection .addressSection span[stylename="address4Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address4 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+
+.addressSection .addressSection span[stylename="address5Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address5 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.addressSection .addressSection span[stylename="address6Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address6 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.addressSection .addressSection span[stylename="address7Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.address7 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.addressSection .addressSection span[stylename="postCodeLabel"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+
+}
+
+.addressSection .addressSection input.postCode {
+    width: 60px;
+    margin: 0 240px 10px 0;
+}
+
+.addressSection .addressSection span[stylename="countryLabel"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.addressSection .addressSection input.country {
+    width: 200px;
+    margin: 0 100px 10px 0;
+}
+
+
+
+#tpcustomersection .deliveryAddressSection .addressSection {
+    width: 520px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.deliveryAddressSection .addressSection span[stylename="address1Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.deliveryAddressSection .addressSection input.address1 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.deliveryAddressSection .addressSection span[stylename="address2Label"] {
+    display:inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.deliveryAddressSection .addressSection input.address2 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+
+
+.deliveryAddressSection .addressSection span[stylename="address3Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.deliveryAddressSection .addressSection input.address3 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+.deliveryAddressSection .addressSection span[stylename="address4Label"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.deliveryAddressSection .addressSection input.address4 {
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+
+
+.deliveryAddressSection .addressSection span[stylename="postCodeLabel"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.deliveryAddressSection .addressSection input.postCode {
+    width: 60px;
+    margin: 0 240px 10px 0;
+}
+
+
+
+.deliveryAddressSection .addressSection span[stylename="countryLabel"] {
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 10px;
+    vertical-align:middle;
+}
+
+.deliveryAddressSection .addressSection input.country {
+    width: 200px;
+    margin: 0 100px 10px 0;
+}
+
+#departureDateSection {
+    margin: 0 0 10px;
+}
+
+#departureDateSection span {
+    display: inline-block;
+    width: 120px;
+}
+
+#departureDateSection .departureDateDescription {
+    font-style:italic;
+    margin: 0px 0 0 120px;
+    width: 380px;
+    font-size:11px;
+    line-height:12px;
+}
+
+#departureDateSection input.departureDate {
+    margin: -25px 0 0;
+}
+
+#departureDateSection img {
+    display: none;
+}
+
+#deliverySection span {
+    display: block;
+    width: 120px;
+    float: left;
+}
+
+#content #tpcustomersection #deliverySection table {
+    float: left;
+    margin: 0 0 0 5px;
+    width: 70%;
+}
+
+#deliverySection table tr td  {
+    width: 100px;
+}
+
+#deliverySection table tr td input  {
+    margin: -3px 6px 0 0;
+    margin: 0px 6px 0 0\0/;/* IE hack  */
+}
+
+
+
+#deliverySection .deliveryDescription {
+    clear:both;
+    margin: 0 0 0 120px;
+    font-style: italic;
+    font-size: 11px;
+}
+
+div#cardnumber input,
+div#cardname input {
+    width: 180px;
+    margin: 0 0 0 4px;
+}
+
+#tpcreditcardsection select#creditcard_expirymonth,
+#tpcreditcardsection select#creditcard_expiryyear {
+    width:5em;
+    display:inline-block;
+}
+
+
+#geotrust{
+    float: right;
+    margin-top: 15px;
+}
+
+/* Quicksearch */
+#searchparamssection.quicksearch select, 
+#searchparamssection.quicksearch input, 
+#searchparamssection.quicksearch select.qty {
+	width:120px;
+}
+
+
+.loadmask-msg div {
+    /*background: white url('http://agent.nx.jtbtravel.com.au/websiteimages/loading.gif') 50% 70% no-repeat; */
+/*    line-height: 30px;*/
+/*    height:90px;*/
+    cursor:wait;
+    height:76px;
+    width:76px;
+}
+
+/* JZ-TPL 2015-06-17 */
+
+div.secondary-menu {
+    height:43px;
+}
+
+div.menu-secondary-menu-container {
+    line-height:43px;
+}
+
+div.lang-switcher {
+    display:none;
+}
+
+/* -------- Product Slider --------- */
+/* Fade carousel */
+#product-slider.carousel .item {-webkit-transition: opacity 1s; -moz-transition: opacity 1s; -ms-transition: opacity 1s; -o-transition: opacity 1s; transition: opacity 1s;}
+#product-slider.carousel .active.left {left:0;opacity:0;z-index:2;}
+#product-slider.carousel .next {left:0;opacity:1;z-index:1;}
+
+#product-slider{
+    margin-top:18px;
+    border-top:4px solid #E00011;
+}
+
+#product-slider img{
+    width:100%;
+}
+
+#product-slider .carousel-indicators{
+    position:relative;
+    margin:0 0 0 0;
+    left:auto;
+    bottom:auto;
+    width:100%;
+}
+
+#product-slider .carousel-indicators li {
+    text-indent:0;
+    width:100%;
+    height:auto;
+    max-width:25%;
+    border: 1px solid #AAAAAA;
+    border-radius:0px;
+    margin:10px 3px 0 3px;
+    opacity:0.5;
+}
+
+#product-slider .carousel-indicators li.active {
+    opacity:1;
+    border: 2px solid #AAAAAA;
+}
+
+.tourIcon {
+    width:40px;
+}
+
+.tourIconSmall {
+    width:30px;
+    margin:1px 0;
+}
+
+.tourSearchImage {
+    width:100%;
+}
+
+.tourSearchNote {
+    height:40px;
+    overflow:hidden;
+    position:relative;
+}
+
+.tourSearchNote:before {
+    background:#FFF;
+    bottom:0;
+    right:0;
+    position:absolute;
+    content: '\2026';
+}
+
+.tourSearchNote:after {
+    content: '';
+    background:#FFF;
+    position:absolute;
+    height:40px;
+    width:100%;
+    z-index:1;
+}
+
+.tourDetailLabel {
+    width:10rem;
+}
+
+#tourPricePanel {
+    border-radius:10px;
+    margin-left:0;
+    margin-right:0;
+    padding-top:1em;
+    padding-bottom:1em;
+    background:#19499D;
+}
+
+#tourPricePanel .newTourSearchDiv {
+    text-align:right;
+}
+
+.tourPrices {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+.tourPrices .form-group {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+.tourPrices .col-xs-4 {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.tourPrices .age-label {
+    padding-top:0;
+}
+
+#date-minus-1,
+#date-minus-0,
+#date-plus-1,
+#date-plus-2 {
+    border-left: 5px solid #19499D;
+    background:white;
+}
+#date-plus-2 {
+    border-right: 5px solid #19499D;
+}
+
+#tourPricePanelTitle {
+    background: #19499D;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    margin-right: auto;
+    display: inline-block;
+    color:#FFF;
+}
+
+.tourDate {
+    text-align:center;
+    background:lightgray;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:1.3em;
+}
+
+.tourBuyRow {
+    text-align:center;
+    background: #19499D;
+}
+
+.tourBuyButton {
+    background: #EA5404;
+    border: inherit;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.tourBuyButton:disabled {
+    opacity:0.5;
+}
+
+#tourSearchPanel label,
+#tourSearchPanel select,
+#tourSearchPanel button,
+#tourSearchPanel input {
+    font-size:12px;
+    font-weight:normal;
+}
+
+.tourLink {
+    margin-top:5px;
+    background: #E00011;
+    color: white;
+    text-align:center;
+}
+
+.departRow,
+.visitRow,
+.durationRow {
+    line-height:1;
+}
+
+.departRow div,
+.visitRow div,
+.durationRow div {
+    font-size:12px;
+}
+
+/*.departRow label,*/
+/*.visitRow label,
+.durationRow label {
+    display:inline-block;
+    width:10em;
+}*/
+
+// .tour-result-image {
+//     padding:0 0 0 15px;
+// }
+
+.tourResult-price-div {
+    text-align:right;
+}
+
+.tourResult-price-div span {
+    font-size:12px;
+}
+
+.tourResult-price {
+    color: #E00011;
+    font-weight:bold;
+    font-size:1.3em;
+}
+
+.tourResult-row {
+    margin-bottom:2em;
+}
+
+.tourResult-icon-div {
+    height:65px;
+}
+
+.tourResult-visit-content {
+    display:inline-block;
+    height:2em;
+    overflow:hidden;
+    position:relative;
+    width:100%;
+}
+
+.tourResult-visit-content:before {
+    background:#FFF;
+    bottom:0;
+    right:0;
+    position:absolute;
+    content: '\2026';
+}
+
+.tourResult-visit-content:after {
+    content: '';
+    background:#FFF;
+    position:absolute;
+    height:2em;
+    width:100%;
+    z-index:1;
+}
+
+
+
+.tourResult-tour-title {
+    height:2em;
+}
+
+
+#tourSearchPanel {
+    background:#EEE;
+}
+
+#tourSearchPanel h3 {
+    background: #A0A0A0;
+    text-align:center;
+    padding:12px 0;
+    /*margin-top:18px;*/
+    margin-top:0;
+    margin-bottom:1em;
+    border-top:4px solid #E00011;
+    color:#FFF;
+    font-size:18px;
+}
+
+#tourSearchPanel .input-column > select,
+#tourSearchPanel .input-column .btn-group > button,
+#tourSearchPanel .input-column > input {
+    width:100%;
+    height:2em;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    padding:0 5px;
+}
+
+#tourSearchPanel .btn-group {
+    width:100%;
+}
+
+#tourSearchPanel .row {
+    padding: 2px 5px;
+}
+
+#tourSearchPanel .searchButtonRow {
+    text-align:center;
+}
+
+#tourSearchPanel .searchButtonRow input {
+    background: #EA5404;
+    color:#FFF;
+    border:0px none;
+    padding:9px 34px;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#visitsSelect + .btn-group .dropdown-menu {
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+}
+
+.multiselect {
+    text-align:left;
+}
+
+.multiselect span {
+    display:inline-block;
+    width:90%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    vertical-align:bottom;
+}
+
+.multiselect b.caret {
+    position:absolute;
+    right:5px;
+    top:40%;
+}
+
+.tourProduct-refreshDateGroup {
+    color:#FFF;
+}
+
+.tourProduct-priceDiv {
+    text-align: right;
+    margin-top:18px;
+}
+
+.tourProduct-price {
+    font-size:20px;
+}
+
+.tourProduct-dateUnavailable {
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.cartItem.tours .productName {
+    top:0;
+}
+
+
+.tourDetail.pickupsDetail {
+    display:inline-block;
+    width:85rem;
+}
+
+.tourDetailLabel.pickupsLabel {
+    vertical-align:top;
+}
+
+.multiselect-container .radio input {
+    display:none;
+}
+
+.multiselect-container .radio {
+    padding-left:20px;
+}
+
+.multiselect-container label.checkbox {
+    -webkit-column-break-inside:avoid;
+    break-inside:avoid;
+    page-break-inside:avoid;
+}
+
+.multiselect-container .checkbox input {
+    margin-top:2px;
+}
+
+.home-content #home-slider {
+    margin-top:18px;
+}
+
+.departureDateDescription {
+    color: #0000ff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*
+    Plugin Redesign 2016
+*/
+
+.non-accommodation_product_result.Rail {
+    text-align:center;
+}
+
+.non-accommodation_product_result.Rail div.price {
+    display:inline-block;
+}
+
+.non-accommodation_product_result.Rail button.book {
+    display:block;
+    margin:0 auto;
+}
+
+.non-accommodation_product_result.Rail select {
+    display:block;
+    margin:0 auto;
+}
+
+.non-accommodation_product_result.Rail h1.package-title {
+    font-size:15px;
+    background :#9B9A9A;
+    color:#FFF;
+    padding: 6px 0;
+    font-family: "Arial", sans-serif;
+    font-weight:700;
+    margin-top:0;
+}
+
+.non-accommodation_product_result.Rail p.age {
+    color: #EA5404;
+    font-size:10px;
+    padding-top:2px;
+}
+
+.non-accommodation_product_result.Tickets {
+    margin:1em 0;
+}
+
+.tourplan_plugin_section .ticketSearchPanel,
+.tourplan_plugin_section .ticketResultPanel {
+    // padding: 0 15px;
+    background:#2184C7;
+}
+
+.tourplan_plugin_section .ticketSearchPanel h3 {
+    color:#fff;
+}
+
+.tourplan_plugin_section .ticketSearchPanel .ticketSearchPanelInner,
+.tourplan_plugin_section .ticketResultPanel .ticketResultPanelInner {
+    background:#FBDAC7;
+    border-right:15px solid #2184C7;
+    border-left:15px solid #2184C7;
+    border-bottom:15px solid #2184C7;
+    padding:1em 0;
+}
+
+.tourplan_plugin_section .ticketSearchPanel .ticketSearchPanelInner label {
+    width:100%;
+    font-weight:700;
+}
+
+.tourplan_plugin_section.Tickets {
+    /*text-align:center;*/
+}
+
+.tourplan_plugin_section .ticketResultSection .productName {
+    color:#4484D1;
+    font-weight:bold;
+    background:#BAD3EF;
+    text-align:center;
+    padding:15px 0;
+}
+
+.tourplan_plugin_section .ticketResultSection .adultsLabel,
+.tourplan_plugin_section .ticketResultSection .childrenLabel,
+.tourplan_plugin_section .ticketResultSection .totalPriceLabel {
+    color:#FFF;
+    background:#2184C7;
+    padding:5px 0;
+    text-align:center;
+}
+
+.tourplan_plugin_section .ticketResultSection .qtyAdults,
+.tourplan_plugin_section .ticketResultSection .qtyChildren,
+.tourplan_plugin_section .ticketResultSection .totalPrice {
+    background:#EFEFEF;
+    padding:10px 0;
+    text-align:center;
+}
+
+// .md-top-margin {
+//     margin-top:15px;
+// }
+
+@media (min-width:992px) {
+    .tourplan_plugin_section .ticketResultSection .productName,
+    .tourplan_plugin_section .ticketResultSection .book {
+        height:70px;
+    }
+}
+
+
+/** Plugin Redesign 2016 Rail Pass **/
+
+h2.rail_pass_heading {
+    /*background:#EF7C2F;*/
+    color:#FFF;
+    display:inline-block;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:700;
+    margin:0 0 0 1em;
+    border-radius: 10px 10px 0 0;
+}
+
+div.rail_pass_inner {
+    margin:0 15px;
+    /*background:#EF7C2F;*/
+    border-radius:10px;
+    text-align:center;
+    padding-bottom:1em;
+}
+
+h3.rail_pass_title {
+    background: #9B9B9A;
+    font-size:15px;
+    color:#FFF;
+    text-align: center;
+    padding:6px 0;
+    font-weight:700;
+    font-family:'Arial',sans-serif;
+}
+
+.rail_price_inner {
+    padding-bottom:1em;
+    background:white;
+}
+
+.rail_price_inner p.age {
+    font-size:11px;
+    color:#EA5404;
+    padding-top:2px;
+}
+
+.price.adult {
+    padding-right:5px;
+}
+
+.price.child {
+    padding-left:5px;
+}
+
+i.down-arrow.pull-right.left {
+    margin-right:0.5em;
+    margin-top:-12px;
+}
+
+i.down-arrow.pull-left.center {
+    margin-left:2.5em;
+    margin-top:-12px;
+}
+
+i.down-arrow.pull-left.right {
+    margin-left:0.5em;
+    margin-top:-12px;
+}
+
+.description {
+    margin:1em 0;
+}
+
+.rail-product .upper-map {
+    margin-bottom:5px;
+}
+
+.rail-product .lower-map {
+    margin-top:5px;
+}
+
+.rail-product button.book {
+    background:#EA5404;
+    color:#FFF;
+    padding:10px;
+    font-weight:bold;
+    border:none;
+}
+
+/*** Plugin Redesign 2016 Accommodation Search ***/
+
+.tourplan_plugin_section.Accommodation .productSearchSection h3,
+.tourplan_plugin_section.Tours .productSearchSection h3 {
+    background:#A0A0A0;
+    border-top:4px solid #E00011;
+    padding:12px 0;
+    text-align:center;
+    color:#FFF;
+    margin:0;
+}
+
+.tourplan_plugin_section.Accommodation .productSearchSection .searchControls,
+.tourplan_plugin_section.Tours .productSearchSection .searchControls {
+    padding:1em;
+    background:#EEE;
+}
+
+.tourplan_plugin_section .productSearchSection label {
+    width:100%;
+    font-weight:normal;
+}
+
+.tourplan_plugin_section .amenity-filter + .btn-group {
+    display:block;
+}
+
+.tourplan_plugin_section .amenity-filter + .btn-group button {
+    width:100%;
+}
+
+/*** Plugin Redesign 2016 Accommodation Search End ***/
+
+/*** Plugin Redesign 2016 Accommodation Results ***/
+
+.accommodation-product-result {
+    border:1px solid gray;
+    border-radius:5px;
+    margin:1em 0;
+}
+
+.accommodation-product-result .tstNote {
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    font-size:80%;
+}
+
+.accommodation-product-result .productDetails {
+    padding-right:1em;
+    padding-bottom:1em;
+}
+
+.accommodation-product-result .productDetails .priceSection {
+    text-align:right;
+}
+
+.accommodation-product-result .productDetails .priceSection .price {
+    color:red;
+    margin:0;
+}
+
+.accommodation-product-result .left.carousel-control {
+    left:15px;
+}
+
+.accommodation-product-result .right.carousel-control {
+    right:15px;
+}
+
+@media (max-width:768px) {
+
+    .accommodation-product-result .productDetails {
+        padding-left:1em;
+    }
+}
+
+@media (max-width:992px) {
+    .accommodation-product-result .productDetails .priceSection {
+        text-align:center;
+    }
+
+    .accommodation-product-result .productDetails .priceSection * {
+        display:inline-block;
+    }
+}
+/*** Plugin Redesign 2016 Accommodation Results End ***/
+
+/*** Plugin Redesign 2016 Accommodation Product Start ***/
+
+.tourplan_product_page .productInfo {
+    /*margin:0.5em 0;*/
+    padding-top:15px;
+}
+
+.tourplan_product_page .productInfo:last-of-type {
+    /*margin:0.5em 0;*/
+    padding-bottom:15px;
+}
+
+.tourplan_product_page .productInfo .productName {
+    color:#4484D1;
+    background: #BAD3EF;
+    font-weight:bold;
+    padding:15px 0;
+    text-align:center;
+}
+
+.tourplan_product_page .productInfoHeadings {
+    /*margin-top:1em;*/
+    /*margin:1em 15px 0 15px;*/
+    margin:15px;
+}
+
+.tourplan_product_page .productInfoHeadings .heading,
+.tourplan_product_page .productInfo .heading {
+    color:#FFF;
+    background:#2184C7;
+    padding:5px 0;
+    text-align:center;
+}
+
+.tourplan_product_page .productInfoHeadings .heading label,
+.tourplan_product_page .productInfo .heading label {
+    font-weight:normal;
+    margin-bottom:0;
+}
+
+.tourplan_product_page .productInfo .detail {
+    background:#EFEFEF;
+    padding:15px 0;
+    text-align:center;
+}
+
+.tourplan_product_page .productInfo .btn[name=book] {
+    height:50px;
+}
+
+.tourplan_plugin_section .refreshSearchSection,
+.tourplan_plugin_section .productInfoSection {
+    padding: 0 15px;
+    background:#2184C7;
+}
+
+.tourplan_plugin_section .refreshSearchSection h3 {
+    color:#fff;
+}
+
+.tourplan_plugin_section .refreshSearchSection .refreshSearchSectionInner {
+    background:#FBDAC7;
+    border-right:15px solid #2184C7;
+    border-left:15px solid #2184C7;
+    border-bottom:15px solid #2184C7;
+    padding:1em;
+}
+
+.tourplan_plugin_section .refreshSearchSection .refreshSearchSectionInner label {
+    width:100%;
+}
+
+.tourplan_product_page .carousel-indicators {
+    position:relative;
+    margin:0;
+    left:auto;
+    bottom:auto;
+    width:100%;
+}
+
+.tourplan_product_page .carousel-indicators li {
+    text-indent:0;
+    width:100%;
+    height:auto;
+    max-width:100px;
+    border:1px solid #AAAAAA;
+    border-radius:0;
+    margin:10px 3px 0 3px;
+    opacity:0.5;
+}
+
+.tourplan_product_page .carousel-indicators li.active {
+    opacity:1;
+    border:2px solid #AAAAAA;
+}
+
+.tourplan_product_page .carousel-indicators li img {
+    width:100%;
+}
+
+@media (max-width:992px) {
+
+    .tourplan_product_page .productInfo {
+        margin:1.5em 0;
+    }
+
+    .tourplan_product_page .productInfo .detail_section {
+        margin-top:0.5em;
+    }
+}
+
+/*** Plugin Redesign 2016 Accommodation Product End ***/
+
+/*** Plugin Redesign 2016 Day Tours Product Start ***/
+
+.tourplan_plugin_section.Tours .resultsSection .day-tours-result,
+.tourplan_plugin_section.Tours .additionalResultsSection .day-tours-result {
+    margin-bottom:1em;
+}
+
+.tourplan_jtb_tour_page .productInfo {
+    background:#FFF;
+    width:100%;
+}
+
+.tourplan_jtb_tour_page .productInfo td,
+.tourplan_jtb_tour_page .productInfo th {
+    padding-top:1em;
+    // padding-left:1em;
+    // padding-right:1em;
+    text-align:center;
+}
+
+.tourplan_jtb_tour_page .productInfo td:first-child,
+.tourplan_jtb_tour_page .productInfo th:first-child {
+    padding-left:1em;
+}
+
+.tourplan_jtb_tour_page .productInfo td:last-child,
+.tourplan_jtb_tour_page .productInfo th:last-child {
+    padding-right:1em;
+}
+
+.tourplan_jtb_tour_page .productInfo tr:last-child td,
+.tourplan_jtb_tour_page .productInfo tr:last-child th {
+    padding-bottom:1em;
+}
+
+.tourplan_jtb_tour_page .productInfo th.dateHeading {
+    background:#AAA;
+    text-align:center;
+    padding:0.5em;
+}
+
+.tourplan_jtb_tour_page .button-div {
+    text-align:center;
+    padding:1em 0 2em 0;
+}
+
+/*** Plugin Redesign 2016 Day Tours Product End ***/
+
+
+/*** Plugin Redesign 2016 Itinerary ***/
+
+
+.itinerary .heading {
+    background:lightgray;
+    padding:0.5em;
+    margin-bottom:0;
+}
+
+.itinerary .passenger_section,
+.itinerary .room_section,
+.itinerary .info_section,
+.itinerary .preferenceSection {
+    padding:1em 1em 0 1em;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+    background:#F7F7F7;
+}
+
+.itinerary .passenger_section .passenger {
+    padding-bottom:1em;
+    border-bottom:1px solid lightgray;
+}
+
+.itinerary .control_buttons {
+    padding:1em;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    background:#F7F7F7;
+}
+
+.itinerary .price,
+.checkout .price {
+    color:#CC0000;
+}
+
+.itinerary .pax_config,
+.itinerary .product_date {
+    color: #000000;
+}
+
+.itinerary label {
+    font-weight:normal;
+}
+
+.passenger.duplicate,
+.arrangements-container .has-error input,
+.arrangements-container .has-error select,
+.arrangements-container .has-error textarea,
+.itinerary .has-error input,
+.itinerary .has-error select,
+.checkout .has-error input,
+.checkout .has-error select,
+#tpcreditcardsection .has-error input,
+#tpcreditcardsection .has-error select {
+    background-color:#FFCCCC;
+}
+
+
+.checkout .confirmationSection {
+    padding-top:1em;
+    padding-bottom:1em;
+    border-radius:0.5em;
+}
+
+/*** End Plugin Redesign 2016 Itinerary ***/
+
+/*** General ***/
+.terms_and_conditions_section {
+    border:2px solid #CACACA;
+    margin:1em 0;
+}
+
+a.toggle_section_toggle,
+.itinerary a.toggle_serviceline {
+    text-decoration: none;
+}
+
+a.toggle_section_toggle h4 {
+    margin:0;
+    background:#CACACA;
+    padding:0.5em 1em;
+    color:#192D76;
+}
+
+a.toggle_section_toggle h4:before,
+.itinerary a.toggle_serviceline .product_name:before {
+    content:"\f056";
+    font-family:FontAwesome;
+    margin-right:2px;
+}
+
+a.toggle_section_toggle.collapsed h4:before,
+.itinerary a.toggle_serviceline.collapsed .product_name:before {
+    content:"\f055";
+}
+
+.terms_and_conditions_section .terms_and_conditions {
+    margin:0 1em;
+}
+
+.fullwidth {
+    width:100%;
+}
+
+
+div.ribbon-red-desktop {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    background: none repeat scroll 0% 0% #E00011;
+    height: 4px;
+    margin-bottom:10px;
+}
+
+div.ribbon-red-desktop.attached {
+    margin-bottom:0;
+}
+
+h3.red-heading {
+    color:#E00011;
+}
+
+.btn.btn-search {
+    background:#EA5404;
+    color:#FFF;
+    padding:1em;
+    margin:1em 0;
+}
+
+
+/***Div Table***/
+.DivTable
+{
+    display: table;
+}
+.DivTitle
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.DivHeading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+.DivRow
+{
+    display: table-row;
+}
+.DivCell
+{
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+// #navbar-collapse {
+//     border:none;
+// }
+
+#navbar-mobile,
+#navbar-mobile ul,
+#navbar-mobile ul li,
+#navbar-mobile ul li a {
+  margin: 0;
+  padding: 0;
+  // border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+  color:#000;
+  font-size:16px;
+  text-decoration:none !important;
+}
+#navbar-mobile {
+  color: #ffffff;
+
+}
+#navbar-mobile ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+#navbar-mobile > ul > li > a {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbar-mobile ul li a {
+  padding: 15px 20px;
+}
+
+#navbar-mobile > ul > li {
+    background:#CCCCCC;
+    color:#fff;
+}
+
+#navbar-mobile li li {
+    background: rgba(255,255,255,0.30);
+    color:#000;
+}
+
+#navbar-mobile a { 
+    border-bottom:1px solid #E00011;
+}
+
+
+#navbar-mobile li.has-sub > a > span:before {
+    content: "\f055";
+}
+
+#navbar-mobile li.has-sub.open > a > span:before {
+    content: "\f056";
+}
+
+#navbar-mobile li > a > span:before {
+    font-family:FontAwesome;
+    float:right;
+    content: "\f054";
+}
+
+.navbar-mobile .navbar-collapse {
+    padding:0;
+}
+
+.navbar-mobile img.brand-logo {
+    height:80px;
+    padding:10px;
+}
+
+.navbar-mobile .navbar-brand {
+    line-height:30px;
+    font-size:25px;
+    height:auto;
+    padding:0;
+    margin:0;
+    float:none;
+}
+
+.navbar-mobile .navbar-phone {
+    font-size:14px;
+    line-height:25px;
+}
+
+.navbar-mobile .navbar-header {
+    border-bottom:4px solid #E00011;
+}
+
+.navbar-mobile .navbar-toggle {
+    margin-top:23px;
+    margin-bottom:23px;
+}
+
+.navbar-mobile .navbar-text {
+    float:left;
+}
+
+.navbar-mobile .navbar-text a {
+    display:block;
+}
+
+.navbar-mobile .mobile-cart {
+    height:34px;
+    padding:4px 9px;
+    width:44px;
+    margin:23px 5px;
+    color: #888;
+}
+
+@media (min-width:768px) and (max-width:960px) {
+    .navbar-mobile .navbar-text a {
+        display:inline-block;
+        line-height:50px;
+    }
+
+    .navbar-mobile .navbar-text a.navbar-phone {
+        margin-left:30px;
+    }
+}
+
+
+/*** Styling for Sabre Search module ***/
+.search-flights {padding: 15px 15px 0 15px;border: 2px solid #E60012;margin-bottom: 30px;background-color: #e6e6e6;-webkit-border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;-moz-box-shadow: 3px 3px 15px #DFDFDF;box-shadow: 3px 3px 15px #DFDFDF;box-shadow: 3px 3px 15px #DFDFDF;}
+.form-searchflights select{padding:5px;width:100%;margin:3px 0;height: 30px;background: #FFF;}
+.form-searchflights input[type=text]{padding:5px;width:100%;height: 30px;}
+.div-radio{margin:10px 0}
+.red{color:#E60012}
+/*.return{display:none}*/
+.form-searchflights{padding-bottom: 15px;}
+.advanced-search-link{text-decoration:underline;color:#E60012!important;}
+
+/* Search Form */
+
+form.form-search {
+    display:inline-block;
+}
+
+form.form-search * {
+    display:inline-block;
+    position:relative;
+}
+
+form.form-search .input-search,
+form.form-search-mobile .input-search {
+    height:43px;
+    /*background:#e3e3e3;*/
+    /*background:linear-gradient(#FCFCFC, #EEE) repeat scroll 0% 0% transparent;*/
+    background:#FFFFFF;
+    border:0;
+    padding:1em;
+    -webkit-transition:all 0.2s ease-out;
+}
+
+form.form-search .input-search {
+    position:absolute;
+    right:43px;
+    top:0;
+    width:100px;
+    background:#F0F0F0;
+
+    box-shadow: 2px 3px 1px #d8cdcd;
+}
+
+form.form-search .input-search:hover,
+form.form-search .input-search:focus {
+    width:300px;
+    -webkit-transition:all 0.2s ease-in;
+}
+
+form.form-search-mobile button.btn-search,
+form.form-search button.btn-search {
+    /*right:0;*/
+    /*top:0;*/
+    height:43px;
+    color:#E00011;
+    background:#F0F0F0;
+    /*background:linear-gradient(#FCFCFC, #EEE) repeat scroll 0% 0% transparent;*/
+    border:0;
+}
+
+form.form-search button.btn-search {
+    right:0;
+    position:absolute;
+    top:0;
+    box-shadow: 2px 3px 1px #d8cdcd;
+    width:43px;
+}
+
+.search-results .pagination {
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    display:table;
+}
+
+.required_asterisk:after {
+  content:"*";
+  color:red;
+}

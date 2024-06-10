@@ -1,0 +1,20 @@
+.sgpb-form-wrapper input[type="checkbox"]:after{content:none}.sgpb-form-wrapper input,
+.sgpb-form-wrapper
+textarea{padding:inherit!important;border:1px
+solid #ccc;margin-bottom:10px;width:100%;box-sizing:border-box;font-family:Arial;color:#2C3E50;font-size:13px}.sgpb-form-wrapper .sgpb-field-textarea-wrapper,
+.sgpb-form-wrapper .sgpb-field-dropdown-wrapper{margin:5px
+auto}.sgpb-form-wrapper input[type="submit"],
+.sgpb-form-wrapper input[type="button"]{cursor:pointer}.sgpb-form-wrapper input[type="submit"]:hover{filter:brightness(90%);-ms-filter:brightness(90%)}.sgpb-form-wrapper{text-align:center}.sgpb-subscription-form
+label.error{text-align:inherit;color:red;display:block;margin:5px
+0}.sgpb-form-wrapper input[type="text"],
+.sgpb-form-wrapper input[type="email"]{border:2px
+solid}.sgpb-inputs-wrapper.form-group{margin:0;padding:0}.sgpb-subscription-form #sgpb-form{margin:0}#sgpb-gdpr-field-label{margin:4px
+0 0 0;max-width:5% !important;font-weight:bold}.sgpb-gdpr-label-wrapper{margin:0
+auto !important;text-align:left !important}#sgpb-gdpr-field-label+label{margin:4px
+0 0 5px;width:80% !important;text-align:left !important}.sgpb-gdpr-info{margin-bottom:0;margin-top:5px;text-align:left;border:none;background:transparent;padding:0;display:inline-block;overflow-wrap:break-word;line-height:1.4em;font-size:13px;font-family:BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif}.sgpb-form-wrapper
+select{box-sizing:border-box;width:100%;padding:7px;border:1px
+solid #CCC}.sgpb-choice-option-label,.sgpb-choice-option-wrapper{display:inline-block !important}.sgpb-choice-option-wrapper input,
+.sgpb-field-gdpr-wrapper input[type=checkbox]{margin:0
+10px 0 0px !important}.sgpb-buttons-wrapper,.sgpb-field-gdpr-wrapper{text-align:left}.sgpb-subs-text-checkbox-gdpr{font-size:13px;text-align:left}.sgpb-label-wrapper{text-align:left;font-weight:900}.sgpb-field-gdpr-wrapper,.sgpb-label-gdpr-wrapper{display:inline-block}.sgpb-field-wrapper{max-width:100% !important}.sgpb-subscription-plus-form-error-placement
+label{color:#f00}.sgpb-field-checkbox-wrapper .sgpb-sub-option-label{padding-left:0 !important}.sgpb-templates-shortcodes-wrapper
+.row{margin-bottom:10px}.sgpb-subscription-plus-form{display:inline-block}.sgpb-subscription-admin-wrapper input[type="text"]{min-height:20px !important}

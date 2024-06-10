@@ -1,0 +1,392 @@
+/* Base styles
+----------------------------------------------------------------------------- */
+.spu-box,
+.spu-box *{
+	box-sizing: border-box;
+}
+.wppopups-whole{
+	position: relative;
+	width: 100%;
+	left: 0;
+	top: 0;
+    z-index: 999998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spu-bg{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 99999;
+}
+.spu-box:before,
+.spu-box:after {
+	content:"";
+	display:table;
+}
+.spu-box:after {
+	clear:both;
+}
+.spu-box {
+	zoom:1;
+}
+.spu-box {
+	position:fixed;
+	z-index: 999999;
+	width: 100%;
+    max-height: 100vh;
+}
+.spu-box img{
+	max-width: 100%;
+	height: auto;
+}
+
+.spu-box img.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Positions
+----------------------------------------------------------------------------- */
+.spu-box.spu-position-top-left{
+    top: 0; left: 0; bottom: auto; right: auto;
+}
+
+.spu-box.spu-position-top-right{
+    top: 0; right: 0; bottom: auto; left: auto;
+}
+
+.spu-box.spu-position-bottom-left{
+    bottom: 0; left: 0; top: auto; right: auto;
+}
+
+.spu-box.spu-position-bottom-right{
+    bottom: 0; right: 0; top: auto; left: auto;
+}
+
+.spu-box.spu-position-top-bar,
+.spu-box.spu-position-bottom-bar{
+    margin: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    position: fixed;
+}
+.spu-box.spu-position-top-bar{
+    top: 0;
+}
+.spu-box.spu-position-bottom-bar{
+    bottom: 0;
+}
+.spu-box.spu-position-bottom-bar .spu-content .spu-fields-container,
+.spu-box.spu-position-top-bar .spu-content .spu-fields-container{
+    padding: 0;
+}
+.spu-box.spu-position-bottom-bar .spu-content,
+.spu-box.spu-position-top-bar .spu-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+.spu-box.spu-position-bottom-bar .spu-content > *,
+.spu-box.spu-position-top-bar .spu-content > *{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.spu-box.spu-position-bottom-bar .spu-content .spu-optin-form,
+.spu-box.spu-position-top-bar .spu-content label.spu-fields.spu-gdpr,
+.spu-box.spu-position-bottom-bar .spu-content label.spu-fields.spu-gdpr,
+.spu-box.spu-position-top-bar .spu-content .spu-optin-form {
+    display: inline-flex;
+    margin-bottom: 0;
+}
+.spu-box.spu-position-top-bar .spu-content .spu-optin-fields,
+.spu-box.spu-position-bottom-bar .spu-content .spu-optin-fields,
+.spu-box.spu-position-top-bar .spu-content label.spu-fields.spu-gdpr,
+.spu-box.spu-position-bottom-bar .spu-content label.spu-fields.spu-gdpr{
+    margin-bottom: 0;
+}
+.spu-box.spu-position-bottom-bar .spu-content label.spu-fields.spu-gdpr ,
+.spu-box.spu-position-top-bar .spu-content label.spu-fields.spu-gdpr {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.spu-box.spu-position-bottom-bar .spu-content .spu-optin-fields .spu-fields ,
+.spu-box.spu-position-top-bar .spu-content .spu-optin-fields .spu-fields {
+    min-width: 250px;
+}
+.spu-box.spu-position-bottom-bar .spu-content button.spu-fields.spu-submit ,
+.spu-box.spu-position-top-bar .spu-content button.spu-fields.spu-submit {
+    width: 120px;
+    margin-left: 20px;
+}
+/* Close
+----------------------------------------------------------------------------- */
+.spu-close{
+    position:absolute;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    line-height: .5;
+    text-decoration: none;
+    cursor: pointer;
+}
+html .spu-box a.spu-close {
+    text-decoration: none;
+}
+.spu-close-top_right{
+    right:8px;
+    top:5px;
+}
+.spu-close-top_left{
+    left:8px;
+    top:5px;
+}
+.spu-close-bottom_right{
+    right:8px;
+    bottom:5px;
+}
+.spu-close-bottom_left{
+    left:8px;
+    bottom:5px;
+}
+.spu-close:hover,
+.spu-close:focus {
+    text-decoration: none;
+    display: block;
+}
+/* Powered
+----------------------------------------------------------------------------- */
+p.spu-powered {
+    position: absolute;
+    bottom: -55px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    left: 0px;
+}
+p.spu-powered a{
+    color: #ccc;
+    text-decoration: underline;
+}
+.spu-box.spu-scrollable p.spu-powered {
+    display: none;
+}
+
+
+
+/* =========================================================================
+    Addon Styles
+============================================================================ */
+.spu-addon-container {
+    text-align: center;
+    margin: 36px 32px 44px;
+}
+
+.spu-addon-container:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.spu-addon-title {
+    font-size: 24px;
+}
+
+.spu-addon-msg {
+    font-size: 17px;
+}
+
+.spu-input-text {
+    background-color: #fff;
+    width: 49%;
+    height: 44px;
+    border: 1px solid #cdd1d4;
+    -webkit-box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;
+    -moz-box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;
+    box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 4px 6px;
+    overflow: hidden;
+    outline: none;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.spu-button {
+    display: block;
+    -webkit-box-shadow: 0 1px 1px -1px #fff inset;
+    -moz-box-shadow: 0 1px 1px -1px #fff inset;
+    box-shadow: 0 1px 1px -1px #fff inset;
+    -webkit-text-shadow: #888 -0 0 1px;
+    -moz-text-shadow: #888 -0 0 1px;
+    text-shadow: #888 0 0 1px;
+    font-size: 15px;
+    padding: 10px 12px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    height: auto;
+    width: 35%;
+    border: 0;  
+}
+
+.spu-button-bg {
+    width: 100% !important;
+}
+
+.spu-inline {
+    display: inline-block !important;
+}
+
+.spu-errors {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* =========================================================================
+   Optin fields
+   ========================================================================== */
+.spu-optin-form .spu-helper-fields{
+    display: none;
+}
+.spu-fields-container{
+    padding: 36px 32px 44px;
+    position: relative;
+}
+.spu-fields.spu-name,
+.spu-fields.spu-email{
+    background-color: #fff;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #cdd1d4;
+    -webkit-box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;
+    -moz-box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;
+    box-shadow: 0 0 6px -3px rgba(0,0,0,0.8) inset;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 4px 6px;
+    overflow: hidden;
+    outline: none;
+    margin: 0 0 20px 0;
+    vertical-align: middle;
+    display: block;
+}
+.spu-fields.spu-submit{
+    background: #50bbe8;
+    border: 1px solid #429bc0;
+    -webkit-box-shadow: 0 1px 1px -1px #fff inset;
+    -moz-box-shadow: 0 1px 1px -1px #fff inset;
+    box-shadow: 0 1px 1px -1px #fff inset;
+    -webkit-text-shadow: #888 -0 0 1px;
+    -moz-text-shadow: #888 -0 0 1px;
+    text-shadow: #888 -0 0 1px;
+    width: 24%;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 6px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    height: auto;
+}
+.spu-fields.spu-submit i{
+    display: none;
+}
+.spu-optin-fields {
+    display: block;
+}
+.spu-optin-fields.spu-inline-fields {
+    display: flex;
+    margin-bottom: 20px;
+}
+.spu-optin-fields.spu-inline-fields .spu-fields{
+    margin-bottom: 0px;
+}
+.spu-optin-fields.spu-inline-fields .spu-fields.spu-name {
+    margin-right: 20px;
+}
+.spu-fields.spu-email{
+    margin-right: 0;
+}
+.spu-fields.spu-submit {
+    width: 100%;
+    max-width: 100%;
+}
+.spu-fields.spu-submit span{
+    transition: all 1s;
+    opacity:1;
+}
+.spu-fields.spu-submit svg{
+    display:none;
+    margin:0 auto;
+    transition: all 1s;
+}
+.spu-fields.spu-submit svg path,
+.spu-fields.spu-submit svg rect{
+    fill: #fff;
+}
+.spu-fields.spu-submit.spu-sending span{
+    display: none;
+    opacity: 0;
+}
+.spu-fields.spu-submit.spu-sending svg{
+    display: block;
+    opacity: 1;
+}
+.optin-errors {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ==========================================================================
+    Auto close
+   ========================================================================== */
+span.spu-timer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    padding: 0 10px;
+}
+
+@media all and (max-width: 568px){
+    .spu-box{
+        max-width: 90vw !important;
+    }
+    .spu-box.spu-position-fullscreen,
+    .spu-box.spu-position-top-bar,
+    .spu-box.spu-position-bottom-bar{
+        max-width: 100vw !important;
+    }
+    .spu-box.spu-position-bottom-bar .spu-content,
+    .spu-box.spu-position-top-bar .spu-content {
+        flex-flow: column;
+    }
+    .pop-up-text2{
+        margin-bottom: 25px !important;
+    }
+}

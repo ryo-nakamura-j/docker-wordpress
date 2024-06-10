@@ -1,0 +1,18 @@
+.sgpb-form-wrapper select,
+.sgpb-form-wrapper
+label{margin:0;border:0;padding:0;display:inline-block;vertical-align:middle;white-space:normal;line-height:1;max-width:100% !important;font-size:13px;font-family:Arial}.sgpb-form-wrapper input,
+.sgpb-form-wrapper label,
+.sgpb-form-wrapper button,
+.sgpb-form-wrapper select,
+.sgpb-form-wrapper
+textarea{background:none;outline:none}.sgpb-form-wrapper input:focus{outline:0}.sgpb-form-wrapper input[type=checkbox],
+.sgpb-form-wrapper input[type=radio]{width:13px;height:13px}.sgpb-form-wrapper input[type=search]{-webkit-appearance:textfield;-webkit-box-sizing:content-box}.sgpb-form-wrapper ::-webkit-search-decoration{display:none}.sgpb-form-wrapper ::-webkit-file-upload-button{padding:0;border:0;background:none}.sgpb-form-wrapper
+textarea{vertical-align:top;overflow:auto}.sgpb-form-wrapper select[multiple]{vertical-align:top}.sgpb-form-wrapper input[type="text"],
+.sgpb-form-wrapper input[type="number"],
+.sgpb-form-wrapper input[type="password"],
+.sgpb-form-wrapper input[type="email"],
+.sgpb-form-wrapper input[type="submit"],
+.sgpb-form-wrapper input[type="button"]{max-width:100% !important;padding:0
+10px !important;box-sizing:border-box;font-size:14px !important;box-shadow:none !important;margin:5px
+auto;display:inline-block !important;font-weight:bold !important;background-image:none !important;line-height:normal !important}.sgpb-form-wrapper input[type="submit"],
+.sgpb-form-wrapper input[type="button"]{line-height:0.4 !important;font-size:18px !important}.sgpb-js-hide{display:none}

@@ -1,0 +1,56 @@
+// Everything Roboto
+.cf7md-item,
+input,
+label,
+textarea,
+p,
+h1, h2, h3, h4, h5, h6,
+.cf7md-form + .wpcf7-response-output {
+    font-family: $base-font;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+// Set base elements
+.cf7md-item,
+.mdc-form-field,
+.mdc-textfield {
+    font-size: $base-font-size;
+    line-height: 1.25;
+}
+
+// Select
+.mdc-select {
+    font-size: 0.936em;
+}
+
+// Labels
+label,
+.cf7md-label {
+    font-weight: normal;
+    font-size: 0.875em;
+    letter-spacing: 0.02em;
+}
+
+// Card headers
+.mdc-card__title {
+    font-size: 0.875em;
+    line-height: 1.5em;
+    margin: -.063em 0;
+    &.mdc-card__title--large {
+        font-size: 1.5em;
+    }
+}
+.mdc-card__subtitle {
+    font-size: 0.75em;
+    line-height: 1.25em;
+    margin: -.063em 0;
+}
+
+// Static labels, help text and validation errors all small
+.cf7md-label--static,
+.cf7md-help-text,
+.wpcf7-not-valid-tip {
+    font-size: 0.675em;
+    letter-spacing: 0.02em;
+}

@@ -1,0 +1,368 @@
+# Translation of Plugins - SSL Insecure Content Fixer - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - SSL Insecure Content Fixer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-11 00:33:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - SSL Insecure Content Fixer - Stable (latest release)\n"
+
+#: views/settings-fields-common.php:116
+msgctxt "proxy settings"
+msgid "HTTP_X_FORWARDED_SCHEME (e.g. KeyCDN)"
+msgstr "HTTP_X_FORWARDED_SCHEME (e.g. KeyCDN)"
+
+#: views/settings-fields-common.php:99
+msgctxt "ignore external settings"
+msgid "Only fix content pointing to this WordPress site"
+msgstr "Only fix content pointing to this WordPress site"
+
+#: views/settings-fields-common.php:95
+msgctxt "ignore external settings"
+msgid "Select only if you wish to leave content pointing to external sites as http"
+msgstr "Select only if you wish to leave content pointing to external sites as http"
+
+#: views/settings-fields-common.php:93
+msgctxt "ignore external settings"
+msgid "Ignore external sites"
+msgstr "Ignore external sites"
+
+#: views/ssl-tests.php:44
+msgid "It looks like your server is behind Windows Azure ARR. The recommended setting for HTTPS detection is %s."
+msgstr "It looks like your server is behind Windows Azure ARR. The recommended setting for HTTPS detection is %s."
+
+#: views/settings-fields-common.php:117
+msgctxt "proxy settings"
+msgid "HTTP_X_ARR_SSL (Windows Azure ARR)"
+msgstr "HTTP_X_ARR_SSL (Windows Azure ARR)"
+
+#: views/settings-fields-common.php:67
+msgctxt "fix level settings"
+msgid "includes AJAX calls, which can cause compatibility and performance problems"
+msgstr "includes AJAX calls, which can cause compatibility and performance problems"
+
+#: views/settings-fields-common.php:64
+msgctxt "fix level settings"
+msgid "The biggest potential to break things, but sometimes necessary"
+msgstr "The biggest potential to break things, but sometimes necessary"
+
+#: views/settings-fields-common.php:63
+msgctxt "fix level settings"
+msgid "Capture All"
+msgstr "Capture All"
+
+#: views/settings-fields-common.php:54
+msgctxt "fix level settings"
+msgid "Everything on the page, from the header to the footer:"
+msgstr "Everything on the page, from the header to the footer:"
+
+#: views/requires-extensions.php:8
+msgid "SSL Insecure Content Fixer requires these missing PHP extensions. Please contact your website host to have these extensions installed."
+msgstr "SSL Insecure Content Fixer requires these missing PHP extensions. Please contact your website host to have these extensions installed."
+
+#: views/requires-pcre.php:8
+msgid "SSL Insecure Content Fixer requires <a target=\"_blank\" rel=\"noopener\" href=\"%1$s\">PCRE</a> version %2$s or higher; your website has PCRE version %3$s"
+msgstr "SSL Insecure Content Fixer requires <a target=\"_blank\" rel=\"noopener\" href=\"%1$s\">PCRE</a> version %2$s or higher; your website has PCRE version %3$s"
+
+#: views/settings-fields-common.php:57
+msgctxt "fix level settings"
+msgid "excludes AJAX calls, to prevent some compatibility and performance problems"
+msgstr "excludes Ajax calls, to prevent some compatibility and performance problems"
+
+#: views/ssl-tests.php:40
+msgid "It looks like your server is behind Amazon CloudFront, not configured to send HTTP_X_FORWARDED_PROTO. The recommended setting for HTTPS detection is %s."
+msgstr "It looks like your server is behind Amazon CloudFront, not configured to send HTTP_X_FORWARDED_PROTO. The recommended setting for HTTPS detection is %s."
+
+#: views/settings-fields-common.php:118
+msgctxt "proxy settings"
+msgid "HTTP_CF_VISITOR (Cloudflare Flexible SSL); deprecated, since Cloudflare sends HTTP_X_FORWARDED_PROTO now"
+msgstr "HTTP_CF_VISITOR (Cloudflare Flexible SSL); deprecated, since Cloudflare sends HTTP_X_FORWARDED_PROTO now"
+
+#: views/settings-fields-common.php:115
+msgctxt "proxy settings"
+msgid "HTTP_CLOUDFRONT_FORWARDED_PROTO (Amazon CloudFront HTTPS cached content)"
+msgstr "HTTP_CLOUDFRONT_FORWARDED_PROTO (Amazon CloudFront HTTPS cached content)"
+
+#. Author of the plugin/theme
+msgid "WebAware"
+msgstr "WebAware"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:141
+msgctxt "plugin details links"
+msgid "Translate"
+msgstr "Translate"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:142
+msgctxt "plugin details links"
+msgid "Donate"
+msgstr "Donate"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:130
+#: includes/class.SSLInsecureContentFixerAdmin.php:178
+msgctxt "plugin details links"
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:139
+msgctxt "plugin details links"
+msgid "Get help"
+msgstr "Get help"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:140
+msgctxt "plugin details links"
+msgid "Rating"
+msgstr "Rating"
+
+#. Author URI of the plugin/theme
+msgid "https://shop.webaware.com.au/"
+msgstr "https://shop.webaware.com.au/"
+
+#. Description of the plugin/theme
+msgid "Clean up WordPress website HTTPS insecure content"
+msgstr "Clean up WordPress website HTTPS insecure content"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ssl.webaware.net.au/"
+msgstr "https://ssl.webaware.net.au/"
+
+#. Plugin Name of the plugin/theme
+msgid "SSL Insecure Content Fixer"
+msgstr "SSL Insecure Content Fixer"
+
+#: views/ssl-tests.php:58
+msgid "Your server environment shows this:"
+msgstr "Your server environment shows this:"
+
+#: views/ssl-tests.php:53
+msgid "Your server cannot detect HTTPS. The recommended setting for HTTPS detection is %s."
+msgstr "Your server cannot detect HTTPS. The recommended setting for HTTPS detection is %s."
+
+#: views/ssl-tests.php:28 views/ssl-tests.php:32 views/ssl-tests.php:36
+msgid "It looks like your server is behind a reverse proxy. The recommended setting for HTTPS detection is %s."
+msgstr "It looks like your server is behind a reverse proxy. The recommended setting for HTTPS detection is %s."
+
+#: views/ssl-tests.php:24
+msgid "Your server can detect HTTPS normally. The recommended setting for HTTPS detection is %s."
+msgstr "Your server can detect HTTPS normally. The recommended setting for HTTPS detection is %s."
+
+#: views/ssl-tests.php:21
+msgid "Tests completed."
+msgstr "Tests completed."
+
+#: views/ssl-tests.php:16
+msgid "Running tests..."
+msgstr "Running tests..."
+
+#: views/ssl-tests.php:13
+msgid "This page checks to see whether WordPress can detect HTTPS."
+msgstr "This page checks to see whether WordPress can detect HTTPS."
+
+#: views/ssl-tests.php:11
+msgid "SSL Insecure Content Fixer tests"
+msgstr "SSL Insecure Content Fixer tests"
+
+#: views/settings-form.php:11
+msgid "SSL Insecure Content Fixer settings"
+msgstr "SSL Insecure Content Fixer settings"
+
+#: views/settings-form-network.php:16
+msgid "These settings affect all sites on this network that have not been set individually."
+msgstr "These settings affect all sites on this network that have not been set individually."
+
+#. translators: heading for multisite network admin settings
+#: views/settings-form-network.php:13
+msgid "SSL Insecure Content Fixer multisite network settings"
+msgstr "SSL Insecure Content Fixer multisite network settings"
+
+#: views/settings-fields-common.php:119 views/ssl-tests.php:53
+msgctxt "proxy settings"
+msgid "unable to detect HTTPS"
+msgstr "unable to detect HTTPS"
+
+#: views/settings-fields-common.php:114
+msgctxt "proxy settings"
+msgid "HTTP_X_FORWARDED_SSL (e.g. reverse proxy)"
+msgstr "HTTP_X_FORWARDED_SSL (e.g. reverse proxy)"
+
+#: views/settings-fields-common.php:113
+msgctxt "proxy settings"
+msgid "HTTP_X_FORWARDED_PROTO (e.g. load balancer, reverse proxy, NginX)"
+msgstr "HTTP_X_FORWARDED_PROTO (e.g. load balancer, reverse proxy, NginX)"
+
+#. translators: standard WordPress function means no reverse proxy, just plain
+#. website access
+#: views/settings-fields-common.php:112 views/ssl-tests.php:24
+msgctxt "proxy settings"
+msgid "standard WordPress function"
+msgstr "standard WordPress function"
+
+#: views/settings-fields-common.php:108
+msgctxt "proxy settings"
+msgid "Select how WordPress should detect that a page is loaded via HTTPS"
+msgstr "Select how WordPress should detect that a page is loaded via HTTPS"
+
+#: views/settings-fields-common.php:106
+msgctxt "proxy settings"
+msgid "HTTPS detection"
+msgstr "HTTPS detection"
+
+#: views/settings-fields-common.php:86
+msgctxt "plugin fix settings"
+msgid "WooCommerce  + Google Chrome HTTP_HTTPS bug (fixed in WooCommerce v2.3.13)"
+msgstr "WooCommerce  + Google Chrome HTTP_HTTPS bug (fixed in WooCommerce v2.3.13)"
+
+#: views/settings-fields-common.php:78
+msgctxt "plugin fix settings"
+msgid "Select only the fixes your website needs."
+msgstr "Select only the fixes your website needs."
+
+#: views/settings-fields-common.php:76
+msgctxt "plugin fix settings"
+msgid "Fixes for specific plugins and themes"
+msgstr "Fixes for specific plugins and themes"
+
+#: views/settings-fields-common.php:56 views/settings-fields-common.php:66
+msgctxt "fix level settings"
+msgid "capture the whole page and fix scripts, stylesheets, and other resources"
+msgstr "capture the whole page and fix scripts, stylesheets, and other resources"
+
+#: views/settings-fields-common.php:53
+msgctxt "fix level settings"
+msgid "Capture"
+msgstr "Capture"
+
+#: views/settings-fields-common.php:47
+msgctxt "fix level settings"
+msgid "resources in any widgets"
+msgstr "resources in any widgets"
+
+#: views/settings-fields-common.php:45
+msgctxt "fix level settings"
+msgid "Everything that Content does, plus:"
+msgstr "Everything that Content does, plus:"
+
+#: views/settings-fields-common.php:44
+msgctxt "fix level settings"
+msgid "Widgets"
+msgstr "Widgets"
+
+#: views/settings-fields-common.php:38
+msgctxt "fix level settings"
+msgid "resources in \"Text\" widgets"
+msgstr "resources in \"Text\" widgets"
+
+#: views/settings-fields-common.php:37
+msgctxt "fix level settings"
+msgid "resources in the page content"
+msgstr "resources in the page content"
+
+#: views/settings-fields-common.php:35
+msgctxt "fix level settings"
+msgid "Everything that Simple does, plus:"
+msgstr "Everything that Simple does, plus:"
+
+#: views/settings-fields-common.php:34
+msgctxt "fix level settings"
+msgid "Content"
+msgstr "Content"
+
+#: views/settings-fields-common.php:28
+msgctxt "fix level settings"
+msgid "images loaded by the plugin Image Widget"
+msgstr "images loaded by the plugin Image Widget"
+
+#: views/settings-fields-common.php:27
+msgctxt "fix level settings"
+msgid "data returned from <code>wp_upload_dir()</code> (e.g. for some CAPTCHA images)"
+msgstr "data returned from <code>wp_upload_dir()</code> (e.g. for some CAPTCHA images)"
+
+#: views/settings-fields-common.php:26
+msgctxt "fix level settings"
+msgid "images and other media loaded by calling <code>wp_get_attachment_image()</code>, <code>wp_get_attachment_image_src()</code>, etc."
+msgstr "images and other media loaded by calling <code>wp_get_attachment_image()</code>, <code>wp_get_attachment_image_src()</code>, etc."
+
+#: views/settings-fields-common.php:25
+msgctxt "fix level settings"
+msgid "stylesheets registered using <code>wp_register_style()</code> or <code>wp_enqueue_style()</code>"
+msgstr "stylesheets registered using <code>wp_register_style()</code> or <code>wp_enqueue_style()</code>"
+
+#: views/settings-fields-common.php:24
+msgctxt "fix level settings"
+msgid "scripts registered using <code>wp_register_script()</code> or <code>wp_enqueue_script()</code>"
+msgstr "scripts registered using <code>wp_register_script()</code> or <code>wp_enqueue_script()</code>"
+
+#: views/settings-fields-common.php:22
+msgctxt "fix level settings"
+msgid "The fastest method with the least impact on website performance"
+msgstr "The fastest method with the least impact on website performance"
+
+#: views/settings-fields-common.php:21
+msgctxt "fix level settings"
+msgid "Simple"
+msgstr "Simple"
+
+#: views/settings-fields-common.php:16
+msgctxt "fix level settings"
+msgid "No insecure content will be fixed"
+msgstr "No insecure content will be fixed"
+
+#: views/settings-fields-common.php:15
+msgctxt "fix level settings"
+msgid "Off"
+msgstr "Off"
+
+#: views/settings-fields-common.php:10
+msgid "Select the level of fixing. Try the Simple level first, it has the least impact on your website performance."
+msgstr "Select the level of fixing. Try the Simple level first, it has the least impact on your website performance."
+
+#: views/settings-fields-common.php:8
+msgid "Fix insecure content"
+msgstr "Fix insecure content"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:249
+msgctxt "settings error"
+msgid "HTTPS detection setting is invalid"
+msgstr "HTTPS detection setting is invalid"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:244
+msgctxt "settings error"
+msgid "Fix level is invalid"
+msgstr "Fix level is invalid"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:226
+msgctxt "proxy settings"
+msgid "* detected as recommended setting"
+msgstr "* detected as recommended setting"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:203
+msgid "Multisite network settings updated."
+msgstr "Multisite network settings updated."
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:154
+#: includes/class.SSLInsecureContentFixerAdmin.php:167
+msgctxt "menu link"
+msgid "SSL Insecure Content"
+msgstr "SSL Insecure Content"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:138
+msgctxt "plugin details links"
+msgid "Instructions"
+msgstr "Instructions"
+
+#: includes/class.SSLInsecureContentFixerAdmin.php:135
+#: includes/class.SSLInsecureContentFixerAdmin.php:158
+msgctxt "menu link"
+msgid "SSL Tests"
+msgstr "SSL Tests"
+
+#: views/ssl-tests.php:49
+msgid "It looks like your server uses Cloudflare Flexible SSL. The recommended setting for HTTPS detection is %s."
+msgstr "It looks like your server uses Cloudflare Flexible SSL. The recommended setting for HTTPS detection is %s."
+
+#: views/ssl-tests.php:54
+msgid "If you know of a way to detect HTTPS on your server, please <a href=\"%s\" target=\"_blank\" rel=\"noopener\">tell me about it</a>."
+msgstr "If you know of a way to detect HTTPS on your server, please <a href=\"%s\" target=\"_blank\" rel=\"noopener\">tell me about it</a>."

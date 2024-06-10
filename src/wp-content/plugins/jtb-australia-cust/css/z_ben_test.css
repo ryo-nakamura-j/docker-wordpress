@@ -1,0 +1,28 @@
+
+
+/* Large screen - full width */
+@media   (min-width: 1300px){
+
+	.container {     width: 100%; }
+	body{padding: 0 2em  2em;}
+
+	.navbar-nav li a {
+	    padding-right: 22px;
+	    padding-left: 22px;
+	}
+
+
+}
+
+@media   (min-width: 1600px){
+
+	.container {     width: 100%; }
+	body{padding: 0 4em  2em;}
+
+	.navbar-nav li a {
+	    padding-right: 22px;
+	    padding-left: 14px;
+	}
+
+
+}

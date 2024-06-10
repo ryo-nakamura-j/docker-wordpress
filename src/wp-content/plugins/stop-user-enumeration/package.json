@@ -1,0 +1,14 @@
+{
+  "name": "stop-user-enumeration",
+  "version": "1.4.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanef/stop-user-enumeration"
+  },
+  "author": "Alan Fuller <alan@fullworks.net>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://wordpress.org/support/plugin/stop-user-enumeration/"
+  },
+  "homepage": "https://wordpress.org/plugins/stop-user-enumeration/"
+}

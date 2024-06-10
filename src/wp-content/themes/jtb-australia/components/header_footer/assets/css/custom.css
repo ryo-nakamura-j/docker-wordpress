@@ -1,0 +1,90 @@
+@charset 'UTF-8';
+/*  Add Custom CSS here.  */
+
+
+#breadcrumbs {
+	margin-top: 15px;
+}
+
+#headerWrap[hidden] {
+	display: none;
+}
+
+#footerWrapper .bottom_image_list_image {
+	max-width: 256px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.tp-badge-container {
+    position: relative;
+}
+
+.tp-badge {    
+    padding-top: 1px;
+    top: -10px;
+    right: -10px;
+    position: absolute;
+    background: #d60516;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 100%;
+    color: white;
+    border: 1px solid #d60516;
+    widtH: 15px;
+    height: 15px;
+}
+
+.footer__form ._marketing-by {
+    display: none;
+}
+.footer__form button[type=submit] {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: calc(100 / 534 * 100%);
+    height: 40px;
+    padding: 5px 10px;
+    background: #d60516;
+    color: #fff;
+    border-width: 0;
+}
+
+.sp .footer__form button[type=submit] {
+    width: 100%;
+}
+
+.footer__form ._form-label {
+    display: none;
+}
+
+.footer__form button[type=submit]:hover {
+    opacity: 0.7
+}
+
+html .is-selected .pika-button {
+    background-color: #d60516;
+    border-color: #d60516;
+    box-shadow: inset 0 1px 3px #d60516;
+}
+html .pika-button:hover {
+    background-color: #d60516;
+    border-color: #d60516;
+    opacity: 0.7;
+}
+html .is-today .pika-button {
+    color: #d60516;
+}
+
+/*#tp_detail_section .ui-selectmenu-button {
+    width: 100% !important;
+    font-size: 16px;
+    border: lightgray 1px solid !important;
+    border-radius: 0px;
+}*/
+
+
+.header_footer .header__navi .header__ul01 ul li a {
+    height: auto;
+    min-height: 50px;
+}

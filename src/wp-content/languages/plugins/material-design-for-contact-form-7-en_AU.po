@@ -1,0 +1,1300 @@
+# Translation of Plugins - Material Design for Contact Form 7 - Development (trunk) in English (Australia)
+# This file is distributed under the same license as the Plugins - Material Design for Contact Form 7 - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-08 00:49:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Material Design for Contact Form 7 - Development (trunk)\n"
+
+#: admin/cf7-material-design-shortcode-generator.php:276
+#: public/cf7-material-design-public.php:598
+msgid "Choose file"
+msgstr "Choose file"
+
+#: admin/cf7-material-design-shortcode-generator.php:269
+#: public/cf7-material-design-public.php:597
+msgid "No file chosen"
+msgstr "No file chosen"
+
+#: public/cf7-material-design-public.php:156
+#: public/cf7-material-design-public.php:158
+msgid "Don't show this again"
+msgstr "Don't show this again"
+
+#: public/cf7-material-design-public.php:153
+msgid "Customize your form's colors and fonts"
+msgstr "Customise your form’s colours and fonts"
+
+#: public/cf7-material-design-public.php:151
+msgid "Only admins can see this message"
+msgstr "Only admins can see this message"
+
+#: public/cf7-material-design-public.php:131
+#: public/cf7-material-design-public.php:133
+msgid "Edit form styles."
+msgstr "Edit form styles."
+
+#: admin/cf7-material-design-customizer.php:384
+#: admin/cf7-material-design-customizer.php:392
+msgid "Add any custom CSS here. This will work even in the free version."
+msgstr "Add any custom CSS here. This will work even in the free version."
+
+#: admin/cf7-material-design-customizer.php:372
+#: admin/cf7-material-design-customizer.php:391
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: admin/cf7-material-design-customizer.php:357
+msgid "Optionally choose to use a font from your current theme. Fonts not showing up? Try refreshing."
+msgstr "Optionally choose to use a font from your current theme. Fonts not showing up? Try refreshing."
+
+#: admin/cf7-material-design-customizer.php:356
+msgid "Font family"
+msgstr "Font family"
+
+#: admin/cf7-material-design-customizer.php:330
+msgid "Resize labels, help text etc. Text inputs and select fields can not be resized except by changing the font-size of your html tag, which is recommended to be set at 16px."
+msgstr "Resize labels, help text etc. Text inputs and select fields can not be resized except by changing the font-size of your html tag, which is recommended to be set at 16px."
+
+#: admin/cf7-material-design-customizer.php:329
+msgid "Base font size"
+msgstr "Base font size"
+
+#: admin/cf7-material-design-customizer.php:309
+msgid "1 = white, 0 = transparent, default = 1"
+msgstr "1 = white, 0 = transparent, default = 1"
+
+#: admin/cf7-material-design-customizer.php:308
+msgid "Normal text opacity (dark theme)"
+msgstr "Normal text opacity (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:288
+msgid "1 = white, 0 = transparent, default = 0.72"
+msgstr "1 = white, 0 = transparent, default = 0.72"
+
+#: admin/cf7-material-design-customizer.php:287
+msgid "Label text opacity (dark theme)"
+msgstr "Label text opacity (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:267
+msgid "1 = black, 0 = transparent, default = 0.87"
+msgstr "1 = black, 0 = transparent, default = 0.87"
+
+#: admin/cf7-material-design-customizer.php:266
+msgid "Normal text opacity"
+msgstr "Normal text opacity"
+
+#: admin/cf7-material-design-customizer.php:246
+msgid "1 = black, 0 = transparent, default = 0.5"
+msgstr "1 = black, 0 = transparent, default = 0.5"
+
+#: admin/cf7-material-design-customizer.php:245
+msgid "Label text opacity"
+msgstr "Label text opacity"
+
+#: admin/cf7-material-design-customizer.php:227
+msgid "Button text color (dark theme)"
+msgstr "Button text colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:213
+msgid "Button hover color (dark theme)"
+msgstr "Button hover colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:201
+msgid "Leave blank to use the dark theme primary color"
+msgstr "Leave blank to use the dark theme primary colour"
+
+#: admin/cf7-material-design-customizer.php:198
+msgid "Button color (dark theme)"
+msgstr "Button colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:184
+msgid "Button text color"
+msgstr "Button text colour"
+
+#: admin/cf7-material-design-customizer.php:170
+msgid "Button hover color"
+msgstr "Button hover colour"
+
+#: admin/cf7-material-design-customizer.php:156
+msgid "Button color"
+msgstr "Button colour"
+
+#: admin/cf7-material-design-customizer.php:144
+msgid "You may want to choose a slightly lighter version of your primary color for better contrast in the dark theme."
+msgstr "You may want to choose a slightly lighter version of your primary colour for better contrast in the dark theme."
+
+#: admin/cf7-material-design-customizer.php:141
+msgid "Primary color (dark theme)"
+msgstr "Primary colour (dark theme)"
+
+#: admin/cf7-material-design-customizer.php:127
+msgid "Primary color (default/light theme)"
+msgstr "Primary colour (default/light theme)"
+
+#: admin/cf7-material-design-customizer.php:114
+msgid "Note: you're on the free version. Your style changes will not take effect until you %s upgrade to pro%s"
+msgstr "Note: you're on the free version. Your style changes will not take effect until you %s upgrade to pro%s"
+
+#: admin/cf7-material-design-customizer.php:113
+msgid "Use custom styles?"
+msgstr "Use custom styles?"
+
+#: admin/cf7-material-design-customizer.php:96
+msgid "Customize your %s forms"
+msgstr "Customise your %s forms"
+
+#: admin/cf7-material-design-customizer.php:95
+msgid "%s Forms"
+msgstr "%s Forms"
+
+#: admin/cf7-material-design-admin.php:560
+msgid "Get the CF7 Live Preview plugin"
+msgstr "Get the CF7 Live Preview plugin"
+
+#: admin/cf7-material-design-admin.php:547
+msgid "Customize styles"
+msgstr "Customise styles"
+
+#: admin/cf7-material-design-admin.php:542
+msgid "Direct email support"
+msgstr "Direct email support"
+
+#: admin/cf7-material-design-admin.php:535
+msgid "pro feature"
+msgstr "pro feature"
+
+#: admin/cf7-material-design-admin.php:533
+msgid "Try the style customizer"
+msgstr "Try the style customiser"
+
+#: admin/cf7-material-design-admin.php:521
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/cf7-material-design-admin.php:518
+msgid "Demos"
+msgstr "Demos"
+
+#: admin/cf7-material-design-admin.php:506
+msgid "Send"
+msgstr "Send"
+
+#: admin/cf7-material-design-admin.php:499
+msgid "Your message"
+msgstr "Your message"
+
+#: admin/cf7-material-design-admin.php:493
+msgid "Your email"
+msgstr "Your email"
+
+#: admin/cf7-material-design-admin.php:487
+msgid "Your name"
+msgstr "Your name"
+
+#. translators: %1$s and %2$s: "Material Design"
+#: admin/cf7-material-design-admin.php:482
+msgid "Apply %1$s to your form using shortcodes which you can generate with the \"%2$s\" button. Your form should look something like this:"
+msgstr "Apply %1$s to your form using shortcodes which you can generate with the \"%2$s\" button. Your form should look something like this:"
+
+#. translators: %s: price
+#: admin/cf7-material-design-admin.php:413
+#: admin/cf7-material-design-admin.php:578
+msgid "Upgrade for %s"
+msgstr "Upgrade for %s"
+
+#. translators: %s: Hyperlink, Cards:
+#. https://material.io/design/components/cards.html
+#: admin/cf7-material-design-admin.php:400
+msgid "Group fields with %s cards%s."
+msgstr "Group fields with %s cards%s."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:390
+msgid "Organize your fields into %s columns%s."
+msgstr "Organise your fields into %s columns%s."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:380
+msgid "Decorate your fields with %s icons%s."
+msgstr "Decorate your fields with %s icons%s."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:370
+msgid "Turn checkboxes into %s switches%s."
+msgstr "Turn checkboxes into %s switches%s."
+
+#: admin/cf7-material-design-admin.php:363
+msgid "Try it for free"
+msgstr "Try it for free"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-admin.php:355
+msgid "%s Customize %s the colors and fonts."
+msgstr "%s Customise %s the colours and fonts."
+
+#: admin/cf7-material-design-admin.php:349
+msgid "Demo (opens in new tab)"
+msgstr "Demo (opens in new tab)"
+
+#. translators: %s: "Material Design". Please match character count
+#: admin/cf7-material-design-admin.php:344
+msgid "Upgrade to %s Pro"
+msgstr "Upgrade to %s Pro"
+
+#: admin/cf7-material-design-admin.php:288
+msgid "Insert"
+msgstr "Insert"
+
+#: admin/cf7-material-design-admin.php:285
+msgid "Copy"
+msgstr "Copy"
+
+#. translators: %s: A shortcode type
+#: admin/cf7-material-design-admin.php:268
+msgid "Generate a %s shortcode with your desired settings."
+msgstr "Generate a %s shortcode with your desired settings."
+
+#: admin/cf7-material-design-admin.php:214
+msgid "Pro feature"
+msgstr "Pro feature"
+
+#: admin/cf7-material-design-admin.php:191
+msgid "Choose a shortcode to generate"
+msgstr "Choose a shortcode to generate"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-admin.php:185
+msgid "%s Shortcode Generator"
+msgstr "%s Shortcode Generator"
+
+#: admin/cf7-material-design-admin.php:180
+msgid "Back"
+msgstr "Back"
+
+#. translators: close as in exit
+#: admin/cf7-material-design-admin.php:174
+#: admin/cf7-material-design-admin.php:320
+msgid "Close"
+msgstr "Close"
+
+#: admin/cf7-material-design-page.php:337
+msgid "See documentation on form editor screen"
+msgstr "See documentation on form editor screen"
+
+#: admin/cf7-material-design-page.php:335
+msgid "Email me (Angus) directly for support"
+msgstr "Email me (Angus) directly for support"
+
+#. translators: %1$s, %2$s, %3$s: attribute
+#: admin/cf7-material-design-page.php:322
+msgid "Use the %1$s, %2$s and %3$s attributes on your shortcodes to arrange them into columns"
+msgstr "Use the %1$s, %2$s and %3$s attributes on your shortcodes to arrange them into columns"
+
+#: admin/cf7-material-design-page.php:308
+msgid "Customize the colors and fonts"
+msgstr "Customise the colours and fonts"
+
+#: admin/cf7-material-design-page.php:304
+msgid "Start using pro features now!"
+msgstr "Start using pro features now!"
+
+#: admin/cf7-material-design-page.php:303
+msgid "You have the pro version"
+msgstr "You have the pro version"
+
+#: admin/cf7-material-design-page.php:288
+msgid "Faster support, directly through email."
+msgstr "Faster support, directly through email."
+
+#: admin/cf7-material-design-page.php:279
+#: admin/cf7-material-design-page.php:318
+msgid "Add icons to your text and select fields."
+msgstr "Add icons to your text and select fields."
+
+#: admin/cf7-material-design-page.php:207
+#: admin/cf7-material-design-page.php:269
+msgid "Customize the colors and fonts to suit your theme."
+msgstr "Customise the colours and fonts to suit your theme."
+
+#: admin/cf7-material-design-page.php:267
+msgid "All Pro Benefits"
+msgstr "All Pro Benefits"
+
+#. translators: %s: Cost
+#: admin/cf7-material-design-page.php:261
+#: admin/cf7-material-design-page.php:293
+msgid "Upgrade now for %s"
+msgstr "Upgrade now for %s"
+
+#. translators: %s: shortcode
+#: admin/cf7-material-design-page.php:250
+#: admin/cf7-material-design-page.php:284
+#: admin/cf7-material-design-page.php:330
+msgid "Group fields into sections with the %s shortcode."
+msgstr "Group fields into sections with the %s shortcode."
+
+#: admin/cf7-material-design-page.php:239
+#: admin/cf7-material-design-page.php:280
+msgid "Easily organize your fields into columns."
+msgstr "Easily organise your fields into columns."
+
+#: admin/cf7-material-design-page.php:231
+msgid "Add icons to text and select fields."
+msgstr "Add icons to text and select fields."
+
+#. translators: %1$s: open hyperlink, %2$s: close hyperlink, %3$s: shortcode
+#: admin/cf7-material-design-page.php:218
+#: admin/cf7-material-design-page.php:273
+#: admin/cf7-material-design-page.php:312
+msgid "Turn checkboxes into %1$s switches %2$s using %3$s."
+msgstr "Turn checkboxes into %1$s switches %2$s using %3$s."
+
+#: admin/cf7-material-design-page.php:199
+msgid "And unlock all these extra features"
+msgstr "And unlock all these extra features"
+
+#. translators: %s: Cost
+#: admin/cf7-material-design-page.php:195
+msgid "Upgrade to Pro for %s"
+msgstr "Upgrade to Pro for %s"
+
+#: admin/cf7-material-design-page.php:185
+msgid "Leave a 5 star review"
+msgstr "Leave a 5 star review"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:184
+msgid "Like this plugin? Rate it!"
+msgstr "Like this plugin? Rate it!"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:183
+msgid "Customizing colors and fonts is a pro feature, but you can %s try it out for free in the customizer %s. Your changes just won't be saved unless you upgrade."
+msgstr "Customising colours and fonts is a pro feature, but you can %s try it out for free in the customiser %s. Your changes just won’t be saved unless you upgrade."
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:182
+msgid "Custom colors and fonts"
+msgstr "Custom colours and fonts"
+
+#. translators: %s: Hyperlink
+#: admin/cf7-material-design-page.php:181
+msgid "Confused? Something doesn't look right? Have a specific question? Make a post in the %s support forum %s and I'll help you out."
+msgstr "Confused? Something doesn't look right? Have a specific question? Make a post in the %s support forum %s and I'll help you out."
+
+#: admin/cf7-material-design-admin.php:528
+#: admin/cf7-material-design-page.php:180
+msgid "Support"
+msgstr "Support"
+
+#: admin/cf7-material-design-page.php:179
+msgid "All shortcodes are documented in the help tab (top right of the screen) on the form editor page."
+msgstr "All shortcodes are documented in the help tab (top right of the screen) on the form editor page."
+
+#. translators: %s: Plugin name
+#: admin/cf7-material-design-admin.php:513
+#: admin/cf7-material-design-page.php:178
+msgid "Documentation"
+msgstr "Documentation"
+
+#. translators: %s: Plugin name
+#: admin/cf7-material-design-page.php:177
+msgid "We also recommend installing the %s plugin for easier form development."
+msgstr "We also recommend installing the %s plugin for easier form development."
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:176
+msgid "After that, you can customize your form to your liking. Click the %s button alongside the CF7 form tag buttons to automatically generate shortcodes for the different field types."
+msgstr "After that, you can customise your form to your liking. Click the %s button alongside the CF7 form tag buttons to automatically generate shortcodes for the different field types."
+
+#: admin/cf7-material-design-page.php:172
+msgid "Save and preview the page."
+msgstr "Save and preview the page."
+
+#: admin/cf7-material-design-page.php:171
+msgid "Copy your form shortcode (under the form title) and paste it into a page (or post, widget, etc)."
+msgstr "Copy your form shortcode (under the form title) and paste it into a page (or post, widget, etc)."
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:169
+msgid "Delete everything from the form editor, and instead copy the example form code from the %s meta-box into the editor."
+msgstr "Delete everything from the form editor, and instead copy the example form code from the %s meta-box into the editor."
+
+#: admin/cf7-material-design-page.php:168
+msgid "Add a new form"
+msgstr "Add a new form"
+
+#: admin/cf7-material-design-page.php:164
+msgid "Fastest track to a working form"
+msgstr "Fastest track to a working form"
+
+#: admin/cf7-material-design-page.php:163
+msgid "Quick Start"
+msgstr "Quick Start"
+
+#: admin/cf7-material-design-page.php:160
+msgid "This plugin provides a set of shortcodes that wrap your existing Contact Form 7 form tags in the form editor. When you wrap a form tag in one of these shortcodes, its output is changed to Material Design."
+msgstr "This plugin provides a set of shortcodes that wrap your existing Contact Form 7 form tags in the form editor. When you wrap a form tag in one of these shortcodes, its output is changed to Material Design."
+
+#: admin/cf7-material-design-page.php:159
+msgid "Getting Started"
+msgstr "Getting Started"
+
+#. translators: %1$s: "Material Design for Contact Form 7", %2$s: "Material
+#. Design"
+#: admin/cf7-material-design-page.php:154
+msgid "%1$s lets you style your forms with Google's %2$s"
+msgstr "%1$s lets you style your forms with Google's %2$s"
+
+#: admin/cf7-material-design-page.php:150
+msgid "Thanks for installing!"
+msgstr "Thanks for installing!"
+
+#. translators: %s: "Material Design"
+#: admin/cf7-material-design-page.php:118
+#: admin/cf7-material-design-page.php:170
+msgid "Save"
+msgstr "Save"
+
+#: admin/cf7-material-design-page.php:114
+msgid "If you liked the old styles better than the new styles, you can reactivate the switch above to continue to use the old styles and v1 plugin code. Note though that v1 will not receive updates other than bug fixes, and v1 is not translated."
+msgstr "If you liked the old styles better than the new styles, you can reactivate the switch above to continue to use the old styles and v1 plugin code. Note though that v1 will not receive updates other than bug fixes, and v1 is not translated."
+
+#: admin/cf7-material-design-page.php:113
+msgid "Once you've turned off the switch above, check that your forms all still look and function as you'd expect. If you think there's a bug, please post a message in the support forum."
+msgstr "Once you've turned off the switch above, check that your forms all still look and function as you'd expect. If you think there's a bug, please post a message in the support forum."
+
+#: admin/cf7-material-design-page.php:111
+msgid "You now have the option to use the outlined variants of text and select fields instead of the default boxed variant."
+msgstr "You now have the option to use the outlined variants of text and select fields instead of the default boxed variant."
+
+#: admin/cf7-material-design-page.php:110
+msgid "Radio fields can no longer be turned into switches, only checkboxes can be switches."
+msgstr "Radio fields can no longer be turned into switches, only checkboxes can be switches."
+
+#: admin/cf7-material-design-page.php:109
+msgid "The font-size settings in the customizer work slightly differently, as the new material fields cannot be easily resized, only the text around them will be resized."
+msgstr "The font-size settings in the customiser work slightly differently, as the new material fields cannot be easily resized, only the text around them will be resized."
+
+#: admin/cf7-material-design-page.php:107
+msgid "If you're upgrading from version 1 of this plugin, there are a few things you should know before moving to the new styles."
+msgstr "If you're upgrading from version 1 of this plugin, there are a few things you should know before moving to the new styles."
+
+#: admin/cf7-material-design-page.php:106
+msgid "Upgrading from version 1"
+msgstr "Upgrading from version 1"
+
+#: admin/cf7-material-design-page.php:102
+msgid "Material Design was recently updated to use boxed and outlined fields, rather than the classic underlined fields. This is a large design and code change. Activating legacy styles will force the plugin to use the legacy code for underlined fields. This is a site-wide setting."
+msgstr "Material Design was recently updated to use boxed and outlined fields, rather than the classic underlined fields. This is a large design and code change. Activating legacy styles will force the plugin to use the legacy code for underlined fields. This is a site-wide setting."
+
+#: admin/cf7-material-design-page.php:99
+msgid "Use legacy styles"
+msgstr "Use legacy styles"
+
+#: admin/cf7-material-design-page.php:90
+msgid "Legacy styles"
+msgstr "Legacy styles"
+
+#: admin/cf7-material-design-page.php:85
+msgid "Plugin Settings"
+msgstr "Plugin Settings"
+
+#. translators: %1$s: "all" or a fraction like "half", %2$s: screen size
+#. (mobile, tablet, desktop)
+#: admin/cf7-material-design-shortcode-generator.php:620
+msgid "This element will occupy %1$s of the available horizontal space on %2$s screens."
+msgstr "This element will occupy %1$s of the available horizontal space on %2$s screens."
+
+#: admin/cf7-material-design-admin.php:228
+#: admin/cf7-material-design-shortcode-generator.php:608
+msgid "Upgrade Now"
+msgstr "Upgrade Now"
+
+#: admin/cf7-material-design-shortcode-generator.php:607
+msgid "Layout attributes are a pro feature."
+msgstr "Layout attributes are a pro feature."
+
+#: admin/cf7-material-design-shortcode-generator.php:603
+msgid "Layout attributes let you organize your form fields into columns. You can control how wide each field is on mobile, tablet and large screens."
+msgstr "Layout attributes let you organise your form fields into columns. You can control how wide each field is on mobile, tablet and large screens."
+
+#: admin/cf7-material-design-shortcode-generator.php:602
+msgid "Layout Attributes"
+msgstr "Layout Attributes"
+
+#: admin/cf7-material-design-shortcode-generator.php:595
+msgid "large"
+msgstr "large"
+
+#. translators: tablet as in ipad
+#: admin/cf7-material-design-shortcode-generator.php:590
+msgid "tablet-sized"
+msgstr "tablet-sized"
+
+#. translators: mobile as in cell phone
+#: admin/cf7-material-design-shortcode-generator.php:586
+msgid "mobile-sized"
+msgstr "mobile-sized"
+
+#: admin/cf7-material-design-shortcode-generator.php:461
+msgid "to use this feature."
+msgstr "to use this feature."
+
+#: admin/cf7-material-design-shortcode-generator.php:461
+msgid "Upgrade to pro"
+msgstr "Upgrade to pro"
+
+#: admin/cf7-material-design-shortcode-generator.php:422
+msgid "Help"
+msgstr "Help"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:416
+msgid "%s shortcodes go here"
+msgstr "%s shortcodes go here"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:409
+msgid "Fixes layout for non-immediate children of %s or %s."
+msgstr "Fixes layout for non-immediate children of %s or %s."
+
+#: admin/cf7-material-design-shortcode-generator.php:406
+msgid "Grid"
+msgstr "Grid"
+
+#: admin/cf7-material-design-shortcode-generator.php:398
+msgid "any raw html or miscellaneous elements go here"
+msgstr "any raw html or miscellaneous elements go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:395
+msgid "Wraps html or any miscellaneous elements."
+msgstr "Wraps html or any miscellaneous elements."
+
+#: admin/cf7-material-design-shortcode-generator.php:394
+msgid "Raw"
+msgstr "Raw"
+
+#. translators: %s: shortcode type
+#: admin/cf7-material-design-shortcode-generator.php:384
+msgid "one or more %s shortcodes or other elements go here"
+msgstr "one or more %s shortcodes or other elements go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:377
+msgid "Larger title"
+msgstr "Larger title"
+
+#: admin/cf7-material-design-shortcode-generator.php:376
+msgid "Title size"
+msgstr "Title size"
+
+#: admin/cf7-material-design-shortcode-generator.php:370
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: admin/cf7-material-design-shortcode-generator.php:364
+msgid "Title"
+msgstr "Title"
+
+#: admin/cf7-material-design-shortcode-generator.php:358
+msgid "Group elements into sections with cards."
+msgstr "Group elements into sections with cards."
+
+#: admin/cf7-material-design-shortcode-generator.php:357
+msgid "Card"
+msgstr "Card"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:348
+msgid "one or more %s or %s form tags go here"
+msgstr "one or more %s or %s form tags go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:339
+msgid "Unelevated"
+msgstr "Unelevated"
+
+#: admin/cf7-material-design-shortcode-generator.php:338
+msgid "Raised"
+msgstr "Raised"
+
+#: admin/cf7-material-design-shortcode-generator.php:335
+msgid "Button style"
+msgstr "Button style"
+
+#: admin/cf7-material-design-shortcode-generator.php:324
+msgid "Submit"
+msgstr "Submit"
+
+#: admin/cf7-material-design-shortcode-generator.php:309
+msgid "Captcha"
+msgstr "Captcha"
+
+#: admin/cf7-material-design-shortcode-generator.php:299
+msgid "This label will appear above the field. The quiz question will appear in the floating label."
+msgstr "This label will appear above the field. The quiz question will appear in the floating label."
+
+#: admin/cf7-material-design-shortcode-generator.php:290
+msgid "Wraps your quiz form tags."
+msgstr "Wraps your quiz form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:289
+msgid "Quiz"
+msgstr "Quiz"
+
+#: admin/cf7-material-design-shortcode-generator.php:277
+msgid "Button text"
+msgstr "Button text"
+
+#: admin/cf7-material-design-shortcode-generator.php:272
+msgid "The text shown before a file is chosen."
+msgstr "The text shown before a file is chosen."
+
+#: admin/cf7-material-design-shortcode-generator.php:270
+msgid "No file text"
+msgstr "No file text"
+
+#. translators: As in a file on your computer
+#: admin/cf7-material-design-shortcode-generator.php:264
+msgid "Wraps your file upload form tags."
+msgstr "Wraps your file upload form tags."
+
+#. translators: As in a file on your computer
+#: admin/cf7-material-design-shortcode-generator.php:263
+msgid "File"
+msgstr "File"
+
+#: admin/cf7-material-design-shortcode-generator.php:251
+msgid "The terms to which the user must agree. NOTE: If the CF7 acceptance tag has content, that content will override this terms attribute."
+msgstr "The terms to which the user must agree. NOTE: If the CF7 acceptance tag has content, that content will override this terms attribute."
+
+#. translators: As in terms and conditions
+#: admin/cf7-material-design-shortcode-generator.php:249
+msgid "Terms"
+msgstr "Terms"
+
+#: admin/cf7-material-design-shortcode-generator.php:238
+msgid "Acceptance"
+msgstr "Acceptance"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:225
+msgid "Turn %s into switches."
+msgstr "Turn %s into switches."
+
+#. translators: As in switch form control
+#: admin/cf7-material-design-shortcode-generator.php:222
+msgid "Switch"
+msgstr "Switch"
+
+#. translators: As in radio button form control
+#: admin/cf7-material-design-shortcode-generator.php:207
+msgid "Radio"
+msgstr "Radio"
+
+#: admin/cf7-material-design-shortcode-generator.php:192
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:180
+msgid "Wraps your %s and %s form tags."
+msgstr "Wraps your %s and %s form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:177
+msgid "Select"
+msgstr "Select"
+
+#: admin/cf7-material-design-shortcode-generator.php:165
+msgid "Automatically expand as the user types"
+msgstr "Automatically expand as the user types"
+
+#: admin/cf7-material-design-shortcode-generator.php:164
+msgid "Autosize"
+msgstr "Autosize"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:156
+#: admin/cf7-material-design-shortcode-generator.php:195
+#: admin/cf7-material-design-shortcode-generator.php:210
+#: admin/cf7-material-design-shortcode-generator.php:241
+#: admin/cf7-material-design-shortcode-generator.php:312
+#: admin/cf7-material-design-shortcode-generator.php:327
+msgid "Wraps your %s form tags."
+msgstr "Wraps your %s form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:153
+msgid "Text area"
+msgstr "Text area"
+
+#. translators: %s: form tag type
+#: admin/cf7-material-design-shortcode-generator.php:141
+msgid "Wraps %s, %s, %s, %s, %s and %s form tags."
+msgstr "Wraps %s, %s, %s, %s, %s and %s form tags."
+
+#: admin/cf7-material-design-shortcode-generator.php:138
+msgid "Text"
+msgstr "Text"
+
+#: admin/cf7-material-design-shortcode-generator.php:130
+msgid "Reduce the vertical spacing between items?"
+msgstr "Reduce the vertical spacing between items?"
+
+#. translators: As in close-together
+#: admin/cf7-material-design-shortcode-generator.php:128
+msgid "Tight"
+msgstr "Tight"
+
+#: admin/cf7-material-design-shortcode-generator.php:127
+msgid "Spacing"
+msgstr "Spacing"
+
+#: admin/cf7-material-design-shortcode-generator.php:122
+msgid "The dark theme is useful when your form is on a dark background"
+msgstr "The dark theme is useful when your form is on a dark background"
+
+#: admin/cf7-material-design-shortcode-generator.php:120
+msgid "Dark"
+msgstr "Dark"
+
+#: admin/cf7-material-design-shortcode-generator.php:119
+msgid "Theme"
+msgstr "Theme"
+
+#: admin/cf7-material-design-shortcode-generator.php:114
+msgid "all your other form tags and shortcodes go here"
+msgstr "all your other form tags and shortcodes go here"
+
+#: admin/cf7-material-design-shortcode-generator.php:111
+msgid "Wraps your entire form."
+msgstr "Wraps your entire form."
+
+#: admin/cf7-material-design-shortcode-generator.php:110
+msgid "Form"
+msgstr "Form"
+
+#: admin/cf7-material-design-shortcode-generator.php:97
+msgid "How many columns out of 4 should this element occupy on mobile-sized screens?"
+msgstr "How many columns out of 4 should this element occupy on mobile-sized screens?"
+
+#: admin/cf7-material-design-shortcode-generator.php:96
+msgid "Mobile width"
+msgstr "Mobile width"
+
+#. translators: As in iPad
+#: admin/cf7-material-design-shortcode-generator.php:89
+msgid "How many columns out of 8 should this element occupy on tablet-sized screens?"
+msgstr "How many columns out of 8 should this element occupy on tablet-sized screens?"
+
+#. translators: As in iPad
+#: admin/cf7-material-design-shortcode-generator.php:88
+msgid "Tablet width"
+msgstr "Tablet width"
+
+#. translators: As in laptop
+#: admin/cf7-material-design-shortcode-generator.php:81
+msgid "How many columns out of 12 should this element occupy on large screens?"
+msgstr "How many columns out of 12 should this element occupy on large screens?"
+
+#. translators: As in laptop
+#: admin/cf7-material-design-shortcode-generator.php:80
+msgid "Desktop width"
+msgstr "Desktop width"
+
+#. translators: As in layout
+#: admin/cf7-material-design-shortcode-generator.php:74
+msgid "Display"
+msgstr "Display"
+
+#. translators: As in side-by-side
+#: admin/cf7-material-design-shortcode-generator.php:70
+#: admin/cf7-material-design-shortcode-generator.php:71
+#: admin/cf7-material-design-shortcode-generator.php:72
+msgid "Columns"
+msgstr "Columns"
+
+#. translators: As in side-by-side
+#: admin/cf7-material-design-shortcode-generator.php:69
+msgid "Inline"
+msgstr "Inline"
+
+#. translators: As in vertical
+#: admin/cf7-material-design-shortcode-generator.php:68
+msgid "Stacked"
+msgstr "Stacked"
+
+#: admin/cf7-material-design-shortcode-generator.php:61
+msgid "Use outlined variant"
+msgstr "Use outlined variant"
+
+#: admin/cf7-material-design-shortcode-generator.php:60
+#: admin/cf7-material-design-shortcode-generator.php:340
+msgid "Outlined"
+msgstr "Outlined"
+
+#. translators: %1$s hyperlink, %2$s: "Material Design", %3$s: end of
+#. hyperlink, %4$s: Icon name
+#: admin/cf7-material-design-shortcode-generator.php:48
+msgid "Optionally enter the name of a %1$s %2$s Icon%3$s. E.g. <code>%4$s</code>."
+msgstr "Optionally enter the name of a %1$s %2$s Icon%3$s. E.g. <code>%4$s</code>."
+
+#: admin/cf7-material-design-shortcode-generator.php:44
+msgid "Icon"
+msgstr "Icon"
+
+#: admin/cf7-material-design-shortcode-generator.php:38
+msgid "This will appear below the field"
+msgstr "This will appear below the field"
+
+#: admin/cf7-material-design-shortcode-generator.php:37
+msgid "Help text"
+msgstr "Help text"
+
+#: admin/cf7-material-design-shortcode-generator.php:31
+#: admin/cf7-material-design-shortcode-generator.php:297
+msgid "Label"
+msgstr "Label"
+
+#. translators: 1: plugin name(s).
+#: cf7-material-design.php:116
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with Material Design for Contact Form 7: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this Material Design for Contact Form 7: %1$s."
+msgstr[0] "The following plugin needs to be updated to its latest version to ensure maximum compatibility with Material Design for Contact Form 7: %1$s."
+msgstr[1] "The following plugins need to be updated to their latest version to ensure maximum compatibility with this Material Design for Contact Form 7: %1$s."
+
+#. translators: 1: plugin name(s).
+#: cf7-material-design.php:110
+msgid "Material Design for Contact Form 7 recommends the following plugin: %1$s."
+msgid_plural "Material Design for Contact Form 7 recommends the following plugins: %1$s."
+msgstr[0] "Material Design for Contact Form 7 recommends the following plugin: %1$s."
+msgstr[1] "Material Design for Contact Form 7 recommends the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: cf7-material-design.php:104
+msgid "Material Design for Contact Form 7 requires the following plugin: %1$s."
+msgid_plural "Material Design for Contact Form 7 requires the following plugins: %1$s."
+msgstr[0] "Material Design for Contact Form 7 requires the following plugin: %1$s."
+msgstr[1] "Material Design for Contact Form 7 requires the following plugins: %1$s."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Show Details"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Updating Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "No plugins are available to be activated at this time."
+
+#: class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No plugins were selected to be activated. No action taken."
+
+#: class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "No plugins are available to be updated at this time."
+
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No plugins were selected to be updated. No action taken."
+
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No plugins were selected to be installed. No action taken."
+
+#: class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Activate"
+
+#: class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Update"
+
+#: class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Install"
+
+#: class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade message from the plugin author:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr "Activate %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr "Update %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr "Install %2$s"
+
+#: class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Version"
+
+#: class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Type"
+
+#: class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Source"
+
+#: class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "No plugins to install, update or activate."
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Available version:"
+
+#: class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minimum required version:"
+
+#: class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Installed version:"
+
+#: class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unknown"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "To Activate <span class=\"count\">(%s)</span>"
+msgstr[1] "To Activate <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update Available <span class=\"count\">(%s)</span>"
+msgstr[1] "Update Available <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "To Install <span class=\"count\">(%s)</span>"
+msgstr[1] "To Install <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "All <span class=\"count\">(%s)</span>"
+msgstr[1] "All <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Update recommended"
+
+#: class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Requires Update"
+
+#: class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Required Update not Available"
+
+#: class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Active"
+
+#: class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Prepackaged"
+
+#: class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "External Source"
+
+#: class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Recommended"
+
+#: class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Required"
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:1214 class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "and"
+
+#: class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+
+#: class-tgm-plugin-activation.php:1027 class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+
+#: class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Set the parent_slug config variable instead."
+
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Update Required"
+
+#: class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "This plugin needs to be updated to be compatible with your theme."
+
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Please contact the administrator of this site for help."
+
+#: class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "There are one or more required or recommended plugins to install, update or activate."
+
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No action taken. Plugin %1$s was already active."
+
+#: class-tgm-plugin-activation.php:395 class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "The following plugin was activated successfully:"
+msgstr[1] "The following plugins were activated successfully:"
+
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
+#: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin activating plugin"
+msgstr[1] "Begin activating plugins"
+
+#: class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Begin updating plugin"
+msgstr[1] "Begin updating plugins"
+
+#: class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugin"
+msgstr[1] "Begin installing plugins"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "The following recommended plugin is currently inactive: %1$s."
+msgstr[1] "The following recommended plugins are currently inactive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "The following required plugin is currently inactive: %1$s."
+msgstr[1] "The following required plugins are currently inactive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "There is an update available for: %1$s."
+msgstr[1] "There are updates available for the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[1] "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "This theme recommends the following plugin: %1$s."
+msgstr[1] "This theme recommends the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "This theme requires the following plugin: %1$s."
+msgstr[1] "This theme requires the following plugins: %1$s."
+
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Updating Plugin: %s"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: class-tgm-plugin-activation.php:335 cf7-material-design.php:103
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: class-tgm-plugin-activation.php:334 cf7-material-design.php:102
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/contactform7addons/"
+msgstr "https://profiles.wordpress.org/contactform7addons/"
+
+#. Description of the plugin
+msgid "Add Google's Material Design to your Contact Form 7 forms"
+msgstr "Add Google's Material Design to your Contact Form 7 forms"
+
+#. Plugin URI of the plugin
+msgid "https://cf7materialdesign.com"
+msgstr "https://cf7materialdesign.com"
+
+#. Plugin Name of the plugin
+msgid "Material Design for Contact Form 7"
+msgstr "Material Design for Contact Form 7"

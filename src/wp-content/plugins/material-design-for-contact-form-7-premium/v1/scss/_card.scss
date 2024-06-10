@@ -1,0 +1,20 @@
+.mdc-card {
+    background: #FFF;
+    .mdc-theme--dark & {
+        background: rgba(255,255,255,0.15);
+    }
+}
+.mdc-card__media--img {
+    padding: 0;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.cf7md-card-content {
+    padding-bottom: 0 !important;
+    p {
+        margin: 16px 0;
+    }
+}

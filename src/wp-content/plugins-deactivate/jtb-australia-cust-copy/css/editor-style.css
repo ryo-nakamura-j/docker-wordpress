@@ -1,0 +1,164 @@
+/*
+Theme Name: Tourplan
+Description: Used to style the TinyMCE editor.
+*/
+ 
+i.material-icons{display: inherit;}
+.green-text {color:#1A900A;}
+.red-text {color:#D40808;}
+.orange-text {color:#FF8300;}
+.blue-text {color:#1E97D7;}
+.pink-text {color:#e83595;}
+.red-text {color:#c00;}
+.stamp-text{font-family: "Black Ops One";}
+p.cent,h1.cent,h2.cent,h3.cent{text-align: center; }
+.yellow-message, .green-message,.red-message,.teal-message{
+color: #272727;
+border: solid 1px #f5e89f;
+background-color: #FFFFC2;
+padding: 10px 10px 10px 10px;
+margin: 15px auto;
+font-weight: 500;
+line-height: 1.6em;
+display:table;
+background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_error_outline_black_24px-orange.svg');
+background-repeat: no-repeat;
+background-position: 11px 7px;
+clear:left;
+text-indent: 33px;
+}
+
+.yellow-message p, .green-message p,.red-message p,.teal-message p{margin: 0;padding: 0;position: relative;top: 3px;}
+.green-message{border: solid 1px #b4c7ae; background-color: #E9F6E5;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_assistant_black_24px-green.svg');}
+.red-message{border: solid 1px #d08d8d; background-color: #F8D9DB;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_report_problem_black_24px-red.svg');}
+.teal-message{border: solid 1px #8db7d0; background-color: #d9f2f8;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_star_border_black_24px.svg');} 
+
+ul.green-message{margin: 15px 35px;text-indent: inherit;}
+ul.green-message h3{line-height: 1em;color: #000000;}
+
+
+
+/*
+NEW LOOK CSS 
+*/
+/*H4 pink*/
+h4.accent-color{color: #b61d8d; font-weight: bold;}
+/* bold red */
+strong.accent-color{color: #ed1c24;}
+
+a.btnLarge{
+background-color: #3F5371;
+color: #fff ;
+padding: 8px 40px;
+text-decoration: none;
+cursor: default;
+display: inline-block;
+}
+
+/* pink box label*/
+p.colored-box{background-color: #b374ac; padding: 8px; color: #fff; width: auto; display: table;}
+
+/*information box - grey header - may not use in the final site*/
+table.info-box{width:100%;padding:0;margin: 15px 0;}
+table.info-box td{    border: 1px solid black;    padding: 5px 8px 5px 3px;}
+table.info-box thead{background: #cacaca; padding: 10px; color: #000000;   }
+table.info-box thead td{border:none;padding: 10px;font-weight: bold;}
+
+p.right-side-image{border: none;float:right;padding: 0px 0px 15px 15px;position: relative; }
+h3.right-side-price{width: 320px;float:right;padding: 0px 0px 15px 15px;position: relative; height:auto;text-align: right;}
+p.right-side-image-no-pad{border: none;float:right;padding: 0px 0px 0px 15px;position: relative; }
+
+/*itinerary section*/
+table.itinerary{width: 100%;padding:0 15px;margin: 15px 0; position: relative;    min-height: 1px;   line-height: 1.42857143; color: #333; }
+table.itinerary{position: relative;}
+table.itinerary table {width: 72%; margin-bottom: 15px;}
+table.itinerary table tr {  display: table; width: 100%;}
+
+table.itinerary table table {width:100%;margin-bottom: 15px;padding-top: 0;margin-top: 0 !important; width:100%;  color: #000000;      border: 2px solid #455BAD; border-top: none;     margin-bottom: 10px;}
+
+table.itinerary table table tr{padding: 1px 3px;display: flex;}
+
+table.itinerary table table tfoot tr{   border: 2px solid #f99d1c; border-top: none;  }
+
+
+.newlookcss table.itinerary table {width: 100%; margin-bottom: 10px;}
+
+td.bluetable{width:18%;background-color:#A4C7E0;font-weight: bold;color: #484848;}
+
+/*only for editor*/
+ 
+
+
+/*
+NEW LOOK CSS 
+*/
+
+hr.redbar{border-top: 4px solid #E00011;width:100%;}
+
+table.remarks{width: 100%; border: 1px solid #cccccc; height: 230px; overflow-y: scroll; padding: 10px 2% 25px 2%;display: block;}
+table.floatimagebanner{width:100%;position: relative;}
+img.headerbanner{max-width: 100%;width:100%;  height: auto;  border-top: 4px solid #E00011;}
+
+table.redupperlower{border-top: 4px solid #E00011;    width: 100%;    border-bottom: 4px solid #E00011;margin-bottom: 10px;}
+  table.specialitineraryday{background-color: #ccc;}
+
+  td.border-left {
+    border-left: 1px solid #ccc !important;
+}
+
+
+.newlookcss ul.tour-inclusion-and-images ul{background:#E6F3FD !important;}
+
+table.product-list-page{background-color: #dadada;}
+table.product-list-page table{ width: 55%;}
+
+ul.image-gallery{width: 100%;background-color: #dadada;}
+
+
+img.width-fifth{width: 20%;padding: 15px 1% 15px 0;height: auto;margin:0;}
+img.width-fourth{width: 25%;padding: 15px 1% 15px 0;height: auto;margin:0;}
+.center{width: 100%;text-align: center;}
+table.fullwidth{width: 100%;}
+
+ul.icons{background-color: #ccc;}
+table.colortable{    width: 101%;}
+table.colortable td{
+	    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 7px #fff; 
+}
+
+td.blue{background: #b9d4ef; text-align: center; color:#2c95ca }
+td.darkblue{background: #008dd2; text-align: center; color: #fff; }
+td.pink{background: #f6cadb;  }
+td.grey{background: #c9c9c9; text-align: center; }
+td.silver{background: #efefef; text-align: center; }
+td.red{background: #c00;   color:#fff;text-align: center;}
+td.green{background: #0aa009;   color:#fff;text-align: center;}
+table.nopadbottom{padding-bottom: 0;margin-bottom: 0;}
+
+span.h3-styling{font-size: 24px;font-family: "Montserrat",sans-serif;}
+
+td.width18pcnt{width: 18%;}
+hr.width100{width: 100%;}
+
+h1.europamundo,h2.europamundo,h3.europamundo,h4.europamundo{
+color: #818284;
+font-weight: bolder;
+
+}
+h1.europamundo i,h2.europamundo i,h3.europamundo i,h4.europamundo i,h1.europamundo em,h2.europamundo em,h3.europamundo em,h4.europamundo em{
+color: #818284;
+font-size: 0.5em;
+position: relative;top: -11px;
+	font-style: normal;   
+}
+
+table.cruise{font-size: 90%;}
+td.head{background-color: #5ca5da;color:#fff;}
+td.border{border-bottom: solid 1px #ccc;}
+
+table.quad-split{width: 100%;}
+
+table.has-border-only{width: 96%;padding: 2%;margin:20px 0;border:1px solid #686868; }

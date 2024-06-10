@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'spfont';
+    src: url('../fonts/spfont.eot?54747913');
+    src: url('../fonts/spfont.eot?54747913#iefix') format('embedded-opentype'),
+    url('../fonts/spfont.woff?54747913') format('woff'),
+    url('../fonts/spfont.ttf?54747913') format('truetype'),
+    url('../fonts/spfont.svg?54747913#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="sp-pc-icon-"]:before, [class*=" sp-pc-icon-"]:before {
+    font-family: "spfont";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.sp-pc-icon-wrench:before { content: '\e800'; } /* '' */
+.sp-pc-icon-font:before { content: '\e801'; } /* '' */
+.sp-pc-icon-user:before { content: '\e802'; } /* '' */
+.sp-pc-icon-clock:before { content: '\e803'; } /* '' */
+.sp-pc-icon-angle-left:before { content: '\f104'; } /* '' */
+.sp-pc-icon-angle-right:before { content: '\f105'; } /* '' */
+.sp-pc-icon-rocket:before { content: '\f135'; } /* '' */
+.sp-pc-icon-doc-text-inv:before { content: '\f15c'; } /* '' */
+.sp-pc-icon-bug:before { content: '\f188'; } /* '' */
+.sp-pc-icon-lifebuoy:before { content: '\f1cd'; } /* '' */
+.sp-pc-icon-sliders:before { content: '\f1de'; } /* '' */
+.sp-pc-icon-brush:before { content: '\f1fc'; } /* '' */

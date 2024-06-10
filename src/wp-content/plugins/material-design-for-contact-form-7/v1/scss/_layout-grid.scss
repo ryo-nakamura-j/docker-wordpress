@@ -1,0 +1,32 @@
+.mdc-layout-grid {
+    padding: 0;
+    margin: 0 -8px;
+}
+@supports (display: grid) or (display: -ms-grid) {
+    .mdc-layout-grid {
+        margin: 0;
+        grid-gap: 0 16px; // Remove vertical grid item gap
+    }
+}
+
+// Full width any non- material design children
+.mdc-layout-grid {
+    > div,
+    > table,
+    > p,
+    > ul,
+    > ol {
+        &:not(.mdc-layout-grid__cell) {
+            grid-column-end: span 4;
+            @media screen and (min-width: 480px) {
+                grid-column-end: span 8;
+            }
+            @media screen and (min-width: 840px) {
+                grid-column-end: span 12;
+            }
+        }
+    }
+    > br {
+        display: none;
+    }
+}

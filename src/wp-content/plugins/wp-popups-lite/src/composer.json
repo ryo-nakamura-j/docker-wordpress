@@ -1,0 +1,32 @@
+{
+  "name": "timersys/wppopups",
+  "description": "WordPress Popup plugin - The easiest way to make a popup in WordPress ",
+  "homepage": "https://wppopups.com",
+  "keywords": [
+    "wordpress","popups","popup","wordpress popup","plugin"
+  ],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name":"Damian Logghe",
+      "email":"damian@timersys.com",
+      "homepage":"https://timersys.com/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "type": "wordpress-plugin",
+  "require": {
+    "jaybizzle/crawler-detect": "1.*",
+    "mobiledetect/mobiledetectlib": "^2.8"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.5.2",
+    "wp-coding-standards/wpcs": "2.2.0"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6.1"
+    }
+  }
+}

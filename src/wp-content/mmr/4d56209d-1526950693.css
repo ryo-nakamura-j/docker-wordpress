@@ -1,0 +1,1727 @@
+/*! jQuery Timepicker Addon - v1.4.1 - 2013-10-23
+* http://trentrichardson.com/examples/timepicker
+* Copyright (c) 2013 Trent Richardson; Licensed MIT */
+
+.ui-timepicker-div .ui-widget-header{margin-bottom:8px}.ui-timepicker-div dl{text-align:left}.ui-timepicker-div dl dt{float:left;clear:left;padding:0 0 0 5px}.ui-timepicker-div dl dd{margin:0 10px 10px 40%}.ui-timepicker-div td{font-size:90%}.ui-tpicker-grid-label{background:0;border:0;margin:0;padding:0}.ui-timepicker-rtl{direction:rtl}.ui-timepicker-rtl dl{text-align:right;padding:0 5px 0 0}.ui-timepicker-rtl dl dt{float:right;clear:right}.ui-timepicker-rtl dl dd{margin:0 40% 10px 10px}
+/*
+Theme Name: Tourplan
+Description: Used to style the TinyMCE editor.
+*/
+ 
+i.material-icons{display: inherit;}
+.green-text {color:#1A900A;}
+.red-text {color:#D40808;}
+.orange-text {color:#FF8300;}
+.blue-text {color:#1E97D7;}
+.pink-text {color:#e83595;}
+.red-text {color:#c00;}
+.yellow-message, .green-message,.red-message,.teal-message{
+color: #272727;
+border: solid 1px #f5e89f;
+background-color: #FFFFC2;
+padding: 10px 10px 10px 10px;
+margin: 15px auto;
+font-weight: 500;
+line-height: 1.6em;
+display:table;
+background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_error_outline_black_24px-orange.svg');
+background-repeat: no-repeat;
+background-position: 11px 7px;
+clear:left;
+text-indent: 33px;
+}
+
+.yellow-message p, .green-message p,.red-message p,.teal-message p{margin: 0;padding: 0;position: relative;top: 3px;}
+.green-message{border: solid 1px #b4c7ae; background-color: #E9F6E5;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_assistant_black_24px-green.svg');}
+.red-message{border: solid 1px #d08d8d; background-color: #F8D9DB;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_report_problem_black_24px-red.svg');}
+.teal-message{border: dashed 1px #8db7d0; background-color: #d9f2f8;background-image: url('https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_star_border_black_24px.svg');} 
+
+ul.green-message{margin: 15px 35px;text-indent: inherit;}
+ul.green-message h3{line-height: 1em;color: #000000;}
+
+
+
+/*
+NEW LOOK CSS 
+*/
+/*H4 pink*/
+h4.accent-color{color: #b61d8d; font-weight: bold;}
+/* bold red */
+strong.accent-color{color: #ed1c24;}
+
+a.btnLarge{
+background-color: #3F5371;
+color: #fff ;
+padding: 8px 40px;
+text-decoration: none;
+cursor: default;
+display: inline-block;
+}
+
+/* pink box label*/
+p.colored-box{background-color: #b374ac; padding: 8px; color: #fff; width: auto; display: table;}
+
+/*information box - grey header - may not use in the final site*/
+table.info-box{width:100%;padding:0;margin: 15px 0;}
+table.info-box td{    border: 1px solid black;    padding: 5px 8px 5px 3px;}
+table.info-box thead{background: #cacaca; padding: 10px; color: #000000;   }
+table.info-box thead td{border:none;padding: 10px;font-weight: bold;}
+
+p.right-side-image{border: none;float:right;padding: 0px 0px 15px 15px;position: relative; }
+h3.right-side-price{width: 320px;float:right;padding: 0px 0px 15px 15px;position: relative; height:auto;text-align: right;}
+p.right-side-image-no-pad{border: none;float:right;padding: 0px 0px 0px 15px;position: relative; }
+
+/*itinerary section*/
+table.itinerary{width: 100%;padding:0 15px;margin: 15px 0; position: relative;    min-height: 1px;   line-height: 1.42857143; color: #333; }
+table.itinerary{position: relative;}
+table.itinerary table {width: 72%; margin-bottom: 15px;}
+table.itinerary table tr {  display: table; width: 100%;}
+
+table.itinerary table table {width:100%;margin-bottom: 15px;padding-top: 0;margin-top: 0 !important; width:100%;  color: #000000;      border: 2px solid #455BAD; border-top: none;     margin-bottom: 10px;}
+
+table.itinerary table table tr{padding: 1px 3px;display: flex;}
+
+table.itinerary table table tfoot tr{   border: 2px solid #f99d1c; border-top: none;  }
+
+
+.newlookcss table.itinerary table {width: 100%; margin-bottom: 10px;}
+
+td.bluetable{width:18%;background-color:#A4C7E0;font-weight: bold;color: #484848;}
+
+/*only for editor*/
+ 
+
+
+/*
+NEW LOOK CSS 
+*/
+
+hr.redbar{border-top: 4px solid #E00011;width:100%;}
+
+table.remarks{width: 100%; border: 1px solid #cccccc; height: 230px; overflow-y: scroll; padding: 10px 2% 25px 2%;display: block;}
+table.floatimagebanner{width:100%;position: relative;}
+img.headerbanner{max-width: 100%;width:100%;  height: auto;  border-top: 4px solid #E00011;}
+
+table.redupperlower{border-top: 4px solid #E00011;    width: 100%;    border-bottom: 4px solid #E00011;margin-bottom: 10px;}
+  table.specialitineraryday{background-color: #ccc;}
+
+  td.border-left {
+    border-left: 1px solid #ccc !important;
+}
+
+
+.newlookcss ul.tour-inclusion-and-images ul{background:#E6F3FD !important;}
+
+table.product-list-page{background-color: #dadada;}
+table.product-list-page table{ width: 55%;}
+
+ul.image-gallery{width: 100%;background-color: #dadada;}
+
+
+img.width-fifth{width: 20%;padding: 15px 1% 15px 0;height: auto;margin:0;}
+img.width-fourth{width: 25%;padding: 15px 1% 15px 0;height: auto;margin:0;}
+.center{width: 100%;text-align: center;}
+table.fullwidth{width: 100%;}
+
+ul.icons{background-color: #ccc;}
+table.colortable{    width: 101%;}
+table.colortable td{
+	    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 7px #fff; 
+}
+
+td.blue{background: #b9d4ef; text-align: center; color:#2c95ca }
+td.darkblue{background: #008dd2; text-align: center; color: #fff; }
+td.pink{background: #f6cadb;  }
+td.grey{background: #c9c9c9; text-align: center; }
+td.silver{background: #efefef; text-align: center; }
+td.red{background: #c00;   color:#fff;text-align: center;}
+td.green{background: #0aa009;   color:#fff;text-align: center;}
+table.nopadbottom{padding-bottom: 0;margin-bottom: 0;}
+
+span.h3-styling{font-size: 24px;font-family: "Montserrat",sans-serif;}
+
+td.width18pcnt{width: 18%;}
+hr.width100{width: 100%;}
+
+h1.europamundo,h2.europamundo,h3.europamundo,h4.europamundo{
+color: #818284;
+font-weight: bolder;
+
+}
+h1.europamundo i,h2.europamundo i,h3.europamundo i,h4.europamundo i,h1.europamundo em,h2.europamundo em,h3.europamundo em,h4.europamundo em{
+color: #818284;
+font-size: 0.5em;
+position: relative;top: -11px;
+	font-style: normal;   
+}
+
+table.cruise{font-size: 90%;}
+td.head{background-color: #5ca5da;color:#fff;}
+td.border{border-bottom: solid 1px #ccc;}
+
+
+/*
+992 - small
+993 - large
+*/
+
+/*rwc*/
+#menu-item-24725,.rwc-hotdeal{display: none;}
+
+/*TEMP*/
+
+body.page-id-3392 div.pika-lendar div.pika-title div.pika-label select option{position: relative;top: 10px;}
+.mobile_only{display: none;}
+
+
+h1,h2,h3,h4,p,body{color:#7b7b7d;}
+
+body .footer ul li a:link,body .footer ul li a:visited {
+    font-size: 12px;
+    color: #7b7b7d;
+    padding-left: 14px;
+}
+.footer h3{color: #7b7b7d; font-size: 18px;}
+#breadcrumbs a:link,#breadcrumbs a:visited {    color: #7b7b7d;}
+.breadcrumb_last{  color: #333;}
+
+h1,h2,body h1.europamundo, body h2.europamundo {color: #686868;}
+h3,h4,body h3.europamundo, body h4.europamundo {color:#6e6e6e}
+ .width50{position: relative;float: left;width: 48%;padding-left: 1%;padding-right: 1%;}
+.footer-bottom p{color: #fff;}
+.container .brand img{max-width: 100px;}
+.mobileonly{display: none;}
+.unbold{    font-weight: initial;}
+#suzuki-rego-ie,#suzuki-rego-done,.pickupsLabel,.pickupPointsDetail,.page-id-705 h1{display:none;}
+.tab_contents_container table{width: 100%  ;height: initial  ;}
+td.darkblue p,td.green p{    color: #fff;}
+td.blue p{color: #2c95ca;}
+
+/*google material design spinner*/
+.spinner{animation:rotator 1.9s linear infinite;margin:15px
+auto;display:block}
+@keyframes
+rotator{0%{transform:rotate(0deg)}100%{transform:rotate(270deg)}}
+.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:dash 1.9s ease-in-out infinite, colors 6s ease-in-out infinite}
+@keyframes
+colors{0%{stroke:#963f0c}25%{stroke:#f13416}50%{stroke:#F7C223}75%{stroke:#544914}100%{stroke:#482d10}}
+@keyframes
+dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:146;transform:rotate(135deg)}100%{stroke-dashoffset:187;transform:rotate(450deg)}}
+@media  (max-width: 1199px){.navbar-header .navbar-brand{background-size:150px;background-position:35px -2px}}
+/*@media   (max-width: 991px)*/
+
+body #cf7md-form .mdc-textfield__label {
+    color: rgba(0, 0, 0, 0.8);
+    color: var(--mdc-theme-text-hint-on-light, rgba(0, 0, 0, 0.8)); 
+}
+
+form.wpcf7-form{color: rgba(0, 0, 0, 0.8);
+color: var(--mdc-theme-text-hint-on-light, rgba(0, 0, 0, 0.8));}
+
+
+p.right-side-image{max-width: 900px;}
+
+
+
+
+.page-id-3606 #home-slider,.temphide,.parent-pageid-73 .menu-item-5092, .page-id-73 .menu-item-5092,.parent-pageid-20517 .menu-item-5092,body .tickets-second .ribon-red-desktop,.onlyshowie9{display: none;}
+ 
+body input.paymentfield{
+  background-repeat: no-repeat;
+  background-image: url(https://www.nx.jtbtravel.com.au/wp-content/uploads/svg/ic_attach_money_black_24px.svg);
+background-position: 9px 4px;
+    padding-left: 30px;
+    background-size: 20px;
+}
+ 
+.green-message strong, .red-message strong, .yellow-message strong, .green-message b, .red-message b, .yellow-message b{
+  font-weight: 900; 
+}
+
+hr{border-width: 10px;
+    border-color: #f5f3f0;}
+.padbottom{padding-bottom: 25px;}
+.padtop{padding-top: 25px;}
+table{ margin: 15px 0;}
+img{max-width: 100%;height: auto;}
+body, p, p.country-name, p.phone-number, div.secondary-menu, .rss-banner, .four.grid h4, .caption h4, div.caption p, .multi > .flying-text, .price-card-package h1, .terms-conditions, a.more-info, .ticket-product h4, .ryokan-hotel.search #searchparamssection, #tpcartsection, #tpcartsection h3, .non-accommodation_product_result.Rail h1.package-title, h3.rail_pass_title {
+    font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+}
+#content{margin-bottom: 20px;}
+.image3list{display: inline-block;width: 100%;}
+.image3list img{margin-bottom: 10px;}
+.marginboth{margin-top: 10px;}
+
+.terms_and_conditions h4{
+  font-weight: bold;
+  padding: 0.5em;
+  color: #fff;
+  font-size: 18px;
+}
+body .tp-wp-carousel { 
+    border-top: none;
+}
+a:hover,a:active{
+  color:#1d1486;
+}
+h3{margin-top: 10px;}
+
+/*
+NEW LOOK CSS 
+*/
+
+body.page-id-5122 .multi-product{
+  margin-top: 0;margin-bottom: 0;
+}
+
+
+body .tickets-second h3{
+	border-bottom: solid 10px #f5f3f0;
+    list-style: none;
+    margin: 10px 0 15px 0;
+    padding: 0 0 8px;
+}
+
+
+.section-1, .multi-product{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.toggle_section .toggle_section{margin-left: 25px;margin-right: 10px;}
+.fullwidth{width: 100%;}
+.green-text a{color:#1A900A;text-decoration: underline;}
+.red-text a{color:#D40808;text-decoration: underline;}
+.orange-text a{color:#FF8300;text-decoration: underline;}
+.blue-text a{color:#1E97D7;text-decoration: underline;}
+.pink-text a{color:#e83595;text-decoration: underline;}
+h2 .yellow-message, h3 .yellow-message{
+  width: 100%;  background-position: 10px 20px;
+}
+li h2,li h3{padding: 0;margin:0;margin-bottom: 5px;}
+body .hearderwarning{text-align: left;}
+body .hearderwarning p.yellow-message,body .hearderwarning p.red-message,body .hearderwarning p.green-message{
+  position: relative;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    padding: 1px 10px;
+    background-position: 11px 0px;
+    max-width: 100% !important;
+    margin-bottom: 5px;
+}
+body p.thinmessagebox{    float: none;
+    margin: 5px 0;
+    display: inline-block;
+    padding: 2px 10px;
+    background-position: 11px 1px;}
+
+
+
+
+
+
+    
+/*remove editor styles*/
+table.itinerary tbody tr{position: relative;display: block;}
+table.itinerary{background-color:transparent;}
+table.itinerary table{background-color:transparent;margin-top: 0;}
+table.itinerary table table{background-color: transparent;}
+table.itinerary tbody td{    display: table;
+    width: 100%;}
+table.itinerary p.right-side-image{position: absolute;top:0px;right: 0px;width: 33%;}
+table.itinerary p.right-side-image img{position: relative;float: right;width:100%;max-width: 300px;top: 15px;}
+
+table.itinerary p{ line-height: 1.42857143;  }
+
+table.itinerary table tr.classone ul,table.itinerary table tr.classone  ol {width: 100%;padding: 0;margin: 0;background-color: #A4C7E0;height: 22px; list-style: none;  display: flex; text-transform: uppercase;}
+
+table.itinerary table tr.classone   ul li,table.itinerary table  tr.classone  ol li{ font-weight: bold;position: relative;line-height: 25px;}
+/*table.itinerary   tr td{position: relative;}*/
+table.itinerary table tr.classone   ul li.one,table.itinerary table tr.classone   ol li.one{width:30px;text-align: right;  float: left;margin-left: 4px;}
+table.itinerary table  tr.classone  ol li ol li.one{width:auto;text-align: left;  }
+table.itinerary table  tr.classone  ul li.two {width:25px;text-align: left;  float: left;}
+table.itinerary table tr.classone   ol li.two{width:auto;text-align: left;  float: left; margin-left: 4px;}
+table.itinerary table tr.classone   ul li.three{     height: 100%; background: #00924d; width:30px;text-align: center; float: left; }
+table.itinerary table  tr.classone  ul li.four{     height: 100%;background: #f7941e; width:30px;text-align: center; float: left; }
+table.itinerary table tr.classone   ul li.five{     height: 100%; background: #ef3e36; width:30px;text-align: center; float: left; }
+table.itinerary table tr.classone   ul li.six,table.itinerary table tr.classone   ol li ol{width:auto;text-align: left; float: left; margin-left: 15px;}
+table.itinerary table tr.classone   ol li ol{  margin-left: 40px; float:right;}
+table.itinerary table tr.classone   ul li ul{    position: absolute; top: 0px; left: 20px; }
+.deftemplateorange table.itinerary table tr.classone ul, .deftemplateorange table.itinerary table tr.classone ol {
+    background-color: #ffede1; /*orange*/
+}
+.deftemplatepink table.itinerary table tr.classone ul, .deftemplatepink table.itinerary table tr.classone ol {
+    background-color: #f7eaf1; /*pink*/
+}
+.deftemplatepink table.itinerary table table {
+    border: 2px solid #eca2ca;
+}
+.deftemplategreen table.itinerary table tr.classone ul, .deftemplategreen table.itinerary table tr.classone ol {
+    background-color: #f7eaf1; /*green*/
+}
+.deftemplategreen table.itinerary table table {
+    border: 2px solid #a2ce79;
+}
+.p50perc{
+  position: relative;
+  width: 48%;
+  padding:1%;
+  float: left;
+}
+ul.icons{
+  background-color: transparent !important;
+      margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    clear: both;
+    display: inline-flex;
+}
+ul.icons li{
+  list-style: none;
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+    width: auto;
+    min-width: 2px;
+    margin-right: 20px;
+    line-height: 2em;
+}
+ul.icons li img{
+  position: relative;
+  float: left;
+  width: 30px !important;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+p.right-side-image{width:auto;float:right;padding: 0px 0px 15px 15px;position: relative; float: right; clear: right;}    
+
+table.colortable{
+      position: relative;
+    left: -7px;
+}
+
+table.colortable h3,table.colortable h2,table.colortable h4{
+  padding: 0;margin: 0;
+}
+table.colortable a.btnLarge {
+    padding: 1px 0%;
+    width: 100%;
+    text-align: center;
+}
+table.colortable p{padding: 0;margin:0;}
+table.colortable .red-text, .uncap .red-text{text-transform: initial;}
+.w120{width: 120px;    text-align: left;
+    padding: 0;}
+.w33{width: 33%;    text-align: left;
+    padding: 0;}
+#wp-admin-bar-wp-logo{display: none;}
+/*
+Switch Font-Awesome to Material Icons Google - 
+But doesn't work in IE in this way, xcept 8..
+Changed the TP font loading in header.php to 
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,500,300|Signika:400,600|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+Remove call to font-awesome-css
+
+a.toggle_section_toggle h4:before, .itinerary a.toggle_serviceline .product_name:before {
+    content: "add_circle" !important;
+    font-family: "Material Icons" !important;
+}
+a.toggle_section_toggle.collapsed h4:before, .itinerary a.toggle_serviceline.collapsed .product_name:before {
+    content: "add_circle" !important;
+    font-family: "Material Icons" !important;
+    font-size: 25px !important;
+    position: absolute !important;
+    top: 21px !important;
+    left: 28px !important;
+}
+a.toggle_section_toggle h4:before, .itinerary a.toggle_serviceline .product_name:before {
+    content: "remove_circle" !important;
+    font-family: "Material Icons" !important;
+    font-size: 25px !important;
+    position: absolute !important;
+    top: 21px !important;
+    left: 28px !important;
+}
+a.toggle_section_toggle h4 {
+    padding: 0.5em 1em 0.5em 2.5em !important;
+}
+*/
+
+
+a{color: #1a0dab;}
+img.icon{width: 40px;height: auto;}
+ 
+  ul.ul-tour-hilights-green-list li,  .ul-tour-hilights-red-list li,   .ul-tour-hilights-yellow-list li,   ul.tour-inclusion-and-images ul ul li{background-image: url('/wp-content/uploads/svg/ic_label_black_24p-blue.svg') ;padding: 0 0 0 30px ;background-repeat: no-repeat;list-style: none;}
+ul.ul-tour-hilights-green-list ,  .ul-tour-hilights-red-list ,   .ul-tour-hilights-yellow-list ,   ul.tour-inclusion-and-images ul ul{
+  padding-left: 0;
+}
+
+.col-sm-3 .thumbnail  a{max-height: 147px;overflow: hidden;/*display: inline-block;*/}
+.col-sm-3 .thumbnail .caption{min-height: 45px;}
+.theme-park .col-sm-3 .thumbnail{min-height: 255px;}
+small.help-block{font-weight: bold; color: #DF1515; padding: 3px 13px; background-color: #F9EAEA; margin-top: 5px;}
+
+#suzuki-rego-header{display:none;}
+#map-canvas{width:900px !important;height:550px;margin:0;padding:0;min-height: 520px;}
+#map-container{width:100% !important;overflow: scroll !important;height:560px !important;}
+
+.page{position: relative;}
+
+/*sim card*/
+.sim-div{width: 100%; font-size: 1.8em; font-weight: bold;   text-align: center;margin:15px 0;}
+.sim-div .thirdscol{width: 33%;position: relative;float: left;min-height: 2.1em;    min-height: 2.1em;    border-bottom: 1px solid #000;    margin-bottom: 20px;}
+.sim-div .middle{color: #989898; }
+.sim-div  .header{ border-bottom: none; background: #68167b; color: #fff; height: 120px;}
+.sim-div  .header p{font-size: 1.3em;}
+.sim-div  .header span{font-size: 2.5em;color: #f7ed6e;line-height: 0.8em;}
+.sim-div  .header span i{ font-size: 0.5em; position: relative; top: -20px; font-style: initial; color: #f7ed6e;}
+.sim-div  .header img{    width: 70px; padding-top: 15px;}
+
+
+/*sim card2*/
+.sim-div2{width: 100%; font-size: 1.8em; font-weight: bold;   text-align: center;margin:15px 0;}
+.sim-div2 .thirdscol{width: 50%;position: relative;float: left;min-height: 2.1em;    min-height: 2.1em;    border-bottom: 1px solid #000;    margin-bottom: 20px;}
+.sim-div2 .middle{color: #989898; }
+.sim-div2  .header{ border-bottom: none; background: #68167b; color: #fff; height: 120px;}
+.sim-div2  .header p{font-size: 1.3em;}
+.sim-div2  .header span{font-size: 2.5em;color: #f7ed6e;line-height: 0.8em;}
+.sim-div2  .header span i{ font-size: 0.5em; position: relative; top: -20px; font-style: initial; color: #f7ed6e;}
+.sim-div2  .header img{    width: 70px; padding-top: 15px;}
+
+
+
+
+
+body #flightbox div.row input.thin_address_bar{
+      padding: 7px 14px;
+}
+.percent50{
+  width: 48%;padding-right: 2%;float: left;position: relative;
+}
+.address_border_left{
+  padding-left: 2% !important;
+    border-left: 3px solid #d0d0d0;
+}
+.agent_form_radio{
+  position: relative;
+    top: 22px;
+}
+
+h4 .same_pass,h4 .checkbox{    width: 80px;
+    position: relative;
+    float: left;}
+
+
+/*Google Material Design loader spinner*/
+.gloader {
+  position: relative;
+  margin: 0px auto;
+  width:  100px;
+  height:  100px;
+  zoom: 0.7;
+}
+.gcircular {
+ animation: rotate 2s linear infinite;
+ height: 100px;
+ position: relative;
+ width: 100px;
+}
+.gpath {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+  animation: 
+   dash 1.5s ease-in-out infinite,
+   color 6s ease-in-out infinite
+  ;
+  stroke-linecap: round;
+}
+@keyframes rotate{
+ 100%{
+  transform: rotate(360deg);
+ }
+}
+@keyframes dash{
+ 0%{
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+ }
+ 50%{
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -35;
+ }
+ 100%{
+  stroke-dasharray: 89,200;
+  stroke-dashoffset: -124;
+ }
+}
+@keyframes color{
+  100%, 0%, 10%{
+    stroke: #BB0808;
+  }
+  35%{
+    stroke: #FF951D;
+  }
+  80%,90%{
+    stroke: #BB0808;
+  }
+}
+
+table.itinerary {margin-top: 15px !important;}
+table.itinerary table{min-height: 50px;
+ width: 72%;}
+ 
+
+table.itinerary table table{min-height: 5px;margin-top: none;}
+
+h1{  margin-bottom: 5px;}
+h1, h2, h3, h4{text-transform: inherit;}
+h4{font-weight: bold;    line-height: 1.3em;}
+
+
+table.itinerary img{
+  position: absolute; 
+  padding: 0;
+  top: 0px;
+  right: 0px;
+  width: 27%;
+  height: auto;
+}
+
+table.itinerary table img,table.itinerary table table img,table.itinerary table table table img{
+  position: relative; 
+  padding: 0;
+  top: 0px;
+  right: 0px;
+  width: initial;
+  height: auto;
+}
+
+table.itinerary table table {
+    width: 100%; 
+}
+
+
+p {
+  margin: 0 0 7px ;
+}
+
+table.floatimagebanner ul{list-style: none;position: absolute;right: 10px;bottom: 18px;margin: 0;}
+table.floatimagebanner td {
+  padding: 0;
+}
+table.specialitineraryday{background-color: initial;}
+
+table.specialitineraryday    ul,  table.specialitineraryday  ol {
+  background-color: #FFDCA7 !important;
+}
+
+ table.specialitineraryday table {
+border: 2px solid #FFA536 !important;
+border-top: none !important;
+}
+
+ul.tour-availability-green-heading {
+  background-color: #A4C7E0 !important;
+}
+
+.redupperlower .heading-image img{padding-bottom: 0;position: relative;float: right;margin-bottom: 0;margin-left: 15px;}
+  table.itinerary table{min-height: 195px;}
+  table.itinerary table table,   table.itinerary table table table{min-height: 1px;}
+.redupperlower td{    padding: 10px 0;}
+
+  table.widetable td {    border-bottom: 1px solid #A4C7E0;}
+  table.widetable  thead td { 
+    background-color:  #A4C7E0;
+    text-transform: none;
+
+}
+
+
+#tempWarningMessage{display: inherit ;width: 90% ;clear: both ;}
+
+.clear-right{clear: right;}
+.clear-left{clear: left;}
+
+table.product-list-page{background-color: inherit !important;width: 100%; }
+table.product-list-page table{ margin-left: 25%;}
+table.product-list-page td{       display: block;  position: relative;    min-height: 155px;    border-bottom: 10px solid #f5f3f0;     padding-top: 10px;}
+table.product-list-page table td{    position: relative;    min-height: 5px;    border-bottom: 0px solid #fff;     padding-top: 0px;}
+table.product-list-page table table{position: absolute; top: 35px; right: -30%; width: 25%; font-size: 22px;}
+table.product-list-page table table,table.product-list-page table table p{font-size: 22px;font-weight: bold;}
+table.product-list-page table table a{color: #ffffff; background: #ff5c03; border-radius: 20px; font-size: 20px; text-align: center; font-weight: bold; padding: 5px 20px 5px 20px; text-decoration: none;}
+table.product-list-page table table a:hover{text-decoration:underline;}
+table.product-list-page img{position: absolute; top: 15px;  left: 0px;  width: 23%;  height: auto;}
+table.product-list-page table p{padding-bottom: 0;margin-bottom: 0;}
+
+  h1.tour-heading-title-black {    /*border-bottom: 4px solid #E00011;*/    padding-bottom: 5px;  border-top: none;    padding-top: 0;    padding-left:0;    margin-right:0;    width: inherit;      margin: 0;}
+
+/*gallery*/
+ul.image-gallery{background-color: inherit !important;    position: relative;    left: -20px;display: table;clear: both;}
+ul.image-gallery li{width: 30%;position: relative;float: left;padding: 5px 3% 0 0 ;margin: 0;list-style: none;}
+ul.image-gallery li img{padding: 0;margin: 0;width: 100%;height: auto;}
+.image3list .post .entry{position: relative;}
+.image3list .post .entry .caption{
+  font-size: 80%;
+  position: absolute;
+  bottom: 15px;
+  background: #000;
+  padding: 15px 7px 7px 7px;
+  width: 100%;
+  color: #fff;
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.8)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.8)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.8)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)); /*Standard*/
+}
+
+.top-mar-25{margin-top: 25px;}
+
+.toggle_section{margin-bottom: 5px;}
+.toggle_section .toggle_section{margin-top: 5px;margin-bottom: 5px;}
+
+/* under banner full width- spaceing*/
+.col-sm-12 img{margin-bottom: 15px;}
+
+/*menu drop down slightly wider*/
+@media (min-width: 769px){
+  .navbar-nav ul {width: 285px;}}
+
+/*Twitter To G+*/
+.mobile-content .fa.fa-gplusbutton {
+    background: #3F5371;
+    text-decoration: none;
+}
+
+
+.fa-gplusbutton:before {
+    content: "\f0d5";
+    text-decoration: none;
+}
+
+#social a:active ,#social a:focus{text-decoration: none;border-bottom: 0; -moz-outline-style: none; outline:none;outline: 0;}
+
+
+/*Twitter To IG*/
+.mobile-content .fa.fa-instagram {
+  background: #d92e7f;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    text-decoration: none;
+}
+
+.mobile-content a.fa.fa-instagram:hover {
+  background: #d92e7f;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    text-decoration: none;
+}
+.round-social-grey a.fa-instagram:hover {
+    background: none repeat scroll 0% 0% #d92e7f;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    text-decoration: none;
+} 
+.fa-instagram:before {
+    content: "\f16d";
+    text-decoration: none;
+}
+
+/*Twitter To websearch*/
+.mobile-content .fa.fa-websearch,.mobile-content a.fa.fa-websearch:hover {
+    background: #11770e;
+    text-decoration: none;
+}
+
+.round-social-grey a.fa-websearch:hover {
+    background: none repeat scroll 0% 0% #fff;
+    text-decoration: none;
+} 
+.round-social-grey a.fa-websearch:before {
+    content: "\f002";
+    text-decoration: none;
+    color: #888;
+}
+.round-social-grey a.fa-websearch{
+background-color: #fff;
+}
+
+
+
+/*Disney css*/
+#chosePassesTitle  { width: 26%; float: left;position: relative; clear: left;display: block;}
+#chosePasses{width: 70%; position: relative;float: right;clear: right;display: block;}
+#chosePassesTitle h4,#chosePasses span, #chosePasses p{min-height: 40px;
+    display: block;    padding: 0;    margin: 0;}
+
+.center,.centre{margin-left: auto;margin-right: auto;    display: table;}
+
+/*padding for tables*/
+td{    padding: 0;    padding-right: 15px;}
+
+.tour-list .thumbnail,.tourreviewstab .caption{min-height: 250px;}
+.tour-list{margin: 25px 0;}
+/*
+h1{
+      border-bottom: solid 4px #E00011;
+    padding-bottom: 5px;
+}*/
+/*
+remove title from page template
+page.php - ribbon div and title
+
+h3{margin-top: 0;}
+*/
+.tours2 .thumbnail a{height: 200px;overflow: hidden;    display: block;}
+.tours2 .thumbnail .caption a{height: inherit;min-height: 34px;}
+.tours2 .thumbnail .row{min-height: 71px;}
+td {padding: 5px 15px;}
+.thumbnail .caption{min-height: 58px;}
+td, th {    vertical-align: top;}
+
+/* Tour Availablilities Table - prices dates etc. */
+ul.tour-availability-date-price{width:100%;position:relative;float:left;}
+ul.tour-availability-date-price li {/*width:100%;*/}
+ul.tour-availability-green-heading {background-color: #E6F4DC;padding-bottom:0;border-bottom:none;margin-top:10px;font-weight: bold;}
+ul.tour-availability-date-price .tour-availability-green-heading li{ }
+/*padding: 8px 0px 8px 11px*/
+.tour-availability-date-price {margin:0;padding: 0;text-transform: uppercase;}
+.tour-availability-date-price li {list-style: none;}
+.tour-availability-date-price ul {clear:both;margin:0;padding: 0;width:100%;float:left;padding-bottom: 5px;margin-bottom: 5px;border-bottom: 1px solid #DADADA;}
+.tour-availability-date-price ul li {width:165px;padding:5px;margin:0;position:relative;float: left;list-style: none;}
+.tour-availability-date-price .green-text,.red-text{font-weight: bold;text-transform: uppercase;}
+
+.header-info .phone-number{
+background-image: url(/wp-content/uploads/svg/phone-red.svg);
+background-repeat: no-repeat;
+padding-left: 30px;
+background-size: 30px;
+}
+.header-info .phone-number a{
+text-decoration: none;
+color: #9C1429;
+  }
+  .header-info .phone-number a:hover{
+color: #6b0e1c;
+  }
+
+.footer h3{margin: 0 0 5px 0;font-size: 20px;}
+.footer div iframe {
+     margin-bottom: 0px;
+}
+.footer-bottom a{color: #fff;}
+
+#menu-item-4606 a{
+  background-image: url(/wp-content/uploads/svg/ic_shopping_cart_black_24px_white.svg);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+    background-size: 17px;
+}
+
+#menu-footer-menu li a{
+  background-image: url(/wp-content/uploads/2016/10/red-btn.png);
+  background-repeat: no-repeat;
+  background-position-y: 4px;
+}
+
+h1.red-heading,h2.red-heading {
+    color: #E00011;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+img.alignright{clear: right;}
+
+/* - Remove images from itenerary if checkbox ticked on page - */
+body.itinerary-no-images  table.itinerary table {min-height: 1px;
+ width: 100%;}
+
+/* About us tx about/tc menu style*/
+.about-tc-menu ul{margin: 0;padding: 0;font-family: "Montserrat",sans-serif;}
+.about-tc-menu li a,.about-tc-menu li{
+font-size: 24px;
+}
+.about-tc-menu li {
+border-bottom: solid 10px #f5f3f0;
+list-style: none;
+margin: 10px 0 0 0;
+padding: 0 0 10px;
+}
+
+.rail_pass_inner{padding-top: 1em;}
+
+
+
+
+/* Forms */
+#flightbox input,#flightbox textarea,.modal-content input,.modal-content textarea,input.wpcf7-text,.wpcf7 textarea,.search_page input.adminbar-input{
+    width: 90%;
+    padding: .313em 0;
+    text-indent: .25em;
+    border: 1px solid #CECECE;
+    margin-bottom: 10px;
+}
+.modal-content textarea,.wpcf7 textarea{width: 90%}
+.cf7md-admin-customize-message{display: none;}
+
+.mdc-layout-grid .cf7md-select .cf7md-select-label {display:none;}
+
+
+
+body input[type=date], body input[type=time], body input[type=datetime-local], body input[type=month] {
+    line-height: 24px; 
+}
+
+
+
+
+/*
+
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+padding: 12px 14px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: none;
+width: 95%;
+margin-left: 0;
+margin-right: 20%;
+margin-top: 5px;
+margin-bottom: 5px;
+background-color: #e6e6e6;
+
+ body #flightbox textarea:focus, body #flightbox input:focus,input[type=text]:focus,  input[type=password]:focus,  textarea:focus,input.wpcf7-text:focus {
+    background-color: #f7f2bc;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: solid 1px #fdf59a;
+}
+
+*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+ .wpcf7 h3 {
+  border-top: none;
+}
+   .wpcf7 .row.submit {
+  border-bottom: none;
+}
+.wpcf7 label{margin-right: 15px;    letter-spacing: 0.05em;}
+
+#flightbox select,.modal-content select,.wpcf7 select{ padding: .15em 0;margin-right: 5px;border: 1px solid #8c8c8c;}
+#flightbox .row,div.wpcf7 div.row,.modal-content div.row{min-height: 70px; padding: 3px 0; } 
+
+div.wpcf7 textarea{height: 120px;}
+body.page-id-4595 input.wpcf7-submit,#wpcf7-f4074-p3615-o1 input.wpcf7-submit,.explore-validate-airport{display: block;width: 150px;margin : 0 auto 0 auto;}
+ #flightbox .required,div.wpcf7 .required,.modal-content .required,form .required{margin-left: 3px;color: #790000;font-weight: bold;    font-size: 1.15em;}
+.required small{color: #790000;}
+ @media (min-device-width: 992px) , (min-width: 992px){
+  #myModal-a .modal-content {width: 520px;}
+  #myModal-a .modal-content input{width: 90% !important;}
+ }
+
+
+.tab_contents_container table td {    border-bottom: solid 1px #DADADA;}
+ table.itinerary td{border-bottom:none;}
+.tabs div.wpcf7 {
+    margin: 0 0 0 -15px;
+    padding: 0;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #fff78a !important;
+    background-color: #fffbe9;
+}
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #84ca71 !important;
+    background-color: #f7ffee;
+}
+span.wpcf7-not-valid-tip {
+    color: #e60e0e !important;
+    font-weight: bold;
+}
+div.wpcf7-response-output {
+    margin: 15px 0  !important;
+    padding: 15px !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* BUTTONS */
+
+
+#flightbox.btnSmall:active,  .btnLarge:active,  .sidebar-widget input.button:active{
+    background-color: #2F3E54 !important;
+}
+
+#flightbox input.button:hover,#flightbox  .btnLarge:hover,.sidebar-widget input.button:hover, .btnLarge:hover,.btnSmall:hover{
+background-color: #2f3e54 !important;
+}
+
+ .round-social-grey a.fa-gplusbutton:hover,.mobile-content a.fa.fa-gplusbutton:hover,.tg-button:hover  {
+    background-color:   #dc4e41;
+    text-decoration: none;
+} 
+#flightbox .tg-button:hover  ,.modal-content .tg-button:hover  {
+    background-color:   #2f3e54;
+    text-decoration: none;
+} 
+ .btnSmall,  .btnLarge,  .sidebar-widget input.button,.button,#searchsubmit,.tg-button,.modal-content .tg-button, .modal-content .wpcf7-submit ,.modal-content .btnLarge,body #flightbox .tg-button,body #flightbox .wpcf7-submit,body #flightbox .btnLarge{
+border: none; 
+color: #fff ;
+text-shadow: 0 1px rgba(0,0,0,0.1); 
+background-color: #3F5371;
+background-image: none;
+padding: 8px 40px; 
+height: inherit ;
+-moz-border-radius:  3px;
+-webkit-border-radius: 3px;
+border-radius:  3px;
+text-decoration: none;
+}
+#searchsubmit{width: 30%;}
+.buttonexists a.button{
+background: none;
+  border: none;
+  position: absolute;
+  display: inline-table;
+  right: 0px;
+  top: -45px;
+    height: auto;
+  width: auto;
+    cursor: auto;
+}
+ul.buttonexists{width: auto ;
+  padding-right: 150px ; min-width: 90%;}
+
+
+
+
+
+
+/* Tabs */
+ul.tabs{
+  padding:0; 
+ list-style: none;
+ position: relative;
+    display: flex;
+background-color:#fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    margin: 25px 0 15px 0;
+
+}
+ul.tabs li{
+position: relative;
+display: block;
+float: left; 
+}
+ul.tabs li a{
+
+position: relative;
+display: block;
+text-decoration:none;
+    padding: 15px 10px 13px ;
+text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+      color: rgba(238,110,115,0.75);
+    text-align: center;
+border-bottom:solid 3px #fff;
+cursor: default;
+}
+ul.tabs a:hover,ul.tabs a:active,.greenbuttoninner a:hover{
+background-color: inherit;
+   color: #ee6e73;
+}
+ul.tabs a.active,ul.tabs a.active:hover,ul.tabs a.active:active{
+font-weight: 700;
+    outline:none;
+   color: #ee6e73;
+   border-bottom:solid 3px #ee6e73;
+}
+
+
+
+
+
+
+
+
+table.itinerary td{padding: 0;}
+table.itinerary td td td{padding: 0px 3px;}
+
+button{
+  cursor: default;
+}
+
+a{cursor: pointer;}
+
+/* The Modal (background) - POPUP BOX  */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */ 
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 999;
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+        opacity: .9 !important;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+form{width: 100%;display: inline-block;}
+.modal form{margin: 5px 15px;}
+
+/* About us page */
+.about-tc-template h3{
+  border-top: solid 10px #f5f3f0;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+#tabs_container .about-tc-template h3,#tabs_container .about-tc-template h2{
+    font-size: 1.6em;
+}
+.accreditation{padding-top: 4em;}
+
+.search_page .thumbnail{min-height: 250px;}
+.search_page .navigation{display: inline-block;} 
+
+
+
+/* Flights */
+div#explore-flights .left{position:relative;float: left;    margin-right: 15px; }
+div#explore-flights hr{ clear:both;  position: relative;display: block;}
+.clearleft{clear:left;}
+div#explore-flights .explore-error{ font-weight: bold;color: #DA1C1C; }
+div#explore-flights img{position: relative;top: 6px;left: 3px;}
+#explore-flights select{position: relative;    top: -5px; }
+#explore-flights input{    position: relative;   top: -10px;}
+
+/*banner slider*/
+.carousel .carousel-inner  {height: auto;overflow: hidden;}
+
+.navbar-nav li a {  padding-right: 13px;padding-left: 5px;}
+.brochurerequest div,.textcent,.page-id-3574 h1,body .textaligncent{text-align: center;}
+.brochurerequest .btnLarge{width: 180px;margin: 0 auto;}
+
+
+  table.widetable td.bluetable {
+    background-color: #D8E6F1; 
+}
+
+.deftemplatepink td.bluetable {  background-color: #f7eaf1; }
+.deftemplateorange td.bluetable {  background-color: #ffede1; }
+.deftemplateorange  .pink-text {  color: #f77707;}
+.deftemplategreen td.bluetable {  background-color: #e5f7d4; }
+.deftemplategreen  .pink-text {  color: #12ab09;}
+
+
+.deftemplateorange table tr.classone ul, .deftemplateorange table tr.classone ol {
+    background-color: #ffede1;
+}
+.deftemplateorange table.itinerary table table {
+    border: 2px solid #ffc095;
+    border-top: none;
+}
+
+/* JA PASS HEADER FOOTER */
+.regional-rail-pass div a img {max-height: 206px;margin: 0 auto;}
+.regional-rail-pass  div.single,.jrpass-bookingflow  div.single{background-color: #fff;}
+.jrpass-bookingflow div img{max-width: 100px;padding: 5px ;margin: 0 auto;clear: both;}
+.jrpass-bookingflow{display: inline-block;}
+.jrpass-bookingflow  .icon,.jrpass-bookingflow  .iconmob{
+    position: absolute; 
+    font-size: 35px;
+    color: #989898;
+    top: 30px;
+    right: 5%;
+}
+.jrpass-bookingflow  .iconmob{ display: none;}
+.jrpass-bookingflow div p{clear: both;padding: 0 10px 0 10px ;}
+.jrpass-bookingflow ul{font-size: 85%; width: 95%; padding-left: 30px;}
+.jrpass-bookingflow div.single{    min-height: 270px;position: relative;}
+#jranchors div div a {color: #fff; 
+    border-radius: 7px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    margin: 5px auto 5px auto;;}
+#jranchors div div a:hover{text-decoration: none;}
+
+
+div.grid h3 {clear: both;}
+
+
+#home-slider{margin-bottom: 15px;}
+
+.paymentbuttons {margin: 10px auto 0 auto;width: 200px;}
+
+/* DAY TOURS */
+.carousel-control.left ,.carousel-control.right { display: none;}
+
+
+
+@media (min-device-width: 768px) , (min-width: 768px){
+  .rightsidecontactform {
+      padding-left: 10px;
+  }
+  .rightsidecontactform input{
+      width: 100%;
+  }
+
+}
+
+.btn-orange {
+    color: #fff;
+    background-color: #ff6700;
+    border-color: #f42c00;
+}
+.btn-orange:hover {
+    color: #fff;
+    background-color: #ffa200;
+    border-color: #d8760b;
+}
+.btn-teal {
+    color: #fff;
+    background-color: #38d2e8;
+    border-color: #28a8b1;
+}
+.btn-teal:hover {
+    color: #fff;
+    background-color: #22c1d8;
+    border-color: #11828a;
+}
+
+/* CUSTOM DAY TOUR LAYOUT */
+.customjtbaulayout div#product-slider{
+      border-top: none;
+}
+.carousel-inner .item{
+border-top: 4px solid #E00011;
+}
+.row div.tourProduct-priceDiv{margin-top: 0;margin-bottom: 10px;}
+
+html body div.dt_search_left{
+  width: 50%;
+}
+
+html body div.dt_search_img  {
+  position: relative;float: right;width: 47%;
+}
+html body div.dt_search_img  .inner .inner{
+ width: 50%;
+ position: relative;float: right;
+}
+
+ 
+html body div.dt_search_img   ul{
+ width: 45% !important;
+ float: right;position: relative !important;
+}
+
+html body #product-slider {
+    margin-top: 0;
+    border-top: none ;
+}
+
+.page-id-21607 h2{margin-top: 0;}
+
+
+ 
+
+
+
+/* Top tour page */
+.page-template-tour-top-custom div.grid h3{margin-top: 0;    color: inherit;}
+.page-template-tour-top-custom .tours2 .col-sm-12{    border-bottom: solid 10px #f5f3f0;
+    padding-bottom: 10px; 
+    margin-bottom: 10px;
+    display: block;}
+
+.drivepackage h6{
+  font-size: 45px;
+}
+.drivepackage h6 i,.drivepackage h6 em{
+  font-size: 20px;vertical-align: super;
+}
+
+.reviewspostlist .post{
+      border-bottom:  solid 10px #f5f3f0;
+    padding-bottom:  10px;
+    margin-bottom:  25px;
+}
+.taggedpost i{margin : 0 5px;}
+.right{position: relative;float: right;}
+.left{position: relative;float: left;}
+#categorynavigation{    margin-bottom: 45px;
+    line-height: 1em;}
+ .reviewsdetailpage  .taggedpost {    margin-top: 25px;}
+ 
+html body input.ewayoffline { 
+    padding: 8px 60px;
+    text-decoration: none;
+    cursor: default;
+    display:  block;
+    width: 300px;
+    margin:0 auto;
+}
+
+
+
+a i.material-icons{
+  font-size: 1.5em;
+    line-height: 0.4em;
+    position: relative;
+    top: 5px;
+}
+body a.bodybutton{
+      background-color: #3F5371 !important;
+      color:#fff !important;
+          padding: 5px 25px;
+    margin: 8px 15px 8px 0;
+}
+body a.bodybutton:hover{
+      background-color: #2f3e54 !important;
+      color:#fff !important;
+}
+body.page-id-3343  a.bodybutton{
+    min-width: 140px;
+} 
+
+
+
+/* AGENT JR BOOKING FORM */
+
+.delivery_options_form .wpcf7-list-item {clear: both;display: block;}
+.personbox .personbox{
+
+      width: 100%;
+    margin: 15px 0;
+    border-top: 2px solid #6085ad;
+    background-color: #f3f3f3;
+    padding: 3%;
+    color: #000;
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    position: relative;
+        display: inline-block;
+}
+.jrpassbox p{
+ line-height: 2em;
+    background-color: #d6d6d6;
+    padding: 8px 25px;
+    border-top: 1px solid #94a9bf;
+    color: #000;
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    position: relative;
+    margin-bottom: 20px !important;
+}
+
+.closebox {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-image: url(/jr-pass-form/delete.svg);
+    width: 45px;
+    height: 45px;
+    background-size: 45px;
+}
+html  .page-id-22779 #flightbox .same_pass{width: 3em;}
+html .page-id-22779  #flightbox   .same_pass input{    width: 3em;
+    padding: 0;
+    margin: 0;}
+.page-id-22779 #myModal-1 p label{    position: relative;    top: 10px;}
+
+ .page-id-22779 .same_pass p{    margin-left: 3em;}
+html .page-id-22779 .personbox .material-icons{    position: relative;
+    float: left;    padding-right: 5px;
+    top: -4px;}
+ body  #flightbox .personbox input, body #flightbox .personbox  textarea {
+    background-color: #d8d8d8;
+}
+} body  #flightbox .personbox input:focus, body #flightbox .personbox  textarea:focus {
+    background-color: #f7f2bc;
+}
+
+
+
+.page-id-22779   #myModal-1  input{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 12px 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    width: 5%;
+    margin-left: 0;
+    margin-right: 3%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+
+.form-group select{margin-top: 1em;font-size: 1.2em;}
+#flightbox input.radio{       width: 1.3em;
+    position: relative;
+    float: left;
+    margin-right: 2em;}
+ .jrdisplay p {
+    line-height: 2em;
+    background-color: #d6d6d6;
+    padding: 8px 25px;
+    border-top: 1px solid #94a9bf;
+    color: #000;
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    position: relative;
+    margin-bottom: 20px !important;
+}.jrdisplay p span {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+
+/* RWC rugby world cup*/
+.rwc_header{width:100%;background-image:url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2018/01/rugby-world-cup-banner.jpg);background-repeat: no-repeat;background-size: 100%;background-position: top left;margin-bottom: 2em;position: relative;}
+.rwc_header img{width: 300px;height: auto;margin: 3.95em 1em;}
+
+.page-id-24379  #flightbox input{    width: 85%;
+    position: relative;
+    float: right;}
+
+body.page-id-24038  .rwc_header img,body.page-id-24069  .rwc_header img,body.page-id-20757  .rwc_header img,body.page-id-24514  .rwc_header img,body.page-id-21900  .rwc_header img{width: 220px;height: auto;margin: 1em;}
+
+
+body.page-id-24514 .rwc_header{background-image:url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2018/01/sydney-rugby-south-africa.jpg);}
+body.page-id-21900 .rwc_header{background-image:url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2018/01/sydney-rugby-whales.jpg);}
+body.page-id-20757 .rwc_header{background-image:url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2018/01/rugby-world-cup-japan-jtb.jpg);}
+body.page-id-24069 .rwc_header{background-image:url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2018/01/sydney-rugby-japan-jtb.jpg);} 
+body.page-id-24038 .rwc_header{background-image:url(https://www.nx.jtbtravel.com.au/wp-content/uploads/2018/01/sydney-rugby-flags.jpg);} 
+
+.rwc_header .copyright{position: absolute;bottom: 3px;right: 3px;color: #fff;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.98);font-size: 85%;}
+
+body.page-id-24349 .rwc_header img{
+    width: 420px; 
+}
+body.page-id-24514 .rwc_header img {
+    width: 300px; 
+}
+@media (max-device-width: 1199px) , (max-width: 1199px){
+  body.page-id-24038  .rwc_header img,  body.page-id-24069  .rwc_header img,body.page-id-20757  .rwc_header img,body.page-id-21900  .rwc_header img,body.page-id-24514  .rwc_header img,.rwc_header img{ margin: 0.5em 0.5em;}
+}
+
+@media (max-device-width: 991px) , (max-width: 991px){
+  body.page-id-24038  .rwc_header img,  body.page-id-24069  .rwc_header img,body.page-id-20757  .rwc_header img,body.page-id-21900  .rwc_header img,body.page-id-24514  .rwc_header img,.rwc_header img{width: 190px; }
+    body.page-id-24349 .rwc_header img {
+    	width: 320px;
+    }
+     body.page-id-24514 .rwc_header img{
+    	width: 220px;
+    }
+}
+
+@media (max-device-width: 767px) , (max-width: 767px){
+  body.page-id-24038  .rwc_header img,  body.page-id-24069  .rwc_header img,body.page-id-20757  .rwc_header img,body.page-id-21900  .rwc_header img,body.page-id-24514  .rwc_header img,.rwc_header img{width: 96%;margin: 0 auto 1em;display: block;clear: both;max-width: 350px;}
+
+  body.page-id-24038 .rwc_header,  body.page-id-24069 .rwc_header,body.page-id-20757 .rwc_header,body.page-id-21900 .rwc_header,body.page-id-24514 .rwc_header,.rwc_header  {background-image: none;text-align: center;}
+  body.page-id-24038 .rwc_header,  body.page-id-24069 .rwc_header,body.page-id-20757 .rwc_header,body.page-id-21900 .rwc_header,body.page-id-24514 .rwc_header,.rwc_header  .mobile_only{display: block;max-width: 96%;}
+  .rwc_header .copyright{position: relative;width: 100%;text-shadow: none;color: #757575;display: inline-block;top: -8px;}
+}
+
+body.page-id-24038 table.colortable td,body.page-id-24069 table.colortable td,body.page-id-20757 table.colortable td,body.page-id-21900 table.colortable td,body.page-id-24038 table.colortable td { 
+    font-weight: inherit; 
+}
+body.page-id-24038 td.silver,body.page-id-24069 td.silver,body.page-id-20757 td.silver,body.page-id-21900 td.silver,body.page-id-24038 td.silver { 
+    text-align: left;
+}
+
+
+
+/* END RWC Rugby */
+
+
+
+/* CRUISE PRODUCTS*/
+
+.cruise-cell { background-color:  #eef7ff; min-height: 500px;width: 100%;padding: 0.5em 0;display: inline-block; }
+
+body .cruise-cell .colortable td {    border-color: #ccc;}
+body .cruise-cell table{width: 99%;}
+
+
+table.cruise{font-size: 74%;width: 100%;table-layout:fixed;    display: inline-table;}
+ 
+td.head,td.head h4{background-color: #5ca5da;color:#fff;}
+td.border{border-bottom: solid 1px #ccc;}
+.cruise_group table td{    padding: 4px 6px;}
+
+.advertising_banner .col-sm-3{    margin-bottom: 5px;}
+
+.page-id-24893 .tab_contents_container table,.page-id-25268 .tab_contents_container table {
+     width: auto;  }
+body table.no-borders td,body table.no-borders tr,.tab_contents_container table.no-borders td{border: none !important;border-bottom: none !important;}
+
+
+     #contact_form .personboxzz input{    width: 90%;
+    margin-right: 0;margin-left: 0; float: left;}
+.personboxzz{position: relative;margin-top: 2em;margin-bottom: 2em;width: 100%;clear: both;}
+.personboxzz .closebox {
+    position: relative; 
+    background-image: url(/jr-pass-form/delete.svg);
+    width: 45px;
+    height: 45px;
+    background-size: 45px;
+    display: inline-block;
+    float: right;
+}
+
+
+body .personboxzz .row  {
+    min-height: 55px !important; 
+}
+.personboxzz #res0,#res1,#res2,#res3,#res4,#res5,#res6,#res7,#res8,#res9,#res10,#res11,#res12,#res13,#res14,#res15,#res16,#res17,#res18,#res19,#res20{
+  margin-right: 2em !important;
+}
+.clear-right{clear:right;}
+
+.float-right{    display: inline-block;
+    float: right;}
+   body   #contact_form    .personboxzz  .clear-right input{width: 100%;}  
+
+
+.personboxzz   .red-text{text-transform: initial;}
+.display-block{display: block;}
+
+body .checkbox_form input{width: auto !important;margin-right: 0.5em !important;}
+body .checkbox_form{width: 16%; float: left;}
+
+
+
+
+
+
+
+@media (max-device-width: 1200px) , (max-width: 1200px){
+	body .carousel .carousel-inner {
+	    height: 270px; 
+	}
+	.btn-block { 
+    margin-top: 20px;
+	}
+	p.right-side-image{max-width: 55%;}
+}
+
+@media (max-device-width: 1199px) , (max-width: 1199px){
+	.jrpass-bookingflow div.single {
+	    min-height: 330px;
+	}
+	.search_page .thumbnail {
+    min-height: 280px;
+	}
+
+	body .hearderwarning p.yellow-message, body .hearderwarning p.red-message, body .hearderwarning p.green-message {
+    max-width: 330px; 
+	}
+
+	  .cruise_group .clear-left,.cruise_group .clear-right{width: 100%;}
+
+.navbar-nav li a {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: initial;
+}
+
+
+}
+
+
+@media (max-device-width: 991px) , (max-width: 991px){
+	.jrpass-bookingflow  .icon{
+	  font-size: 25px;
+	}
+	.jrpass-bookingflow div.single {
+	    min-height: 450px;
+	}
+	.search_page .thumbnail {
+    min-height: 390px;
+	}
+	.mobileonly{display: block;}
+	 
+		body .carousel .carousel-inner {
+	    height: auto; 
+	}
+#product-slider{padding: 10%;}
+html body div.dt_search_left,html body div.dt_search_img {
+  width: 100%;
+}
+
+
+}
+
+/*
+@media (max-device-width: 843px) , (max-width: 843px){
+	body .carousel .carousel-inner {
+	    height: 280px; mobile banners
+	}
+}
+*/
+
+
+
+
+
+
+@media  (max-width: 1420px){
+	.navbar-nav li a:before{display: none;}
+
+}
+
+
+
+@media (max-device-width: 767px) , (max-width: 767px){
+
+/*RWC T/C */
+	.page-id-24379  #flightbox input{    width: 98%;float: left;}
+
+
+
+	.col-sm-3 .thumbnail a {
+    max-height: none;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+	}
+	.jrpass-bookingflow div img:after{    content: "\f01a";}
+	.jrpass-bookingflow  .iconmob{
+  		display: inline-block;
+	}
+	.jrpass-bookingflow  .icon{
+  		display: none;
+	}
+	.jrpass-bookingflow div.single{ min-height: 40px;}
+	.jrpass-bookingflow  .icon,.jrpass-bookingflow  .iconmob{ right: 11%;}
+
+	.image3list,.image3list div.col-sm-4{width: 100%;}
+	.image3list img{width: 60%; margin: 0 20% 10px 20%;}
+	.image3list  div.imageset2,.image3list  div.imageset3{width: 50% ;margin: 0 ;position: relative;float: left;padding: 0;}
+	.image3list .imageset2 .post,.image3list .imageset3 .post,.image3list .imageset2 .entry,.image3list .imageset3 .entry{width: 100%;}
+	.imageset3 .imageset2 img,.imageset3 .imageset3 img{    margin: 0 10% 10px 10%;    width: 80%;}
+	.search_page .thumbnail {
+    min-height: 10px;
+	}
+
+		 
+	body .carousel .carousel-inner {
+	    height: auto; 
+	}
+	body .search-mobile input.input-search{    width: 66%;}
+
+
+
+
+}
+
+@media (max-device-width: 601px) , (max-width: 601px){
+	#myModal-a .modal-content {width: 80%;}
+	.redupperlower .heading-image img {
+	    position: inherit;
+	    float: none;
+	    width: 100%;
+	    margin: 0 0 20px 0;
+	    padding: 0;
+	}
+	table.itinerary img {
+	    position: inherit;
+	    top: 0;
+	    right: 0;
+	    width: 70%;
+	    height: auto;
+	    padding: 0;
+	    margin: 0 15% 20px 15%;
+	}
+	table.itinerary table {
+	    width: 100%;
+	    margin-bottom: 0;
+	}
+	.accreditation{padding-top: 0.5em;}
+		#menu-footer-menu li a{    padding: 12px;
+    display: inline-block;
+    margin: 5px;
+    background-position-y: 15px;}
+    body p.right-side-image{width: 94%;max-width: 100%;float: left;}
+    body p.right-side-image img{margin: 15px auto;display: block;}
+#product-slider{padding:0;}
+body .carousel .carousel-inner {
+	    height: auto;
+	}
+}
+
+
+@media (max-device-width: 540px) , (max-width: 540px){
+	p.right-side-image {width: 100%;clear: both;}
+	p.right-side-image img{margin: 15px auto;padding: 0;    display: block;}
+
+
+
+}
+
+
+@media (max-device-width: 420px) , (max-width: 420px){
+body .carousel .carousel-inner {
+	    height: auto;
+	}
+}

@@ -1,0 +1,46 @@
+#cf7md-page {
+    .cf7md-hero {
+        background: $primary_on_light;
+        padding: 80px $base-v-space * 4 40px;
+        overflow: hidden;
+        position: relative;
+        &:before,
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            background: rgba(255,255,255,0.1);
+            pointer-events: none;
+        }
+        &:before {
+            width: 500px;
+            height: 500px;
+            transform: rotate(45deg);
+            right: -50px;
+            top: 0;
+        }
+        &:after {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            top: -16px;
+            right: 300px;
+        }
+    }
+    .cf7md-hero--title {
+        color: #FFF;
+        font-family: $base-font;
+        font-weight: normal;
+        line-height: 1.2;
+        font-size: 48px;
+        margin: 0 0 $base-v-space * 2;
+    }
+    .cf7md-hero--subtitle {
+        color: #FFF;
+        font-family: $mono-font;
+        font-weight: normal;
+        line-height: 1.25;
+        font-size: 20px;
+        margin: 0;
+    }
+}

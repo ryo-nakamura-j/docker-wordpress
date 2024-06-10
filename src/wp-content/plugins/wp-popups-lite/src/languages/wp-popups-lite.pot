@@ -1,0 +1,1732 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Popups\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2019-11-25 09:28-0300\n"
+"PO-Revision-Date: 2015-06-14 00:02-0300\n"
+"Last-Translator: Damian Logghe <info@timersys.com>\n"
+"Language-Team: WP Popups info@wppopups.com\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: lite/wppopups-lite.php:54
+msgid "Optin Form Templates"
+msgstr ""
+
+#: lite/wppopups-lite.php:58 lite/wppopups-lite.php:331
+msgid "Upgrade"
+msgstr ""
+
+#: lite/wppopups-lite.php:62
+msgid ""
+"While WPPopups Lite allows you to create any type of popup, Premium version "
+"comes with integration to the most popular emails providers such as "
+"Mailchimp, Aweber, Mailpoet, Posmatic, Constant Contact, GetResponse, "
+"ActiveCampaign, Mailerlite, The newsletter plugin, Newsman, etc "
+msgstr ""
+
+#: lite/wppopups-lite.php:75 src/includes/admin/class-welcome.php:208
+#: src/includes/admin/class-welcome.php:275
+msgid "Email Marketing"
+msgstr ""
+
+#: lite/wppopups-lite.php:99
+msgid "is a PRO Feature"
+msgstr ""
+
+#: lite/wppopups-lite.php:100
+msgid ""
+"We're sorry, %name% is not available on your plan.<br><br>Please upgrade to "
+"the PRO plan to unlock all these awesome features."
+msgstr ""
+
+#: lite/wppopups-lite.php:101 src/includes/admin/class-welcome.php:260
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: lite/wppopups-lite.php:201 src/includes/admin/class-menu.php:103
+msgid "WP Popups Addons"
+msgstr ""
+
+#: lite/wppopups-lite.php:202
+msgid "Search Addons"
+msgstr ""
+
+#: lite/wppopups-lite.php:206
+msgid "Popup Addons are a PRO feature."
+msgstr ""
+
+#: lite/wppopups-lite.php:207
+msgid "Please upgrade to the PRO plan to unlock them and more awesome features."
+msgstr ""
+
+#: lite/wppopups-lite.php:211 lite/wppopups-lite.php:238
+#: src/includes/admin/class-welcome.php:299
+msgid "Upgrade Now"
+msgstr ""
+
+#: lite/wppopups-lite.php:227
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:24
+msgid "You do not have permission."
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:29
+msgid "No data provided"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:75
+msgid ""
+"An error occurred and the popup could not be saved. Try refreshing the page "
+"first"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:101
+msgid "No popup name provided"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:138
+msgid "Error creating popup"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:156
+msgid "No popup ID provided"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:183
+msgid "Error updating popup template"
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:312
+msgid "Success! Your server can make SSL connections."
+msgstr ""
+
+#: src/includes/admin/ajax-actions.php:318
+msgid ""
+"There was an error and the connection failed. Please contact your web host "
+"with the technical details below."
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:326
+msgid "AND"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:329
+#: src/includes/admin/common.php:121
+msgid "Cancel"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:330
+#: src/includes/admin/common.php:128
+msgid "OK"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:331
+#: src/includes/admin/builder/panels/class-settings.php:200
+#: src/includes/admin/common.php:122
+msgid "Close"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:332
+#: src/includes/admin/common.php:125
+msgid "Heads up!"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:335
+#: src/includes/admin/builder/class-builder.php:447
+#: src/includes/admin/builder/class-builder.php:452
+msgid "Save"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:336
+msgid "Saving ..."
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:337
+msgid "Saved!"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:338
+msgid "Save and Exit"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:340
+#: src/includes/admin/builder/class-builder.php:406
+msgid "Loading"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:346
+msgid "Use Template"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:347
+msgid ""
+"Changing templates on an existing popup will DELETE popup content. Are you "
+"sure you want apply the new template?"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:348
+#: src/includes/admin/builder/class-builder.php:458
+msgid "Exit"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:350
+msgid "If you exit without saving, your changes will be lost."
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:351
+msgid "(copy)"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:352
+msgid "Please enter a popup name."
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:353
+msgid "Off"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:354
+msgid "On"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:355
+msgid "or"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:356
+#: src/includes/class-rules.php:237
+msgid "Other"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:357
+msgid "Previous"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:358
+#: src/includes/admin/common.php:130
+msgid "Upload or Choose Your Image"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:359
+#: src/includes/admin/common.php:131
+msgid "Use Image"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:360
+msgid "Remove Image"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:361
+msgid "AJAX request failed, check if you still logged in or refresh the page."
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:430
+msgid "Now editing"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:441
+msgid "Publish Popup"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:442
+msgid "Publish"
+msgstr ""
+
+#: src/includes/admin/builder/class-builder.php:445
+#: src/includes/admin/builder/class-builder.php:450
+msgid "Save Popup"
+msgstr ""
+
+#: src/includes/admin/builder/functions.php:286
+#, php-format
+msgid ""
+"To unlock all features consider <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\" class=\"btn-green btn-small wppopups-upgrade-link "
+"wppopups-upgrade-modal\">Upgrading to Pro</a>."
+msgstr ""
+
+#: src/includes/admin/builder/functions.php:600
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:22
+msgid "Appearance"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:42
+#: src/includes/admin/builder/panels/class-appearance.php:76
+msgid "Popup Position"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:43
+#: src/includes/admin/builder/panels/class-appearance.php:112
+msgid "Popup Animation"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:44
+msgid "Popup Box"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:45
+msgid "Background/Colors"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:46
+msgid "Popup Border"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:47
+msgid "Popup Shadow"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:48
+#: src/includes/admin/builder/panels/class-content.php:62
+msgid "Close Button"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:49
+msgid "Custom Css"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:80
+msgid "Centered"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:81
+msgid "Top Left"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:82
+msgid "Top Right"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:83
+msgid "Bottom Left"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:84
+msgid "Bottom Right"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:85
+msgid "Top Bar"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:86
+msgid "Bottom Bar"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:116
+msgid "Fade in"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:117
+msgid "Slide in"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:118
+msgid "Disable animations"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:145
+#: src/includes/admin/builder/panels/class-appearance.php:332
+msgid "Width"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:148
+#, php-format
+msgid "You can use px,% or any other valid css width."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:157
+msgid "Padding"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:170
+msgid "Auto Height"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:172
+msgid "If choose NO you can set your own fixed height"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:175
+#: src/includes/admin/builder/panels/class-settings.php:96
+#: src/includes/admin/builder/panels/class-settings.php:112
+#: src/includes/admin/builder/panels/class-settings.php:211
+msgid "Yes"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:176
+#: src/includes/admin/builder/panels/class-settings.php:97
+#: src/includes/admin/builder/panels/class-settings.php:113
+#: src/includes/admin/builder/panels/class-settings.php:212
+msgid "No"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:186
+msgid "Height"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:193
+msgid ""
+"If your content is higher than this value you will get scroll bars inside the "
+"popup"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:218
+msgid "Overlay color"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:230
+msgid "Popup background"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:242
+msgid "Background Image"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:250
+msgid "Background Repeat"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:265
+msgid "Background Size"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:298
+#: src/includes/admin/builder/panels/class-appearance.php:403
+msgid "Type"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:320
+#: src/includes/admin/builder/panels/class-appearance.php:387
+#: src/includes/admin/builder/panels/class-appearance.php:485
+msgid "Color"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:344
+msgid "Radius"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:357
+msgid "Margin"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:407
+msgid "None"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:418
+msgid "X Offset"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:430
+msgid "Y Offset"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:443
+msgid "Blur"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:456
+msgid "Spread"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:497
+msgid "Hover Color"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:509
+msgid "Shadow Color"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:521
+msgid "Size"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:533
+msgid "Position"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:568
+msgid "CSS"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-appearance.php:570
+#, php-format
+msgid ""
+"Add custom CSS for this popup. Be sure to start your rules with %s and use !"
+"important when needed to override plugin rules. Refresh screen in order to "
+"see changes."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-base.php:281
+#, php-format
+msgid ""
+"You need to <a href=\"#\" class=\"wppopups-panel-switch\" data-panel=\"setup"
+"\">setup your popup</a> before you can edit the %s section."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-base.php:304
+msgid ""
+"You need to <a href=\"#\" class=\"wppopups-panel-switch\" data-panel=\"setup"
+"\">setup your popup</a> before you can start making changes."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:22
+#: src/includes/admin/builder/panels/class-content.php:50
+msgid "Content"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:42
+#: src/includes/admin/builder/panels/class-settings.php:42
+#: src/includes/admin/builder/panels/class-settings.php:69
+#: src/includes/admin/class-settings.php:174
+msgid "General"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:67
+msgid "View Close shortcode Options"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:69
+msgid "Pass a custom class to style your button"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:70
+msgid "Button label - - Default value: Close"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:71
+msgid "Conversion button?- - Default value: False"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:72
+#: src/includes/admin/builder/panels/class-content.php:86
+#: src/includes/admin/builder/panels/class-content.php:104
+#: src/includes/admin/builder/panels/class-content.php:117
+msgid "left|center|right - Default value: \"center\""
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:74
+msgid "Facebook Page"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:79
+msgid "View Facebook Page Options"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:81
+#: src/includes/admin/builder/panels/class-content.php:96
+msgid "Your Facebook page url"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:82
+msgid "Your page name"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:83
+msgid "true|false - Default value: true"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:84
+msgid "true|false - Default value: false"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:85
+msgid "number - Default value: 500"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:89
+msgid "Facebook Button"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:94
+msgid "View Facebook Options"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:98
+msgid "standard, box_count, button - Default value: button_count"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:100
+#: src/includes/admin/builder/panels/class-content.php:101
+msgid "true - Default value: false"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:102
+msgid "recommend - Default value: like"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:103
+msgid "number - Default value:"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:106
+msgid "Twitter Button"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:111
+msgid "View Twitter Options"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:113
+msgid "Your Twitter user"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:114
+msgid "false - Default value: true"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:115
+msgid "large - Default value: \"\""
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:120
+msgid "Looking for using a form in your popup?"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-content.php:121
+msgid ""
+"We love so much WP Forms that we even copied part of their code into our "
+"plugin, so if you are looking for a top and easy form plugin, we can just "
+"recommend:"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-rules.php:22
+#: src/includes/admin/builder/panels/class-rules.php:42
+msgid "Display Rules"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-rules.php:69
+msgid "Show this popup if:"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-rules.php:125
+#: src/includes/admin/builder/panels/class-rules.php:205
+msgid "Add a new row on this group"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-rules.php:126
+msgid "Delete rule"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-rules.php:135
+msgid "Add rule group (OR)"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-rules.php:206
+msgid "remove row"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:22
+#: src/includes/admin/class-menu.php:74 src/includes/admin/class-menu.php:141
+msgid "Settings"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:43
+#: src/includes/admin/builder/panels/class-settings.php:148
+msgid "Triggers"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:44
+msgid "Cookies/Close"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:76
+#: src/includes/admin/builder/panels/class-setup.php:57
+msgid "Popup Name"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:86
+msgid "Popup Description"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:93
+msgid "Test Mode"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:100
+msgid ""
+"If test mode is enabled, the box will show up regardless of whether a cookie "
+"has been set. (To admins only)"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:109
+msgid "Show Powered by link?"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:116
+msgid ""
+"Shows a \"powered by\" link below your popup. If your affiliate link is set "
+"in the Plugin settings page, it will be used."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:124
+msgid "Popup CSS Class"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:126
+msgid ""
+"Enter CSS class names for the popup wrapper. Multiple class names should be "
+"separated with spaces."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:181
+#: src/includes/admin/builder/panels/class-settings.php:346
+msgid "Add a new trigger"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:182
+#: src/includes/admin/builder/panels/class-settings.php:347
+msgid "Delete trigger"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:208
+msgid "Close on conversion"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:215
+msgid ""
+"Popup will close on conversion. Eg: When form is submitted or link is clicked"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:224
+msgid "Cookies"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:232
+msgid "Conversion cookie name"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:235
+msgid ""
+"The name that the popup will use for convertion cookie. Changing this name "
+"will reset the cookie, so all users will see popup again."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:243
+msgid "Conversion cookie duration"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:247
+msgid ""
+"When a user do a conversion like for example a click or form submission, how "
+"many days the popup should it stay hidden?"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:255
+msgid "Conversion in minutes, hours or days ?"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:258
+#: src/includes/admin/builder/panels/class-settings.php:296
+msgid "Days"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:259
+#: src/includes/admin/builder/panels/class-settings.php:297
+msgid "Hours"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:260
+#: src/includes/admin/builder/panels/class-settings.php:298
+msgid "Minutes"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:270
+msgid "Closing cookie name"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:273
+msgid ""
+"The name that the popup will use for closing cookie. Changing this name will "
+"reset the cookie, so all users will see popup again."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:281
+msgid "Closing cookie duration"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:285
+msgid "After closing the popup, how many days should it stay hidden?"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-settings.php:293
+msgid "Closing in minutes, hours or days ?"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:22
+msgid "Setup"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:59
+msgid "Enter your popup name here&hellip;"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:63
+msgid "Select a Template"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:69
+msgid ""
+"To speed up the process, you can select from one of our pre-made templates or "
+"start with a <strong><a href=\"#\" class=\"wppopups-trigger-blank\">blank "
+"popup.</a></strong>"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:84
+msgid "Additional Templates"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:93
+#, php-format
+msgid ""
+"Have a suggestion for a new template? <a href=\"%1$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">We'd love to hear it</a>. Also, you can <a href=\"%2$s"
+"\" target=\"_blank\" rel=\"noopener noreferrer\">create your own templates</"
+"a>!"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:113
+msgid "Search additional templates..."
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:155
+msgid "Selected"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:167
+#, php-format
+msgid "%s template"
+msgstr ""
+
+#: src/includes/admin/builder/panels/class-setup.php:180
+#, php-format
+msgid "Create a %s"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:39 src/includes/admin/class-menu.php:40
+#: src/includes/admin/class-welcome.php:157
+#: src/includes/admin/overview/class-overview.php:125
+#: src/includes/class-popup-handler.php:72
+msgid "WP Popups"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:51
+msgid "Popups"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:52
+msgid "All Popups"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:61
+msgid "WP Popups Builder"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:62
+#: src/includes/admin/overview/class-overview.php:128
+msgid "Add New"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:73
+msgid "WP Popups Settings"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:83
+msgid "WP Popups Tools"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:84
+msgid "Tools"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:93
+msgid "popups"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:94
+msgid "Info"
+msgstr ""
+
+#: src/includes/admin/class-menu.php:104
+msgid "Addons"
+msgstr ""
+
+#: src/includes/admin/class-review.php:99
+msgid ""
+"Hey, I noticed you created a popup with WP Popups - that’s awesome! Could you "
+"please do me a BIG favor and give it a 5-star rating on WordPress ? It would "
+"be a tremendous help for us"
+msgstr ""
+
+#: src/includes/admin/class-review.php:103
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: src/includes/admin/class-review.php:105
+msgid "Nope, maybe later"
+msgstr ""
+
+#: src/includes/admin/class-review.php:107
+msgid "I already did"
+msgstr ""
+
+#: src/includes/admin/class-review.php:160
+#, php-format
+msgid ""
+"Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" target=\"_blank"
+"\" rel=\"noopener\">WordPress.org</a> if you enjoy the plugin. It would be a "
+"tremendous help for us!"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:144
+msgid "Settings were successfully saved."
+msgstr ""
+
+#: src/includes/admin/class-settings.php:176
+#: src/includes/admin/class-settings.php:181
+msgid "Save Settings"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:179
+#: src/includes/admin/class-settings.php:276
+msgid "Misc"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:224
+msgid "License"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:224
+msgid "Your license key provides access to updates and addons."
+msgstr ""
+
+#: src/includes/admin/class-settings.php:231
+msgid "License Key"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:236
+#: src/includes/admin/class-welcome.php:202
+#: src/includes/admin/class-welcome.php:263
+msgid "Analytics"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:243
+msgid "Google UA code"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:244
+msgid ""
+"Enter your Google UA-XXXXXX code to enable popups tracking also in Google "
+"analytics."
+msgstr ""
+
+#: src/includes/admin/class-settings.php:251
+msgid "Data Sampling"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:255
+#, php-format
+msgid ""
+"If your site have lot of traffic, enable data sampling by adding a number "
+"greater than 0. Check <a href=\"%s\">the docs page</a> for more info."
+msgstr ""
+
+#: src/includes/admin/class-settings.php:283
+msgid "Affiliate link"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:287
+#, php-format
+msgid ""
+"You can earn money by promoting the plugin! Join our <a href=\"%s\">affiliate "
+"program</a> and paste your affiliate link here to earn 35 percent in "
+"commissions. Once entered, it will replace the default \"Powered by\" on the "
+"popups."
+msgstr ""
+
+#: src/includes/admin/class-settings.php:304
+msgid "Delete all data on Uninstall"
+msgstr ""
+
+#: src/includes/admin/class-settings.php:305
+msgid ""
+"When you uninstall the plugin all popups, settings and stats will be deleted "
+"from your db"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:75 src/includes/admin/class-tools.php:270
+msgid "Import"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:76 src/includes/admin/class-tools.php:311
+msgid "Export"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:77
+msgid "System Info"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:176
+#, php-format
+msgid ""
+"Import was successfully finished. Please go and <a href=\"%s\">publish your "
+"popups</a>."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:223
+msgid "Popups legacy plugin"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:225
+msgid ""
+"We have detected that you were using the old version of the Popups plugin. "
+"You can import old popups to the new version below."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:232 src/includes/admin/class-tools.php:297
+msgid "Select popup(s)"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:243
+msgid "Import legacy popups"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:249
+msgid "WP Popups Import"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:250
+msgid "Select a WP Popups export file."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:256
+msgid "{count} files selected"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:260
+msgid "No file chosen"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:263
+msgid "Choose a file&hellip;"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:289
+msgid "Popup Export"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:291
+msgid ""
+"Popup exports files can be used to create a backup of your popups or to "
+"import popups into another site."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:304
+msgid "You need to create a popup before you can use popup export."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:316
+msgid "Popup Template Export"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:320
+msgid ""
+"The following code can be used to register your custom popup template. Copy "
+"and paste the following code to your theme's functions.php file or include it "
+"within an external file."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:324
+#, php-format
+msgid ""
+"For more information <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">see our documentation</a>."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:340
+msgid ""
+"Select a popup to generate PHP code that can be used to register a custom "
+"popup template."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:354
+msgid "You need to create a popup before you can generate a template."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:361
+msgid "Export Template"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:378
+msgid "System Information"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:383
+msgid "Test SSL Connections"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:384
+msgid ""
+"Click the button below to verify your web server can perform SSL connections "
+"successfully."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:386
+msgid "Test Connection"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:453
+msgid "Please upload a valid .json popup export file."
+msgstr ""
+
+#: src/includes/admin/class-tools.php:454
+msgid "Error"
+msgstr ""
+
+#: src/includes/admin/class-tools.php:1129
+#: src/includes/admin/class-tools.php:1133
+msgid "M j, Y @ g:ia"
+msgstr ""
+
+#: src/includes/admin/class-triggers.php:44
+msgid "Seconds after page load"
+msgstr ""
+
+#: src/includes/admin/class-triggers.php:45
+msgid "of page height"
+msgstr ""
+
+#: src/includes/admin/class-triggers.php:46
+msgid "Scrolled down pixels"
+msgstr ""
+
+#: src/includes/admin/class-triggers.php:47
+msgid "Class Triggering"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:40
+#: src/includes/admin/class-welcome.php:41
+#: src/includes/admin/class-welcome.php:118
+msgid "Welcome to WPPopups"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:119
+msgid ""
+"Thank you for choosing WP Popups - the most powerful WordPress popup builder "
+"in the market."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:123
+#: src/includes/admin/class-welcome.php:125
+msgid "Watch how to create your first popup"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:131
+msgid ""
+"WP Popups makes it easy and intuitive to create a Popup. You can watch the "
+"video tutorial or read our guide on how create your first popup."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:137
+#: src/includes/admin/class-welcome.php:316
+msgid "Create Your First Popup"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:144
+#: src/includes/admin/class-welcome.php:333
+msgid "Read docs page"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:158
+msgid "WP Popups is the best multipurpose popup maker plugin for WordPress."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:164
+msgid "Template Builder"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:165
+msgid ""
+"Use a prebuilt template or create your own. Easily export them to use it in "
+"all your sites!"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:170
+msgid "30+ Display rules"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:171
+msgid ""
+"Trigger popup based on multiple rules. There is no other Popup plugin with "
+"the same flexibility!"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:176
+msgid "45+ Animations"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:177
+msgid "Animate your popup with some magic to capture your users attention."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:182
+msgid "Multiple triggers"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:183
+msgid ""
+"Show popup by using one more triggers combined,positions.svg like when user "
+"leaves the page, after X seconds, etc."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:188
+msgid "Premium features"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:190
+msgid "Upgrade to WP Popups to unlock all the magic!"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:196
+#: src/includes/admin/class-welcome.php:272
+msgid "A/B Testing"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:197
+msgid ""
+"Create different versions, measure results and choose the best popup for your "
+"campaign."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:203
+msgid ""
+"Track conversions and impressions of your popups and integrate it with Google "
+"Analytics."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:209
+msgid "Integrates with all the popular email providers. Capture leads easily!"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:214
+msgid "Geolocation Addon"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:215
+msgid ""
+"With the geolocation addon you can show the popup just to geotargeted users "
+"of your choice."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:220
+msgid "Age Verification Addon"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:221
+msgid ""
+"Create an Age Verification Popup to ask for user's age before seeing content."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:226
+msgid "Idle Logout Addon"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:227
+msgid ""
+"Log out your users after inactivity time, but give them a chance to continue "
+"logged by showing a popup."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:232
+msgid "Leaving Notice Addon"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:233
+msgid ""
+"Show a warning to users when they click on external links before they leave "
+"your site."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:238
+msgid "AJAX Login/Registration Addon"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:239
+msgid "Convert your popup into a login and registration form powered by ajax."
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:247
+msgid "See All Features"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:266
+msgid "Exit intent"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:269
+msgid "Optin templates"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:278
+msgid "More Animations"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:281
+msgid "More positions"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:284
+msgid "Geolocation"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:287
+msgid "More triggers"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:290
+msgid "Multiple addons"
+msgstr ""
+
+#: src/includes/admin/class-welcome.php:325
+msgid "Upgrade to WP Popups Pro"
+msgstr ""
+
+#: src/includes/admin/common.php:123
+msgid "Are you sure you want to delete this popup?"
+msgstr ""
+
+#: src/includes/admin/common.php:124
+msgid "Are you sure you want to duplicate this popup?"
+msgstr ""
+
+#: src/includes/admin/common.php:129
+msgid "Testing"
+msgstr ""
+
+#: src/includes/admin/common.php:309
+#, php-format
+msgid ""
+"Your site is running an outdated version of PHP that is no longer supported "
+"and may cause issues with %1$s. <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Read more</a> for additional information."
+msgstr ""
+
+#: src/includes/admin/common.php:338
+msgid "Thanks for your interest in WP Popups Pro!"
+msgstr ""
+
+#: src/includes/admin/common.php:342
+#, php-format
+msgid ""
+"If you have any questions or issues just <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">let us know</a>."
+msgstr ""
+
+#: src/includes/admin/common.php:356
+msgid ""
+"After purchasing WP Popups Pro, you'll need to <strong>download and install "
+"the Pro version of the plugin</strong>, and then <strong>remove the free "
+"plugin</strong>."
+msgstr ""
+
+#: src/includes/admin/common.php:361
+msgid "(Don't worry, all your popups and settings will be preserved.)"
+msgstr ""
+
+#: src/includes/admin/common.php:367
+#, php-format
+msgid ""
+"Check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our "
+"documentation</a> for step-by-step instructions."
+msgstr ""
+
+#: src/includes/admin/common.php:404
+#, php-format
+msgid ""
+"You just upgraded to WP Popups v%1$s. We need to update the database and "
+"import your old popups. To start the migration choose which popups you want "
+"to import by <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">clicking here</a>."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:50
+msgid "Off / On"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:51
+msgid "Name"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:52
+msgid "Trigger class"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:53
+msgid "Created"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:94
+msgid "Toggle off"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:94
+msgid "Toggle on"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:131
+msgid "Unnamed popup"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:141
+#: src/includes/admin/overview/class-overview-table.php:158
+msgid "Edit this popup"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:159
+msgid "Edit"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:167
+msgid "View preview"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:168
+msgid "Preview"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:184
+msgid "Duplicate this popup"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:185
+msgid "Duplicate"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:201
+msgid "Delete this popup"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:202
+#: src/includes/admin/overview/class-overview-table.php:219
+msgid "Delete"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:220
+msgid "Toggle status"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:261
+msgid "Popup was successfully deleted."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:263
+msgid "Popups were successfully deleted."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:288
+msgid "Popup was successfully toggled."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:290
+msgid "Popups were successfully toggled."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:311
+msgid "Popup was successfully duplicated."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:313
+msgid "Popups were successfully duplicated."
+msgstr ""
+
+#: src/includes/admin/overview/class-overview-table.php:338
+#, php-format
+msgid ""
+"Whoops, you haven't created a popup yet. Want to <a href=\"%s\">give it a go</"
+"a>?"
+msgstr ""
+
+#: src/includes/admin/overview/class-overview.php:76
+msgid "Number of popups per page:"
+msgstr ""
+
+#: src/includes/admin/settings-api.php:75
+#, php-format
+msgid "The callback function used for the %s setting is missing."
+msgstr ""
+
+#: src/includes/admin/settings-api.php:106
+msgid "You're using WP Popups Lite - no license needed. This is totally free!"
+msgstr ""
+
+#: src/includes/admin/settings-api.php:112
+#: src/includes/admin/settings-api.php:170
+#: src/includes/admin/settings-api.php:220
+#, php-format
+msgid ""
+"To unlock all features consider <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\" class=\"wppopups-upgrade-modal\">upgrading to Pro</a>."
+msgstr ""
+
+#: src/includes/admin/settings-api.php:132
+msgid "Verify Key"
+msgstr ""
+
+#: src/includes/admin/settings-api.php:136
+msgid "Deactivate Key"
+msgstr ""
+
+#: src/includes/admin/settings-api.php:359
+msgid "Upload Image"
+msgstr ""
+
+#: src/includes/class-logging.php:40
+msgid "WP Popups Logs"
+msgstr ""
+
+#: src/includes/class-logging.php:41
+msgid "Logs"
+msgstr ""
+
+#: src/includes/class-preview.php:77
+msgid ""
+"This is the WP Popups preview page. All your popup previews will be handled "
+"on this page."
+msgstr ""
+
+#: src/includes/class-preview.php:78
+msgid ""
+"The page is set to private, so it is not publicly accessible. Please do not "
+"delete this page :) ."
+msgstr ""
+
+#: src/includes/class-preview.php:83
+msgid "WP Popups Preview"
+msgstr ""
+
+#: src/includes/class-preview.php:173
+msgid "Popup"
+msgstr ""
+
+#: src/includes/class-preview.php:175
+msgid "This is a preview of your popup. This page is not publicly accessible."
+msgstr ""
+
+#: src/includes/class-preview.php:177
+msgid "Close this window"
+msgstr ""
+
+#: src/includes/class-preview.php:180
+#, php-format
+msgid "%s Preview"
+msgstr ""
+
+#: src/includes/class-rules.php:215
+msgid "User"
+msgstr ""
+
+#: src/includes/class-rules.php:216
+msgid "User role"
+msgstr ""
+
+#: src/includes/class-rules.php:217
+msgid "User is logged"
+msgstr ""
+
+#: src/includes/class-rules.php:218
+msgid "User never left a comment"
+msgstr ""
+
+#: src/includes/class-rules.php:219
+msgid "User came via a search engine"
+msgstr ""
+
+#: src/includes/class-rules.php:220
+msgid "User did not arrive via another page on your site"
+msgstr ""
+
+#: src/includes/class-rules.php:222 src/includes/class-rules.php:223
+msgid "Post"
+msgstr ""
+
+#: src/includes/class-rules.php:224
+msgid "Post ID"
+msgstr ""
+
+#: src/includes/class-rules.php:225
+msgid "Post Type"
+msgstr ""
+
+#: src/includes/class-rules.php:226
+msgid "Post Category"
+msgstr ""
+
+#: src/includes/class-rules.php:227
+msgid "Post Format"
+msgstr ""
+
+#: src/includes/class-rules.php:228
+msgid "Post Status"
+msgstr ""
+
+#: src/includes/class-rules.php:229
+msgid "Post Taxonomy"
+msgstr ""
+
+#: src/includes/class-rules.php:231 src/includes/class-rules.php:232
+msgid "Page"
+msgstr ""
+
+#: src/includes/class-rules.php:233
+msgid "Page Type"
+msgstr ""
+
+#: src/includes/class-rules.php:234
+msgid "Page Parent"
+msgstr ""
+
+#: src/includes/class-rules.php:235
+msgid "Page Template"
+msgstr ""
+
+#: src/includes/class-rules.php:238
+msgid "Referrer"
+msgstr ""
+
+#: src/includes/class-rules.php:239
+msgid "Query String"
+msgstr ""
+
+#: src/includes/class-rules.php:240
+msgid "Url contains keyword"
+msgstr ""
+
+#: src/includes/class-rules.php:241
+msgid "Custom Url"
+msgstr ""
+
+#: src/includes/class-rules.php:242
+msgid "Mobile Phone"
+msgstr ""
+
+#: src/includes/class-rules.php:243
+msgid "Tablet"
+msgstr ""
+
+#: src/includes/class-rules.php:244
+msgid "Desktop"
+msgstr ""
+
+#: src/includes/class-rules.php:245
+msgid "Bots/Crawlers"
+msgstr ""
+
+#: src/includes/class-rules.php:246
+msgid "Browser"
+msgstr ""
+
+#: src/includes/class-rules.php:302
+msgid "All Pages"
+msgstr ""
+
+#: src/includes/class-rules.php:303
+msgid "Front Page"
+msgstr ""
+
+#: src/includes/class-rules.php:304
+msgid "Posts Page"
+msgstr ""
+
+#: src/includes/class-rules.php:305
+msgid "Category Page"
+msgstr ""
+
+#: src/includes/class-rules.php:306
+msgid "Search Page"
+msgstr ""
+
+#: src/includes/class-rules.php:307
+msgid "Archives Page"
+msgstr ""
+
+#: src/includes/class-rules.php:308
+msgid "Top Level Page (parent of 0)"
+msgstr ""
+
+#: src/includes/class-rules.php:309
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: src/includes/class-rules.php:310
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: src/includes/class-rules.php:317
+msgid "Default Template"
+msgstr ""
+
+#: src/includes/class-rules.php:377
+msgid "Super Admin"
+msgstr ""
+
+#: src/includes/class-rules.php:398
+msgid "True"
+msgstr ""
+
+#: src/includes/functions.php:236
+msgid "Welcome to popups plugin"
+msgstr ""
+
+#: src/includes/functions.php:596
+#, php-format
+msgid "File %s is not exists"
+msgstr ""
+
+#: src/includes/templates/class-blank.php:21
+msgid "Blank Popup"
+msgstr ""
+
+#: src/includes/templates/class-blank.php:23
+msgid "The blank popup allows you to create any style you want from scratch."
+msgstr ""
+
+#: src/includes/templates/class-elegant.php:22
+msgid "Elegant Popup"
+msgstr ""
+
+#: src/includes/templates/class-elegant.php:24
+msgid "Soft background with inner border. Classy and elegant"
+msgstr ""
+
+#: src/includes/templates/class-transparent.php:21
+msgid "Transparent Popup"
+msgstr ""
+
+#: src/includes/templates/class-transparent.php:23
+msgid "No background and no overlay with transparent border image example popup"
+msgstr ""
+
+#: wppopups.php:81
+msgid "Please deactivate WP Popups Lite before activating WPPopups."
+msgstr ""

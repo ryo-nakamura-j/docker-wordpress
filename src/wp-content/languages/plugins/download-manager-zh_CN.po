@@ -1,0 +1,1785 @@
+# Translation of Plugins - Download Manager - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Download Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-23 04:51:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Download Manager - Stable (latest release)\n"
+
+#: src/Admin/views/settings/basic.php:130
+msgid "Message for Blocked IPs"
+msgstr "IP阻止消息"
+
+#: src/Package/PackageController.php:347
+msgid "I Agree With Terms and Conditions"
+msgstr "我同意条款和条件"
+
+#: src/__/Messages.php:102
+msgid "Download Limit Exceeded!"
+msgstr "超过下载限制！"
+
+#: src/__/Messages.php:118
+msgid "Access Denied"
+msgstr "拒绝访问"
+
+#: src/Admin/Menu/Categories.php:171 src/Admin/Menu/Categories.php:402
+msgid "Toolbar:"
+msgstr "工具栏:"
+
+#: src/User/views/lost-password-form.php:52
+msgid "Password reset link sent to your email."
+msgstr "密码重置链接已发送至您的电子邮件。"
+
+#: src/Package/views/category-shortcode-toolbar.php:59
+#: src/Package/views/category-shortcode-toolbar.php:93
+#: src/Package/views/packages-shortcode-toolbar.php:42
+#: src/Package/views/packages-shortcode-toolbar.php:76
+msgid "Search Keyword..."
+msgstr "搜索关键字..."
+
+#: src/Admin/views/settings/frontend.php:23
+msgid "Login automatically after signup is completed"
+msgstr "注册完成后自动登录"
+
+#: src/Admin/Menu/Categories.php:174 src/Admin/Menu/Categories.php:405
+msgid "Hide"
+msgstr "隐藏"
+
+#: src/__/CronJobs.php:41
+msgid "Every 6 hours"
+msgstr "每6小时"
+
+#: src/User/Login.php:52
+msgid "Login ID"
+msgstr "登录ID"
+
+#: src/Package/views/category-shortcode-toolbar.php:74
+#: src/Package/views/category-shortcode-toolbar.php:108
+#: src/Package/views/packages-shortcode-toolbar.php:57
+#: src/Package/views/packages-shortcode-toolbar.php:91
+msgid "Descending"
+msgstr "降序"
+
+#: src/Package/views/category-shortcode-toolbar.php:75
+#: src/Package/views/category-shortcode-toolbar.php:109
+#: src/Package/views/packages-shortcode-toolbar.php:58
+#: src/Package/views/packages-shortcode-toolbar.php:92
+msgid "Ascending"
+msgstr "升序"
+
+#: src/User/Register.php:45
+msgid "Last name"
+msgstr "姓"
+
+#: src/User/Register.php:44
+msgid "First name"
+msgstr "名"
+
+#: src/AssetManager/AssetManager.php:241 src/AssetManager/AssetManager.php:523
+#: src/AssetManager/AssetManager.php:547 src/AssetManager/AssetManager.php:566
+#: src/AssetManager/AssetManager.php:599
+msgid "Error! FileType is not allowed."
+msgstr "错误！ 不允许文件类型。"
+
+#: src/AssetManager/AssetManager.php:690
+msgid "Error! Only Administrator can execute this operation."
+msgstr "错误!只有管理员才能执行此操作。"
+
+#: src/User/Register.php:54
+msgid "Email"
+msgstr "电子邮件"
+
+#: src/Widgets/PackageInfo.php:163
+msgid "Show QR Code"
+msgstr "显示二维码"
+
+#: src/Widgets/PackageInfo.php:152
+msgid "Embed Download Options"
+msgstr "嵌入下载选项"
+
+#: src/Widgets/Tags.php:88
+msgid "Number of tags to show:"
+msgstr "要显示的标签数："
+
+#: src/Widgets/ListPackages.php:107
+msgid "On Single Download Page"
+msgstr "在单个下载页面上"
+
+#: src/Widgets/Categories.php:178
+msgid "Hide widget when no category"
+msgstr "没有类别时隐藏小工具"
+
+#: src/Widgets/Search.php:57
+msgid "Note: Create a page with short-code <code>[wpdm_search_result]</code> and select that page as search redult page"
+msgstr "注意： 创建页面并加入简码 <code>[wpdm_search_result]</code>，然后选择该页面作为搜索结果页面"
+
+#: src/Widgets/Search.php:52
+msgid "Search Result Page"
+msgstr "搜索结果页"
+
+#: src/Widgets/Categories.php:152
+msgid "Show all"
+msgstr "显示所有"
+
+#: src/Widgets/Categories.php:157
+msgid "Style:"
+msgstr "风格："
+
+#: src/Package/views/datatable.php:179 src/Widgets/PackageInfo.php:144
+msgid "Package Size"
+msgstr "下载包尺寸"
+
+#: src/Widgets/Categories.php:149
+msgid "On Category Page:"
+msgstr "在类别页面:"
+
+#: src/Widgets/Categories.php:153
+msgid "Show subcategories only"
+msgstr "仅显示子类别"
+
+#: src/MediaLibrary/MediaAccessControl.php:68
+msgid "<b>Error:</b> Wrong Password! Try Again."
+msgstr "<b>错误：</b>密码错误！再试一次。"
+
+#: src/MediaLibrary/MediaAccessControl.php:207
+msgid "This file is protected"
+msgstr "此文件受保护"
+
+#: src/Admin/views/metaboxes/attach-file/server-file.php:7
+msgid "Select from server"
+msgstr "从服务器中选择"
+
+#: src/MediaLibrary/MediaAccessControl.php:316
+msgid "Checking status..."
+msgstr "正在检查状态..."
+
+#: src/MediaLibrary/MediaAccessControl.php:202
+msgid "Protect this file"
+msgstr "保护此文件"
+
+#: src/MediaLibrary/MediaAccessControl.php:199
+msgid "This file is not protected."
+msgstr "此文件不受保护。"
+
+#: src/Admin/views/metaboxes/attach-file/media-library-file.php:5
+msgid "Select from media library"
+msgstr "从媒体库中选择"
+
+#: src/__/views/generate-password.php:26
+msgid "Valid Chars:"
+msgstr "有效字符："
+
+#: src/__/views/generate-password.php:30
+msgid "Special Chars"
+msgstr "特殊字符"
+
+#: src/__/views/generate-password.php:27
+msgid "Small Letters"
+msgstr "小写字母"
+
+#: src/Admin/views/edit-store-profile.php:96
+msgid "Short Intro"
+msgstr "简短介绍"
+
+#: src/User/views/dashboard/profile.php:126
+msgid "Remove"
+msgstr "移除"
+
+#: src/Admin/views/edit-store-profile.php:140
+msgid "PayPal Email"
+msgstr "PayPal邮箱"
+
+#: src/Admin/views/edit-store-profile.php:137
+msgid "Payment Settings"
+msgstr "付款设置"
+
+#: src/User/views/dashboard/profile.php:111
+msgid "My Favourites"
+msgstr "我的最爱"
+
+#: src/Admin/views/metaboxes/lock-options.php:131
+#: src/__/views/generate-password.php:44
+msgid "Insert Password(s)"
+msgstr "插入密码"
+
+#: src/Admin/views/settings/user-interface.php:17
+msgid "Bootstrap 3"
+msgstr "Bootstrap 3"
+
+#: src/Admin/views/settings/user-interface.php:17
+msgid "Bootstrap 4"
+msgstr "Bootstrap 4"
+
+#: src/Admin/views/edit-store-profile.php:122
+msgid "Profile Header Text Color"
+msgstr "配置文件标题文本颜色"
+
+#: src/Admin/views/edit-store-profile.php:109
+msgid "Banner URL"
+msgstr "横幅 URL"
+
+#: src/Admin/views/edit-store-profile.php:87
+msgid "Public Profile Info"
+msgstr "公开资料信息"
+
+#: src/__/views/generate-password.php:28
+msgid "Capital Letters"
+msgstr "大写字母"
+
+#: src/__/views/generate-password.php:29
+msgid "Numbers"
+msgstr "数目"
+
+#: src/Admin/views/stats/history.php:207 src/Widgets/PackageInfo.php:29
+#: src/Widgets/PackageInfo.php:140 src/wpdm-strings.php:11
+msgid "Version"
+msgstr "版本"
+
+#: src/wpdm-strings.php:22
+msgid "Total Files"
+msgstr "文件总数"
+
+#: src/User/views/reset-password-form.php:58
+msgid "Password Update Failed"
+msgstr "密码更新失败"
+
+#: src/User/views/modal-login-form.php:63 src/User/views/reg-form.php:54
+msgid "Or connect using your social account"
+msgstr "或使用社交帐户进行连接"
+
+#: src/User/Register.php:222
+msgid "Invalid email address!"
+msgstr "无效电子邮件地址！"
+
+#: src/User/Login.php:153 src/User/Register.php:169
+msgid "Invalid CAPTCHA!"
+msgstr "无效的验证码！"
+
+#: src/wpdm-strings.php:14
+msgid "File Type"
+msgstr "文件类型"
+
+#: src/wpdm-strings.php:15
+msgid "File Count"
+msgstr "文件计数"
+
+#: src/wpdm-strings.php:24
+msgid "Buy Now"
+msgstr "立即购买"
+
+#: src/wpdm-strings.php:21
+msgid "Attached Files"
+msgstr "附件文件"
+
+#: src/Admin/views/edit-store-profile.php:128
+#: src/Admin/views/edit-store-profile.php:129
+#: src/Admin/views/settings/social-connects.php:16 src/wpdm-strings.php:19
+msgid "Description"
+msgstr "描述"
+
+#: src/wpdm-strings.php:12
+msgid "Stock"
+msgstr "库存"
+
+#: src/wpdm-strings.php:20
+msgid "Package Info"
+msgstr "下载包信息"
+
+#: src/AssetManager/AssetManager.php:698
+msgid "Unzipped successfully."
+msgstr "解压缩成功。"
+
+#: src/AssetManager/AssetManager.php:693
+msgid "Please activate \"zlib\" in your server to perform zip operations"
+msgstr "请在服务器中激活\"zlib\"以执行 zip 操作"
+
+#: src/AssetManager/AssetManager.php:700
+msgid "Error! Couldn't open the zip file."
+msgstr "错误！无法打开 zip 文件。"
+
+#: src/AssetManager/AssetManager.php:692
+msgid "Error! Invalid Destination Path."
+msgstr "错误！无效的目标路径。"
+
+#: src/AssetManager/views/asset-manager-ui.php:533
+#: src/AssetManager/views/asset-manager-ui.php:735
+msgid "Upload File"
+msgstr "上传文件"
+
+#: src/AssetManager/views/asset-manager-ui.php:744
+msgid "Select Files"
+msgstr "选择文件"
+
+#: src/AssetManager/views/asset-manager-ui.php:743
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "或"
+
+#: src/AssetManager/views/asset-manager-ui.php:531
+#: src/AssetManager/views/asset-manager-ui.php:805
+msgid "New Folder"
+msgstr "新文件夹"
+
+#. Description of the plugin
+msgid "Manage, Protect and Track file downloads, and sell digital products from your WordPress site. A complete digital asset management solution."
+msgstr "管理、保护和跟踪文件下载，并在WordPress网站上销售数字产品。完整的数字资产管理解决方案。"
+
+#: src/AssetManager/AssetManager.php:571 src/AssetManager/AssetManager.php:595
+msgid "Invalid source path"
+msgstr "无效的源路径"
+
+#: src/AssetManager/AssetManager.php:572 src/AssetManager/AssetManager.php:596
+msgid "Invalid destination path"
+msgstr "无效的目标路径"
+
+#: src/AssetManager/AssetManager.php:580
+msgid "File moved successfully"
+msgstr "已成功移动文件"
+
+#: src/AssetManager/AssetManager.php:603
+msgid "File copied successfully"
+msgstr "已成功复制文件"
+
+#: src/AssetManager/views/asset-manager-ui.php:742
+msgid "Drop files here"
+msgstr "将文件拖到这里"
+
+#: src/AssetManager/AssetManager.php:175
+msgid "Download link is expired! Go back and Refresh the page to regenerate download link"
+msgstr "下载链接已过期！返回并刷新页面以重新生成下载链接"
+
+#: src/AssetManager/views/asset-manager-ui.php:539
+msgid "Digital Asset Manager"
+msgstr "数字资产管理"
+
+#: src/AssetManager/views/asset-manager-ui.php:871
+msgid "Authorized Users:"
+msgstr "授权用户："
+
+#: src/AssetManager/views/asset-manager-ui.php:849
+msgid "Authorized User Groups:"
+msgstr "授权用户组："
+
+#: src/AssetManager/views/asset-manager-ui.php:643
+msgid "Copy Shortcode"
+msgstr "复制简码"
+
+#: src/AssetManager/AssetManager.php:655
+msgid "Asset not found!"
+msgstr "未找到资产！"
+
+#: src/AssetManager/AssetManager.php:436
+msgid "Error! Unauthorized Access."
+msgstr "错误！未经授权的访问。"
+
+#: src/AssetManager/AssetManager.php:222 src/AssetManager/AssetManager.php:237
+#: src/AssetManager/AssetManager.php:261 src/AssetManager/AssetManager.php:340
+#: src/AssetManager/AssetManager.php:356 src/AssetManager/AssetManager.php:369
+#: src/AssetManager/AssetManager.php:387 src/AssetManager/AssetManager.php:439
+#: src/AssetManager/AssetManager.php:444 src/AssetManager/AssetManager.php:521
+#: src/AssetManager/AssetManager.php:691
+msgid "Error! Unauthorized Path."
+msgstr "错误！未经授权的路径。"
+
+#: src/AssetManager/AssetManager.php:216 src/AssetManager/AssetManager.php:231
+#: src/AssetManager/AssetManager.php:253 src/AssetManager/AssetManager.php:332
+#: src/AssetManager/AssetManager.php:348 src/AssetManager/AssetManager.php:382
+#: src/AssetManager/AssetManager.php:434 src/AssetManager/AssetManager.php:453
+#: src/AssetManager/AssetManager.php:465 src/AssetManager/AssetManager.php:477
+#: src/AssetManager/AssetManager.php:488 src/AssetManager/AssetManager.php:502
+#: src/AssetManager/AssetManager.php:514 src/AssetManager/AssetManager.php:537
+#: src/AssetManager/AssetManager.php:557 src/AssetManager/AssetManager.php:585
+msgid "Error! Session Expired. Try refreshing page."
+msgstr "错误！会话已过期。尝试刷新页面。"
+
+#: src/AssetManager/AssetManager.php:199
+msgid "Asset Manager"
+msgstr "资产管理"
+
+#: src/User/Dashboard.php:42
+msgid "Account"
+msgstr "帐户"
+
+#: src/User/views/dashboard/edit-profile.php:17
+msgid "Username:"
+msgstr "用户名："
+
+#: src/User/views/dashboard/edit-profile.php:34
+msgid "Re-type New Password:"
+msgstr "重新输入新密码："
+
+#: src/User/views/dashboard/edit-profile.php:33
+msgid "New Password:"
+msgstr "新密码："
+
+#: src/User/views/dashboard/edit-profile.php:16
+msgid "Display name:"
+msgstr "显示名称:"
+
+#: src/User/views/already-logged-in.php:15
+msgid "Welcome"
+msgstr "欢迎"
+
+#: src/User/Login.php:54 src/User/views/lost-password-form.php:23
+#: src/User/views/lost-password-form.php:24
+msgid "Username or Email"
+msgstr "用户名或邮箱"
+
+#: src/User/views/dashboard/edit-profile.php:29
+#: src/User/views/reset-password-form.php:38
+msgid "Update Password"
+msgstr "更新密码"
+
+#: src/User/Login.php:254 src/User/Login.php:256
+msgid "Session Expired! Please try again."
+msgstr "会话已过期！请再试一遍。"
+
+#: src/User/views/lost-password-form.php:29
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: src/User/views/login-form.php:66 src/User/views/modal-login-form.php:74
+#: src/User/views/reg-form.php:45
+msgid "Register Now"
+msgstr "立即注册"
+
+#: src/User/views/lost-password-form.php:19
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "请输入您的用户名或电子邮箱地址。您会收到一封包含创建新密码链接的电子邮件。"
+
+#: src/User/views/reset-password-form.php:27
+msgid "Please enter a new password"
+msgstr "请输入新密码"
+
+#: src/User/views/lost-password-form.php:69
+msgid "Please check your inbox."
+msgstr "请检查您的收件箱。"
+
+#: src/User/views/reset-password-form.php:56
+msgid "Password Updated"
+msgstr "密码已更新"
+
+#: src/User/views/reset-password-form.php:25
+#: src/User/views/reset-password-form.php:30
+msgid "New Password"
+msgstr "新密码"
+
+#: src/User/views/lost-password-form.php:69
+msgid "MAIL SENT!"
+msgstr "邮件已发送！"
+
+#: src/User/views/lost-password-form.php:17
+msgid "Lost Password?"
+msgstr "忘记密码？"
+
+#: src/User/views/login-form.php:95 src/User/views/login-form.php:109
+#: src/User/views/modal-login-form.php:92
+#: src/User/views/modal-login-form.php:105
+msgid "LOGIN FAILED!"
+msgstr "登录失败"
+
+#: src/AssetManager/AssetManager.php:315
+#: src/AssetManager/views/asset-manager-ui.php:574
+#: src/User/views/lost-password-form.php:33
+msgid "Home"
+msgstr "首页"
+
+#: src/User/views/reset-password-form.php:56
+msgid "DONE!"
+msgstr "完成！"
+
+#: src/User/views/reset-password-form.php:49
+msgid "Confirm password value must be same as the new password"
+msgstr "确认密码值必须与新密码相同"
+
+#: src/User/views/lost-password-form.php:64
+msgid "Account not found."
+msgstr "帐户未找到"
+
+#: src/Admin/views/settings/user-interface.php:152
+#: src/Admin/views/settings/user-interface.php:181
+msgid "Border Radius"
+msgstr "边框半径"
+
+#: src/Admin/views/settings/user-interface.php:106
+msgid "Warning:"
+msgstr "警告："
+
+#: src/Admin/views/settings/user-interface.php:100
+msgid "Success:"
+msgstr "成功："
+
+#: src/Admin/views/settings/user-interface.php:157
+msgid "Shortcode Page"
+msgstr "简码页面"
+
+#: src/Admin/views/settings/user-interface.php:94
+msgid "Info:"
+msgstr "信息:"
+
+#: src/Admin/views/settings/user-interface.php:124
+msgid "Download Button"
+msgstr "下载按钮"
+
+#: src/Admin/views/settings/user-interface.php:128
+msgid "Details Page"
+msgstr "详情页面"
+
+#: src/Admin/views/settings/user-interface.php:66
+msgid "Colors"
+msgstr "颜色"
+
+#: src/Admin/views/settings/user-interface.php:82
+msgid "Primary:"
+msgstr "主要:"
+
+#: src/Admin/views/settings/user-interface.php:88
+msgid "Secondary:"
+msgstr "次要:"
+
+#: src/Admin/views/settings/user-interface.php:112
+msgid "Danger:"
+msgstr "危险:"
+
+#: src/User/Register.php:347 src/User/Register.php:353
+#: src/User/views/login-form.php:29
+msgid "Your account has been created successfully."
+msgstr "您的帐户已成功创建。"
+
+#: src/User/Register.php:345
+msgid "Your account has been created successfully and login info sent to your mail address."
+msgstr "您的帐户已成功创建，登录信息将发送到您的邮件地址。"
+
+#: src/User/Register.php:152
+msgid "Something is Wrong! Please refresh the page and try again"
+msgstr "出问题了！请刷新页面，然后重试"
+
+#: src/__/Email.php:68
+msgid "[ %s ] New User Registration"
+msgstr "[%s] 新用户注册"
+
+#: src/Admin/views/templates/email-template-settings.php:67
+msgid "Youtube Profile URL"
+msgstr "YouTube个人资料网址"
+
+#: src/Admin/views/templates/email-template-settings.php:63
+msgid "Twitter Profile URL"
+msgstr "Twitter个人资料网址"
+
+#: src/Admin/views/templates/list-templates.php:130
+msgid "This is a preview, original template color scheme may look little different, but structure will be same"
+msgstr "这是一个预览，原始模板配色方案可能看起来略有不同，但结构将相同"
+
+#: src/Admin/Menu/Templates.php:50
+msgid "Templates &lsaquo; Download Manager"
+msgstr "模板&lsaquo; 下载管理器"
+
+#: src/Admin/Menu/Templates.php:50 src/Admin/views/templates/header.php:18
+msgid "Templates"
+msgstr "模板"
+
+#: src/Admin/views/templates/list-templates.php:23
+msgid "Template Name"
+msgstr "模板名称"
+
+#: src/Admin/views/templates/list-templates.php:27
+msgid "Template ID"
+msgstr "模板ID"
+
+#: src/Admin/views/templates/emails-template.php:14
+msgid "Subscribers"
+msgstr "订阅者"
+
+#: src/wpdm-functions.php:325
+msgid "Select Image"
+msgstr "选择图像"
+
+#: src/wpdm-functions.php:360
+msgid "SELECT IMAGE"
+msgstr "选择图像"
+
+#: src/Admin/views/templates/templates.php:158
+msgid "Saving..."
+msgstr "正在保存..."
+
+#: src/Admin/views/templates/email-template-editor.php:84
+#: src/Admin/views/templates/email-template-settings.php:103
+#: src/Admin/views/templates/templates.php:162
+#: src/AssetManager/views/asset-manager-picker.php:752
+#: src/AssetManager/views/asset-manager-ui.php:584
+#: src/User/views/dashboard/edit-profile.php:44
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: src/Admin/views/templates/list-templates.php:124
+msgid "Template Preview"
+msgstr "模板预览"
+
+#: src/Admin/views/templates/email-template-editor.php:54
+#: src/Admin/views/templates/email-template-editor.php:55
+msgid "Recipient's Email"
+msgstr "收件人的电子邮件"
+
+#: src/Admin/views/templates/email-template-editor.php:36
+msgid "Preview"
+msgstr "预览"
+
+#: src/Admin/views/templates/header.php:14
+msgid "Page Templates"
+msgstr "页面模板"
+
+#: src/__/Email.php:72
+msgid "New user registration on your site WordPress Download Manager:"
+msgstr "在您的网站WordPress下载管理器上的新用户注册："
+
+#: src/Admin/views/templates/email-template-editor.php:35
+msgid "Message"
+msgstr "消息"
+
+#: src/Admin/views/edit-store-profile.php:100
+#: src/Admin/views/templates/email-template-settings.php:38
+#: src/Admin/views/templates/email-template-settings.php:39
+msgid "Logo URL"
+msgstr "徽标网址"
+
+#: src/Admin/views/templates/header.php:13
+msgid "Link Templates"
+msgstr "链接模板"
+
+#: src/Admin/views/templates/email-template-editor.php:66
+msgid "From Name"
+msgstr "发件人名称"
+
+#: src/Admin/views/templates/email-template-editor.php:73
+msgid "From Email"
+msgstr "发件人邮箱"
+
+#: src/Admin/views/templates/email-template-settings.php:55
+msgid "Footer Text"
+msgstr "页脚文本"
+
+#: src/Admin/views/templates/email-template-settings.php:59
+msgid "Facebook Page URL"
+msgstr "Facebook页面网址"
+
+#: src/Admin/views/templates/emails-template.php:15
+msgid "Export All"
+msgstr "全部导出"
+
+#: src/Admin/views/templates/list-templates.php:106
+#: src/Admin/views/templates/templates.php:200
+msgid "Edit"
+msgstr "编辑"
+
+#: src/User/Register.php:326
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: src/User/views/dashboard/edit-profile.php:19
+msgid "Email:"
+msgstr "电子邮箱："
+
+#: src/Admin/views/templates/email-template-settings.php:50
+#: src/Admin/views/templates/email-template-settings.php:51
+msgid "Banner/Background Image URL"
+msgstr "横幅/背景图片网址"
+
+#: src/Admin/views/templates/list-templates.php:31
+msgid "Actions"
+msgstr "操作"
+
+#: src/Admin/views/templates/email-template-settings.php:21
+#: src/Admin/views/templates/emails-template.php:22
+msgid "Email Template"
+msgstr "电子邮件范本"
+
+#: src/Admin/views/templates/emails-template.php:21
+msgid "Emails"
+msgstr "电子邮件"
+
+#: src/Admin/views/templates/email-template-editor.php:33
+msgid "Email Subject"
+msgstr "电子邮件主题"
+
+#: src/Admin/views/templates/email-template-editor.php:22
+msgid "Editing: %s"
+msgstr "编辑：%s"
+
+#: src/Admin/views/templates/header.php:15
+msgid "Email Templates"
+msgstr "电子邮件范本"
+
+#: src/Admin/views/templates/email-template-editor.php:20
+msgid "To: %s"
+msgstr "到：%s"
+
+#: src/Admin/views/templates/emails-template.php:16
+msgid "Export Unique Emails"
+msgstr "导出唯一的电子邮件"
+
+#: src/Admin/views/templates/email-template-editor.php:109
+msgid "Template Variables"
+msgstr "模板变量"
+
+#: src/Admin/Menu/Templates.php:116
+msgid "No package found! Please create at least 1 package to see template preview"
+msgstr "找不到下载包！ 请创建至少1个下载包以查看模板预览"
+
+#: src/User/views/reg-form.php:74
+msgid "Already have an account?"
+msgstr "已有账号？"
+
+#: src/User/views/login-form.php:66 src/User/views/modal-login-form.php:74
+msgid "Don't have an account yet?"
+msgstr "还没有账号？"
+
+#: src/Admin/views/settings/user-interface.php:34
+msgid "Google Font"
+msgstr "Google字体"
+
+#: src/Admin/Menu/Settings.php:29 src/Admin/Menu/Settings.php:118
+#: src/Admin/Menu/Settings.php:159 src/Admin/Menu/Settings.php:178
+#: src/Admin/Menu/Settings.php:237 src/Admin/Menu/Settings.php:252
+#: src/Admin/Menu/Settings.php:267 src/__/__.php:564
+msgid "Security token is expired! Refresh the page and try again."
+msgstr "安全令牌已过期！刷新页面然后重试"
+
+#: src/Admin/Menu/Categories.php:56 src/Admin/Menu/Categories.php:263
+msgid "Select Category Image"
+msgstr "选择图像类别"
+
+#: src/Admin/views/settings/privacy.php:44
+msgid "Cache & Stats"
+msgstr "缓存和统计"
+
+#: src/Admin/views/settings/privacy.php:20
+msgid "If any user is deleted or close his/her own account, delete their download history too"
+msgstr "如果用户账号被删除或关闭，同时删除下载历史记录"
+
+#: src/Admin/views/settings/privacy.php:9
+msgid "Privacy Settings"
+msgstr "隐私设置"
+
+#: src/Admin/Menu/Settings.php:289
+msgid "Privacy Settings Saved Successfully"
+msgstr "隐私设置已保存"
+
+#: src/Admin/views/settings/privacy.php:47
+msgid "Delete All Stats Data"
+msgstr "清除所有统计数据"
+
+#: src/Admin/views/settings/privacy.php:19
+msgid "Delete download history when users close accounts"
+msgstr "当用户关闭账号时删除下载历史记录"
+
+#: src/Admin/views/settings/privacy.php:14
+msgid "Check this option if you do not want to store visitors IPs"
+msgstr "选中此项不存储访问者IP地址"
+
+#: src/Admin/views/settings/privacy.php:13
+msgid "Do not store visitor's IP"
+msgstr "不存储访问者IP地址"
+
+#: src/Admin/Menu/Categories.php:54 src/Admin/Menu/Categories.php:261
+msgid "Image URL"
+msgstr "图片地址"
+
+#: src/Admin/Menu/Categories.php:51 src/Admin/Menu/Categories.php:256
+msgid "Category Image:"
+msgstr "分类图片"
+
+#: src/User/views/lost-password-form.php:64
+#: src/User/views/reset-password-form.php:58
+#: src/User/views/reset-password-form.php:77
+msgid "ERROR!"
+msgstr "错误！"
+
+#: src/User/views/login-form.php:90 src/User/views/modal-login-form.php:89
+msgid "Logging In..."
+msgstr "正在登陆..."
+
+#: src/Package/views/lock-options-iframe.php:238
+msgid "Buy"
+msgstr "购买"
+
+#: src/Package/PackageController.php:1422
+msgid "Limit Over!"
+msgstr "超出限制！"
+
+#: src/Package/PackageController.php:286 src/Package/PackageController.php:293
+#: src/Package/PackageController.php:301 src/Package/PackageController.php:1306
+#: src/Package/PackageController.php:1313
+#: src/Package/PackageController.php:1324
+msgid "DOWNLOAD ERROR:"
+msgstr "下载出错："
+
+#: src/__/Apply.php:314
+msgid "Stock Limit Reached"
+msgstr "达到库存上限"
+
+#: src/Package/views/all-packages-shortcode.php:335
+msgid "view"
+msgstr "查看"
+
+#: src/Package/views/all-packages-shortcode.php:335
+msgid "views"
+msgstr "查看"
+
+#: src/wpdm-strings.php:23
+msgid "file(s)"
+msgstr "文件"
+
+#: src/Admin/views/settings/basic.php:182
+msgid "Chunk Size"
+msgstr "区块大小"
+
+#: src/Admin/views/settings/basic.php:177
+msgid "Check the option if you want to enable chunk upload to override http upload limits"
+msgstr "如果要启用区块上载以忽视 http 上载限制, 请选中该选项"
+
+#: src/Admin/views/settings/basic.php:176
+msgid "Chunk Upload"
+msgstr "区块上传"
+
+#: src/Admin/views/stats.php:11
+msgid "Export History"
+msgstr "导出历史记录"
+
+#: src/Package/views/search-result.php:16
+msgid "Search Result For"
+msgstr "搜索结果"
+
+#: src/Package/views/search-result.php:3
+msgid "Search Package"
+msgstr "搜索包"
+
+#: src/__/Email.php:283
+msgid "Sample Package Name"
+msgstr "例子包名"
+
+#: src/AssetManager/views/asset-manager-ui.php:553
+#: src/Package/views/search-result.php:17
+#: src/Package/views/search-result.php:21
+msgid "Loading"
+msgstr "正在加载"
+
+#: src/__/Email.php:96
+msgid "New Package Notification"
+msgstr "新包提示"
+
+#: src/__/Email.php:89
+msgid "Download [#package_name#]"
+msgstr "下载 [#package_name#]"
+
+#: src/__/Email.php:86
+msgid "Email Lock Notification"
+msgstr "Email锁定提示"
+
+#: src/__/Email.php:79
+msgid "Request to reset your %s password"
+msgstr "请求重设你的 %s 密码"
+
+#: src/__/Email.php:76
+msgid "Password Reset Notification"
+msgstr "密码重设提示"
+
+#: src/__/Email.php:58
+msgid "Welcome to %s"
+msgstr "欢迎来到 %s"
+
+#: src/__/Email.php:55 src/__/Email.php:65
+msgid "User Signup Notification"
+msgstr "用户注册提示"
+
+#: src/__/Email.php:46
+msgid "General Email Template"
+msgstr "生成邮件模板"
+
+#: src/Admin/views/settings/frontend.php:31
+msgid "Check this option if you want to show wpdm packages in your main <a target=\"_blank\" href=\"%s\">RSS Feed</a>"
+msgstr "选择此项如果你想在主 <a target=\"_blank\" href=\"%s\">RSS 订阅</a>显示下载包"
+
+#: src/Admin/views/settings/frontend.php:30
+msgid "Include Packages in Main RSS Feed"
+msgstr "在主RSS订阅包含下载包"
+
+#: src/wpdm-start-download.php:15
+msgid "Your IP address is blocked!"
+msgstr "你的IP地址已被阻止！"
+
+#: src/Admin/views/settings/basic.php:127
+msgid "List IP Addresses to blacklist. One IP per line ( Ex: IPv4 - 192.168.23.12 or 192.168.23.1/24 or 192.168.23.* , IPv6 - 2a01:8760:2:3001::1 or 2620:112:3000::/44 )"
+msgstr "IP阻止列表. 每行一个 ( 例如: IPv4 - 192.168.23.12 或 192.168.23.1/24 或 192.168.23.* , IPv6 - 2a01:8760:2:3001::1 或 2620:112:3000::/44 )"
+
+#: src/Admin/views/settings/basic.php:124
+msgid "One IP per line"
+msgstr "每行一个IP"
+
+#: src/Admin/views/settings/basic.php:123
+msgid "Blocked IPs"
+msgstr "已阻止IP"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:160
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:182
+msgid "Delete Current File"
+msgstr "删除当前文件"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:156
+msgid "Unauthorized Access!"
+msgstr "未许可访问！"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:154
+msgid "Invalid File Type!"
+msgstr "无效文件类型！"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:44
+msgid "No file uploaded yet!"
+msgstr "暂未上传文件！"
+
+#. Author URI of the plugin
+msgid "https://www.wpdownloadmanager.com/"
+msgstr "https://www.wpdownloadmanager.com/"
+
+#. Plugin Name of the plugin
+#: src/MediaLibrary/MediaHandler.php:17
+msgid "Download Manager"
+msgstr "下载管理器"
+
+#: src/Package/Shortcodes.php:290
+msgid "Order By"
+msgstr "排序"
+
+#: src/Package/Shortcodes.php:289
+msgid "Order"
+msgstr "排序"
+
+#: src/Package/Shortcodes.php:288
+msgid "Search"
+msgstr "查找"
+
+#: src/Package/Shortcodes.php:287 src/Package/views/datatable.php:185
+msgid "Desc"
+msgstr "降序"
+
+#: src/Package/Shortcodes.php:286 src/Package/views/datatable.php:184
+msgid "Asc"
+msgstr "升序"
+
+#: src/Package/PackageLocks.php:97 src/__/Apply.php:388
+msgid "Password usages limit exceeded"
+msgstr "达到密码使用上限"
+
+#: src/wpdm-core.php:122
+msgid "Select category"
+msgstr "选择分类"
+
+#: src/User/views/reg-form.php:143
+msgid "Registration is disabled!"
+msgstr "注册已关闭！"
+
+#: src/User/Login.php:187 src/User/views/reg-form.php:107
+msgid "Success! Redirecting..."
+msgstr "成功！正在重定向..."
+
+#: src/User/Register.php:63 src/User/views/reset-password-form.php:34
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: src/Package/PackageController.php:1361 src/User/Login.php:289
+#: src/User/views/login-form.php:64 src/User/views/lost-password-form.php:34
+#: src/User/views/modal-login-form.php:46 src/User/views/reg-form.php:74
+#: src/__/Messages.php:110
+msgid "Login"
+msgstr "登陆"
+
+#: src/Admin/views/metaboxes/lock-options.php:122
+#: src/__/views/generate-password.php:39
+msgid "Generated Passwords"
+msgstr "生成的密码"
+
+#: src/__/views/generate-password.php:21
+msgid "Number of chars for each password:"
+msgstr "每个密码的字符数："
+
+#: src/Admin/views/metaboxes/lock-options.php:95
+#: src/__/views/generate-password.php:18
+msgid "Number of passwords:"
+msgstr "密码数量："
+
+#: src/__/views/generate-password.php:14
+msgid "Select Options"
+msgstr "选项"
+
+#: src/User/views/login-form.php:60 src/User/views/modal-login-form.php:37
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+#: src/User/views/login-form.php:59 src/User/views/modal-login-form.php:36
+msgid "Remember Me"
+msgstr "记住我"
+
+#: src/User/Register.php:49
+msgid "Username"
+msgstr "用户名"
+
+#: src/User/views/already-logged-in.php:17
+msgid "You are already logged in."
+msgstr "你已经登陆。"
+
+#: src/Package/views/all-packages-shortcode.php:388
+msgid "No Packages Found"
+msgstr "无下载包"
+
+#: src/Package/views/all-packages-shortcode.php:329
+msgid "download"
+msgstr "下载"
+
+#: src/Package/views/all-packages-shortcode.php:329
+msgid "downloads"
+msgstr "下载"
+
+#: src/wpdm-strings.php:16
+msgid "Create Date"
+msgstr "创建日期"
+
+#: src/Admin/views/edit-store-profile.php:92
+#: src/Admin/views/settings/social-connects.php:12
+#: src/Package/Shortcodes.php:282
+#: src/Package/views/category-shortcode-toolbar.php:65
+#: src/Package/views/category-shortcode-toolbar.php:99
+#: src/Package/views/datatable.php:175
+#: src/Package/views/packages-shortcode-toolbar.php:48
+#: src/Package/views/packages-shortcode-toolbar.php:82 src/wpdm-strings.php:18
+msgid "Title"
+msgstr "标题"
+
+#: src/Package/views/all-packages-shortcode.php:61
+msgid "All"
+msgstr "全部"
+
+#: src/Package/views/all-packages-shortcode.php:57
+msgid "activate to sort column descending"
+msgstr "激活降序排列"
+
+#: src/Package/views/all-packages-shortcode.php:56
+msgid "activate to sort column ascending"
+msgstr "激活升序排列"
+
+#: src/Package/views/all-packages-shortcode.php:51
+msgid "Last"
+msgstr "姓"
+
+#: src/Package/views/all-packages-shortcode.php:50
+msgid "First"
+msgstr "名"
+
+#: src/Package/views/all-packages-shortcode.php:48
+msgid "Search:"
+msgstr "查找："
+
+#: src/Package/views/all-packages-shortcode.php:46
+msgid "Loading..."
+msgstr "加载..."
+
+#: src/Package/views/all-packages-shortcode.php:43
+msgid "No data available in table"
+msgstr "无可用数据"
+
+#: src/Package/views/all-packages-shortcode.php:42
+msgid "(filtered from _MAX_ total downloads)"
+msgstr "(过滤自 _MAX_ 个下载)"
+
+#: src/Package/views/all-packages-shortcode.php:41
+msgid "No downloads available"
+msgstr "无可用下载"
+
+#: src/Package/views/all-packages-shortcode.php:40
+msgid "Showing _START_ to _END_ of _TOTAL_ downloads"
+msgstr "显示 _START_ 至 _END_ 共 _TOTAL_ 下载"
+
+#: src/Package/views/all-packages-shortcode.php:39
+msgid "Nothing _START_ to - sorry"
+msgstr "Nothing _START_ to - 抱歉"
+
+#: src/Package/views/all-packages-shortcode.php:38
+msgid "Display _MENU_ downloads per page"
+msgstr "显示 _MENU_ 个下载每页"
+
+#: src/User/views/dashboard/profile.php:141
+msgid "Last 5 Downloads"
+msgstr "最近5个下载"
+
+#: src/User/views/dashboard/profile.php:54
+msgid "Recommended Downloads"
+msgstr "推荐下载"
+
+#: src/User/views/dashboard/profile.php:43
+msgid "Today's Download"
+msgstr "今日下载"
+
+#: src/User/views/dashboard/profile.php:23
+msgid "User Level"
+msgstr "用户级别"
+
+#: src/User/views/dashboard/edit-profile.php:12
+msgid "Basic Profile"
+msgstr "基本信息"
+
+#: src/Widgets/PackageInfo.php:157
+msgid "Tabular View"
+msgstr "表格视图"
+
+#: src/Widgets/PackageInfo.php:155
+msgid "Style"
+msgstr "风格"
+
+#: src/Widgets/PackageInfo.php:148
+msgid "Download Link"
+msgstr "下载链接"
+
+#: src/wpdm-strings.php:13
+msgid "File Size"
+msgstr "文件大小"
+
+#: src/Package/Shortcodes.php:285
+#: src/Package/views/category-shortcode-toolbar.php:66
+#: src/Package/views/category-shortcode-toolbar.php:100
+#: src/Package/views/datatable.php:178
+#: src/Package/views/packages-shortcode-toolbar.php:49
+#: src/Package/views/packages-shortcode-toolbar.php:83
+#: src/Widgets/PackageInfo.php:137
+msgid "Update Date"
+msgstr "更新日期"
+
+#: src/Widgets/PackageInfo.php:129
+msgid "View Count"
+msgstr "查看次数"
+
+#: src/Package/views/datatable.php:176 src/Widgets/PackageInfo.php:125
+#: src/wpdm-strings.php:10
+msgid "Download Count"
+msgstr "下载次数"
+
+#: src/Widgets/PackageInfo.php:120
+msgid "Fields to Show:"
+msgstr "显示项目："
+
+#: src/Widgets/PackageInfo.php:28
+msgid "Size"
+msgstr "大小"
+
+#: src/Widgets/PackageInfo.php:27 src/wpdm-strings.php:17
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: src/Package/Shortcodes.php:284
+#: src/Package/views/category-shortcode-toolbar.php:64
+#: src/Package/views/category-shortcode-toolbar.php:98
+#: src/Package/views/datatable.php:177
+#: src/Package/views/packages-shortcode-toolbar.php:47
+#: src/Package/views/packages-shortcode-toolbar.php:81
+#: src/Widgets/PackageInfo.php:26 src/Widgets/PackageInfo.php:133
+msgid "Publish Date"
+msgstr "发布日期"
+
+#: src/Widgets/PackageInfo.php:25
+msgid "Total Views"
+msgstr "总共查看"
+
+#: src/Admin/views/dashboard-widgets/overview.php:20
+#: src/User/views/dashboard/profile.php:35 src/Widgets/PackageInfo.php:24
+msgid "Total Downloads"
+msgstr "总共下载"
+
+#: src/Widgets/CatPackages.php:87 src/Widgets/ListPackages.php:100
+msgid "Select Category:"
+msgstr "选项类别"
+
+#: src/Admin/Menu/Categories.php:161 src/Admin/Menu/Categories.php:392
+#: src/Widgets/CatPackages.php:98 src/Widgets/ListPackages.php:143
+#: src/Widgets/NewDownloads.php:67 src/Widgets/TopDownloads.php:67
+msgid "Link Template:"
+msgstr "链接模板："
+
+#: src/Widgets/CatPackages.php:92 src/Widgets/ListPackages.php:136
+#: src/Widgets/NewDownloads.php:61 src/Widgets/TopDownloads.php:62
+msgid "Number of packages to show:"
+msgstr "显示的下载包数量："
+
+#: src/User/views/dashboard/edit-profile.php:18 src/Widgets/Categories.php:140
+#: src/Widgets/CatPackages.php:82 src/Widgets/ListPackages.php:95
+#: src/Widgets/NewDownloads.php:56 src/Widgets/PackageInfo.php:115
+#: src/Widgets/Search.php:47 src/Widgets/Tags.php:78
+#: src/Widgets/TopDownloads.php:57
+msgid "Title:"
+msgstr "标题："
+
+#: src/Widgets/Affiliate.php:42
+msgid "WPDM Affiliate ID:"
+msgstr "WPDM 加盟 ID:"
+
+#: src/User/Dashboard.php:34
+msgid "Edit Profile"
+msgstr "编辑信息"
+
+#: src/User/Dashboard.php:32
+msgid "Profile"
+msgstr "信息"
+
+#: src/User/Register.php:90
+msgid "User registration is disabled"
+msgstr "用户注册已禁止"
+
+#: src/Category/views/taxonomy-wpdmcategory.php:60
+#: src/Package/views/all-packages-shortcode.php:52
+#: src/User/views/dashboard/download-history.php:44 src/wpdm-functions.php:1039
+msgid "Next"
+msgstr "下一个"
+
+#: src/Category/views/taxonomy-wpdmcategory.php:59
+#: src/Package/views/all-packages-shortcode.php:53
+#: src/User/views/dashboard/download-history.php:43 src/wpdm-functions.php:1038
+msgid "Previous"
+msgstr "上一个"
+
+#: src/Package/views/lock-options/password-lock.php:23
+msgid "Submit"
+msgstr "提交"
+
+#: src/Package/views/lock-options/password-lock.php:22 src/User/Login.php:59
+msgid "Enter Password"
+msgstr "输入密码"
+
+#: src/Package/views/all-packages-shortcode.php:47
+#: src/Package/views/lock-options/password-lock.php:15
+#: src/Package/views/lock-options/password-lock.php:31
+msgid "Processing..."
+msgstr "正在处理..."
+
+#: src/Package/views/lock-options/password-lock.php:11
+msgid "Enter Correct Password to Download"
+msgstr "请输入正确下载密码"
+
+#: src/Package/views/lock-options/recaptcha-lock.php:13
+msgid "Verify CAPTCHA to Download"
+msgstr "验证CAPTCHA下载"
+
+#: src/Package/PackageController.php:725
+msgid "No File Attached!"
+msgstr "没有附加文件！"
+
+#: src/Package/PackageController.php:345
+msgid "Terms and Conditions"
+msgstr "条款"
+
+#: src/Package/PackageController.php:290 src/Package/PackageController.php:1015
+#: src/Package/PackageController.php:1311
+msgid "Download will be available from "
+msgstr "下载开始自"
+
+#: src/Package/PackageController.php:283 src/Package/PackageController.php:1007
+#: src/Package/PackageController.php:1304
+msgid "Download was expired on"
+msgstr "下载结束在"
+
+#: src/Package/PackageController.php:1010
+#: src/Package/PackageController.php:1018
+#: src/Package/PackageController.php:1028
+msgid "Download:"
+msgstr "下载："
+
+#: src/Package/PackageController.php:244 src/Package/PackageController.php:249
+#: src/Package/PackageController.php:251
+msgid "Icon"
+msgstr "图标"
+
+#: src/Package/PackageController.php:55
+msgid "ID missing!"
+msgstr "没有ID！"
+
+#: src/Admin/Menu/Categories.php:56 src/Admin/Menu/Categories.php:263
+msgid "Browse"
+msgstr "浏览"
+
+#: src/Admin/views/templates/custom-tags.php:20
+#: src/User/views/dashboard/profile.php:117
+msgid "Action"
+msgstr "动作"
+
+#: src/MediaLibrary/MediaAccessControl.php:209 src/User/Login.php:57
+#: src/User/Register.php:62
+msgid "Password"
+msgstr "密码"
+
+#: src/wpdm-strings.php:25
+msgid "Price"
+msgstr "价格"
+
+#: src/__/Apply.php:305
+msgid "You don't have permission to download this file"
+msgstr "你没有权限下载该文件"
+
+#: src/User/Register.php:384
+msgid "Username already exists."
+msgstr "用户已存在。"
+
+#: src/User/Register.php:207
+msgid "Username is Empty!"
+msgstr "用户名为空！"
+
+#: src/User/Register.php:182
+msgid "Error: User registration is disabled!"
+msgstr "错误：用户注册已关闭！"
+
+#: src/Package/PackageLocks.php:48
+msgid "Captcha Verification Failed!"
+msgstr "Captcha验证失败！"
+
+#: download-manager.php:322
+msgid "New Category Name"
+msgstr "新类别名称"
+
+#: download-manager.php:321
+msgid "Add New Category"
+msgstr "添加新类别"
+
+#: download-manager.php:320
+msgid "Update Category"
+msgstr "更新类别"
+
+#: download-manager.php:319
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#: download-manager.php:318
+msgid "Parent Category:"
+msgstr "父类别："
+
+#: download-manager.php:317
+msgid "Parent Category"
+msgstr "父类别"
+
+#: download-manager.php:316 src/Package/views/datatable.php:171
+msgid "All Categories"
+msgstr "全部类别"
+
+#: download-manager.php:315
+msgid "Search Categories"
+msgstr "查找类别"
+
+#: download-manager.php:314
+msgid "Category"
+msgstr "类别"
+
+#: download-manager.php:313 download-manager.php:323
+msgid "Categories"
+msgstr "类别"
+
+#: download-manager.php:275
+msgid "No Files found in Trash"
+msgstr "回收站为空"
+
+#: download-manager.php:274
+msgid "No File Found"
+msgstr "无文件"
+
+#: download-manager.php:273
+msgid "Search Files"
+msgstr "查找文件"
+
+#: download-manager.php:272
+msgid "View File"
+msgstr "查看文件"
+
+#: download-manager.php:271
+msgid "All Files"
+msgstr "全部文件"
+
+#: download-manager.php:270 src/AssetManager/views/asset-manager-ui.php:532
+#: src/AssetManager/views/asset-manager-ui.php:823
+msgid "New File"
+msgstr "新文件"
+
+#: download-manager.php:269
+msgid "Edit File"
+msgstr "编辑文件"
+
+#: download-manager.php:268
+msgid "Add New File"
+msgstr "添加新文件"
+
+#: download-manager.php:267
+msgid "Add New"
+msgstr "添加"
+
+#: download-manager.php:266
+msgid "File"
+msgstr "文件"
+
+#: download-manager.php:265 download-manager.php:277
+#: src/Package/Shortcodes.php:283
+#: src/Package/views/category-shortcode-toolbar.php:67
+#: src/Package/views/category-shortcode-toolbar.php:101
+#: src/Package/views/packages-shortcode-toolbar.php:50
+#: src/Package/views/packages-shortcode-toolbar.php:84
+msgid "Downloads"
+msgstr "下载"
+
+#: src/Admin/AdminController.php:123 src/Admin/views/stats.php:15
+#: src/User/Dashboard.php:33 src/User/views/dashboard/download-history.php:3
+msgid "Download History"
+msgstr "下载历史"
+
+#: src/Admin/views/stats/history.php:210
+#: src/User/views/dashboard/download-history.php:9
+#: src/User/views/dashboard/profile.php:147
+msgid "IP"
+msgstr "IP"
+
+#: src/Admin/views/stats/history.php:208
+#: src/User/views/dashboard/download-history.php:8
+#: src/User/views/dashboard/profile.php:146
+msgid "Download Time"
+msgstr "下载时间"
+
+#: src/Admin/views/stats/history.php:206
+#: src/User/views/dashboard/download-history.php:7
+#: src/User/views/dashboard/profile.php:116
+#: src/User/views/dashboard/profile.php:145
+msgid "Package Name"
+msgstr "下载包名称"
+
+#: src/Admin/views/settings.php:23 src/Admin/views/settings.php:70
+#: src/Admin/views/settings.php:86
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: src/Admin/views/settings/profile-dashboard.php:6
+msgid "Dashboard Page"
+msgstr "仪表盘页面"
+
+#: src/Admin/views/settings/frontend.php:18
+msgid "Register Page"
+msgstr "注册页面"
+
+#: src/Admin/views/settings/author-dashboard.php:80
+#: src/Admin/views/settings/frontend.php:12
+#: src/Admin/views/settings/profile-dashboard.php:8
+msgid "The page where you used short-code %s"
+msgstr "该页面使用微码 %s"
+
+#: src/Admin/views/settings/author-dashboard.php:79
+#: src/Admin/views/settings/frontend.php:10
+#: src/Admin/views/settings/frontend.php:19
+#: src/Admin/views/settings/profile-dashboard.php:7
+msgid "None Selected"
+msgstr "未选择"
+
+#: src/Admin/views/settings/frontend.php:9
+msgid "Login Page"
+msgstr "登陆页面"
+
+#: src/Admin/views/settings/user-interface.php:36
+msgid "Because, sometimes your theme may have those scripts/styles enqueued already"
+msgstr "有时你的主题可能已包含相关scripts/styles文件"
+
+#: src/Admin/views/settings/user-interface.php:21
+msgid "Disable Style & Script"
+msgstr "禁用 Style & Script"
+
+#: src/Admin/views/settings/basic.php:279
+msgid "Misc Settings"
+msgstr "杂项设置"
+
+#: src/Admin/views/settings/basic.php:97
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA Secret Key"
+
+#: src/Admin/views/settings/basic.php:92
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA Site Key"
+
+#: src/Admin/views/settings/basic.php:269
+msgid "Try to Open in Browser instead of download when someone clicks on download link"
+msgstr "打开新页面下载"
+
+#: src/Admin/views/settings/basic.php:268
+msgid "Open in Browser"
+msgstr "打开新页面"
+
+#: src/Admin/views/settings/basic.php:256
+msgid "Output Buffering"
+msgstr "输出缓冲"
+
+#: src/Admin/views/settings/basic.php:252
+#: src/Admin/views/settings/basic.php:259
+msgid "Disabled"
+msgstr "关闭"
+
+#: src/Admin/views/settings/basic.php:251
+#: src/Admin/views/settings/basic.php:258
+msgid "Enabled"
+msgstr "打开"
+
+#: src/Admin/views/settings/basic.php:249
+msgid "Resumable Downloads"
+msgstr "下载续传"
+
+#: src/Admin/views/settings/basic.php:245
+msgid "If you get broken download, then try enabling/disabling following options, as sometimes server may not support output buffering or partial downloads"
+msgstr "如果下载链接有问题，请尝试打开或关闭以下选项，因为某些服务器并不支持输出缓冲或下载续传"
+
+#: src/Admin/views/settings/basic.php:237
+msgid "Download Speed:"
+msgstr "下载速度："
+
+#: src/Admin/views/settings/basic.php:223
+msgid "File Download"
+msgstr "文件下载"
+
+#: src/Admin/views/settings/basic.php:166
+msgid "Check the option if you want to sanitize uploaded file names to remove illegal chars"
+msgstr "此选项去除上传文件名中的非法字符"
+
+#: src/Admin/views/settings/basic.php:164
+msgid "Sanitize Filename"
+msgstr "文件名规范化"
+
+#: src/Admin/views/settings/basic.php:143
+msgid "Upload Settings"
+msgstr "上传设置"
+
+#: src/Admin/views/settings/basic.php:60
+msgid "Who will have access to server file browser"
+msgstr "可浏览服务器文件的用户"
+
+#: src/Admin/views/settings/basic.php:58
+msgid "File Browser Access:"
+msgstr "文件浏览权限："
+
+#: src/Admin/views/settings/basic.php:49
+msgid "Reset Base Dir"
+msgstr "重设根目录"
+
+#: src/Admin/views/settings/basic.php:212
+msgid "Login Required Message:"
+msgstr "登陆下载信息："
+
+#: src/Admin/views/settings/basic.php:206
+msgid "Permission Denied Message for Packages:"
+msgstr "下载包无权限信息："
+
+#: src/Admin/views/settings/basic.php:198
+msgid "Messages"
+msgstr "信息"
+
+#: src/User/views/dashboard/edit-profile.php:58
+#: src/User/views/lost-password-form.php:58 src/User/views/reg-form.php:98
+#: src/User/views/reset-password-form.php:52
+msgid "Please Wait..."
+msgstr "请稍等..."
+
+#: src/Admin/Menu/Packages.php:408
+#: src/Admin/views/settings/user-interface.php:142
+#: src/Admin/views/settings/user-interface.php:171
+#: src/AssetManager/views/embed-asset.php:20
+#: src/MediaLibrary/views/media-shortcode.php:25
+#: src/Package/PackageController.php:158 src/Package/PackageController.php:259
+#: src/Package/PackageController.php:992 src/Package/PackageController.php:1021
+#: src/Package/PackageController.php:1137
+#: src/Package/PackageController.php:1245
+#: src/Package/PackageController.php:1280
+#: src/Package/PackageController.php:2062
+#: src/Package/PackageController.php:2102
+#: src/Package/views/all-packages-shortcode.php:352
+#: src/Package/views/lock-options-iframe.php:238
+#: src/Package/views/lock-options/password-lock.php:42
+#: src/Package/views/lock-options/recaptcha-lock.php:33
+msgid "Download"
+msgstr "下载"
+
+#: src/User/views/already-logged-in.php:22
+#: src/User/views/dashboard/dashboard.php:36
+msgid "Logout"
+msgstr "注销"
+
+#: src/Admin/views/metaboxes/package-settings.php:99
+msgid "Regenerate Master Key for Download"
+msgstr "重新生成下载Key"
+
+#: src/Admin/views/metaboxes/package-settings.php:99
+msgid "This key can be used for direct download"
+msgstr "该Key可用于直接下载"
+
+#: src/Admin/views/metaboxes/package-settings.php:96
+msgid "Master Key"
+msgstr "主Key"
+
+#: src/Admin/views/metaboxes/package-settings.php:87
+msgid "Page Template:"
+msgstr "页面模板："
+
+#: src/Admin/views/metaboxes/package-settings.php:61
+msgid "Who should be able to download?"
+msgstr "可下载用户？"
+
+#: src/Admin/views/metaboxes/package-settings.php:53
+#: src/MediaLibrary/MediaAccessControl.php:210
+msgid "Allow Access:"
+msgstr "允许访问："
+
+#: src/Admin/views/metaboxes/package-settings.php:43
+msgid "Download&nbsp;Count:"
+msgstr "下载&nbsp;次数："
+
+#: src/Admin/views/metaboxes/package-settings.php:38
+msgid "View&nbsp;Count:"
+msgstr "查看&nbsp;次数："
+
+#: src/Admin/views/metaboxes/package-settings.php:33
+msgid "Stock&nbsp;Limit:"
+msgstr "库存&nbsp;上限："
+
+#: src/Admin/views/metaboxes/package-settings.php:28
+msgid "Link Label:"
+msgstr "链接标签："
+
+#: src/Admin/views/metaboxes/package-settings.php:23
+msgid "Version:"
+msgstr "版本："
+
+#: src/Admin/views/metaboxes/package-settings.php:8
+msgid "Icons"
+msgstr "图标："
+
+#: src/Admin/views/metaboxes/package-settings.php:7
+msgid "Lock Options"
+msgstr "锁定选项"
+
+#: src/Admin/views/metaboxes/lock-options.php:69
+msgid "Users will be asked for reCAPTCHA verification before download."
+msgstr "用户下载前需要进行reCAPTCHA 验证"
+
+#: src/Admin/views/metaboxes/lock-options.php:68
+msgid "Please configure reCAPTCHA"
+msgstr "请配置reCAPTCHA"
+
+#: src/Admin/views/metaboxes/lock-options.php:65
+msgid "Enable Captcha Lock"
+msgstr "启用Captcha"
+
+#: src/Admin/views/metaboxes/lock-options.php:38
+#: src/MediaLibrary/MediaAccessControl.php:208
+msgid "Password:"
+msgstr "密码："
+
+#: src/Admin/views/metaboxes/lock-options.php:34
+msgid "Enable Password Lock"
+msgstr "启动密码"
+
+#: src/Admin/views/metaboxes/lock-options.php:25
+msgid "Terms Checkbox Label:"
+msgstr "条款标签："
+
+#: src/Admin/views/metaboxes/lock-options.php:20
+msgid "Terms and Conditions:"
+msgstr "条款："
+
+#: src/Admin/views/metaboxes/lock-options.php:16
+msgid "Terms Title:"
+msgstr "条款标题："
+
+#: src/Admin/views/metaboxes/lock-options.php:9
+msgid "Must Agree with Terms"
+msgstr "必须同意条款"
+
+#: src/Admin/views/metaboxes/lock-options.php:2
+msgid "You can use one or more of following methods to lock your package download:"
+msgstr "你可使用以下方法锁定下载："
+
+#: src/Admin/views/metaboxes/icons.php:112
+msgid "Icon URL"
+msgstr "图标URL"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:193
+msgid "<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-circle\"></i> Removed!</div></div>"
+msgstr "<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-circle\"></i> 已删除！</div></div>"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:191
+#: src/Admin/views/templates/templates.php:220
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:75
+#: src/AssetManager/views/asset-manager-ui.php:767 src/wpdm-functions.php:384
+msgid "Allowed Files"
+msgstr "允许文件"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:56
+msgid "Select File"
+msgstr "选择文件"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:54
+msgctxt "Uploader: Drop file here - or - Select File"
+msgid "or"
+msgstr "或"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:53
+msgid "Drop file here"
+msgstr "拖动文件到这里"
+
+#: src/Admin/views/metaboxes/attach-file/upload-file.php:15
+msgid "attached file is missing/deleted"
+msgstr "附件已丢失或删除"
+
+#: src/Admin/views/addons-list.php:310
+msgid "Failed to connect with server!"
+msgstr "无法连接到服务器！"
+
+#: src/Admin/Menu/Stats.php:28
+msgid "History"
+msgstr "历史"
+
+#: src/Admin/Menu/Settings.php:23 src/Admin/views/settings.php:111
+msgid "Settings"
+msgstr "设置"
+
+#: src/Admin/Menu/Settings.php:23
+msgid "Settings &lsaquo; Download Manager"
+msgstr "设置 &lsaquo; Download Manager"
+
+#: src/Admin/Menu/Categories.php:124 src/Admin/Menu/Categories.php:342
+#: src/Admin/views/metaboxes/package-settings.php:68
+#: src/AssetManager/views/asset-manager-ui.php:854
+msgid "All Visitors"
+msgstr "所有访客"
+
+#: src/Admin/Menu/Categories.php:121 src/Admin/Menu/Categories.php:329
+msgid "Select the roles who should have access to the packages under this category"
+msgstr "选择此类别下可访问下载包的用户角色"
+
+#: src/Admin/Menu/Categories.php:119 src/Admin/Menu/Categories.php:326
+msgid "Access:"
+msgstr "访问："
+
+#: src/Admin/Menu/AddOns.php:23
+msgid "Add-Ons"
+msgstr "插件"
+
+#: src/Admin/Menu/AddOns.php:23
+msgid "Add-Ons &lsaquo; Download Manager"
+msgstr "插件 &lsaquo; Download Manager"
+
+#: src/Admin/AdminController.php:181
+msgid "Attach File"
+msgstr "附加文件"
+
+#: src/Admin/AdminController.php:176
+#: src/Admin/views/metaboxes/package-settings.php:6
+msgid "Package Settings"
+msgstr "下载包设置"

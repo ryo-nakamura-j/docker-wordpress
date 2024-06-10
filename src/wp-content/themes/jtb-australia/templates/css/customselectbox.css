@@ -1,0 +1,125 @@
+
+/* */
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #333333;
+  width: 200px;
+  height: 40px;
+}
+
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 8px 15px;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.select-styled:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-color: #333333 transparent transparent transparent;
+  position: absolute;
+  top: 17px;
+  right: 10px;
+}
+.select-styled:hover {
+  /*background-color: #b83729;*/
+}
+.select-styled:active, .select-styled.active {
+  background-color: #f1f2f2;
+}
+.select-styled:active:after, .select-styled.active:after {
+  top: 12px;
+  border-color: transparent transparent #333 transparent;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #e6e7e8;
+}
+.select-options:after{
+  content: "";
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-color: transparent transparent #333 transparent;
+  position: absolute;
+  top: 24px;
+  right: 10px;
+}
+.select-options li {
+  margin: 0;
+  padding: 19px 0;
+  text-indent: 15px;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.select-options li:hover {
+	background-color: #f1f2f2;
+}
+.select-options li[rel="hide"] {
+  display: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.select{
+		width: 180px;
+		height: 35px;
+		font-size: 12px;
+	}
+	.select-options{
+		top: 0;
+	}
+	.select-options:after{
+		top: 10px;
+		right: 10px;
+	}
+	.select-options li{
+		padding: 9px 0;
+	}
+	.select-styled{
+		border: 1px solid #e6e7e8;
+		line-height: 1.5;
+	}
+	.select-styled:after{
+		top: 14px;
+	}
+	.searchPage .search__results .results__border{
+		margin: 15px 0 25px;
+	}
+	.searchPage .search__results .results__03{
+		margin: 0 0 0 0;
+	}
+	.select-styled:active:after, .select-styled.active:after {
+		top: 10px;
+	}
+}

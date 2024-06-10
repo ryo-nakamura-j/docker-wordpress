@@ -1,0 +1,223 @@
+# Translation of Plugins - Sucuri Security &#8211; Auditing, Malware Scanner and Security Hardening - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Sucuri Security &#8211; Auditing, Malware Scanner and Security Hardening - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-21 02:08:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Sucuri Security &#8211; Auditing, Malware Scanner and Security Hardening - Stable (latest release)\n"
+
+#: src/firewall.lib.php:491
+msgid "April"
+msgstr "April"
+
+#: src/firewall.lib.php:495
+msgid "August"
+msgstr "August"
+
+#: src/globals.php:90 src/strings.php:39 src/strings.php:290
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/firewall.lib.php:499
+msgid "December"
+msgstr "December"
+
+#: src/settings-apiservice.php:37 src/settings-general.php:313
+#: src/settings-general.php:379 src/settings-general.php:426
+#: src/settings-integrity.php:81
+msgid "Disable"
+msgstr "Disable"
+
+#: src/settings-apiservice.php:63 src/settings-general.php:355
+#: src/settings-general.php:399 src/settings-general.php:460
+msgid "Disabled"
+msgstr "Disabled"
+
+#: src/settings-apiservice.php:64 src/settings-general.php:356
+#: src/settings-general.php:400 src/settings-general.php:461
+msgid "Enable"
+msgstr "Enable"
+
+#: src/settings-apiservice.php:36 src/settings-general.php:312
+#: src/settings-general.php:378 src/settings-general.php:425
+#: src/settings-integrity.php:80
+msgid "Enabled"
+msgstr "Enabled"
+
+#: src/event.lib.php:487
+msgid "Error"
+msgstr "Error"
+
+#: src/settings-general.php:244
+msgid "Exists"
+msgstr "Exists"
+
+#: src/firewall.lib.php:489
+msgid "February"
+msgstr "February"
+
+#. Author URI of the plugin
+msgid "https://sucuri.net/"
+msgstr "https://sucuri.net/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.sucuri.net/"
+msgstr "https://wordpress.sucuri.net/"
+
+#: src/pagehandler.php:44
+msgid "iFrames"
+msgstr "iFrames"
+
+#: src/firewall.lib.php:488
+msgid "January"
+msgstr "January"
+
+#: src/firewall.lib.php:494
+msgid "July"
+msgstr "July"
+
+#: src/firewall.lib.php:493
+msgid "June"
+msgstr "June"
+
+#: src/pagehandler.php:45
+msgid "Links"
+msgstr "Links"
+
+#: src/firewall.lib.php:490
+msgid "March"
+msgstr "March"
+
+#: src/firewall.lib.php:492
+msgid "May"
+msgstr "May"
+
+#: src/firewall.lib.php:498
+msgid "November"
+msgstr "November"
+
+#: src/firewall.lib.php:497
+msgid "October"
+msgstr "October"
+
+#: src/lastlogins-failed.php:350 src/lastlogins-failed.php:374
+msgid "Password"
+msgstr "Password"
+
+#: src/pagehandler.php:46
+msgid "Scripts"
+msgstr "Scripts"
+
+#: src/firewall.lib.php:496
+msgid "September"
+msgstr "September"
+
+#: src/globals.php:93 src/strings.php:41 src/strings.php:96 src/strings.php:291
+msgid "Settings"
+msgstr "Settings"
+
+#. Author of the plugin
+msgid "Sucuri Inc."
+msgstr "Sucuri Inc."
+
+#. Plugin Name of the plugin
+msgid "Sucuri Security - Auditing, Malware Scanner and Hardening"
+msgstr "Sucuri Security - Auditing, Malware Scanner and Hardening"
+
+#: src/auditlogs.lib.php:208
+msgid "Today"
+msgstr "Today"
+
+#: src/hook.lib.php:134 src/hook.lib.php:225 src/hook.lib.php:292
+#: src/hook.lib.php:404 src/hook.lib.php:530 src/hook.lib.php:746
+#: src/hook.lib.php:772 src/hook.lib.php:873 src/hook.lib.php:917
+#: src/lastlogins-failed.php:251
+msgid "Unknown"
+msgstr "Unknown"
+
+#: src/lastlogins-failed.php:349 src/lastlogins-failed.php:373
+#: src/strings.php:155 src/strings.php:168 src/strings.php:181
+#: src/strings.php:193 src/strings.php:413
+msgid "Username"
+msgstr "Username"
+
+#: src/settings-general.php:250 src/strings.php:331
+msgid "Writable"
+msgstr "Writable"
+
+#: src/settings-webinfo.php:52
+msgid "active"
+msgstr "active"
+
+#: src/settings-hardening.php:110 src/settings-hardening.php:256
+#: src/settings-hardening.php:315 src/settings-hardening.php:384
+#: src/settings-hardening.php:416 src/settings-hardening.php:456
+#: src/settings-hardening.php:556 src/settings-hardening.php:603
+msgid "Apply Hardening"
+msgstr "Apply Hardening"
+
+#: src/lastlogins-failed.php:353 src/lastlogins-failed.php:377
+msgid "Attempt Date/Time"
+msgstr "Attempt Date/Time"
+
+#: src/lastlogins-failed.php:352 src/lastlogins-failed.php:376
+msgid "Attempt Timestamp"
+msgstr "Attempt Timestamp"
+
+#: src/settings-posthack.php:384
+msgid "Cannot Backup"
+msgstr "Cannot Backup"
+
+#: src/settings-posthack.php:381
+msgid "Cannot Download"
+msgstr "Cannot Download"
+
+#: src/settings-posthack.php:397
+msgid "Cannot Install"
+msgstr "Cannot Install"
+
+#: src/settings-general.php:238
+msgid "Does Not Exist"
+msgstr "Does Not Exist"
+
+#: src/strings.php:38 src/template.lib.php:136
+msgid "Generate API Key"
+msgstr "Generate API Key"
+
+#: src/globals.php:92
+msgid "Last Logins"
+msgstr "Last Logins"
+
+#: src/settings-posthack.php:371
+msgid "Missing Library"
+msgstr "Missing Library"
+
+#: src/settings-posthack.php:480
+msgid "Newest WordPress"
+msgstr "Newest WordPress"
+
+#: src/settings-general.php:237 src/settings-posthack.php:368
+msgid "Not Writable"
+msgstr "Not Writable"
+
+#: src/settings-hardening.php:114 src/settings-hardening.php:167
+#: src/settings-hardening.php:248 src/settings-hardening.php:252
+#: src/settings-hardening.php:307 src/settings-hardening.php:311
+#: src/settings-hardening.php:376 src/settings-hardening.php:380
+#: src/settings-hardening.php:419 src/settings-hardening.php:452
+#: src/settings-hardening.php:552 src/settings-hardening.php:608
+msgid "Revert Hardening"
+msgstr "Revert Hardening"
+
+#: src/strings.php:447
+msgid "Scheduled Tasks"
+msgstr "Scheduled Tasks"
+
+#: src/mail.lib.php:210
+msgid "Sucuri Alert"
+msgstr "Sucuri Alert"

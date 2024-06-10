@@ -1,0 +1,76 @@
+// Clearfix fields
+.cf7md-item {
+    @extend .cf;
+}
+
+// 100% width fields
+.wpcf7-form-control-wrap {
+    display: block;
+    width: 100%;
+}
+.mdc-textfield,
+.mdc-textfield input,
+.mdc-textfield textarea,
+.cf7md-item > div {
+    width: 100%;
+}
+.mdc-select {
+    width: 100%;
+    max-width: 100%;
+}
+
+// Vertical spacing
+.cf7md-item {
+    margin-top: 0;
+    margin-bottom: $base-v-space * 3;
+    select,
+    input,
+    textarea {
+        margin: 0;
+    }
+    .cf7md-help-text {
+        clear: both;
+        margin: -3px 0 $base-v-space;
+    }
+}
+.cf7md-text,
+.cf7md-quiz {
+    margin-top: -5px;
+    .mdc-textfield {
+        margin-top: 0;
+    }
+}
+.cf7md-select {
+    select {
+        margin-top: 11px; // Brings it into line with textfield in side-by-side fields
+        margin-bottom: 8px;
+    }
+    .cf7md-help-text {
+        //margin-top: 5px;
+    }
+}
+.cf7md-card {
+    margin-bottom: $base-v-space * 4;
+    .mdc-card__supporting-text .mdc-layout-grid > :last-child {
+        margin-bottom: 0;
+    }
+}
+// Tight spacing
+.cf7md-spacing--tight {
+    .cf7md-item {
+        margin-bottom: $base-v-space * 1;
+    }
+    .cf7md-text {
+        margin-bottom: 0;
+    }
+    .cf7md-card {
+        margin-bottom: $base-v-space * 2;
+    }
+}
+
+
+// Checkboxes/radios
+.wpcf7-list-item {
+    margin: 0;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+// iOS needs a min-height for date inputs..?
+input[type="date"] {
+    min-height: 34px;
+}
+
+// Adapt native date to work with md-text shortcode
+::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field {
+    opacity: 0;
+    transition: opacity .3s ease 0s;
+}
+input:focus::-webkit-datetime-edit-text,
+input:focus::-webkit-datetime-edit-month-field,
+input:focus::-webkit-datetime-edit-day-field,
+input:focus::-webkit-datetime-edit-year-field,
+input.cf7md-has-input:valid::-webkit-datetime-edit-text,
+input.cf7md-has-input:valid::-webkit-datetime-edit-month-field,
+input.cf7md-has-input:valid::-webkit-datetime-edit-day-field,
+input.cf7md-has-input:valid::-webkit-datetime-edit-year-field {
+    opacity: 1;
+    transition-delay: .2s;
+}
+::-webkit-calendar-picker-indicator {
+    //background: blue;
+}
+
+// IE Edge
+@supports (-ms-ime-align:auto) {
+    input[type="date"] {
+        opacity: 0;
+        &.cf7md-has-input {
+            opacity: 1;
+        }
+    }
+}

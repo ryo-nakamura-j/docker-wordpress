@@ -1,0 +1,114 @@
+//
+// How it works:
+//  - Find the selectors to add here
+//  - Add selector here, then compile
+//  - Copy processed selectors from CSS file into cf7-material-design-custom-style.php in define_selectors()
+//  - NOTE: dark theme switch selectors have been modified because
+//    the default doesn't change to a dark theme colour, copy the switch selectors from the light background colour
+//    over the top of the switch selectors in the dark theme background colour before
+//    compiling and using the output in PHP
+//
+
+/* Primary on light */
+.mdc-textfield--focused .mdc-textfield__label {
+    color: $primary-on-light;
+}
+.mdc-textfield--focused.mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline)::after,
+.mdc-multi-select:focus .mdc-list-item:checked,
+.mdc-checkbox__background::before,
+.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background,
+.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background,
+.mdc-radio__background::before,
+.mdc-radio__native-control:checked + .mdc-radio__background .mdc-radio__inner-circle,
+.mdc-button--primary.mdc-button--raised,
+.mdc-switch__native-control:checked ~ .mdc-switch__background::before,
+.mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob,
+.mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob::before {
+    background-color: $primary-on-light;
+}
+.mdc-textfield--multiline .mdc-textfield__input:focus,
+.mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus,
+.mdc-checkbox__native-control:checked ~ .mdc-checkbox__background,
+.mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background,
+.mdc-radio__native-control:checked + .mdc-radio__background .mdc-radio__outer-circle {
+    border-color: $primary-on-light;
+}
+.mdc-select:focus {
+    border-bottom-color: $primary-on-light;
+}
+
+/* Primary on dark */
+.mdc-theme--dark {
+    .mdc-textfield--focused .mdc-textfield__label {
+        color: $primary-on-dark;
+    }
+    .mdc-textfield--focused.mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline)::after,
+    .mdc-multi-select:focus .mdc-list-item:checked,
+    .mdc-checkbox__background::before,
+    .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background,
+    .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background,
+    .mdc-radio__background::before,
+    .mdc-radio__native-control:checked + .mdc-radio__background .mdc-radio__inner-circle,
+    .mdc-button--primary.mdc-button--raised,
+    .mdc-switch__native-control:checked ~ .mdc-switch__background::before,
+    .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob,
+    .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob::before {
+        background-color: $primary-on-dark;
+    }
+    .mdc-textfield--multiline .mdc-textfield__input:focus,
+    .mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus,
+    .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background,
+    .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background,
+    .mdc-radio__native-control:checked + .mdc-radio__background .mdc-radio__outer-circle {
+        border-color: $primary-on-dark;
+    }
+    .mdc-select:focus {
+        border-bottom-color: $primary-on-dark;
+    }
+    /*
+    .mdc-textfield--focused .mdc-textfield__label {
+        color: $primary-on-dark;
+    }
+    .mdc-textfield--focused.mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline)::after,
+    .mdc-button--primary.mdc-button--raised {
+        background-color: $primary-on-dark;
+    }
+    .mdc-select:focus {
+        border-bottom-color: $primary-on-dark;
+    }
+    */
+}
+
+/* Button on light */
+.mdc-button--primary.mdc-button--raised {
+    background-color: $primary-on-light;
+}
+
+/* Button on dark */
+.mdc-theme--dark {
+    .mdc-button--primary.mdc-button--raised {
+        background-color: $primary-on-dark;
+    }
+}
+
+/* Base font size */
+.cf7md-item,
+.mdc-form-field,
+.mdc-textfield {
+    font-size: $base-font-size;
+}
+
+/* Font family */
+.cf7md-item,
+input,
+label,
+textarea,
+p,
+.mdc-select,
+.cf7md-form + .wpcf7-response-output,
+.wpcf7-not-valid-tip,
+.mdc-card__title,
+.mdc-card__subtitle,
+.mdc-button {
+    font-family: $base-font;
+}

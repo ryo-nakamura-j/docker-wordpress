@@ -1,0 +1,100 @@
+.select2-container.select2-container--open {
+	z-index: 999999 !important;
+}
+
+.sgpb.sgpb-modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #00000082;
+	z-index: 99999;
+}
+
+.sgpb-modal .sgpb-modal-main {
+	min-width: 400px;
+	min-height: 200px;
+	background: #FFFFFF 0 0 no-repeat padding-box;
+	box-shadow: 0 3px 20px #00000029;
+	border-radius: 12px;
+	padding: 20px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sgpb-modal .sgpb-modal-main .sgpb-close-icon {
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	background: #2873EB;
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.sgpb-modal .sgpb-modal-main .sgpb-close-icon::before, .sgpb-modal .sgpb-modal-main .sgpb-close-icon::after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 14px;
+	left: 6px;
+	background: white;
+	position: absolute;
+	border-radius: 5px;
+}
+.sgpb-modal .sgpb-modal-main .sgpb-close-icon::before {
+	transform: rotate(45deg);
+}
+.sgpb-modal .sgpb-modal-main .sgpb-close-icon::after {
+	transform: rotate(-45deg);
+}
+.sgpb-modal .sgpb-modal-main .sgpb-modal-header {
+	font: normal normal bold 20px/27px Segoe UI Regular;
+	color: #000000;
+}
+.sgpb-modal .sgpb-modal-main .sgpb-modal-body {
+	max-height: 360px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 5px;
+}
+
+.post-type-popupbuilder .sgpb-modal .sgpb-modal-main .sgpb-modal-body .select2 {
+	width: 100% !important;
+}
+
+.sgpb-modal .sgpb-modal-main .sgpb-modal-footer button {
+	text-transform: capitalize;
+}
+
+/* width */
+.sgpb-modal ::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+.sgpb-modal ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.sgpb-modal ::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 3px;
+}
+
+/* Handle on hover */
+.sgpb-modal ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

@@ -1,0 +1,58 @@
+
+
+.tp-small-button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 27px;    
+    width: 100px;
+}
+
+.tp-small-long-button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 27px;    
+    width: auto;
+}
+
+.tp-big-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 43px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.tp-main-button {
+    border-color: #d60516;
+    background-color: #d60516;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tp-main-button:hover {
+    background: #A30000;
+    border-color: #A30000;
+}
+
+.tp-main-button:focus {
+    border-color: #d60516;
+    background-color: #d60516;
+}
+
+.tp-secondary-button {
+    border-color: lightgray;
+    background-color: lightgray;
+    color: #333;
+}
+
+.tp-secondary-button:hover {
+    background: #aaa;
+    border-color: #aaa;
+    color: #333;
+}
+
+.tp-secondary-button:focus {
+    border-color: lightgray;
+    background-color: lightgray;
+    color: #333;
+}

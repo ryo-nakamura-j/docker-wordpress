@@ -1,0 +1,1777 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPopups\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2019-04-23 11:34-0300\n"
+"PO-Revision-Date: 2019-11-24 23:00+0100\n"
+"Language-Team: Timersys <info@timersys.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/ajax-actions.php:24
+msgid "You do not have permission."
+msgstr "Du saknar rättigheter."
+
+#: includes/admin/ajax-actions.php:29
+msgid "No data provided"
+msgstr "Ingen data angiven"
+
+#: includes/admin/ajax-actions.php:70
+msgid ""
+"An error occurred and the popup could not be saved. Try refreshing the page "
+"first"
+msgstr ""
+"Ett fel uppstod och din popup kunde inte sparas. Försök med att ladda om "
+"sidan först"
+
+#: includes/admin/ajax-actions.php:96
+msgid "No popup name provided"
+msgstr "Du måste ge din popup ett namn"
+
+#: includes/admin/ajax-actions.php:133
+msgid "Error creating popup"
+msgstr "Fel när popup skulle skapas"
+
+#: includes/admin/ajax-actions.php:151
+msgid "No popup ID provided"
+msgstr "Inget ID för popup angivet"
+
+#: includes/admin/ajax-actions.php:172
+msgid "Error updating popup template"
+msgstr "Fel vid uppdatering av tema för popup"
+
+#: includes/admin/ajax-actions.php:301
+msgid "Success! Your server can make SSL connections."
+msgstr "Jajjamensan! Din server stöder SSL-anslutningar."
+
+#: includes/admin/ajax-actions.php:307
+msgid ""
+"There was an error and the connection failed. Please contact your web host "
+"with the technical details below."
+msgstr ""
+"Ett fel uppstod och anslutningen misslyckades. Kontakta din "
+"tjänsteleverantör och ange den tekniska informationen nedan."
+
+#: includes/admin/builder/class-builder.php:325
+msgid "AND"
+msgstr "OCH"
+
+#: includes/admin/builder/class-builder.php:328 includes/admin/common.php:134
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/admin/builder/class-builder.php:329 includes/admin/common.php:141
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/builder/class-builder.php:330 includes/admin/common.php:135
+msgid "Close"
+msgstr "Stäng"
+
+#: includes/admin/builder/class-builder.php:331 includes/admin/common.php:138
+msgid "Heads up!"
+msgstr "Pass på!"
+
+#: includes/admin/builder/class-builder.php:334
+#: includes/admin/builder/class-builder.php:440
+msgid "Save"
+msgstr "Spara"
+
+#: includes/admin/builder/class-builder.php:335
+msgid "Saving ..."
+msgstr "Sparar ..."
+
+#: includes/admin/builder/class-builder.php:336
+msgid "Saved!"
+msgstr "Sparad!"
+
+#: includes/admin/builder/class-builder.php:337
+msgid "Save and Exit"
+msgstr "Spara och stäng"
+
+#: includes/admin/builder/class-builder.php:339
+#: includes/admin/builder/class-builder.php:404
+msgid "Loading"
+msgstr "Laddar"
+
+#: includes/admin/builder/class-builder.php:345
+msgid "Use Template"
+msgstr "Använd tema"
+
+#: includes/admin/builder/class-builder.php:346
+msgid ""
+"Changing templates on an existing popup will DELETE all content. Are you "
+"sure you want apply the new template?"
+msgstr ""
+"Genom att ändra tema på en befintlig popup RADERAS allt innehåll. Är du "
+"säker på att du vill ladda det nya temat?"
+
+#: includes/admin/builder/class-builder.php:347
+#: includes/admin/builder/class-builder.php:445
+msgid "Exit"
+msgstr "Stäng"
+
+#: includes/admin/builder/class-builder.php:349
+msgid "If you exit without saving, your changes will be lost."
+msgstr "Om du stänger utan att spara förloras alla ändringar."
+
+#: includes/admin/builder/class-builder.php:350
+msgid "(copy)"
+msgstr "(kopia)"
+
+#: includes/admin/builder/class-builder.php:351
+msgid "Please enter a popup name."
+msgstr "Ange ett namn för din popup."
+
+#: includes/admin/builder/class-builder.php:352
+msgid "Off"
+msgstr "Av"
+
+#: includes/admin/builder/class-builder.php:353
+msgid "On"
+msgstr "På"
+
+#: includes/admin/builder/class-builder.php:354
+msgid "or"
+msgstr "eller"
+
+#: includes/admin/builder/class-builder.php:355
+msgid "Other"
+msgstr "Annan"
+
+#: includes/admin/builder/class-builder.php:356
+msgid "Previous"
+msgstr "Föregående"
+
+#: includes/admin/builder/class-builder.php:357 includes/admin/common.php:143
+msgid "Upload or Choose Your Image"
+msgstr "Ladda upp eller välj bild"
+
+#: includes/admin/builder/class-builder.php:358 includes/admin/common.php:144
+msgid "Use Image"
+msgstr "Använd bild"
+
+#: includes/admin/builder/class-builder.php:359
+msgid "Remove Image"
+msgstr "Radera bild"
+
+#: includes/admin/builder/class-builder.php:427
+msgid "Now editing"
+msgstr "Du redigerar nu"
+
+#: includes/admin/builder/class-builder.php:438
+msgid "Save Popup"
+msgstr "Spara popup"
+
+#: includes/admin/builder/panels/class-appearance.php:22
+msgid "Appearance"
+msgstr "Utseende"
+
+#: includes/admin/builder/panels/class-appearance.php:42
+#: includes/admin/builder/panels/class-appearance.php:75
+msgid "Popup Position"
+msgstr "Position på popup"
+
+#: includes/admin/builder/panels/class-appearance.php:43
+#: includes/admin/builder/panels/class-appearance.php:111
+msgid "Popup Animation"
+msgstr "Animering på popup"
+
+#: includes/admin/builder/panels/class-appearance.php:44
+msgid "Popup Box"
+msgstr "Popup-ruta"
+
+#: includes/admin/builder/panels/class-appearance.php:45
+msgid "Background/Colors"
+msgstr "Bakgrund/färger"
+
+#: includes/admin/builder/panels/class-appearance.php:46
+msgid "Popup Border"
+msgstr "Ram på popup"
+
+#: includes/admin/builder/panels/class-appearance.php:47
+msgid "Popup Shadow"
+msgstr "Skugga på popup"
+
+#: includes/admin/builder/panels/class-appearance.php:48
+#: includes/admin/builder/panels/class-content.php:62
+msgid "Close Button"
+msgstr "Stäng-knapp"
+
+#: includes/admin/builder/panels/class-appearance.php:49
+msgid "Custom Css"
+msgstr "Anpassad CSS"
+
+#: includes/admin/builder/panels/class-appearance.php:79
+msgid "Centered"
+msgstr "Centrerad"
+
+#: includes/admin/builder/panels/class-appearance.php:80
+msgid "Top Left"
+msgstr "Top-vänster"
+
+#: includes/admin/builder/panels/class-appearance.php:81
+msgid "Top Right"
+msgstr "Top-höger"
+
+#: includes/admin/builder/panels/class-appearance.php:82
+msgid "Bottom Left"
+msgstr "Botten-vänster"
+
+#: includes/admin/builder/panels/class-appearance.php:83
+msgid "Bottom Right"
+msgstr "Botten-höger"
+
+#: includes/admin/builder/panels/class-appearance.php:84
+msgid "Top Bar"
+msgstr "Toppfält"
+
+#: includes/admin/builder/panels/class-appearance.php:85
+msgid "Bottom Bar"
+msgstr "Bottenfält"
+
+#: includes/admin/builder/panels/class-appearance.php:115
+msgid "Fade in"
+msgstr "Tona in"
+
+#: includes/admin/builder/panels/class-appearance.php:116
+msgid "Slide in"
+msgstr "Glid in"
+
+#: includes/admin/builder/panels/class-appearance.php:117
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: includes/admin/builder/panels/class-appearance.php:143
+#: includes/admin/builder/panels/class-appearance.php:327
+msgid "Width"
+msgstr "Bredd"
+
+#: includes/admin/builder/panels/class-appearance.php:146
+#, php-format
+msgid "You can use px,% or any other valid css width."
+msgstr "Du kan använda px, procent eller annan giltig CSS-bredd."
+
+#: includes/admin/builder/panels/class-appearance.php:155
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/admin/builder/panels/class-appearance.php:168
+msgid "Auto Height"
+msgstr "Auto-höjd"
+
+#: includes/admin/builder/panels/class-appearance.php:171
+msgid "If disabled you can set your own fixed height"
+msgstr "Om inaktiverad kan du ange din egen bestämda höjd"
+
+#: includes/admin/builder/panels/class-appearance.php:172
+msgid "Adjust height to content"
+msgstr "Anpassa höjd efter innehåll"
+
+#: includes/admin/builder/panels/class-appearance.php:181
+msgid "Height"
+msgstr "Höjd"
+
+#: includes/admin/builder/panels/class-appearance.php:188
+msgid ""
+"If your content is higher than this value you will get scroll bars inside "
+"the popup"
+msgstr ""
+"Om ditt innehåll är högre än detta värde får du rullningsrutor i din popup"
+
+#: includes/admin/builder/panels/class-appearance.php:213
+msgid "Overlay color"
+msgstr "Överläggningsfärg"
+
+#: includes/admin/builder/panels/class-appearance.php:225
+msgid "Popup background"
+msgstr "Popupens bakgrund"
+
+#: includes/admin/builder/panels/class-appearance.php:237
+msgid "Background Image"
+msgstr "Bakgrundsbild"
+
+#: includes/admin/builder/panels/class-appearance.php:245
+msgid "Background Repeat"
+msgstr "Upprepa bakgrundsbild"
+
+#: includes/admin/builder/panels/class-appearance.php:260
+msgid "Background Size"
+msgstr "Bakgrundens storlek"
+
+#: includes/admin/builder/panels/class-appearance.php:293
+#: includes/admin/builder/panels/class-appearance.php:398
+msgid "Type"
+msgstr "Typ"
+
+#: includes/admin/builder/panels/class-appearance.php:315
+#: includes/admin/builder/panels/class-appearance.php:382
+#: includes/admin/builder/panels/class-appearance.php:480
+msgid "Color"
+msgstr "Färg"
+
+#: includes/admin/builder/panels/class-appearance.php:339
+msgid "Radius"
+msgstr "Radie"
+
+#: includes/admin/builder/panels/class-appearance.php:352
+msgid "Margin"
+msgstr "Marginal"
+
+#: includes/admin/builder/panels/class-appearance.php:402
+msgid "None"
+msgstr "Ingen"
+
+#: includes/admin/builder/panels/class-appearance.php:413
+msgid "X Offset"
+msgstr "X förskjutning"
+
+#: includes/admin/builder/panels/class-appearance.php:425
+msgid "Y Offset"
+msgstr "Y förskjutning"
+
+#: includes/admin/builder/panels/class-appearance.php:438
+msgid "Blur"
+msgstr "Suddig"
+
+#: includes/admin/builder/panels/class-appearance.php:451
+msgid "Spread"
+msgstr "Utbredd"
+
+#: includes/admin/builder/panels/class-appearance.php:492
+msgid "Hover Color"
+msgstr "Färg när muspekaren förs över"
+
+#: includes/admin/builder/panels/class-appearance.php:504
+msgid "Shadow Color"
+msgstr "Skuggans färg"
+
+#: includes/admin/builder/panels/class-appearance.php:516
+msgid "Size"
+msgstr "Storlek"
+
+#: includes/admin/builder/panels/class-appearance.php:528
+msgid "Position"
+msgstr "Position"
+
+#: includes/admin/builder/panels/class-appearance.php:563
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/admin/builder/panels/class-appearance.php:565
+#, php-format
+msgid ""
+"Add custom CSS for this popup. Be sure to start your rules with %s and use !"
+"important when needed to override plugin rules. Refresh screen in order to "
+"see changes."
+msgstr ""
+"Lägg till anpassad CSS för denna popup. Se till att dina regler börjar med "
+"%s och använd !important när det behövs för att åsidosätta tilläggets "
+"regler. Ladda om sidan för att se förändringar."
+
+#: includes/admin/builder/panels/class-base.php:266
+#, php-format
+msgid ""
+"You need to <a href=\"#\" class=\"wppopups-panel-switch\" data-panel=\"setup"
+"\">setup your popup</a> before you can edit the %s section."
+msgstr ""
+"Du behöver <a href=\"#\" class=\"wppopups-panel-switch\" data-panel=\"setup"
+"\">ställa in din popup</a> innan du kan redigera sektionen %s."
+
+#: includes/admin/builder/panels/class-base.php:289
+msgid ""
+"You need to <a href=\"#\" class=\"wppopups-panel-switch\" data-panel=\"setup"
+"\">setup your popup</a> before you can start making changes."
+msgstr ""
+"Du behöver <a href=\"#\" class=\"wppopups-panel-switch\" data-panel=\"setup"
+"\">ställa in din popup</a> innan du kan börja göra ändringar."
+
+#: includes/admin/builder/panels/class-content.php:22
+#: includes/admin/builder/panels/class-content.php:50
+msgid "Content"
+msgstr "Innehåll"
+
+#: includes/admin/builder/panels/class-content.php:42
+#: includes/admin/builder/panels/class-settings.php:42
+#: includes/admin/builder/panels/class-settings.php:68
+#: includes/admin/class-settings.php:169 includes/admin/class-settings.php:263
+msgid "General"
+msgstr "Generellt"
+
+#: includes/admin/builder/panels/class-content.php:66
+msgid "View Close shortcode Options"
+msgstr "Visa eller stäng alternativ för kortkoder"
+
+#: includes/admin/builder/panels/class-content.php:68
+msgid "Pass a custom class to style your button"
+msgstr "Ange en anpassad klass för att utforma din knapp"
+
+#: includes/admin/builder/panels/class-content.php:69
+msgid "Button label - - Default value: Close"
+msgstr "Knappetikett - - standardvärde: Stäng"
+
+#: includes/admin/builder/panels/class-content.php:70
+msgid "Conversion button?- - Default value: False"
+msgstr "Konversionsknapp=- - standardvärde: Falskt"
+
+#: includes/admin/builder/panels/class-content.php:71
+#: includes/admin/builder/panels/class-content.php:84
+#: includes/admin/builder/panels/class-content.php:99
+#: includes/admin/builder/panels/class-content.php:111
+msgid "left|center|right - Default value: \"center\""
+msgstr "vänster|centrerat|höger - standardvärde: \"centrerat\""
+
+#: includes/admin/builder/panels/class-content.php:73
+msgid "Facebook Page"
+msgstr "Facebooksida"
+
+#: includes/admin/builder/panels/class-content.php:77
+msgid "View Facebook Page Options"
+msgstr "Visa alternativ för Facebooksida"
+
+#: includes/admin/builder/panels/class-content.php:79
+#: includes/admin/builder/panels/class-content.php:93
+msgid "Your Facebook page url"
+msgstr "Din URL till Facebooksida"
+
+#: includes/admin/builder/panels/class-content.php:80
+msgid "Your page name"
+msgstr "Din sidas namn"
+
+#: includes/admin/builder/panels/class-content.php:81
+msgid "true|false - Default value: true"
+msgstr "sant|falskt - standardvärde: sant"
+
+#: includes/admin/builder/panels/class-content.php:82
+msgid "true|false - Default value: false"
+msgstr "sant|falskt - standardvärde: falskt"
+
+#: includes/admin/builder/panels/class-content.php:83
+msgid "number - Default value: 500"
+msgstr "värde - standardvärde: 500"
+
+#: includes/admin/builder/panels/class-content.php:87
+msgid "Facebook Button"
+msgstr "Facebookknapp"
+
+#: includes/admin/builder/panels/class-content.php:91
+msgid "View Facebook Options"
+msgstr "Visa Facebook-alternativ"
+
+#: includes/admin/builder/panels/class-content.php:94
+msgid "standard, box_count, button - Default value: button_count"
+msgstr "standard, box_count, knapp - standadvärde: knapp"
+
+#: includes/admin/builder/panels/class-content.php:95
+#: includes/admin/builder/panels/class-content.php:96
+msgid "true - Default value: false"
+msgstr "sant - standardvärde: falskt"
+
+#: includes/admin/builder/panels/class-content.php:97
+msgid "recommend - Default value: like"
+msgstr "rekommendera - standardvärde: gilla"
+
+#: includes/admin/builder/panels/class-content.php:98
+msgid "number - Default value:"
+msgstr "värde - standardvärde:"
+
+#: includes/admin/builder/panels/class-content.php:101
+msgid "Twitter Button"
+msgstr "Twitterknapp"
+
+#: includes/admin/builder/panels/class-content.php:105
+msgid "View Twitter Options"
+msgstr "Visa alternativ för Twitter"
+
+#: includes/admin/builder/panels/class-content.php:107
+msgid "Your Twitter user"
+msgstr "Ditt användarnamn på Twitter"
+
+#: includes/admin/builder/panels/class-content.php:108
+msgid "false - Default value: true"
+msgstr "falskt - standardvärde: sant"
+
+#: includes/admin/builder/panels/class-content.php:109
+msgid "large - Default value: \"\""
+msgstr "stor - standardvärde: \"\""
+
+#: includes/admin/builder/panels/class-content.php:114
+msgid "Looking for using a form in your popup?"
+msgstr "Vill du ha ett formulär i din popup?"
+
+#: includes/admin/builder/panels/class-content.php:115
+msgid ""
+"We love so much WP Forms that we even copied part of their code into our "
+"plugin, so if you are looking for a top and easy form plugin, we can just "
+"recommend:"
+msgstr ""
+"Vi älskar WP Forms så mycket att vi har kopierat en del av deras kod i vårt "
+"tillägg, så om du söker efter ett bra och lättanvänt tillägg för formulär "
+"kan vi rekommendera:"
+
+#: includes/admin/builder/panels/class-rules.php:22
+#: includes/admin/builder/panels/class-rules.php:42
+msgid "Display Rules"
+msgstr "Visa regler"
+
+#: includes/admin/builder/panels/class-rules.php:63
+msgid "Show this popup if:"
+msgstr "Visa denna popup om:"
+
+#: includes/admin/builder/panels/class-rules.php:116
+#: includes/admin/builder/panels/class-rules.php:196
+msgid "Add a new row on this group"
+msgstr "Lägg till en ny rad i denna grupp"
+
+#: includes/admin/builder/panels/class-rules.php:117
+msgid "Delete rule"
+msgstr "Radera regel"
+
+#: includes/admin/builder/panels/class-rules.php:126
+msgid "Add rule group (OR)"
+msgstr "Lägg till regelgrupp (ELLER)"
+
+#: includes/admin/builder/panels/class-rules.php:197
+msgid "remove row"
+msgstr "radera rad"
+
+#: includes/admin/builder/panels/class-settings.php:22
+#: includes/admin/class-menu.php:74 includes/admin/class-menu.php:141
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/admin/builder/panels/class-settings.php:43
+#: includes/admin/builder/panels/class-settings.php:137
+msgid "Triggers"
+msgstr "Utlösare"
+
+#: includes/admin/builder/panels/class-settings.php:44
+#: includes/admin/builder/panels/class-settings.php:189
+msgid "Cookies/Close"
+msgstr "Cookies/Stäng"
+
+#: includes/admin/builder/panels/class-settings.php:75
+#: includes/admin/builder/panels/class-setup.php:57
+msgid "Popup Name"
+msgstr "Popupens namn"
+
+#: includes/admin/builder/panels/class-settings.php:85
+msgid "Popup Description"
+msgstr "Beskrivning av popup"
+
+#: includes/admin/builder/panels/class-settings.php:92
+msgid "Test Mode"
+msgstr "Testläge"
+
+#: includes/admin/builder/panels/class-settings.php:95
+#: includes/admin/builder/panels/class-settings.php:111
+#: includes/admin/builder/panels/class-settings.php:200
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/builder/panels/class-settings.php:96
+#: includes/admin/builder/panels/class-settings.php:112
+#: includes/admin/builder/panels/class-settings.php:201
+msgid "No"
+msgstr "Nej"
+
+#: includes/admin/builder/panels/class-settings.php:99
+msgid ""
+"If test mode is enabled, the box will show up regardless of whether a cookie "
+"has been set. (To admins only)"
+msgstr ""
+"Om testläge är aktiverat kommer rutan att visas oavsett om en cookie har "
+"angivits (endast admins)."
+
+#: includes/admin/builder/panels/class-settings.php:108
+msgid "Show Powered by link?"
+msgstr "Visa Drivs av-länk?"
+
+#: includes/admin/builder/panels/class-settings.php:115
+msgid ""
+"Shows a \"powered by\" link below your popup. If your affiliate link is set "
+"in the Plugin settings page, it will be used."
+msgstr ""
+"Visar en \"drivs av\"-länk under din popup. Om din affiliate-länk har "
+"angivits i tilläggets inställningar kommer denna att användas."
+
+#: includes/admin/builder/panels/class-settings.php:123
+msgid "Popup CSS Class"
+msgstr "Anpassad CSS-klass"
+
+#: includes/admin/builder/panels/class-settings.php:125
+msgid ""
+"Enter CSS class names for the popup wrapper. Multiple class names should be "
+"separated with spaces."
+msgstr ""
+"Ange CSS-klass(ers) namn för popup. Namn på flera klasser separeras med "
+"mellanslag."
+
+#: includes/admin/builder/panels/class-settings.php:170
+#: includes/admin/builder/panels/class-settings.php:325
+msgid "Add a new trigger"
+msgstr "Lägg till ny utlösare"
+
+#: includes/admin/builder/panels/class-settings.php:171
+#: includes/admin/builder/panels/class-settings.php:326
+msgid "Delete trigger"
+msgstr "Radera utlösare"
+
+#: includes/admin/builder/panels/class-settings.php:197
+msgid "Close on conversion"
+msgstr "Stäng vid konvertering"
+
+#: includes/admin/builder/panels/class-settings.php:204
+msgid ""
+"Popup will close on conversion. Eg: When form is submitted or link is clicked"
+msgstr ""
+"Popupen stänger vid konvertering, t.ex. när ett formulär skickas eller en "
+"länk klickas på"
+
+#: includes/admin/builder/panels/class-settings.php:213
+msgid "Conversion cookie name"
+msgstr "Namn på konverteringscookie"
+
+#: includes/admin/builder/panels/class-settings.php:216
+msgid ""
+"The name that the popup will use for convertion cookie. Changing this name "
+"will reset the cookie, so all users will see popup again."
+msgstr ""
+"Namn som popupen använder på konverteringscookie. Ändrar du detta namn "
+"återställs den, så alla användare får se popupen igen."
+
+#: includes/admin/builder/panels/class-settings.php:224
+msgid "Conversion cookie duration"
+msgstr "Konverteringscookies varaktighet"
+
+#: includes/admin/builder/panels/class-settings.php:228
+msgid ""
+"When a user do a conversion like for example a click or form submission, how "
+"many days the popup should it stay hidden?"
+msgstr ""
+"När en användare gör en konvertering, t.ex. fyller i ett formulär, skall "
+"popupen döljas hur många dagar?"
+
+#: includes/admin/builder/panels/class-settings.php:236
+msgid "Conversion in Hours or days ?"
+msgstr "Konvertering i timmar eller dagar?"
+
+#: includes/admin/builder/panels/class-settings.php:239
+#: includes/admin/builder/panels/class-settings.php:276
+msgid "Days"
+msgstr "Dagar"
+
+#: includes/admin/builder/panels/class-settings.php:240
+#: includes/admin/builder/panels/class-settings.php:277
+msgid "Hours"
+msgstr "Timmar"
+
+#: includes/admin/builder/panels/class-settings.php:250
+msgid "Closing cookie name"
+msgstr "Namn på cookie för stängning"
+
+#: includes/admin/builder/panels/class-settings.php:253
+msgid ""
+"The name that the popup will use for closing cookie. Changing this name will "
+"reset the cookie, so all users will see popup again."
+msgstr ""
+"Namnet som popupen använder för stängningscookie. Ändrar du detta namn "
+"återställs den, så alla användare får se popupen igen."
+
+#: includes/admin/builder/panels/class-settings.php:261
+msgid "Closing cookie duration"
+msgstr "Stängningscookies varaktighet"
+
+#: includes/admin/builder/panels/class-settings.php:265
+msgid "After closing the popup, how many days should it stay hidden?"
+msgstr ""
+"Efter att användaren stängt popupen, hur många dagar skall den hållas dold?"
+
+#: includes/admin/builder/panels/class-settings.php:273
+msgid "Closing in Hours or days ?"
+msgstr "Stängning i timmar eller dagar?"
+
+#: includes/admin/builder/panels/class-setup.php:22
+msgid "Setup"
+msgstr "Inställningar"
+
+#: includes/admin/builder/panels/class-setup.php:59
+msgid "Enter your popup name here&hellip;"
+msgstr "Ange din popups namn här&hellip;"
+
+#: includes/admin/builder/panels/class-setup.php:63
+msgid "Select a Template"
+msgstr "Välj ett tema"
+
+#: includes/admin/builder/panels/class-setup.php:69
+msgid ""
+"To speed up the process, you can select from one of our pre-made templates "
+"or start with a <strong><a href=\"#\" class=\"wppopups-trigger-blank\">blank "
+"popup.</a></strong>"
+msgstr ""
+"För att skynda på processen kan du välja en av våra färdiga mallar eller "
+"börja med en <strong><a href=\"#\" class=\"wppopups-trigger-blank\">blank "
+"popup</a></strong>"
+
+#: includes/admin/builder/panels/class-setup.php:84
+msgid "Additional Templates"
+msgstr "Ytterligare teman"
+
+#: includes/admin/builder/panels/class-setup.php:95
+#, php-format
+msgid ""
+"Have a suggestion for a new template? <a href=\"%1$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">We'd love to hear it</a>. Also, you can <a href="
+"\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">create your own "
+"templates</a>!"
+msgstr ""
+"Har du ett förslag på nytt tema? <a href=\"%1$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Då vill vi gärna höra det</a>. Du kan också <a href="
+"\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">skapa egna teman</a>!"
+
+#: includes/admin/builder/panels/class-setup.php:113
+msgid "Search additional templates..."
+msgstr "Sök ytterligare teman."
+
+#: includes/admin/builder/panels/class-setup.php:154
+msgid "Selected"
+msgstr "Vald"
+
+#: includes/admin/builder/panels/class-setup.php:166
+#, php-format
+msgid "%s template"
+msgstr "%s tema"
+
+#: includes/admin/builder/panels/class-setup.php:179
+#, php-format
+msgid "Create a %s"
+msgstr "Skapa ett %s"
+
+#: includes/admin/class-menu.php:39 includes/admin/class-menu.php:40
+#: includes/admin/overview/class-overview.php:125
+#: includes/class-popup-handler.php:95
+msgid "WP Popups"
+msgstr "WP Popups"
+
+#: includes/admin/class-menu.php:51
+msgid "Popups"
+msgstr "Popuper"
+
+#: includes/admin/class-menu.php:52
+msgid "All Popups"
+msgstr "Alla popuper"
+
+#: includes/admin/class-menu.php:61
+msgid "WP Popups Builder"
+msgstr "Byggare för WP Popups"
+
+#: includes/admin/class-menu.php:62
+#: includes/admin/overview/class-overview.php:128
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: includes/admin/class-menu.php:73
+msgid "WP Popups Settings"
+msgstr "Inställningar för WP Popups"
+
+#: includes/admin/class-menu.php:83
+msgid "WP Popups Tools"
+msgstr "Verktyg för WP Popups"
+
+#: includes/admin/class-menu.php:84
+msgid "Tools"
+msgstr "Verktyg"
+
+#: includes/admin/class-menu.php:93
+msgid "popups"
+msgstr "popuper"
+
+#: includes/admin/class-menu.php:94
+msgid "Info"
+msgstr "Info"
+
+#: includes/admin/class-menu.php:103 lite/wppopups-lite.php:200
+msgid "WP Popups Addons"
+msgstr "Utökningar till WP Popups"
+
+#: includes/admin/class-menu.php:104
+msgid "Addons"
+msgstr "Utökningar"
+
+#: includes/admin/class-review.php:99
+msgid ""
+"Hey, I noticed you created a popup with WP Popups - that’s awesome! Could "
+"you please do me a BIG favor and give it a 5-star rating on WordPress ? It "
+"would be a tremendous help for us"
+msgstr ""
+"Hallå där! Jag märkte att du precis skapade en popup med WP Popups - det är "
+"ju hur fräckt som helst! Skulle du kunna göra mig en STOR tjänst och ge "
+"tillägget ett 5-stjärnigt omdöme på WordPress? Det skulle vara till stor "
+"hjälp för oss"
+
+#: includes/admin/class-review.php:103
+msgid "Ok, you deserve it"
+msgstr "Ok, det förtjänar ni"
+
+#: includes/admin/class-review.php:105
+msgid "Nope, maybe later"
+msgstr "Njä, kanske senare"
+
+#: includes/admin/class-review.php:107
+msgid "I already did"
+msgstr "Det har jag redan gjort"
+
+#: includes/admin/class-review.php:160
+#, php-format
+msgid ""
+"Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" target="
+"\"_blank\" rel=\"noopener\">WordPress.org</a> if you enjoy the plugin. It "
+"would be a tremendous help for us!"
+msgstr ""
+"Var snäll och ge oss %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> på <a href=\"%3$s\" "
+"target=\"_blank\" rel=\"noopener\">WordPress.org</a> om du gillar tillägget. "
+"Det skulle vara till stor hjälp för oss!"
+
+#: includes/admin/class-settings.php:139
+msgid "Settings were successfully saved."
+msgstr "Inställningarna sparades."
+
+#: includes/admin/class-settings.php:171
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: includes/admin/class-settings.php:214
+msgid "License"
+msgstr "Licens"
+
+#: includes/admin/class-settings.php:214
+msgid "Your license key provides access to updates and addons."
+msgstr "Din licensnyckel ger tillgång till uppdateringar och utökningar."
+
+#: includes/admin/class-settings.php:221
+msgid "License Key"
+msgstr "Licensnyckel"
+
+#: includes/admin/class-settings.php:226
+msgid "Analytics"
+msgstr "Analytics"
+
+#: includes/admin/class-settings.php:233
+msgid "Google UA code"
+msgstr "Google UA kod"
+
+#: includes/admin/class-settings.php:234
+msgid "Enter your Google UA-XXXXXX code to track popups in analytics."
+msgstr "Ange din Google UA-XXXXXX kod för att spåra popuper i Analytics."
+
+#: includes/admin/class-settings.php:241
+msgid "Data Sampling"
+msgstr "Dataprovtagning"
+
+#: includes/admin/class-settings.php:245
+#, php-format
+msgid ""
+"If your site have lot of traffic, enable data sampling by adding a number "
+"greater than 0. Check <a href=\"%s\">the docs page</a> for more info."
+msgstr ""
+"Om din webbplats har mycket trafik aktiverar du dataprovtagning genom att "
+"ange ett värde högre än 0. Läs mer i <a href=\"%s\">dokumentationen</a>."
+
+#: includes/admin/class-settings.php:270
+msgid "Affiliate link"
+msgstr "Affiliate-länk"
+
+#: includes/admin/class-settings.php:274
+#, php-format
+msgid ""
+"You can earn money by promoting the plugin! Join our <a href=\"%s"
+"\">affiliate program</a> and paste your affiliate link here to earn 35 "
+"percent in commissions. Once entered, it will replace the default \"Powered "
+"by\" on the popups."
+msgstr ""
+"Du kan tjäna pengar genom att göra reklam för tillägget! Gå med i vårt <a "
+"href=\"%s\">affiliateprogram</a> och klistra in din länk här för att tjäna "
+"35 procent i provision. Väl angiven ersätter den standard \"Drivs av\" i "
+"popuper."
+
+#: includes/admin/class-settings.php:291
+msgid "Delete all data on Uninstall"
+msgstr "Radera all data vid avinstallation"
+
+#: includes/admin/class-settings.php:292
+msgid ""
+"When you uninstall the plugin all popups, settings and stats will be deleted "
+"from your db"
+msgstr ""
+"När du avinstallerar tillägget kommer alla popuper, inställningar och "
+"statistik att raderas från din databas"
+
+#: includes/admin/class-tools.php:73 includes/admin/class-tools.php:227
+msgid "Import"
+msgstr "Importera"
+
+#: includes/admin/class-tools.php:74 includes/admin/class-tools.php:267
+msgid "Export"
+msgstr "Exportera"
+
+#: includes/admin/class-tools.php:75
+msgid "System Info"
+msgstr "Systeminfo"
+
+#: includes/admin/class-tools.php:159
+#, php-format
+msgid ""
+"Import was successfully finished. You can go and <a href=\"%s\">check your "
+"popups</a>."
+msgstr ""
+"Importen har slutförts. Du kan <a href=\"%s\">kolla in dina popuper</a>."
+
+#: includes/admin/class-tools.php:206
+msgid "WP Popups Import"
+msgstr "Import i WP Popups"
+
+#: includes/admin/class-tools.php:207
+msgid "Select a WP Popups export file."
+msgstr "Välj en exportfil för WP Popups."
+
+#: includes/admin/class-tools.php:213
+msgid "{count} files selected"
+msgstr "{count} filer valda"
+
+#: includes/admin/class-tools.php:217
+msgid "No file chosen"
+msgstr "Ingen fil vald"
+
+#: includes/admin/class-tools.php:220
+msgid "Choose a file&hellip;"
+msgstr "Välj en fil&hellip;"
+
+#: includes/admin/class-tools.php:245
+msgid "Popup Export"
+msgstr "Exportera popup"
+
+#: includes/admin/class-tools.php:247
+msgid ""
+"Popup exports files can be used to create a backup of your popups or to "
+"import popups into another site."
+msgstr ""
+"Exportfiler kan användas för att skapa säkerhetskopior av dina popuper, "
+"eller importera popuper till en annan webbplats."
+
+#: includes/admin/class-tools.php:253
+msgid "Select popup(s)"
+msgstr "Välj popup(er)"
+
+#: includes/admin/class-tools.php:260
+msgid "You need to create a popup before you can use popup export."
+msgstr "Du behöver skapa en popup innan du kan exportera någon."
+
+#: includes/admin/class-tools.php:272
+msgid "Popup Template Export"
+msgstr "Temaexport av popup"
+
+#: includes/admin/class-tools.php:276
+msgid ""
+"The following code can be used to register your custom popup template. Copy "
+"and paste the following code to your theme's functions.php file or include "
+"it within an external file."
+msgstr ""
+"Följande kod kan användas för att registrera ditt anpassade popuptema. "
+"Kopiera och klistra in följande kod i ditt temas functions.php eller "
+"inkludera det i en extern fil."
+
+#: includes/admin/class-tools.php:280
+#, php-format
+msgid ""
+"For more information <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">see our documentation</a>."
+msgstr ""
+"För mer information bör du <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">läsa vår dokumentation</a>."
+
+#: includes/admin/class-tools.php:296
+msgid ""
+"Select a popup to generate PHP code that can be used to register a custom "
+"popup template."
+msgstr ""
+"Välj en popup att generera PHP-kod som kan användas för att registrera ett "
+"anpassat popuptema."
+
+#: includes/admin/class-tools.php:310
+msgid "You need to create a popup before you can generate a template."
+msgstr "Du behöver skapa en popup innan du kan generera ett tema."
+
+#: includes/admin/class-tools.php:317
+msgid "Export Template"
+msgstr "Exportera tema"
+
+#: includes/admin/class-tools.php:334
+msgid "System Information"
+msgstr "Systeminformation"
+
+#: includes/admin/class-tools.php:339
+msgid "Test SSL Connections"
+msgstr "Testa SSL-anslutningar"
+
+#: includes/admin/class-tools.php:340
+msgid ""
+"Click the button below to verify your web server can perform SSL connections "
+"successfully."
+msgstr ""
+"Klicka på knappen nedan för att verifiera att din webbserver kan hantera SSL-"
+"anslutningar."
+
+#: includes/admin/class-tools.php:342
+msgid "Test Connection"
+msgstr "Testa anslutning"
+
+#: includes/admin/class-tools.php:411
+msgid "Please upload a valid .json popup export file."
+msgstr "Ladda upp en giltig .json exportfil."
+
+#: includes/admin/class-tools.php:412
+msgid "Error"
+msgstr "Fel"
+
+#: includes/admin/class-tools.php:541 includes/admin/class-tools.php:545
+msgid "M j, Y @ g:ia"
+msgstr "M j, Y @ g:ia"
+
+#: includes/admin/class-triggers.php:44
+msgid "Seconds after page load"
+msgstr "Sekunder efter sidladdning"
+
+#: includes/admin/class-triggers.php:45
+msgid "of page height"
+msgstr "av sidans höjd"
+
+#: includes/admin/class-triggers.php:46
+msgid "Scrolled down pixels"
+msgstr "Bläddrat ner pixlar"
+
+#: includes/admin/class-triggers.php:47
+msgid "Class Triggering"
+msgstr "Klass-utlösare"
+
+#: includes/admin/class-welcome.php:40 includes/admin/class-welcome.php:41
+#: includes/admin/class-welcome.php:119
+msgid "Welcome to WPPopups"
+msgstr "Välkommen till WP Popups"
+
+#: includes/admin/class-welcome.php:115
+msgid "Sullie the WP Popups mascot"
+msgstr "Sullie, maskot åt WP Popups"
+
+#: includes/admin/class-welcome.php:120
+msgid ""
+"Thank you for choosing WP Popups - the most powerful drag & drop WordPress "
+"form builder in the market."
+msgstr ""
+"Tack för att du väljer WP Popups - det mest kraftfulla dra-och-släpp "
+"verktyget för WordPress på marknaden."
+
+#: includes/admin/class-welcome.php:124 includes/admin/class-welcome.php:126
+msgid "Watch how to create your first form"
+msgstr "Se hur du kan skapa ditt första formulär"
+
+#: includes/admin/class-welcome.php:132
+msgid ""
+"WP Popups makes it easy to create popups in WordPress. You can watch the "
+"video tutorial or read our guide on how create your first form."
+msgstr ""
+"WP Popups gör det lätt att skapa popuper i WordPress. Du kan se en "
+"videohandledning eller läsa vår guide om hur du skapar ditt första formulär."
+
+#: includes/admin/class-welcome.php:138 includes/admin/class-welcome.php:326
+msgid "Create Your First Form"
+msgstr "Skapa ditt första formulär"
+
+#: includes/admin/class-welcome.php:145
+msgid "Read the Full Guide"
+msgstr "Läs hela guiden"
+
+#: includes/admin/class-welcome.php:158
+msgid "Welcome Features &amp; Addons"
+msgstr "Välkomna funktioner &amp; utökningar"
+
+#: includes/admin/class-welcome.php:159
+msgid ""
+"WP Popups is both easy to use and extremely powerful. We have tons of "
+"helpful features that allow us to give you everything you need from a form "
+"builder."
+msgstr ""
+"WP Popups är både lätt och extremt kraftfullt. Vi har mängder av smidiga "
+"funktioner som ger dig allt du behöver i en formulärbyggare."
+
+#: includes/admin/class-welcome.php:165
+msgid "Drag &amp; Drop Form Builder"
+msgstr "Dra-och-släpp formulärbyggare"
+
+#: includes/admin/class-welcome.php:166
+msgid ""
+"Easily create an amazing form in just a few minutes without writing any code."
+msgstr ""
+"Skapa lätt ett fantastiskt formulär på bara några minuter, utan en enda "
+"kodrad."
+
+#: includes/admin/class-welcome.php:171
+msgid "Form Templates"
+msgstr "Formulärteman"
+
+#: includes/admin/class-welcome.php:172
+msgid "Start with pre-built form templates to save even more time."
+msgstr "Starta med ett färdigt formulär för att spara tid."
+
+#: includes/admin/class-welcome.php:177
+msgid "Responsive Mobile Friendly"
+msgstr "Responsivt och mobilvänligt"
+
+#: includes/admin/class-welcome.php:178
+msgid ""
+"WP Popups is 100% responsive meaning it works on mobile, tablets & desktop."
+msgstr ""
+"WP Popups är 100% responsivt, vilket innebär att det fungerar på mobiler, "
+"plattor och datorer."
+
+#: includes/admin/class-welcome.php:183
+msgid "Smart Conditional Logic"
+msgstr "Smart, villkorlig logik"
+
+#: includes/admin/class-welcome.php:184
+msgid "Easily create high performance popups with our smart conditional logic."
+msgstr "Skapa lätt avancerade popuper baserade på villkorlig logik."
+
+#: includes/admin/class-welcome.php:189
+msgid "Instant Notifications"
+msgstr "Direkta notifikationer"
+
+#: includes/admin/class-welcome.php:190
+msgid ""
+"Respond to leads quickly with our instant form notification feature for your "
+"team."
+msgstr ""
+"Svara på leads snabbare med vår direkta formulärsnotifikation för ditt team."
+
+#: includes/admin/class-welcome.php:195
+msgid "Entry Management"
+msgstr "Posthantering"
+
+#: includes/admin/class-welcome.php:196
+msgid "View all your leads in one place to streamline your workflow."
+msgstr "Visa alla dina leads på ett ställe för att forma ditt arbetsflöde."
+
+#: includes/admin/class-welcome.php:201
+msgid "Payments Made Easy"
+msgstr "Lätta betalningar"
+
+#: includes/admin/class-welcome.php:202
+msgid ""
+"Easily collect payments, donations, and online orders without hiring a "
+"developer."
+msgstr ""
+"Samla lätt in betalningar, donationer och onlinebeställningar utan att "
+"behöva anlita en utvecklare."
+
+#: includes/admin/class-welcome.php:207
+msgid "Marketing &amp; Subscriptions"
+msgstr "Marknadsföring &amp; prenumerationer"
+
+#: includes/admin/class-welcome.php:208
+msgid ""
+"Create subscription popups and connect with your email marketing service."
+msgstr ""
+"Skapa popuper för prenumerationer och anslut med din tjänst för e-"
+"postmarknadsföring."
+
+#: includes/admin/class-welcome.php:213
+msgid "Easy to Embed"
+msgstr "Lätt att bädda in"
+
+#: includes/admin/class-welcome.php:214
+msgid ""
+"Easily embed your popups in blog posts, pages, sidebar widgets, footer, etc."
+msgstr "Bädda lätt in dina popuper i blogginlägg, sidor, widgets, sidfot, etc."
+
+#: includes/admin/class-welcome.php:219
+msgid "Spam Protection"
+msgstr "Spam-skydd"
+
+#: includes/admin/class-welcome.php:220
+msgid "Our smart captcha and honeypot automatically prevent spam submissions."
+msgstr "Med vår smarta captcha och honeypot förhindras spam automatiskt."
+
+#: includes/admin/class-welcome.php:229
+msgid "See All Features"
+msgstr "Se alla funktioner"
+
+#: includes/admin/class-welcome.php:242 lite/wppopups-lite.php:100
+msgid "Upgrade to PRO"
+msgstr "Uppgradera till PRO"
+
+#: includes/admin/class-welcome.php:245
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/admin/class-welcome.php:248
+msgid "Post Submissions"
+msgstr "Skickade inlägg"
+
+#: includes/admin/class-welcome.php:251
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/admin/class-welcome.php:254
+msgid "Signatures"
+msgstr "Signaturer"
+
+#: includes/admin/class-welcome.php:257
+msgid "User Registration"
+msgstr "Användarregistrering"
+
+#: includes/admin/class-welcome.php:260
+msgid "Form Abandonment"
+msgstr "Övergivet formulär"
+
+#: includes/admin/class-welcome.php:263
+msgid "Geolocation"
+msgstr "Geolocation"
+
+#: includes/admin/class-welcome.php:266
+msgid "Unlimited Sites"
+msgstr "Obegränsat antal webbplatser"
+
+#: includes/admin/class-welcome.php:269
+msgid "Zapier"
+msgstr "Zapier"
+
+#: includes/admin/class-welcome.php:272
+msgid "Priority Support"
+msgstr "Prioriterad support"
+
+#: includes/admin/class-welcome.php:278
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/admin/class-welcome.php:281
+msgid "per year"
+msgstr "per år"
+
+#: includes/admin/class-welcome.php:286 lite/wppopups-lite.php:210
+#: lite/wppopups-lite.php:237
+msgid "Upgrade Now"
+msgstr "Uppgradera nu"
+
+#: includes/admin/class-welcome.php:298
+msgid "Testimonials"
+msgstr "Rekommendationer"
+
+#: includes/admin/class-welcome.php:302
+msgid ""
+"WP Popups is by far the easiest form plugin to use. My clients love it – "
+"it’s one of the few plugins they can use without any training. As a "
+"developer I appreciate how fast, modern, clean and extensible it is."
+msgstr ""
+"WP Popups är utan tvekan det lättaste tillägget att använda. Mina klienter "
+"älskar det - det är ett av de få tillägg de kan använda utan någon "
+"handledning. Som utvecklare uppskattar jag hur snabbt, modernt, rent och "
+"mångsidigt det är."
+
+#: includes/admin/class-welcome.php:309
+msgid ""
+"As a business owner, time is my most valuable asset. WP Popups allow me to "
+"create smart online popups with just a few clicks. With their pre-built form "
+"templates and the drag & drop builder, I can create a new form that works in "
+"less than 2 minutes without writing a single line of code. Well worth the "
+"investment."
+msgstr ""
+"Som egenföretagare är tid min mest värdefulla tillgång. WP Popups låter mig "
+"skapa smarta popuper med bara ett par klick. Med de förbyggda mallarna och "
+"dra-och-släpp verktyget kan jag skapa ett nytt formulär på några minuter "
+"utan att behöva skriva någon kod. Väl värt investeringen."
+
+#: includes/admin/class-welcome.php:334
+msgid "Upgrade to WP Popups Pro"
+msgstr "Uppgradera till WP Popups Pro"
+
+#: includes/admin/common.php:136
+msgid "Are you sure you want to delete this popup?"
+msgstr "Är du säker på att du vill radera denna popup?"
+
+#: includes/admin/common.php:137
+msgid "Are you sure you want to duplicate this popup?"
+msgstr "Är du säker på att du vill kopiera denna popup?"
+
+#: includes/admin/common.php:142
+msgid "Testing"
+msgstr "Testar"
+
+#: includes/admin/common.php:322
+#, php-format
+msgid ""
+"Your site is running an outdated version of PHP that is no longer supported "
+"and may cause issues with %1$s. <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Read more</a> for additional information."
+msgstr ""
+"Din webbplats kör en gammal version av PHP som inte längre stöds och som kan "
+"skapa problem med %1$s. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Läs mer</a> för ytterligare information."
+
+#: includes/admin/common.php:351
+msgid "Thanks for your interest in WP Popups Pro!"
+msgstr "Tack för ditt intresse i WP Popups Pro!"
+
+#: includes/admin/common.php:355
+#, php-format
+msgid ""
+"If you have any questions or issues just <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">let us know</a>."
+msgstr ""
+"Om du har några frågor eller problem är det bara att <a href=\"%s\"> target="
+"\"_blank\" rel=\"noopener noreferrer\">höra av dig</a>."
+
+#: includes/admin/common.php:369
+msgid ""
+"After purchasing WP Popups Pro, you'll need to <strong>download and install "
+"the Pro version of the plugin</strong>, and then <strong>remove the free "
+"plugin</strong>."
+msgstr ""
+"Efter att du köpt WP Popups Pro behöver du <strong>ladda ner och installera "
+"Pro-versionen av tillägget</strong>, och sedan <strong>radera gratis-"
+"versionen</strong>."
+
+#: includes/admin/common.php:374
+msgid "(Don't worry, all your popups and settings will be preserved.)"
+msgstr "(Oroa dig inte - alla dina popuper och inställningar sparas.)"
+
+#: includes/admin/common.php:380
+#, php-format
+msgid ""
+"Check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our "
+"documentation</a> for step-by-step instructions."
+msgstr ""
+"Kolla in <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">vår "
+"dokumentation</a> för steg-för-steg instruktioner."
+
+#: includes/admin/overview/class-overview-table.php:51
+msgid "Off / On"
+msgstr "Av/på"
+
+#: includes/admin/overview/class-overview-table.php:52
+msgid "Name"
+msgstr "Namn"
+
+#: includes/admin/overview/class-overview-table.php:53
+msgid "Trigger class"
+msgstr "Utlösare klass"
+
+#: includes/admin/overview/class-overview-table.php:54
+msgid "Created"
+msgstr "Skapad"
+
+#: includes/admin/overview/class-overview-table.php:96
+msgid "Toggle off"
+msgstr "Slå av"
+
+#: includes/admin/overview/class-overview-table.php:96
+msgid "Toggle on"
+msgstr "Slå på"
+
+#: includes/admin/overview/class-overview-table.php:133
+msgid "Unnamed popup"
+msgstr "Namnlös popup"
+
+#: includes/admin/overview/class-overview-table.php:143
+#: includes/admin/overview/class-overview-table.php:160
+msgid "Edit this popup"
+msgstr "Redigera denna popup"
+
+#: includes/admin/overview/class-overview-table.php:161
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/admin/overview/class-overview-table.php:169
+msgid "View preview"
+msgstr "Förhandsgranska"
+
+#: includes/admin/overview/class-overview-table.php:170
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: includes/admin/overview/class-overview-table.php:186
+msgid "Duplicate this popup"
+msgstr "Kopiera denna popup"
+
+#: includes/admin/overview/class-overview-table.php:187
+msgid "Duplicate"
+msgstr "Kopiera"
+
+#: includes/admin/overview/class-overview-table.php:203
+msgid "Delete this popup"
+msgstr "Radera denna popup"
+
+#: includes/admin/overview/class-overview-table.php:204
+#: includes/admin/overview/class-overview-table.php:221
+msgid "Delete"
+msgstr "Radera"
+
+#: includes/admin/overview/class-overview-table.php:262
+msgid "Popup was successfully deleted."
+msgstr "Popup har raderats."
+
+#: includes/admin/overview/class-overview-table.php:264
+msgid "Popups were successfully deleted."
+msgstr "Popuper har raderats."
+
+#: includes/admin/overview/class-overview-table.php:274
+#: includes/admin/overview/class-overview-table.php:305
+msgid "Security check failed. Please try again."
+msgstr "Säkerhetskontroll misslyckades. Försök igen."
+
+#: includes/admin/overview/class-overview-table.php:293
+msgid "Popup was successfully duplicated."
+msgstr "Popup har kopierats."
+
+#: includes/admin/overview/class-overview-table.php:295
+msgid "Popups were successfully duplicated."
+msgstr "Popuper har kopierats."
+
+#: includes/admin/overview/class-overview-table.php:322
+#, php-format
+msgid ""
+"Whoops, you haven't created a popup yet. Want to <a href=\"%s\">give it a "
+"go</a>?"
+msgstr ""
+"Hoppsan! Du har inte skapat några popuper ännu. Vill du <a href=\"%s\">testa "
+"det</a>?"
+
+#: includes/admin/overview/class-overview.php:76
+msgid "Number of popups per page:"
+msgstr "Antal popuper per sida:"
+
+#: includes/admin/settings-api.php:75
+#, php-format
+msgid "The callback function used for the %s setting is missing."
+msgstr "Funktionen för återanrop som används för inställningen %s saknas."
+
+#: includes/admin/settings-api.php:106
+msgid "You're using WP Popups Lite - no license needed. This is totally free!"
+msgstr ""
+"Du använder WP Popups Lite - ingen licens behövs. Detta är helt gratis!"
+
+#: includes/admin/settings-api.php:112 includes/admin/settings-api.php:169
+#, php-format
+msgid ""
+"To unlock all features consider <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\" class=\"wppopups-upgrade-modal\">upgrading to Pro</"
+"a>."
+msgstr ""
+"För att låsa upp alla funktioner bör du överväga <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener noreferrer\" class=\"wppopups-upgrade-modal\">att "
+"uppgradera till Pro</a>."
+
+#: includes/admin/settings-api.php:132
+msgid "Verify Key"
+msgstr "Veriferingsnyckel"
+
+#: includes/admin/settings-api.php:136
+msgid "Deactivate Key"
+msgstr "Deaktiveringsnyckel"
+
+#: includes/admin/settings-api.php:310
+msgid "Upload Image"
+msgstr "Ladda upp bild"
+
+#: includes/class-preview.php:77
+msgid ""
+"This is the WP Popups preview page. All your popup previews will be handled "
+"on this page."
+msgstr ""
+"Detta är WP Popups sida för förhandsgranskning. Alla förhandsgraskningar av "
+"popuper hanteras här."
+
+#: includes/class-preview.php:78
+msgid ""
+"The page is set to private, so it is not publicly accessible. Please do not "
+"delete this page :) ."
+msgstr ""
+"Denna sida är angiven som privat, så den nås inte publikt. Radera inte denna "
+"sida :) ."
+
+#: includes/class-preview.php:83
+msgid "WP Popups Preview"
+msgstr "WP Popups förhandsgranskning"
+
+#: includes/class-preview.php:173
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/class-preview.php:175
+msgid "This is a preview of your popup. This page is not publicly accessible."
+msgstr ""
+"Detta är en förhandsgraskning av din popup. Denna sida är inte publikt "
+"tillgänglig."
+
+#: includes/class-preview.php:177
+msgid "Close this window"
+msgstr "Stäng detta fönster"
+
+#: includes/class-preview.php:180
+#, php-format
+msgid "%s Preview"
+msgstr "Förhandsgranskar %s"
+
+#: includes/class-rules.php:205
+msgid "User role"
+msgstr "Användarroll"
+
+#: includes/class-rules.php:206
+msgid "User is logged"
+msgstr "Användare är inloggad"
+
+#: includes/class-rules.php:207
+msgid "User never left a comment"
+msgstr "Användare har aldrig lämnat en kommentar"
+
+#: includes/class-rules.php:208
+msgid "User came via a search engine"
+msgstr "Användare kom via sökmotor"
+
+#: includes/class-rules.php:209
+msgid "User did not arrive via another page on your site"
+msgstr "Användare kom inte via en annan sida på din webbplats"
+
+#: includes/class-rules.php:212
+msgid "Post"
+msgstr "Inlägg"
+
+#: includes/class-rules.php:213
+msgid "Post ID"
+msgstr "Inläggs-ID"
+
+#: includes/class-rules.php:214
+msgid "Post Type"
+msgstr "Inläggstyp"
+
+#: includes/class-rules.php:215
+msgid "Post Category"
+msgstr "Inläggskategori"
+
+#: includes/class-rules.php:216
+msgid "Post Format"
+msgstr "Inläggsformat"
+
+#: includes/class-rules.php:217
+msgid "Post Status"
+msgstr "Inläggsstatus"
+
+#: includes/class-rules.php:218
+msgid "Post Taxonomy"
+msgstr "Inläggstaxonomi"
+
+#: includes/class-rules.php:221
+msgid "Page"
+msgstr "Sida"
+
+#: includes/class-rules.php:222
+msgid "Page Type"
+msgstr "Sidtyp"
+
+#: includes/class-rules.php:223
+msgid "Page Parent"
+msgstr "Överliggande sida"
+
+#: includes/class-rules.php:224
+msgid "Page Template"
+msgstr "Sidmall"
+
+#: includes/class-rules.php:227
+msgid "Referrer"
+msgstr "Hänvisare"
+
+#: includes/class-rules.php:228
+msgid "Query String"
+msgstr "Frågesträng"
+
+#: includes/class-rules.php:229
+msgid "Url contains keyword"
+msgstr "URL innehåller nyckelord"
+
+#: includes/class-rules.php:230
+msgid "Custom Url"
+msgstr "Anpassad URL"
+
+#: includes/class-rules.php:231
+msgid "Mobile Phone"
+msgstr "Mobiltelefon"
+
+#: includes/class-rules.php:232
+msgid "Tablet"
+msgstr "Surfplatta"
+
+#: includes/class-rules.php:233
+msgid "Dekstop"
+msgstr "Dator"
+
+#: includes/class-rules.php:234
+msgid "Bots/Crawlers"
+msgstr "Bots/krypare"
+
+#: includes/class-rules.php:235
+msgid "Browser"
+msgstr "Webbläsare"
+
+#: includes/class-rules.php:291
+msgid "All Pages"
+msgstr "Alla sidor"
+
+#: includes/class-rules.php:292
+msgid "Front Page"
+msgstr "Startsidan"
+
+#: includes/class-rules.php:293
+msgid "Posts Page"
+msgstr "Inläggssida"
+
+#: includes/class-rules.php:294
+msgid "Category Page"
+msgstr "Kategorisida"
+
+#: includes/class-rules.php:295
+msgid "Search Page"
+msgstr "Söksida"
+
+#: includes/class-rules.php:296
+msgid "Archives Page"
+msgstr "Arkivsida"
+
+#: includes/class-rules.php:297
+msgid "Top Level Page (parent of 0)"
+msgstr "Toppnivåsida (överliggande av 0)"
+
+#: includes/class-rules.php:298
+msgid "Parent Page (has children)"
+msgstr "Överliggande sida (har underliggande sidor)"
+
+#: includes/class-rules.php:299
+msgid "Child Page (has parent)"
+msgstr "Underliggande sida (har överliggande)"
+
+#: includes/class-rules.php:306
+msgid "Default Template"
+msgstr "Standardtema"
+
+#: includes/class-rules.php:366
+msgid "Super Admin"
+msgstr "Superadmin"
+
+#: includes/class-rules.php:386
+msgid "True"
+msgstr "Sant"
+
+#: includes/functions.php:184
+msgid "Welcome to popups plugin"
+msgstr "Välkommen till popups tillägget"
+
+#: includes/templates/class-blank.php:21
+msgid "Blank Popup"
+msgstr "Blank popup"
+
+#: includes/templates/class-blank.php:23
+msgid "The blank popup allows you to create any style you want from scratch."
+msgstr "En blank popup låter dig skapa vilken stil du vill från grunden."
+
+#: includes/templates/class-coupon.php:21
+msgid "Coupon Popup"
+msgstr "Kupong-popup"
+
+#: includes/templates/class-coupon.php:23
+msgid "Coupon style popup. The perfect choice for displaying great deals!"
+msgstr "Kupong-popupen är ett perfekt val för att visa erbjudanden!"
+
+#: includes/templates/class-elegant.php:22
+msgid "Elegant Popup"
+msgstr "Elegant popup"
+
+#: includes/templates/class-elegant.php:24
+msgid "Soft background with inner border. Classy and elegant"
+msgstr "Mjuk bakgrund med inre ram. Elegant och stilren"
+
+#: includes/templates/class-transparent.php:21
+msgid "Transparent Popup"
+msgstr "Transparent popup"
+
+#: includes/templates/class-transparent.php:23
+msgid ""
+"No background and no overlay with transparent border image example popup"
+msgstr "Ingen bakgrund och inget överlägg med transparent ram"
+
+#: lite/wppopups-lite.php:53
+msgid "Optin Form Templates"
+msgstr "Optin-mallar"
+
+#: lite/wppopups-lite.php:57 lite/wppopups-lite.php:321
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: lite/wppopups-lite.php:61
+msgid ""
+"While WP Popups Lite allows you to create any type of popup, Premium version "
+"comes with integration to the most popular emails providers such as "
+"Mailchimp, Aweber, Mailpoet, Posmatic, Constant Contact, GetResponse, "
+"ActiveCampaign, Mailerlite, The newsletter plugin, Newsman, etc "
+msgstr ""
+"Även om WP Popups Lite låter dig skapa vilken typ av popup som helst så har "
+"premiumversionen färdig integration mot t.ex. Mailchimp, Aweber, Mailpoet, "
+"Posmatic, Constant Contact, GetResponse, ActiveCampaign, Mailerlite, The "
+"newsletter plugin, Newsman, etc "
+
+#: lite/wppopups-lite.php:74
+msgid "Email Marketing"
+msgstr "E-postmarknadsföring"
+
+#: lite/wppopups-lite.php:98
+msgid "is a PRO Feature"
+msgstr "är en PRO-funktion"
+
+#: lite/wppopups-lite.php:99
+msgid ""
+"We're sorry, %name% is not available on your plan.<br><br>Please upgrade to "
+"the PRO plan to unlock all these awesome features."
+msgstr ""
+"Tyvärr är inte %name% tillgängligt på denna nivå.<br><br>Uppgradera till PRO "
+"för att låsa upp alla dessa funktioner."
+
+#: lite/wppopups-lite.php:201
+msgid "Search Addons"
+msgstr "Sök utökningar"
+
+#: lite/wppopups-lite.php:205
+msgid "Popup Addons are a PRO feature."
+msgstr "Utökningar är en Pro-funktion."
+
+#: lite/wppopups-lite.php:206
+msgid ""
+"Please upgrade to the PRO plan to unlock them and more awesome features."
+msgstr "Uppgradera till Pro för att låsa upp dem och fler fräna funktioner."
+
+#: lite/wppopups-lite.php:226
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: wppopups.php:81
+msgid "Please deactivate WP Popups Lite before activating WPPopups."
+msgstr "Inaktivera WP Popups Lite innan du aktiverar WPPopups."

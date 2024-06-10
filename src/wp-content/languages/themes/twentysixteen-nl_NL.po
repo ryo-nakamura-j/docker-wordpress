@@ -1,0 +1,445 @@
+# Translation of Themes - Twenty Sixteen in Dutch
+# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-24 11:32:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Twenty Sixteen\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen is een moderne uitvoering van een immer populaire WordPress lay-out - een horizontale hoofding met een optionele rechter zijbalk, die perfect werkt voor blogs en sites. Dit thema heeft een aantal ingebouwde kleurschema's die je zelf kan aanpassen, een vloeiend raster systeem dat op mobile-first is gericht, en is tot in de puntjes afgewerkt. Twenty Sixteen zal je WordPress er overal prachtig doen uitzien."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:17 inc/block-patterns.php:57
+#, gp-priority: high
+msgid "Twenty Sixteen"
+msgstr "Twenty Sixteen"
+
+#: inc/block-patterns.php:140
+msgid "Pre-Order Now"
+msgstr "Bestel nu vooraf"
+
+#: inc/block-patterns.php:133
+msgid "My new book “Twenty Sixteen” is available for pre-order."
+msgstr "Mijn nieuwe boek “Twenty Sixteen” is beschikbaar voor pre-order."
+
+#: inc/block-patterns.php:122
+msgid "Call to Action"
+msgstr "Call To Action"
+
+#: inc/block-patterns.php:102
+msgid "— Takashi Irie"
+msgstr "- Takashi Irie"
+
+#: inc/block-patterns.php:98
+msgid "Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen zorgt ervoor dat je WordPress er overal mooi uitziet."
+
+#: inc/block-patterns.php:87
+msgid "Large Blockquote"
+msgstr "Grote blokquote"
+
+#: inc/block-patterns.php:73
+msgid "The theme features a harmonious fluid grid using a mobile-first approach. The layout is a modern take on the horizontal masthead with an optional right sidebar."
+msgstr "Het thema bevat een harmonieus vloeiend raster met een mobile-first benadering. De lay-out is een moderne kijk op de horizontale master head met een optionele rechter zijbalk."
+
+#: inc/block-patterns.php:67
+msgid "Twenty Sixteen will make your WordPress website look beautiful everywhere. Take advantage of its custom color options and beautiful default color schemes."
+msgstr "Twenty Sixteen zorgt ervoor dat je WordPress site er overal mooi uitziet. Profiteer van de aangepaste kleuropties en prachtige standaard kleurenschema's."
+
+#: inc/block-patterns.php:50
+msgid "Big Title with Two Columns Text"
+msgstr "Grote titel met tekst in twee kolommen"
+
+#: inc/block-patterns.php:38
+msgid "Twenty Sixteen will make your WordPress website look beautiful everywhere. Take advantage of custom color options, beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail."
+msgstr "Twenty Sixteen zorgt ervoor dat je WordPress site er overal mooi uitziet. Profiteer van aangepaste kleuropties, prachtige standaard kleurenschema's, een harmonieus vloeiend raster met een mobile-first benadering en een onberispelijke afwerking in elk detail."
+
+#: inc/block-patterns.php:35
+msgid "Twenty Sixteen is a modern take on the horizontal masthead with an optional right sidebar. It works perfectly for WordPress websites and blogs."
+msgstr "Twenty Sixteen is een moderne versie van de horizontale masthead met een optionele rechter zijbalk. Het werkt perfect voor WordPress sites en blogs."
+
+#: inc/block-patterns.php:28
+msgid "Large heading with short description"
+msgstr "Grote koptekst met korte beschrijving"
+
+#: functions.php:218
+msgid "Bright Red"
+msgstr "Helder rood"
+
+#: functions.php:213
+msgid "Dark Red"
+msgstr "Donker rood"
+
+#: functions.php:208
+msgid "Medium Brown"
+msgstr "Midden bruin"
+
+#: functions.php:203
+msgid "Dark Brown"
+msgstr "Donker bruin"
+
+#: functions.php:198
+msgid "Light Blue"
+msgstr "Lichtblauw"
+
+#: functions.php:193
+msgid "Bright Blue"
+msgstr "Helder blauw"
+
+#: functions.php:188
+msgid "Blue Gray"
+msgstr "Blauwgrijs"
+
+#: functions.php:183
+msgid "White"
+msgstr "Wit"
+
+#: functions.php:178
+msgid "Light Gray"
+msgstr "Lichtgrijs"
+
+#: functions.php:173
+msgid "Medium Gray"
+msgstr "Medium grijs"
+
+#: functions.php:168
+msgid "Dark Gray"
+msgstr "Donkergrijs"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:203 template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Lees verder <span class=\"screen-reader-text\">\"%s\"</span>"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:90 template-parts/content-page.php:40
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:48 template-parts/content.php:54
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Bewerk <span class=\"screen-reader-text\">\"%s\"</span>"
+
+#: inc/customizer.php:347
+msgid "Red"
+msgstr "Rood"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Eén gedachte over &ldquo;%s&rdquo;"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr "Zoeken"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Zoeken &hellip;"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr "Zoeken naar:"
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "Footer sociale links menu"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Footer primaire menu"
+
+#: functions.php:287
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Voeg hier widgets toe om in je zijbalk te verschijnen."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat wij niet kunnen vinden wat je zoekt. Wellicht dat de zoekfunctie kan helpen."
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Er kwam niets overeen met je zoektermen. Probeer het nog eens met wat andere keywords."
+
+#. translators: %s: Post editor URL.
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Ga hier aan de slag</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#. translators: %s: The post author display name.
+#: template-parts/biography.php:35
+msgid "View all posts by %s"
+msgstr "Toon alle berichten van %s"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Auteur:"
+
+#. translators: Hidden accessibility text.
+#: single.php:44
+msgid "Previous post:"
+msgstr "Vorig bericht:"
+
+#: single.php:42
+msgid "Previous"
+msgstr "Vorige"
+
+#. translators: Hidden accessibility text.
+#: single.php:40
+msgid "Next post:"
+msgstr "Volgend bericht:"
+
+#: single.php:38
+msgid "Next"
+msgstr "Volgende"
+
+#. translators: %s: The search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:121
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:111
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorieën"
+
+#: inc/template-tags.php:106 inc/template-tags.php:116
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:90
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Geplaatst op"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:58
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Laat een reactie achter <span class=\"screen-reader-text\">op %s</span>"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:44
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:27
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Auteur"
+
+#: functions.php:223 inc/customizer.php:357
+msgid "Yellow"
+msgstr "Geel"
+
+#: inc/customizer.php:337
+msgid "Gray"
+msgstr "Grijs"
+
+#: inc/customizer.php:327
+msgid "Dark"
+msgstr "Donker"
+
+#: inc/customizer.php:317
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/customizer.php:242
+msgid "Secondary Text Color"
+msgstr "Secundaire tekstkleur"
+
+#: inc/customizer.php:221
+msgid "Main Text Color"
+msgstr "Hoofd tekstkleur"
+
+#: inc/customizer.php:200
+msgid "Link Color"
+msgstr "Linkkleur"
+
+#: inc/customizer.php:176
+msgid "Page Background Color"
+msgstr "Achtergrondkleur pagina"
+
+#: inc/customizer.php:153
+msgid "Base Color Scheme"
+msgstr "Standaard kleurenschema"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:45 inc/back-compat.php:62 inc/back-compat.php:85
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen vereist minimaal WordPress versie 4.4, maar je gebruikt versie %s. Upgrade WordPress en probeer het nog eens."
+
+#: image.php:109 single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Gepubliceerd in</span><span class=\"post-title\">%title</span>"
+
+#. translators: Hidden accessibility text.
+#: image.php:79
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Volledige grootte"
+
+#: image.php:58 template-parts/content-page.php:24
+#: template-parts/content-single.php:26 template-parts/content.php:36
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "Volgende afbeelding"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Vorige afbeelding"
+
+#: header.php:55
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: Hidden accessibility text.
+#: header.php:31
+msgid "Skip to content"
+msgstr "Ga naar de inhoud"
+
+#: functions.php:442
+msgid "collapse child menu"
+msgstr "submenu invouwen"
+
+#: functions.php:441
+msgid "expand child menu"
+msgstr "submenu uitvouwen"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:356
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:348
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:340
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:309
+msgid "Content Bottom 2"
+msgstr "Inhoud beneden 2"
+
+#: functions.php:299 functions.php:311
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "Verschijnt onderaan de inhoud van berichten en pagina's."
+
+#: functions.php:297
+msgid "Content Bottom 1"
+msgstr "Inhoud beneden 1"
+
+#: functions.php:285
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: functions.php:100 header.php:72
+msgid "Social Links Menu"
+msgstr "Sociale links menu"
+
+#: functions.php:99 header.php:59
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#. translators: %s: WordPress
+#: footer.php:63
+msgid "Proudly powered by %s"
+msgstr "Ondersteund door %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s gedachte aan &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachten aan &ldquo;%2$s&rdquo;"
+
+#. translators: Hidden accessibility text.
+#: archive.php:55 image.php:63 index.php:52 search.php:47
+#: template-parts/content-page.php:29 template-parts/content-single.php:31
+#: template-parts/content.php:41
+msgid "Page"
+msgstr "Pagina"
+
+#: archive.php:53 index.php:50 search.php:45
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: archive.php:52 index.php:49 search.php:44
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Het lijkt erop dat er niets gevonden is op deze locatie. Probeer het eens met een zoekopdracht?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Die pagina kan niet worden gevonden."
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "the WordPress team"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentysixteen/"
+msgstr "https://nl.wordpress.org/themes/twentysixteen/"
+
+#. Author URI of the theme
+#: footer.php:60
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

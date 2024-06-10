@@ -1,0 +1,276 @@
+.tourPage .ver__top .top__mainImg .mainImg__box .box__search {
+	width: 100%;
+}
+.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__s,
+.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__s input {
+	width: 16%;
+}
+.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__s{
+	padding-left: 0px;
+}
+.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__date{
+	width: 12%;
+}
+.tourPage .ver__top .top__mainImg .mainImg__box select {
+	width: 12.5%;
+}
+.tourPage .ui-selectmenu-button.ui-button,
+.tourPage .ui-selectmenu-button.ui-button:hover {
+	width: 13.5% !important;
+    border-left: 1px solid #f1f2f2 !important;
+}
+
+@media only screen and (max-width: 992px) {
+	.tourPage .ui-selectmenu-button.ui-button,
+	.tourPage .ui-selectmenu-button.ui-button:hover{
+		width: 100% !important;
+		border-left: none !important;
+	}
+	
+}
+.tourPage .top__mainImg .mainImg__box select.search__amenities,
+.tourPage .top__mainImg .mainImg__box select.search__theme,
+.tourPage .ver__top .top__mainImg .mainImg__box select.search__destination, 
+.tourPage .ver__top .top__mainImg .mainImg__box select.search__visits, 
+.tourPage .ver__top .top__mainImg .mainImg__box select.search__fullday, 
+.tourPage .ver__top .top__mainImg .mainImg__box select.search__passengers {
+	border-left: 1px solid #f1f2f2;
+}
+.tourPage .ver__top .top__mainImg .mainImg__box button.btnsearch {
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+	.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__s,
+	.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__s input,
+	.tourPage .ver__top .top__mainImg .mainImg__box .box__search .search__date,
+	.tourPage .ver__top .top__mainImg .mainImg__box .box__search select {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	
+	.tourPage .ver__top .top__mainImg .mainImg__box button.btnsearch {
+		margin-top: 20px;
+	}
+	.tourPage .ver__top .ryokan__special .owl-prev {
+		top: 22%;
+	}
+	.tourPage .ver__top .ryokan__special .owl-next {
+		top: 22%;
+	}
+}
+
+.tourPage .ver__top .top__mainImg {
+    background: url(../img/tour/img_main.jpg) no-repeat;
+    height: 320px;
+    background-size: cover;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp01 {
+    padding-top: 20px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+	font-weight: bold;
+	font-family: Helvetica Neue;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp02 {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #939598;
+	font-family: Helvetica Neue;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp02 .text01 {
+	margin-right: 50px;
+	padding-left: 22px;
+	background: url(../img/tour/icon_01.svg) left 3px no-repeat;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp02 .text02 {
+	padding-left: 22px;
+	background: url(../img/tour/icon_02.svg) left 3px no-repeat;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp03 {
+	background: url(../img/tour/icon_03.svg) left 3px no-repeat;
+	padding-left: 22px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #333333;
+	font-family: Helvetica Neue;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp04 {
+	margin-bottom: 0;
+    font-size: 14px;
+	line-height: 1;
+    letter-spacing: 1px;
+    color: #939598;
+	font-family: Helvetica Neue;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp05 .text01 {
+    font-size: 22px;
+    letter-spacing: 1px;
+	font-weight: bold;
+    color: #DD0A1F;
+	font-family: Helvetica Neue;
+}
+.tourPage .ver__top .ryokan .ryokan__txtp05 .text02 {
+	padding-left: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #939598;
+	font-family: Helvetica Neue;
+}
+
+@media only screen and (max-width: 767px) {
+	.tourPage .ver__top .top__mainImg {
+		background: url(../img/tour/img_main_sp.jpg) no-repeat;
+		background-size: cover;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.tourPage .ver__top .top__mainImg .mainImg__box {
+		padding-top: 0;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp01 {
+		padding-top: 10px;
+		margin-bottom: 8px;
+		font-size: 14px;
+		line-height: 19px;
+		letter-spacing: 0.5px;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp02 {
+		font-size: 12px;
+		line-height: 22px;
+		letter-spacing: 0.5px;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp02 .text01 {
+		padding-left: 17px;
+		background-size: 10px auto;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp02 .text02 {
+		margin-left: 40px;
+		padding-left: 17px;
+		background-size: 13px auto;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp03 {
+		background-size: 11px auto;
+		padding-left: 17px;
+		font-size: 12px;
+		line-height: 20px;
+		letter-spacing: 0.5px;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp04 {
+		margin-bottom: 0;
+		font-size: 11px;
+		line-height: 1;
+		letter-spacing: 0.5px;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp05 .text01 {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.tourPage .ver__top .ryokan .ryokan__txtp05 .text02 {
+		padding-left: 3px;
+		font-size: 11px;
+		letter-spacing: 0.5px;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.tourPage .searchPage .search__results .results__01 {
+		float: left;
+	}
+	.tourPage .searchPage .search__list .search__item .item__slider {
+		width: 300px;
+	}
+	.tourPage .searchPage .search__list .search__item .item__content {
+		min-height: 254px;
+		width: calc(100% - 495px);
+	}
+	.tourPage .searchPage .search__list .search__item .item__price {
+		min-height: 254px;
+	}
+}
+
+.tourPage .searchPage .search__list .search__item .item__content .p__txt01 {
+	padding-top: 15px;
+	font-size : 22px;
+	line-height : 26px;
+	letter-spacing : 1px;
+	color : #333333;
+	font-weight : bold;
+	font-family : Helvetica Neue;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__txt02 {
+	margin-bottom: 5px;
+	font-size : 14px;
+	line-height : 26px;
+	letter-spacing : 0.7px;
+	color : #939598;
+	font-family : Helvetica Neue;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__txt02 .text01 {
+	margin-right: 50px;
+	padding-left: 22px;
+	background: url(../img/tour/icon_01.svg) left 3px no-repeat;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__txt02 .text02 {
+	padding-left: 22px;
+	background: url(../img/tour/icon_02.svg) left 3px no-repeat;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__txt03 {
+	background: url(../img/tour/icon_03.svg) left 3px no-repeat;
+	padding-left: 22px;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 1px;
+	color: #939598;
+	font-family: Helvetica Neue;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__txt04 {
+	margin-bottom: 15px;
+	font-size : 14px;
+	line-height : 20px;
+	letter-spacing : 1px;
+	color : #333333;
+	font-family : Helvetica Neue;
+    width: 98%;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__car {
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	color: #dd0a1f;
+}
+.tourPage .searchPage .search__list .search__item .item__content .p__car img {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 4px;
+}
+.tourPage .searchPage .search__list .search__item .item__slider .owl-nav .owl-prev {
+	top: 115px;
+}
+.tourPage .searchPage .search__list .search__item .item__slider .owl-nav .owl-next {
+	top: 115px;
+}
+
+.tourPage .searchPage .search__list .search__item .item__slider img {
+  height: 254px;
+}
+
+.tourPage .tp-preview-image {
+	height: 260px;
+	width: 370px;
+}
+
+@media only screen and (max-width: 992px) {
+	.tourPage .searchPage .search__list .search__item .item__slider img {
+	  height: initial;
+	}
+	.tourPage .tp-preview-image {
+	  height: initial;
+	}
+}

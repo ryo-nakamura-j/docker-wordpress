@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{subject}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow, noarchive">
+    <style type="text/css">
+        /* latin-ext */
+        @font-face {
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sen/v7/6xKjdSxYI9_3kvWNAGn5LEwJ.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sen/v7/6xKjdSxYI9_3nPWNAGn5LA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sen/v7/6xKudSxYI9__J9CYI0v0BnYASNr7.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sen/v7/6xKudSxYI9__J9CYLUv0BnYASA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sen/v7/6xKudSxYI9__O9OYI0v0BnYASNr7.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sen/v7/6xKudSxYI9__O9OYLUv0BnYASA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        img + div {
+            display: none !important;
+        }
+        body, p, li, a, th, td{
+            font-family: 'Sen', 'Proxima Nova', Avenir, 'Brandon Text', 'Brandon Grotesque', -apple-system, BlinkMacSystemFont,'Segoe UI',Roboto, 'Helvetica Neue', Helvetica, 'Open Sans', Arial, sans-serif !important;
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none !important;
+            position: relative;
+            margin-left: 0;
+        }
+        li::before {
+            position: absolute;
+            color: #354a9a !important;
+            content: "\2611";
+            left: -2px;
+            font-size: 16pt;
+            margin-top: -7px;
+
+        }
+        li a{
+            color: #27a2f8;
+            text-decoration: none;
+        }
+
+        a:not(.button):not(.btn){
+            color: #27a2f8;
+        }
+        div p:last-child{
+            margin-bottom: 0;
+        }
+        div p:first-child {
+            margin-top: 0;
+        }
+
+        table.email {
+            width: 100%;
+        }
+        table.email th {
+            padding: 10px;
+            background: rgba(0,0,0,0.06);
+            font-weight: bold;
+            text-align: left;
+        }
+
+        table.email td{
+            padding: 10px;
+            border-bottom:1px solid rgba(0,0,0,0.05);
+            background: rgba(0,0,0,0.02);
+        }
+        table.email td a{
+            text-decoration: none !important;
+        }
+
+        .uibox > p {
+            margin-top: 0 !important;
+        }
+
+        .button{
+            border-radius: 4px;
+            color: #ffffff !important;
+            background: #239cef;
+            text-decoration: none !important;
+            font-family: 'Proxima Nova', Avenir, 'Brandon Text', 'Brandon Grotesque', -apple-system, BlinkMacSystemFont,'Segoe UI',Roboto, 'Helvetica Neue', Helvetica, 'Open Sans', Arial, sans-serif !important;
+            padding: 10px 40px;
+            display: inline-block;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-size: 16px;
+            -webkit-transition: ease-in-out 300ms;
+            -moz-transition: ease-in-out 300ms;
+            -ms-transition: ease-in-out 300ms;
+            -o-transition: ease-in-out 300ms;
+            transition: ease-in-out 300ms;
+            margin: 15px 0;
+            text-align: center;
+            border: 0;
+        }
+        .button:hover{
+            -webkit-transition: ease-in-out 300ms;
+            -moz-transition: ease-in-out 300ms;
+            -ms-transition: ease-in-out 300ms;
+            -o-transition: ease-in-out 300ms;
+            transition: ease-in-out 300ms;
+            box-shadow: 0 0 10px rgba(0, 150, 255, 0.52) !important;
+            background: #1e9ff8;
+
+        }
+        .button:active{
+            -webkit-transition: ease-in-out 300ms;
+            -moz-transition: ease-in-out 300ms;
+            -ms-transition: ease-in-out 300ms;
+            -o-transition: ease-in-out 300ms;
+            transition: ease-in-out 300ms;
+            box-shadow: none !important;
+            background: #0f93ee;
+        }
+
+    </style>
+</head>
+<body class="Email" style="margin: 0;padding: 0;border: 0;background-color: #ffffff;font-family: 'Proxima Nova', Avenir, 'Brandon Text', 'Brandon Grotesque', -apple-system, BlinkMacSystemFont,'Segoe UI',Roboto, 'Helvetica Neue', Helvetica, 'Open Sans', Arial, sans-serif !important;;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;min-width: 100% !important;width: 100% !important;">
+<div class="Background" style="background-color: #ffffff;width: 650px;max-width: calc(100% - 40px);margin: 40px auto;">
+    <div style="border: 1px solid #c6cade;min-height: 50px;border-radius: 8px;background: #fafafc">
+        <table style="width: 100%;margin: 0;border: 0;padding: 0;">
+            <tbody>
+            <tr>
+                <td style="padding: 30px;background: #fdfdff">
+                    <div style="text-align:  center;margin-bottom: 15px">
+                        <img style="width: 128px;" src="https://wpdmcdn.s3.amazonaws.com/emails/download-manager-logo-512.png" alt="- WPDM LOGO -" />
+                        <h1 style="margin: 0;font-weight: 900;color: #239cef;">Download <span style="color: #094168;">Manager</span></h1>
+                        <div style="font-size: 18px;margin-top: 10px;color: #8a90b6">Best File Management & Digital eCommerce Plugin</div>
+                        <div style="font-size: 16px;margin-top: 10px;color: #b2b7d5">{{date}}</div>
+                    </div>
+                    <div style="margin: 30px;font-size: 16px">
+                        {{message}}
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-top: 1px solid #c6cade;text-align: center;padding: 20px">
+                    {{footer_text}}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

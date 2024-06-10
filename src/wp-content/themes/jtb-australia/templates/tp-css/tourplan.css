@@ -1,0 +1,81 @@
+.tp-group .tp-header {
+    padding: 3px 25px 3px 25px;
+    background: lightgray;
+}
+
+.tp-group .tp-header h4 {
+	font-weight: 700;
+}
+
+.tp-group .tp-body {
+    padding: 18px 25px 18px 25px;
+    border: 1px solid lightgray;
+    background: #F7F7F7;
+    margin-bottom: 20px;
+}
+
+.tp-group .tp-subheader {
+    background: lightgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.required_asterisk:after {
+  content:"*";
+  color:red;
+}
+
+
+.has-error input,
+.has-error select,
+.has-error textarea{
+    background-color:#FFCCCC;
+}
+
+.tp-icon{
+    display: inline-block;
+    padding-left: 15px;
+    position: absolute;
+}
+
+@media (max-width: 991px) {
+    .tp-tooltip {
+        display: none;
+    }
+    .tp-mobile-tooltip {
+        display: block;
+    }
+    .tp-booking-button {
+        margin-top: -25px;
+        margin-right: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .tp-tooltip {
+        display: inline-block;
+    }
+    .tp-mobile-tooltip {
+        display: none;
+    }
+    .has-error .tp-mobile-tooltip {
+        display: block;
+        color: red;
+    }
+    .tp-booking-button {
+        margin-top: -65px;
+        margin-right: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.required.has-error.tp-checkbox label {
+    background-color: #FFCCCC;
+}
+.required.tp-checkbox label::before {
+    content: '*';
+    color: red;
+}

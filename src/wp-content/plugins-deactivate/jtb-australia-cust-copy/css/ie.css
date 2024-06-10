@@ -1,0 +1,21 @@
+.navbar-nav li a {
+    font-size: 15px;
+    padding-right: 12px;
+}
+.navbar-nav>li>a { 
+    line-height: 18px;
+}
+#navbar .sub-menu {width: 310px;}
+.round-social-grey a::before,.round-social-grey a:before {
+font-size: 15px;
+line-height: 21px;
+}
+.round-social-grey a {
+width: 20px;
+height: 17px;
+}
+.close {
+    color: #e20b0b;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}

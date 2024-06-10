@@ -1,0 +1,65 @@
+h1,h2,h3,h4,h5,h6,input,pre{font-family: "PT Mono","Roboto",arial,tahoma; }
+html,body,p,span{font-family: "Roboto",arial,tahoma;}
+#wp-admin-bar-wp-logo,#footer-upgrade,#footer-left{display:none;}
+ 
+
+body.post-type-post  #categorydiv, body.post-type-post #edit-slug-box ,
+ body.post-type-post #postdivrich , body.post-type-post  #wp-content-wrap ,
+  body.post-type-post  #tagsdiv-post_tag
+{
+    display: block;
+}
+
+html body #postimagediv{display: block  !important ;}
+
+#support-annoy{display:none;}
+#adminmenu li#menu-dashboard a{padding-top: 110px;background-image: url("https://www.nx.jtbtravel.com.au/wp-content/uploads/2017/08/jtb-admin-logo2.png");background-repeat: no-repeat;}
+#adminmenu li#menu-dashboard li a{padding-top: inherit;background-image: none;}
+.login h1 a, body.login #login h1 a {background-image: url("https://www.nx.jtbtravel.com.au/wp-content/uploads/2014/05/JTB-perfect-moments.png");background-size: 130px 74px;height: 74px;width: 130px;}
+.manage-menus #menu{width: 30% !important;}
+
+/* ICONS
+final
+/wp-content/uploads/2016/08/jtb-admin-logo.png
+test
+/wp-content/uploads/2016/08/jtb-admin-logo-test.png
+*/
+
+
+
+.CodeMirror { background: #faf8f5 !important ; color: #636363 !important ; }
+ div.CodeMirror-selected { background: #e3dcce   !important ; }
+ .CodeMirror-gutters { background: #faf8f5 !important ; border-right: 0px !important ; }
+ .CodeMirror-linenumber { color: #cdc4b1 !important ; text-align: left !important;
+    font-size: 0.8em !important;}
+ span.cm-atom,  span.cm-number,  span.cm-keyword,  span.cm-variable,  span.cm-attribute,  span.cm-quote, -light span.cm-hr, -light span.cm-link { color: #063289 !important ; }
+
+ span.cm-property { color: #b29762 !important ; }
+ span.cm-punctuation,  span.cm-unit,  span.cm-negative { color: #063289 !important ; }
+ span.cm-string,  span.cm-operator { color: #1659df !important ; }
+ span.cm-positive { color: #896724 !important ; }
+
+ span.cm-variable-2,  span.cm-variable-3,  span.cm-string-2,  span.cm-url { color: #896724 !important ; }
+ span.cm-def,  span.cm-tag,  span.cm-builtin,  span.cm-qualifier,  span.cm-header,  span.cm-em { color: #986a22 !important ; }
+ span.cm-bracket  { color: #b56510 !important ; }
+ span.cm-error,  span.cm-invalidchar { color: #f00 !important ; }
+
+ span.cm-header { font-weight: normal !important ; }
+ .CodeMirror-matchingbracket { text-decoration: underline !important ; color: #faf8f5 !important  ; }
+ .CodeMirror-cursor { border-left: 1px solid #5c5855 !important; }
+.wp-editor-area,body .CodeMirror-code ,body .CodeMirror,.CodeMirror pre, .CodeMirror xmp ,body .CodeMirror span{
+    font-family: "PT Mono",monospace,"Consolas","Monaco" !important;
+    font-size: 1.13em !important;
+    line-height: 1.5em !important;
+}
+.cm-s-material .cm-error { 
+    background-color: #ffdac8;
+}
+html body span.cm-comment{
+    color: #ab9665 !important  ;
+}
+
+
+/*hide unused formats tiny mce*/
+
+.mce-floatpanel #mceu_690, .mce-floatpanel #mceu_691, .mce-floatpanel #mceu_692, .mce-floatpanel #mceu_693, .mce-floatpanel #mceu_694, .mce-floatpanel #mceu_695, .mce-floatpanel #mceu_696, .mce-floatpanel #mceu_697, .mce-floatpanel #mceu_698, .mce-floatpanel #mceu_699, .mce-floatpanel #mceu_700, .mce-floatpanel #mceu_701, .mce-floatpanel #mceu_702, .mce-floatpanel #mceu_703, .mce-floatpanel #mceu_704, .mce-floatpanel #mceu_705, .mce-floatpanel #mceu_706, .mce-floatpanel #mceu_707 {display: none;}

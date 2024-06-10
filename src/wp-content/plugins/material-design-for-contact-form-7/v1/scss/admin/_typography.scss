@@ -1,0 +1,57 @@
+.cf7md-page {
+    h1, h2, h3, h4, h5, h6 {
+        &:not(.mdc-card__title) {
+            font-family: $base-font;
+            font-weight: normal;
+            color: $primary-on-light;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        &:not(.mdc-card__title) {
+            font-size: 26px;
+        }
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+
+    p,
+    ul,
+    ol {
+        &:not(.mdc-card__subtitle) {
+            font-family: $base-font;
+            font-size: 15px;
+            font-weight: normal;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.4;
+            color: $text-primary-on-light;
+        }
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 16px;
+        margin-left: 8px;
+    }
+
+    a {
+        color: $primary-on-light;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    code,
+    pre {
+        background: lightyellow;
+        font-family: $mono-font;
+    }
+}

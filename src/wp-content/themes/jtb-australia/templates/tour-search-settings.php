@@ -1,0 +1,23 @@
+{
+	"departingSelect": "searchDepartingCity",
+	"destinationsField": "destinationsField",
+	"destinationsPanel": "destinationsPanel",
+	"destinationsSelect": "destinationsSelect",
+	"visitsSelect": "visitsSelect",
+	"visitsPanel": "visitsPanel",
+	"destinationsWrap": "destinationsWrap",
+	"destinationsOKButton": "destinationsOKButton",
+	"dateField": "dateField",
+	"keywordField": "keywordField",
+	"durationsSelect": "durationsSelect",
+	"durationsField": "durationsField",
+	"durationsPanel": "durationsPanel",
+	"durationsWrap": "durationsWrap",
+	"durationsOKButton": "durationsOKButton",
+	"themesSelect": "themesSelect",
+	"themesPanel": "themesList",
+	"themesWrap": "themesWrap",
+	"themesOKButton": "themesOKButton",
+	"searchSubmitButton": "searchSubmitButton",
+	"resultsSection": "srTarget"
+}

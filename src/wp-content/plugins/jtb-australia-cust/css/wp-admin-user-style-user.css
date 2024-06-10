@@ -1,0 +1,7 @@
+
+.update-nag{display:none;}
+#editable-post-name{background-color:inherit !important;}
+#editable-post-name input,#edit-slug-buttons a.save{display:none;}
+#update-nag, .update-nag,.update-plugins,#wp-admin-bar-updates{display:none;}
+#edit-slug-buttons a.edit-slug{color: #BD0E0E;border-color: #ccc;background: #F3D7D7;}
+#adminmenu li#menu-dashboard ul{display:none;}

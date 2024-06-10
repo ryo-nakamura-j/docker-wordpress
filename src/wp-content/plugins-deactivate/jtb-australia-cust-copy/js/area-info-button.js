@@ -1,0 +1,1 @@
+(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;window.SDP={'BASE_URL':'https://socialdatagw.com/ac/siru_global_rp/','APIKEY':'global_rp'};js.src=window.SDP.BASE_URL+"include/siru.js?v="+new Date().getTime();fjs.parentNode.insertBefore(js,fjs);}(document,'script','sdp-script'));

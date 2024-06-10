@@ -2,23 +2,24 @@
 /docker/mysql/*
 
 # Ignore configuration files that may contain sensitive information
-wp-config.php
-wp-config-sample.php
+src/wp-config.php
+src/wp-config-sample.php
 
 # Ignore large system and log files
-wp-content/debug.log
-wp-content/advanced-cache.php
-wp-content/upgrade/*
-wp-content/uploads/
-wp-content/backups/
-wp-content/cache/
-wp-content/blogs.dir/
+src/wp-content/debug.log
+src/wp-content/advanced-cache.php
+src/wp-content/upgrade/*
+src/wp-content/uploads/
+src/wp-content/backups/
+src/wp-content/cache/
+src/wp-content/cache/object
+src/wp-content/blogs.dir/
 sitemap.xml
 sitemap.xml.gz
 
 # Ignore specific security directories
-wp-content/uploads/wpallimport/logs/
-wp-content/uploads/wpallimport/temp/
+src/wp-content/uploads/wpallimport/logs/
+src/wp-content/uploads/wpallimport/temp/
 
 # Ignore node modules and build files
 node_modules/

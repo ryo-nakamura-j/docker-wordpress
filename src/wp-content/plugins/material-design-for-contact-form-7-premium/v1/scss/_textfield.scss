@@ -1,0 +1,37 @@
+// Shitty theme CSS overrides
+.mdc-textfield__label {
+    line-height: 1.25;
+    padding: 0 !important;
+}
+.mdc-textfield input {
+    height: auto !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+// Textarea tweaks
+.cf7md-textarea textarea {
+    height: 6em;
+    padding: 4px !important;
+}
+.cf7md-textarea-autosize textarea {
+    height: 4em;
+    min-height: 4em;
+    max-height: 16em;
+}
+.mdc-textfield--multiline .mdc-textfield__input:invalid:not(:focus) {
+    border-color: $border-on-light;
+    .mdc-theme--dark & {
+        border-color: $border-on-dark;
+    }
+}
+
+// Textfield tweaks
+.mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline)::after {
+    transform: none; // normally translateY(50%) which just blurs the line a bit
+}
+.mdc-textfield__input:not(textarea) {
+    line-height: 1.8 !important;
+}
